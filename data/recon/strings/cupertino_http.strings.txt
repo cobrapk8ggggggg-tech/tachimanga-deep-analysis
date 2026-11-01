@@ -1,0 +1,695 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_classname__TEXT
+__objc_methname
+__TEXT
+__objc_methtype
+__TEXT
+__cstring
+__TEXT
+__unwind_info
+__TEXT
+__oslogstring
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__common
+__DATA
+__LINKEDIT
+@rpath/cupertino_http.framework/cupertino_http
+@rpath/Flutter.framework/Flutter
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+@executable_path/Frameworks
+@loader_path/Frameworks
+j(8h
+Rij(8`jt
+Rij(
+Rij(
+hjy8
+hjh8
+T`jw
+Rij(
+@(#)PROGRAM:cupertino_http  PROJECT:Pods-1
+PodsDummy_cupertino_http
+CUPHTTPTaskConfiguration
+CUPHTTPClientDelegate
+CUPHTTPForwardedDelegate
+CUPHTTPForwardedRedirect
+CUPHTTPForwardedResponse
+CUPHTTPForwardedData
+CUPHTTPForwardedComplete
+CUPHTTPForwardedFinishedDownloading
+CUPHTTPForwardedWebSocketOpened
+CUPHTTPForwardedWebSocketClosed
+CUPHTTPStreamToNSInputStreamAdapter
+NSStreamDelegate
+NSObject
+Tq,R,V_sendPort
+T@"NSData",R,V_data
+_status
+T@"NSError",R,V_error
+getBytes:range:
+T@"NSLock",R,V_lock
+propertyForKey:
+T@"NSString",R,C
+redirectRequest
+T@"NSURL",R,V_location
+release
+T@"NSURLRequest",R,V_request
+session
+T@"NSURLSession",R,V_session
+unregisterTask:
+T#,R
+_reason
+T@"NSData",R,V_reason
+dealloc
+T@"NSHTTPURLResponse",R,V_response
+isProxy
+T@"NSString",?,R,C
+read:maxLength:
+T@"NSString",R,V_protocol
+registerTask:withConfiguration:
+T@"NSURLRequest",R,V_redirectRequest
+request
+T@"NSURLResponse",R,V_response
+setDone
+T@"NSURLSessionTask",R,V_task
+TQ,R
+Tq,R,V_closeCode
+Tq,R,V_disposition
+URLSession:dataTask:didReceiveData:
+URLSession:dataTask:didReceiveResponse:completionHandler:
+URLSession:downloadTask:didFinishDownloadingToURL:
+URLSession:task:didCompleteWithError:
+URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:
+URLSession:webSocketTask:didCloseWithCode:reason:
+URLSession:webSocketTask:didOpenWithProtocol:
+_closeCode
+_data
+_dataCondition
+_delegate
+_disposition
+_done
+_error
+_location
+_lock
+_protocol
+_redirectRequest
+_request
+_response
+_sendPort
+_session
+_task
+addData:
+appendData:
+autorelease
+broadcast
+class
+close
+closeCode
+conformsToProtocol:
+data
+debugDescription
+delegate
+description
+disposition
+error
+finish
+finishWithDisposition:
+finishWithRequest:
+getBuffer:length:
+hasBytesAvailable
+hash
+init
+initWithPort:
+initWithSession:downloadTask:url:
+initWithSession:task:
+initWithSession:task:data:
+initWithSession:task:error:
+initWithSession:task:response:
+initWithSession:task:response:request:
+initWithSession:webSocketTask:code:reason:
+initWithSession:webSocketTask:didOpenWithProtocol:
+isEqual:
+isKindOfClass:
+isMemberOfClass:
+length
+location
+lock
+objectForKey:
+open
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+protocol
+reason
+receiveMessageWithCompletionHandler:
+removeFromRunLoop:forMode:
+removeObjectForKey:
+replaceBytesInRange:withBytes:length:
+respondsToSelector:
+response
+retain
+retainCount
+scheduleInRunLoop:forMode:
+self
+sendMessage:completionHandler:
+sendPort
+setDelegate:
+setError:
+setObject:forKey:
+setProperty:forKey:
+stream:handleEvent:
+streamError
+streamStatus
+strongToStrongObjectsMapTable
+superclass
+task
+taskConfigurations
+unlock
+wait
+zone
+@24@0:8q16
+q16@0:8
+@16@0:8
+v16@0:8
+v32@0:8@16@24
+v24@0:8@16
+v56@0:8@16@24@32@40@?48
+v48@0:8@16@24@32@?40
+v40@0:8@16@24@32
+v48@0:8@16@24q32@40
+@"NSMapTable"
+@32@0:8@16@24
+@"NSURLSession"
+@"NSURLSessionTask"
+@"NSLock"
+@48@0:8@16@24@32@40
+@"NSHTTPURLResponse"
+@"NSURLRequest"
+@40@0:8@16@24@32
+v24@0:8q16
+@"NSURLResponse"
+@"NSData"
+@"NSError"
+@"NSURL"
+@"NSString"
+@48@0:8@16@24q32@40
+B24@0:8@16
+#16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v32@0:8@16Q24
+v32@0:8@"NSStream"16Q24
+Q24@0:8@16
+@24@0:8@16
+B32@0:8@16@24
+q32@0:8*16Q24
+B32@0:8^*16^Q24
+@"NSCondition"
+@"NSMutableData"
+@"<NSStreamDelegate>"
+v16@?0@"NSError"8
+v24@?0@"NSURLSessionWebSocketMessage"8@"NSError"16
+Dart_PostCObject
+Dart_PostInteger
+Dart_NewNativePort
+Dart_CloseNativePort
+Dart_IsError
+Dart_IsApiError
+Dart_IsUnhandledExceptionError
+Dart_IsCompilationError
+Dart_IsFatalError
+Dart_GetError
+Dart_ErrorHasException
+Dart_ErrorGetException
+Dart_ErrorGetStackTrace
+Dart_NewApiError
+Dart_NewCompilationError
+Dart_NewUnhandledExceptionError
+Dart_PropagateError
+Dart_HandleFromPersistent
+Dart_HandleFromWeakPersistent
+Dart_NewPersistentHandle
+Dart_SetPersistentHandle
+Dart_DeletePersistentHandle
+Dart_NewWeakPersistentHandle
+Dart_DeleteWeakPersistentHandle
+Dart_UpdateExternalSize
+Dart_NewFinalizableHandle
+Dart_DeleteFinalizableHandle
+Dart_UpdateFinalizableExternalSize
+Dart_Post
+Dart_NewSendPort
+Dart_SendPortGetId
+Dart_EnterScope
+Dart_ExitScope
+CUPHTTPStreamToNSInputStreamAdapter: read len=%tu
+CUPHTTPStreamToNSInputStreamAdapter: non-self delegate was invoked
+_objc_alloc
+_objc_alloc_init
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_new
+_objc_release
+_objc_retain
+__NSConcreteStackBlock
+___stack_chk_fail
+___stack_chk_guard
+__os_log_default
+__os_log_impl
+_os_log_type_enabled
+_strcmp
+_OBJC_CLASS_$_NSMapTable
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSCondition
+_OBJC_CLASS_$_NSMutableData
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSInputStream
+_OBJC_METACLASS_$_NSInputStream
+ReceiveMessage
+	SendMessage
+FinalizableHandle_DL
+:PersistentHandle_DL
+@WeakPersistentHandle_DL
+Exception_DL
+StackTrace_DL
+HasException_DL
+nterScope_DL
+rror
+xitScope_DL
+Persistent_DL
+WeakPersistent_DL
+ApiError_DL
+CompilationError_DL
+Error_DL
+FatalError_DL
+UnhandledExceptionError_DL
+nitializeApiDL
+ApiError_DL
+CompilationError_DL
+FinalizableHandle_DL
+NativePort_DL
+PersistentHandle_DL
+SendPort_DL
+UnhandledExceptionError_DL
+WeakPersistentHandle_DL
+CObject_DL
+Integer_DL
+ropagateError_DL
+ndPortGetId_DL
+tPersistentHandle_DL
+ExternalSize_DL
+FinalizableExternalSize_DL
+CloseNativePort_DL
+4Delete
+GetError_DL
+HandleFrom
+Update
+elegate
+direct
+sponse
+Closed
+Opened
+Complete
+FinishedDownloading
+WebSocket
+ClientDelegate
+Forwarded
+StreamToNSInputStreamAdapter
+	TaskConfiguration
+CUPHTTP
+	PodsDummy_cupertino_http
+elegate
+direct
+sponse
+Closed
+Opened
+Complete
+FinishedDownloading
+WebSocket
+ClientDelegate
+Forwarded
+StreamToNSInputStreamAdapter
+TaskConfiguration
+CUPHTTP
+PodsDummy_cupertino_http
+CLASS_$_
+	METACLASS_$_
+Number
+String
+CUPHTTP
+Dart_
+FindFunctionPointer
+NSObjectToCObject
+OBJC_
+cupertino_httpVersion
+p`Hp
+_CUPHTTPReceiveMessage
+_CUPHTTPSendMessage
+_Dart_CloseNativePort_DL
+_Dart_DeleteFinalizableHandle_DL
+_Dart_DeletePersistentHandle_DL
+_Dart_DeleteWeakPersistentHandle_DL
+_Dart_EnterScope_DL
+_Dart_ErrorGetException_DL
+_Dart_ErrorGetStackTrace_DL
+_Dart_ErrorHasException_DL
+_Dart_ExitScope_DL
+_Dart_GetError_DL
+_Dart_HandleFromPersistent_DL
+_Dart_HandleFromWeakPersistent_DL
+_Dart_InitializeApiDL
+_Dart_IsApiError_DL
+_Dart_IsCompilationError_DL
+_Dart_IsError_DL
+_Dart_IsFatalError_DL
+_Dart_IsUnhandledExceptionError_DL
+_Dart_NewApiError_DL
+_Dart_NewCompilationError_DL
+_Dart_NewFinalizableHandle_DL
+_Dart_NewNativePort_DL
+_Dart_NewPersistentHandle_DL
+_Dart_NewSendPort_DL
+_Dart_NewUnhandledExceptionError_DL
+_Dart_NewWeakPersistentHandle_DL
+_Dart_PostCObject_DL
+_Dart_PostInteger_DL
+_Dart_Post_DL
+_Dart_PropagateError_DL
+_Dart_SendPortGetId_DL
+_Dart_SetPersistentHandle_DL
+_Dart_UpdateExternalSize_DL
+_Dart_UpdateFinalizableExternalSize_DL
+_FindFunctionPointer
+_NSObjectToCObject
+_OBJC_CLASS_$_CUPHTTPClientDelegate
+_OBJC_CLASS_$_CUPHTTPForwardedComplete
+_OBJC_CLASS_$_CUPHTTPForwardedData
+_OBJC_CLASS_$_CUPHTTPForwardedDelegate
+_OBJC_CLASS_$_CUPHTTPForwardedFinishedDownloading
+_OBJC_CLASS_$_CUPHTTPForwardedRedirect
+_OBJC_CLASS_$_CUPHTTPForwardedResponse
+_OBJC_CLASS_$_CUPHTTPForwardedWebSocketClosed
+_OBJC_CLASS_$_CUPHTTPForwardedWebSocketOpened
+_OBJC_CLASS_$_CUPHTTPStreamToNSInputStreamAdapter
+_OBJC_CLASS_$_CUPHTTPTaskConfiguration
+_OBJC_CLASS_$_PodsDummy_cupertino_http
+_OBJC_METACLASS_$_CUPHTTPClientDelegate
+_OBJC_METACLASS_$_CUPHTTPForwardedComplete
+_OBJC_METACLASS_$_CUPHTTPForwardedData
+_OBJC_METACLASS_$_CUPHTTPForwardedDelegate
+_OBJC_METACLASS_$_CUPHTTPForwardedFinishedDownloading
+_OBJC_METACLASS_$_CUPHTTPForwardedRedirect
+_OBJC_METACLASS_$_CUPHTTPForwardedResponse
+_OBJC_METACLASS_$_CUPHTTPForwardedWebSocketClosed
+_OBJC_METACLASS_$_CUPHTTPForwardedWebSocketOpened
+_OBJC_METACLASS_$_CUPHTTPStreamToNSInputStreamAdapter
+_OBJC_METACLASS_$_CUPHTTPTaskConfiguration
+_OBJC_METACLASS_$_PodsDummy_cupertino_http
+_cupertino_httpVersionNumber
+_cupertino_httpVersionString
+_OBJC_CLASS_$_NSCondition
+_OBJC_CLASS_$_NSInputStream
+_OBJC_CLASS_$_NSLock
+_OBJC_CLASS_$_NSMapTable
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSInputStream
+_OBJC_METACLASS_$_NSObject
+__NSConcreteStackBlock
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+__os_log_default
+__os_log_impl
+_objc_alloc
+_objc_alloc_init
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_new
+_objc_release
+_objc_retain
+_os_log_type_enabled
+_strcmp
+-[CUPHTTPTaskConfiguration initWithPort:]
+-[CUPHTTPTaskConfiguration sendPort]
+-[CUPHTTPClientDelegate init]
+-[CUPHTTPClientDelegate dealloc]
+-[CUPHTTPClientDelegate registerTask:withConfiguration:]
+-[CUPHTTPClientDelegate unregisterTask:]
+-[CUPHTTPClientDelegate URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[CUPHTTPClientDelegate URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[CUPHTTPClientDelegate URLSession:dataTask:didReceiveData:]
+-[CUPHTTPClientDelegate URLSession:downloadTask:didFinishDownloadingToURL:]
+-[CUPHTTPClientDelegate URLSession:task:didCompleteWithError:]
+-[CUPHTTPClientDelegate URLSession:webSocketTask:didOpenWithProtocol:]
+-[CUPHTTPClientDelegate URLSession:webSocketTask:didCloseWithCode:reason:]
+___CUPHTTPSendMessage_block_invoke
+___CUPHTTPReceiveMessage_block_invoke
+-[CUPHTTPForwardedDelegate initWithSession:task:]
+-[CUPHTTPForwardedDelegate dealloc]
+-[CUPHTTPForwardedDelegate finish]
+-[CUPHTTPForwardedDelegate session]
+-[CUPHTTPForwardedDelegate task]
+-[CUPHTTPForwardedDelegate lock]
+-[CUPHTTPForwardedRedirect initWithSession:task:response:request:]
+-[CUPHTTPForwardedRedirect dealloc]
+-[CUPHTTPForwardedRedirect finishWithRequest:]
+-[CUPHTTPForwardedRedirect response]
+-[CUPHTTPForwardedRedirect request]
+-[CUPHTTPForwardedRedirect redirectRequest]
+-[CUPHTTPForwardedResponse initWithSession:task:response:]
+-[CUPHTTPForwardedResponse dealloc]
+-[CUPHTTPForwardedResponse finishWithDisposition:]
+-[CUPHTTPForwardedResponse response]
+-[CUPHTTPForwardedResponse disposition]
+-[CUPHTTPForwardedData initWithSession:task:data:]
+-[CUPHTTPForwardedData dealloc]
+-[CUPHTTPForwardedData data]
+-[CUPHTTPForwardedComplete initWithSession:task:error:]
+-[CUPHTTPForwardedComplete dealloc]
+-[CUPHTTPForwardedComplete error]
+-[CUPHTTPForwardedFinishedDownloading initWithSession:downloadTask:url:]
+-[CUPHTTPForwardedFinishedDownloading dealloc]
+-[CUPHTTPForwardedFinishedDownloading location]
+-[CUPHTTPForwardedWebSocketOpened initWithSession:webSocketTask:didOpenWithProtocol:]
+-[CUPHTTPForwardedWebSocketOpened dealloc]
+-[CUPHTTPForwardedWebSocketOpened protocol]
+-[CUPHTTPForwardedWebSocketClosed initWithSession:webSocketTask:code:reason:]
+-[CUPHTTPForwardedWebSocketClosed dealloc]
+-[CUPHTTPForwardedWebSocketClosed closeCode]
+-[CUPHTTPForwardedWebSocketClosed reason]
+-[CUPHTTPStreamToNSInputStreamAdapter initWithPort:]
+-[CUPHTTPStreamToNSInputStreamAdapter dealloc]
+-[CUPHTTPStreamToNSInputStreamAdapter addData:]
+-[CUPHTTPStreamToNSInputStreamAdapter setDone]
+-[CUPHTTPStreamToNSInputStreamAdapter setError:]
+-[CUPHTTPStreamToNSInputStreamAdapter scheduleInRunLoop:forMode:]
+-[CUPHTTPStreamToNSInputStreamAdapter removeFromRunLoop:forMode:]
+-[CUPHTTPStreamToNSInputStreamAdapter open]
+-[CUPHTTPStreamToNSInputStreamAdapter close]
+-[CUPHTTPStreamToNSInputStreamAdapter propertyForKey:]
+-[CUPHTTPStreamToNSInputStreamAdapter setProperty:forKey:]
+-[CUPHTTPStreamToNSInputStreamAdapter delegate]
+-[CUPHTTPStreamToNSInputStreamAdapter setDelegate:]
+-[CUPHTTPStreamToNSInputStreamAdapter streamError]
+-[CUPHTTPStreamToNSInputStreamAdapter streamStatus]
+-[CUPHTTPStreamToNSInputStreamAdapter read:maxLength:]
+-[CUPHTTPStreamToNSInputStreamAdapter getBuffer:length:]
+-[CUPHTTPStreamToNSInputStreamAdapter hasBytesAvailable]
+-[CUPHTTPStreamToNSInputStreamAdapter stream:handleEvent:]
+_objc_msgSend$appendData:
+_objc_msgSend$broadcast
+_objc_msgSend$disposition
+_objc_msgSend$getBytes:range:
+_objc_msgSend$initWithSession:downloadTask:url:
+_objc_msgSend$initWithSession:task:data:
+_objc_msgSend$initWithSession:task:error:
+_objc_msgSend$initWithSession:task:response:
+_objc_msgSend$initWithSession:task:response:request:
+_objc_msgSend$initWithSession:webSocketTask:code:reason:
+_objc_msgSend$initWithSession:webSocketTask:didOpenWithProtocol:
+_objc_msgSend$length
+_objc_msgSend$lock
+_objc_msgSend$objectForKey:
+_objc_msgSend$receiveMessageWithCompletionHandler:
+_objc_msgSend$redirectRequest
+_objc_msgSend$removeObjectForKey:
+_objc_msgSend$replaceBytesInRange:withBytes:length:
+_objc_msgSend$sendMessage:completionHandler:
+_objc_msgSend$sendPort
+_objc_msgSend$setObject:forKey:
+_objc_msgSend$strongToStrongObjectsMapTable
+_objc_msgSend$unlock
+_objc_msgSend$wait
+__OBJC_$_INSTANCE_METHODS_CUPHTTPClientDelegate
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedComplete
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedData
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedDelegate
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedFinishedDownloading
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedRedirect
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedResponse
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedWebSocketClosed
+__OBJC_$_INSTANCE_METHODS_CUPHTTPForwardedWebSocketOpened
+__OBJC_$_INSTANCE_METHODS_CUPHTTPStreamToNSInputStreamAdapter
+__OBJC_$_INSTANCE_METHODS_CUPHTTPTaskConfiguration
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSStreamDelegate
+___block_descriptor_40_e17_v16
+"NSError"8l
+___block_descriptor_40_e50_v24
+"NSURLSessionWebSocketMessage"8
+"NSError"16l
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+__OBJC_METACLASS_RO_$_PodsDummy_cupertino_http
+__OBJC_CLASS_RO_$_PodsDummy_cupertino_http
+__OBJC_METACLASS_RO_$_CUPHTTPTaskConfiguration
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPTaskConfiguration
+__OBJC_$_PROP_LIST_CUPHTTPTaskConfiguration
+__OBJC_CLASS_RO_$_CUPHTTPTaskConfiguration
+__OBJC_METACLASS_RO_$_CUPHTTPClientDelegate
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPClientDelegate
+__OBJC_CLASS_RO_$_CUPHTTPClientDelegate
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedDelegate
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedDelegate
+__OBJC_$_PROP_LIST_CUPHTTPForwardedDelegate
+__OBJC_CLASS_RO_$_CUPHTTPForwardedDelegate
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedRedirect
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedRedirect
+__OBJC_$_PROP_LIST_CUPHTTPForwardedRedirect
+__OBJC_CLASS_RO_$_CUPHTTPForwardedRedirect
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedResponse
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedResponse
+__OBJC_$_PROP_LIST_CUPHTTPForwardedResponse
+__OBJC_CLASS_RO_$_CUPHTTPForwardedResponse
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedData
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedData
+__OBJC_$_PROP_LIST_CUPHTTPForwardedData
+__OBJC_CLASS_RO_$_CUPHTTPForwardedData
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedComplete
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedComplete
+__OBJC_$_PROP_LIST_CUPHTTPForwardedComplete
+__OBJC_CLASS_RO_$_CUPHTTPForwardedComplete
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedFinishedDownloading
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedFinishedDownloading
+__OBJC_$_PROP_LIST_CUPHTTPForwardedFinishedDownloading
+__OBJC_CLASS_RO_$_CUPHTTPForwardedFinishedDownloading
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedWebSocketOpened
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedWebSocketOpened
+__OBJC_$_PROP_LIST_CUPHTTPForwardedWebSocketOpened
+__OBJC_CLASS_RO_$_CUPHTTPForwardedWebSocketOpened
+__OBJC_METACLASS_RO_$_CUPHTTPForwardedWebSocketClosed
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPForwardedWebSocketClosed
+__OBJC_$_PROP_LIST_CUPHTTPForwardedWebSocketClosed
+__OBJC_CLASS_RO_$_CUPHTTPForwardedWebSocketClosed
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_NSStreamDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSStreamDelegate
+__OBJC_CLASS_PROTOCOLS_$_CUPHTTPStreamToNSInputStreamAdapter
+__OBJC_METACLASS_RO_$_CUPHTTPStreamToNSInputStreamAdapter
+__OBJC_$_INSTANCE_VARIABLES_CUPHTTPStreamToNSInputStreamAdapter
+__OBJC_$_PROP_LIST_CUPHTTPStreamToNSInputStreamAdapter
+__OBJC_CLASS_RO_$_CUPHTTPStreamToNSInputStreamAdapter
+_OBJC_IVAR_$_CUPHTTPTaskConfiguration._sendPort
+_OBJC_IVAR_$_CUPHTTPClientDelegate.taskConfigurations
+_OBJC_IVAR_$_CUPHTTPForwardedDelegate._session
+_OBJC_IVAR_$_CUPHTTPForwardedDelegate._task
+_OBJC_IVAR_$_CUPHTTPForwardedDelegate._lock
+_OBJC_IVAR_$_CUPHTTPForwardedRedirect._response
+_OBJC_IVAR_$_CUPHTTPForwardedRedirect._request
+_OBJC_IVAR_$_CUPHTTPForwardedRedirect._redirectRequest
+_OBJC_IVAR_$_CUPHTTPForwardedResponse._response
+_OBJC_IVAR_$_CUPHTTPForwardedResponse._disposition
+_OBJC_IVAR_$_CUPHTTPForwardedData._data
+_OBJC_IVAR_$_CUPHTTPForwardedComplete._error
+_OBJC_IVAR_$_CUPHTTPForwardedFinishedDownloading._location
+_OBJC_IVAR_$_CUPHTTPForwardedWebSocketOpened._protocol
+_OBJC_IVAR_$_CUPHTTPForwardedWebSocketClosed._closeCode
+_OBJC_IVAR_$_CUPHTTPForwardedWebSocketClosed._reason
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._sendPort
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._dataCondition
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._data
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._done
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._status
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._error
+_OBJC_IVAR_$_CUPHTTPStreamToNSInputStreamAdapter._delegate
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_NSStreamDelegate
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/DerivedSources/
+cupertino_http_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/cupertino_http_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/cupertino_http/
+cupertino_http-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/cupertino_http-dummy.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/cupertino_http-1.5.1/ios/Classes/
+CUPHTTPClientDelegate.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/CUPHTTPClientDelegate.o
+-[CUPHTTPTaskConfiguration initWithPort:]
+/Users/wujichao/.pub-cache/hosted/pub.dev/cupertino_http-1.5.1/ios/Classes/
+CUPHTTPCompletionHelper.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/CUPHTTPCompletionHelper.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/cupertino_http-1.5.1/ios/Classes/
+CUPHTTPForwardedDelegate.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/CUPHTTPForwardedDelegate.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/cupertino_http-1.5.1/ios/Classes/
+CUPHTTPStreamToNSInputStreamAdapter.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/CUPHTTPStreamToNSInputStreamAdapter.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/cupertino_http-1.5.1/ios/Classes/
+dart_api_dl.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/cupertino_http.build/Objects-normal/arm64/dart_api_dl.o
+cupertino_http
+oZS6 ,
+Wi8,
+?AB(
+Ge#w(
+[o2q
+SJ* g
+:yg=`
+cupertino_http
+subject.CN

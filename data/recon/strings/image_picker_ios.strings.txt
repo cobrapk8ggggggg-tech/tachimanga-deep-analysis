@@ -1,0 +1,1513 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_methname
+__TEXT
+__objc_classname__TEXT
+__cstring
+__TEXT
+__objc_methtype
+__TEXT
+__gcc_except_tab__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__objc_intobj
+__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/image_picker_ios.framework/image_picker_ios
+7W\e*
+@rpath/Flutter.framework/Flutter
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+/System/Library/Frameworks/CoreServices.framework/CoreServices
+/System/Library/Frameworks/ImageIO.framework/ImageIO
+/System/Library/Frameworks/Photos.framework/Photos
+/System/Library/Frameworks/PhotosUI.framework/PhotosUI
+/System/Library/Frameworks/UIKit.framework/UIKit
+/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+@executable_path/Frameworks
+@loader_path/Frameworks
+T(!`
+?@9I
+ybA9h
+@(#)PROGRAM:image_picker_ios  PROJECT:Pods-1
+CGImage
+CGContext
+T@"PHPickerResult",&,N,V_result
+T@"FLTImagePickerMethodCallContext",&,N,V_callContext
+_camera
+T@"NSArray",&,N,V_images
+_imagePickerControllerOverrides
+T@"NSNumber",&,N,V_desiredImageQuality
+_result
+T@"NSNumber",&,N,V_limit
+containsObject:
+T@"NSNumber",&,N,V_maxWidth
+details
+T@"NSString",?,R,C
+initWithResult:
+T@?,C,N,V_result
+maxSize
+TB,N,V_includeVideo
+numberWithBool:
+TQ,N,V_camera
+release
+TQ,N,V_value
+stringByAppendingPathComponent:
+Ti,N,V_maxImageCount
+writerWithData:
+.cxx_destruct
+T@"NSNumber",&,N,V_imageQuality
+T#,R
+Td,N,V_interval
+T@"FLTMaxSize",&,N,V_maxSize
+_height
+T@"NSMutableArray",&,N,V_imagePickerControllerOverrides
+_images
+T@"NSNumber",&,N,V_height
+applicationWillEnterForeground:
+T@"NSNumber",&,N,V_maxHeight
+convertImage:usingType:quality:
+T@"NSNumber",&,N,V_width
+imagePickerControllerDidCancel:
+T@"NSString",R,C
+isProxy
+TB,N,V_allowMultiple
+message
+TB,N,V_requestFullMetadata
+readerWithData:
+TQ,N,V_type
+setCallContext:
+TQ,R
+windows
+_allowMultiple
+_callContext
+_desiredImageQuality
+_imageQuality
+_includeVideo
+_interval
+_limit
+_maxHeight
+_maxImageCount
+_maxSize
+_maxWidth
+_requestFullMetadata
+_type
+_value
+_width
+actionWithTitle:style:handler:
+adaptivePresentationStyleForPresentationController:
+adaptivePresentationStyleForPresentationController:traitCollection:
+addAction:
+addDependency:
+addObject:
+addOperation:
+alertControllerWithTitle:message:preferredStyle:
+allowMultiple
+anyFilterMatchingSubfilters:
+application:continueUserActivity:restorationHandler:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleOpenURL:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationWillResignActive:
+applicationWillTerminate:
+array
+arrayWithCapacity:
+arrayWithObjects:count:
+authorizationStatus
+authorizationStatusForMediaType:
+autorelease
+blockOperationWithBlock:
+boolValue
+callContext
+camera
+cameraDeviceForSource:
+cancelInProgressCall
+checkCameraAuthorizationWithImagePicker:camera:
+checkPhotoAuthorizationWithImagePicker:
+class
+code
+codecWithReaderWriter:
+completeOperationWithPath:error:
+conformsToProtocol:
+copy
+copyItemAtURL:toURL:error:
+count
+countByEnumeratingWithState:objects:count:
+createFile:suffix:
+createFileAtPath:contents:attributes:
+createImagePickerController
+data
+debugDescription
+defaultManager
+description
+desiredImageQuality
+detachFromEngineForRegistrar:
+dictionary
+dictionaryWithDictionary:
+dictionaryWithObjects:forKeys:count:
+didChangeValueForKey:
+dismissViewControllerAnimated:completion:
+domain
+doubleValue
+enumerateObjectsUsingBlock:
+errorNoCameraAccess:
+errorNoPhotoAccess:
+errorWithCode:message:details:
+executing
+fileURLWithPath:
+finished
+firstObject
+floatValue
+fromList:
+getAssetFromImagePickerInfo:
+getBytes:length:
+getDesiredImageQuality:
+getImageMIMETypeFromImageData:
+getMetaDataFromImageData:
+getSavedPath
+globallyUniqueString
+handleMethodCall:result:
+hasItemConformingToTypeIdentifier:
+hash
+height
+identifier
+imageFromImage:withMetaData:
+imageOrientation
+imagePickerController:didFinishPickingImage:editingInfo:
+imagePickerController:didFinishPickingMediaWithInfo:
+imagePickerControllerOverrides
+imageQuality
+imageRendererFormat
+imageTypeSuffixFromType:
+imageWithActions:
+imageWithCGImage:scale:orientation:
+images
+imagesFilter
+includeVideo
+init
+initWithCapacity:
+initWithConfiguration:
+initWithData:
+initWithImages:interval:
+initWithName:binaryMessenger:codec:
+initWithPhotoLibrary:
+initWithResult:maxHeight:maxWidth:desiredImageQuality:fullMetadata:savedPathBlock:
+initWithSize:format:
+initWithValue:
+intValue
+integerValue
+interval
+isBeingPresented
+isCameraDeviceAvailable:
+isCancelled
+isConcurrent
+isEqual:
+isExecuting
+isFinished
+isKeyWindow
+isKindOfClass:
+isMemberOfClass:
+isReadableFileAtPath:
+isSourceTypeAvailable:
+itemProvider
+lastPathComponent
+launchPHPickerWithContext:
+launchUIImagePickerWithSource:context:
+length
+limit
+loadDataRepresentationForTypeIdentifier:completionHandler:
+loadFileRepresentationForTypeIdentifier:completionHandler:
+localizedDescription
+localizedStringForKey:value:table:
+mainBundle
+mainQueue
+makeWithMaxSize:imageQuality:requestFullMetadata:allowMultiple:limit:
+makeWithType:camera:
+makeWithWidth:height:
+maxHeight
+maxImageCount
+maxWidth
+messenger
+mutableCopy
+navigationController:animationControllerForOperation:fromViewController:toViewController:
+navigationController:didShowViewController:animated:
+navigationController:interactionControllerForAnimationController:
+navigationController:willShowViewController:animated:
+navigationControllerPreferredInterfaceOrientationForPresentation:
+navigationControllerSupportedInterfaceOrientations:
+null
+nullableFromList:
+numberWithDouble:
+numberWithFloat:
+numberWithInteger:
+objectAtIndex:
+objectAtIndexedSubscript:
+objectForKeyedSubscript:
+path
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+pickImageWithSource:maxSize:quality:fullMetadata:completion:
+pickMediaWithMediaSelectionOptions:completion:
+pickMultiImageWithMaxSize:quality:fullMetadata:limit:completion:
+pickVideoWithSource:maxDuration:completion:
+picker:didFinishPicking:
+presentViewController:animated:completion:
+presentationController
+presentationController:prepareAdaptivePresentationController:
+presentationController:viewControllerForAdaptivePresentationStyle:
+presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:
+presentationControllerDidAttemptToDismiss:
+presentationControllerDidDismiss:
+presentationControllerShouldDismiss:
+presentationControllerWillDismiss:
+presentedViewController
+processImage:
+processInfo
+processVideo
+readValue
+readValueOfType:
+registerWithRegistrar:
+registeredTypeIdentifiers
+removeObjectAtIndex:
+requestAccessForMediaType:completionHandler:
+requestAuthorization:
+requestFullMetadata
+requestImageDataAndOrientationForAsset:options:resultHandler:
+respondsToSelector:
+result
+retain
+retainCount
+rootViewController
+saveImageWithMetaData:gifInfo:path:
+saveImageWithMetaData:gifInfo:suffix:
+saveImageWithMetaData:image:suffix:type:imageQuality:
+saveImageWithOriginalImageData:image:maxWidth:maxHeight:imageQuality:
+saveImageWithPickerInfo:image:imageQuality:
+saveVideoFromURL:
+scaledGIFImage:maxWidth:maxHeight:
+scaledImage:maxWidth:maxHeight:isMetadataAvailable:
+self
+sendCallResultWithError:
+sendCallResultWithSavedPathList:
+setAllowMultiple:
+setCamera:
+setCameraDevice:
+setDelegate:
+setDesiredImageQuality:
+setExecuting:
+setFilter:
+setFinished:
+setHeight:
+setImagePickerControllerOverrides:
+setImageQuality:
+setImages:
+setIncludeVideo:
+setInterval:
+setLimit:
+setMaxHeight:
+setMaxImageCount:
+setMaxSize:
+setMaxWidth:
+setMediaTypes:
+setMessageHandler:
+setModalPresentationStyle:
+setName:
+setObject:atIndexedSubscript:
+setObject:forKeyedSubscript:
+setPluginRegistrantCallback:
+setQualityOfService:
+setRequestFullMetadata:
+setResult:
+setSelectionLimit:
+setSourceType:
+setType:
+setValue:
+setVideoMaximumDuration:
+setVideoQuality:
+setWidth:
+sharedApplication
+sharedPhotoLibrary
+showCamera:withImagePicker:
+showPhotoLibraryWithImagePicker:
+showPhotoLibraryWithPHPicker:
+size
+start
+stringByAppendingString:
+stringWithFormat:
+superclass
+temporaryFilePath:
+toList
+type
+userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:
+userNotificationCenter:openSettingsForNotification:
+userNotificationCenter:willPresentNotification:withCompletionHandler:
+value
+videosFilter
+viewControllerWithWindow:
+width
+willChangeValueForKey:
+writeByte:
+writeValue:
+zone
+GIFInfo
+FLTImagePickerImageUtil
+FLTImagePickerMetaDataUtil
+FLTImagePickerPhotoAssetUtil
+FLTImagePickerMethodCallContext
+FLTImagePickerPlugin
+FLTImagePickerApi
+UINavigationControllerDelegate
+NSObject
+UIImagePickerControllerDelegate
+PHPickerViewControllerDelegate
+UIAdaptivePresentationControllerDelegate
+FlutterPlugin
+FlutterApplicationLifeCycleDelegate
+UNUserNotificationCenterDelegate
+FLTPHPickerSaveImageToPathOperation
+PodsDummy_image_picker_ios
+FLTSourceCameraBox
+FLTSourceTypeBox
+FLTMaxSize
+FLTMediaSelectionOptions
+FLTSourceSpecification
+FLTMessagesPigeonCodecReader
+FLTMessagesPigeonCodecWriter
+FLTMessagesPigeonCodecReaderWriter
+v16@?0@"UIGraphicsImageRendererContext"8
+.jpg
+.png
+.gif
+image_picker: compressing is not supported for type %@. Returning the image with original quality
+image_picker_%@
+invalid_source
+Invalid image source.
+invalid_result
+Incorrect number of return paths provided
+v24@?0@"NSArray"8@"FlutterError"16
+Invalid video source.
+multiple_request
+Cancelled by a second request
+Error
+Camera not available.
+v16@?0@"UIAlertAction"8
+v8@?0
+v12@?0B8
+v16@?0q8
+camera_access_restricted
+The user is not allowed to use the camera.
+camera_access_denied
+The user did not allow camera access.
+photo_access_restricted
+The user is not allowed to use the photo.
+photo_access_denied
+The user did not allow photo access.
+Flutter Save Image Queue
+v24@?0@"NSString"8@"FlutterError"16
+v32@?0@"PHPickerResult"8Q16^B24
+flutter_image_picker_copy_video_error
+Could not cache the video file.
+v32@?0@"NSData"8@"NSString"16@"NSDictionary"24
+v36@?0@"NSData"8@"NSString"16I24@"NSDictionary"28
+create_error
+pathList's items should not be null
+isFinished
+isExecuting
+invalid_image
+v24@?0@"NSData"8@"NSError"16
+Invalid media source.
+v24@?0@"NSURL"8@"NSError"16
+%@%@
+dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickImage
+v24@?0@8@?<v@?@>16
+dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickMultiImage
+dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickVideo
+dev.flutter.pigeon.image_picker_ios.ImagePickerApi.pickMedia
+@32@0:8@16d24
+@16@0:8
+v24@0:8@16
+d16@0:8
+v24@0:8d16
+v16@0:8
+@"NSArray"
+@44@0:8@16@24@32B40
+@40@0:8@16@24@32
+Q24@0:8@16
+@24@0:8Q16
+@24@0:8@16
+@32@0:8@16@24
+@40@0:8@16Q24@32
+@56@0:8@16@24@32@40@48
+@56@0:8@16@24@32Q40@48
+@24@0:8@?16
+@?16@0:8
+v24@0:8@?16
+i16@0:8
+v20@0:8i16
+B16@0:8
+v20@0:8B16
+@"FLTMaxSize"
+@"NSNumber"
+v52@0:8@16@24@32B40@?44
+v52@0:8@16@24B32@36@?44
+v40@0:8@16@24@?32
+v32@0:8@16@?24
+v52@0:8@"FLTSourceSpecification"16@"FLTMaxSize"24@"NSNumber"32B40@?<v@?@"NSString"@"FlutterError">44
+v52@0:8@"FLTMaxSize"16@"NSNumber"24B32@"NSNumber"36@?<v@?@"NSArray"@"FlutterError">44
+v40@0:8@"FLTSourceSpecification"16@"NSNumber"24@?<v@?@"NSString"@"FlutterError">32
+v32@0:8@"FLTMediaSelectionOptions"16@?<v@?@"NSArray"@"FlutterError">24
+B24@0:8@16
+#16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v36@0:8@16@24B32
+q24@0:8@16
+@48@0:8@16q24@32@40
+v36@0:8@"UINavigationController"16@"UIViewController"24B32
+Q24@0:8@"UINavigationController"16
+q24@0:8@"UINavigationController"16
+@"<UIViewControllerInteractiveTransitioning>"32@0:8@"UINavigationController"16@"<UIViewControllerAnimatedTransitioning>"24
+@"<UIViewControllerAnimatedTransitioning>"48@0:8@"UINavigationController"16q24@"UIViewController"32@"UIViewController"40
+v40@0:8@16@24@32
+v32@0:8@16@24
+v40@0:8@"UIImagePickerController"16@"UIImage"24@"NSDictionary"32
+v32@0:8@"UIImagePickerController"16@"NSDictionary"24
+v24@0:8@"UIImagePickerController"16
+v32@0:8@"PHPickerViewController"16@"NSArray"24
+q32@0:8@16@24
+@32@0:8@16q24
+v40@0:8@16q24@32
+q24@0:8@"UIPresentationController"16
+q32@0:8@"UIPresentationController"16@"UITraitCollection"24
+v32@0:8@"UIPresentationController"16@"UIPresentationController"24
+@"UIViewController"32@0:8@"UIPresentationController"16q24
+v40@0:8@"UIPresentationController"16q24@"<UIViewControllerTransitionCoordinator>"32
+B24@0:8@"UIPresentationController"16
+v24@0:8@"UIPresentationController"16
+v40@0:8@"UNUserNotificationCenter"16@"UNNotification"24@?<v@?Q>32
+v40@0:8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32
+v32@0:8@"UNUserNotificationCenter"16@"UNNotification"24
+B32@0:8@16@24
+B40@0:8@16@24@?32
+B40@0:8@16@24@32
+B48@0:8@16@24@32@40
+B32@0:8@16@?24
+B32@0:8@"UIApplication"16@"NSDictionary"24
+v24@0:8@"UIApplication"16
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+B40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+B40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+B32@0:8@"UIApplication"16@?<v@?Q>24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v24@0:8^?16
+v24@0:8@"NSObject<FlutterPluginRegistrar>"16
+v32@0:8@"FlutterMethodCall"16@?<v@?@>24
+v32@0:8q16@24
+v32@0:8@16q24
+v24@0:8q16
+v56@0:8@16@24@32@40@48
+@"NSMutableArray"
+@"FLTImagePickerMethodCallContext"
+@60@0:8@16@24@32@40B48@?52
+@"PHPickerResult"
+v24@0:8Q16
+@48@0:8@16@24B32B36@40
+@32@0:8Q16Q24
+@20@0:8C16
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_OBJC_CLASS_$_NSConstantIntegerNumber
+_NSLog
+_NSTemporaryDirectory
+___objc_personality_v0
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+_objc_unsafeClaimAutoreleasedReturnValue
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+_dispatch_async
+_dispatch_once
+_AVMediaTypeVideo
+_CFRelease
+___kCFBooleanTrue
+_CGContextDrawImage
+_CGContextScaleCTM
+_CGContextTranslateCTM
+_CGImageRelease
+_kUTTypeAVIMovie
+_kUTTypeGIF
+_kUTTypeImage
+_kUTTypeMPEG4
+_kUTTypeMovie
+_kUTTypeVideo
+_CGImageDestinationAddImage
+_CGImageDestinationAddImageFromSource
+_CGImageDestinationCreateWithData
+_CGImageDestinationCreateWithURL
+_CGImageDestinationFinalize
+_CGImageDestinationSetProperties
+_CGImageSourceCopyPropertiesAtIndex
+_CGImageSourceCreateImageAtIndex
+_CGImageSourceCreateWithData
+_CGImageSourceGetCount
+_CGImageSourceGetType
+_kCGImagePropertyGIFDelayTime
+_kCGImagePropertyGIFDictionary
+_kCGImagePropertyGIFLoopCount
+_kCGImagePropertyGIFUnclampedDelayTime
+_kCGImageSourceShouldCache
+_kCGImageSourceTypeIdentifierHint
+_UIImageJPEGRepresentation
+_UIImagePNGRepresentation
+_UIImagePickerControllerEditedImage
+_UIImagePickerControllerMediaMetadata
+_UIImagePickerControllerMediaURL
+_UIImagePickerControllerOriginalImage
+_UIImagePickerControllerPHAsset
+_UTTypeImage
+_UTTypeMovie
+_OBJC_CLASS_$_UIImage
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_UIGraphicsImageRenderer
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_UIImagePickerController
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_PHPickerConfiguration
+_OBJC_CLASS_$_PHPhotoLibrary
+_OBJC_CLASS_$_PHPickerFilter
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_PHPickerViewController
+_OBJC_CLASS_$_FlutterError
+_OBJC_CLASS_$_UIAlertController
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_UIAlertAction
+_OBJC_CLASS_$_AVCaptureDevice
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSBlockOperation
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_PHImageManager
+_OBJC_CLASS_$_FlutterStandardMessageCodec
+_OBJC_CLASS_$_FlutterBasicMessageChannel
+__objc_empty_cache
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSOperation
+_OBJC_METACLASS_$_NSOperation
+_OBJC_CLASS_$_FlutterStandardReader
+_OBJC_METACLASS_$_FlutterStandardReader
+_OBJC_CLASS_$_FlutterStandardWriter
+_OBJC_METACLASS_$_FlutterStandardWriter
+_OBJC_METACLASS_$_FlutterStandardReaderWriter
+_OBJC_CLASS_$_FlutterStandardReaderWriter
+aDataUtil
+hodCallContext
+hotoAssetUtil
+>lugin
+ImageUtil
+Writer
+Reader
+Writer
+diaSelectionOptions
+}ssagesPigeonCodec
+axSize
+CameraBox
+Specification
+TypeBox
+ImagePicker
+PHPickerSaveImageToPathOperation
+Source
+GIFInfo
+PodsDummy_image_picker_ios
+aDataUtil
+hodCallContext
+hotoAssetUtil
+lugin
+ImageUtil
+Writer
+Reader
+Writer
+diaSelectionOptions
+ssagesPigeonCodec
+axSize
+CameraBox
+Specification
+TypeBox
+ImagePicker
+PHPickerSaveImageToPathOperation
+Source
+GIFInfo
+PodsDummy_image_picker_ios
+CLASS_$_
+METACLASS_$_
+WithSuffix
+Number
+String
+DefaultSuffix
+MIMETypeDefault
+FLTGetMessagesCodec
+	OBJC_
+SetUpFLTImagePickerApi
+image_picker_iosVersion
+kFLTImagePicker
+| tt\d
+h4,dX
+LL0X
+_FLTGetMessagesCodec
+_OBJC_CLASS_$_FLTImagePickerImageUtil
+_OBJC_CLASS_$_FLTImagePickerMetaDataUtil
+_OBJC_CLASS_$_FLTImagePickerMethodCallContext
+_OBJC_CLASS_$_FLTImagePickerPhotoAssetUtil
+_OBJC_CLASS_$_FLTImagePickerPlugin
+_OBJC_CLASS_$_FLTMaxSize
+_OBJC_CLASS_$_FLTMediaSelectionOptions
+_OBJC_CLASS_$_FLTMessagesPigeonCodecReader
+_OBJC_CLASS_$_FLTMessagesPigeonCodecReaderWriter
+_OBJC_CLASS_$_FLTMessagesPigeonCodecWriter
+_OBJC_CLASS_$_FLTPHPickerSaveImageToPathOperation
+_OBJC_CLASS_$_FLTSourceCameraBox
+_OBJC_CLASS_$_FLTSourceSpecification
+_OBJC_CLASS_$_FLTSourceTypeBox
+_OBJC_CLASS_$_GIFInfo
+_OBJC_CLASS_$_PodsDummy_image_picker_ios
+_OBJC_METACLASS_$_FLTImagePickerImageUtil
+_OBJC_METACLASS_$_FLTImagePickerMetaDataUtil
+_OBJC_METACLASS_$_FLTImagePickerMethodCallContext
+_OBJC_METACLASS_$_FLTImagePickerPhotoAssetUtil
+_OBJC_METACLASS_$_FLTImagePickerPlugin
+_OBJC_METACLASS_$_FLTMaxSize
+_OBJC_METACLASS_$_FLTMediaSelectionOptions
+_OBJC_METACLASS_$_FLTMessagesPigeonCodecReader
+_OBJC_METACLASS_$_FLTMessagesPigeonCodecReaderWriter
+_OBJC_METACLASS_$_FLTMessagesPigeonCodecWriter
+_OBJC_METACLASS_$_FLTPHPickerSaveImageToPathOperation
+_OBJC_METACLASS_$_FLTSourceCameraBox
+_OBJC_METACLASS_$_FLTSourceSpecification
+_OBJC_METACLASS_$_FLTSourceTypeBox
+_OBJC_METACLASS_$_GIFInfo
+_OBJC_METACLASS_$_PodsDummy_image_picker_ios
+_SetUpFLTImagePickerApi
+_SetUpFLTImagePickerApiWithSuffix
+_image_picker_iosVersionNumber
+_image_picker_iosVersionString
+_kFLTImagePickerDefaultSuffix
+_kFLTImagePickerMIMETypeDefault
+_AVMediaTypeVideo
+_CFRelease
+_CGContextDrawImage
+_CGContextScaleCTM
+_CGContextTranslateCTM
+_CGImageDestinationAddImage
+_CGImageDestinationAddImageFromSource
+_CGImageDestinationCreateWithData
+_CGImageDestinationCreateWithURL
+_CGImageDestinationFinalize
+_CGImageDestinationSetProperties
+_CGImageRelease
+_CGImageSourceCopyPropertiesAtIndex
+_CGImageSourceCreateImageAtIndex
+_CGImageSourceCreateWithData
+_CGImageSourceGetCount
+_CGImageSourceGetType
+_NSLog
+_NSTemporaryDirectory
+_OBJC_CLASS_$_AVCaptureDevice
+_OBJC_CLASS_$_FlutterBasicMessageChannel
+_OBJC_CLASS_$_FlutterError
+_OBJC_CLASS_$_FlutterStandardMessageCodec
+_OBJC_CLASS_$_FlutterStandardReader
+_OBJC_CLASS_$_FlutterStandardReaderWriter
+_OBJC_CLASS_$_FlutterStandardWriter
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBlockOperation
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSConstantIntegerNumber
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperation
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_PHImageManager
+_OBJC_CLASS_$_PHPhotoLibrary
+_OBJC_CLASS_$_PHPickerConfiguration
+_OBJC_CLASS_$_PHPickerFilter
+_OBJC_CLASS_$_PHPickerViewController
+_OBJC_CLASS_$_UIAlertAction
+_OBJC_CLASS_$_UIAlertController
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UIGraphicsImageRenderer
+_OBJC_CLASS_$_UIImage
+_OBJC_CLASS_$_UIImagePickerController
+_OBJC_METACLASS_$_FlutterStandardReader
+_OBJC_METACLASS_$_FlutterStandardReaderWriter
+_OBJC_METACLASS_$_FlutterStandardWriter
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSOperation
+_UIImageJPEGRepresentation
+_UIImagePNGRepresentation
+_UIImagePickerControllerEditedImage
+_UIImagePickerControllerMediaMetadata
+_UIImagePickerControllerMediaURL
+_UIImagePickerControllerOriginalImage
+_UIImagePickerControllerPHAsset
+_UTTypeImage
+_UTTypeMovie
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___kCFBooleanTrue
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+_dispatch_async
+_dispatch_once
+_kCGImagePropertyGIFDelayTime
+_kCGImagePropertyGIFDictionary
+_kCGImagePropertyGIFLoopCount
+_kCGImagePropertyGIFUnclampedDelayTime
+_kCGImageSourceShouldCache
+_kCGImageSourceTypeIdentifierHint
+_kUTTypeAVIMovie
+_kUTTypeGIF
+_kUTTypeImage
+_kUTTypeMPEG4
+_kUTTypeMovie
+_kUTTypeVideo
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+_objc_unsafeClaimAutoreleasedReturnValue
+-[GIFInfo initWithImages:interval:]
+-[GIFInfo images]
+-[GIFInfo setImages:]
+-[GIFInfo interval]
+-[GIFInfo setInterval:]
+-[GIFInfo .cxx_destruct]
++[FLTImagePickerImageUtil scaledImage:maxWidth:maxHeight:isMetadataAvailable:]
+_FLTImagePickerDrawScaledImage
++[FLTImagePickerImageUtil scaledGIFImage:maxWidth:maxHeight:]
+___FLTImagePickerDrawScaledImage_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
++[FLTImagePickerMetaDataUtil getImageMIMETypeFromImageData:]
++[FLTImagePickerMetaDataUtil imageTypeSuffixFromType:]
++[FLTImagePickerMetaDataUtil getMetaDataFromImageData:]
++[FLTImagePickerMetaDataUtil imageFromImage:withMetaData:]
++[FLTImagePickerMetaDataUtil convertImage:usingType:quality:]
++[FLTImagePickerPhotoAssetUtil getAssetFromImagePickerInfo:]
++[FLTImagePickerPhotoAssetUtil saveVideoFromURL:]
++[FLTImagePickerPhotoAssetUtil saveImageWithOriginalImageData:image:maxWidth:maxHeight:imageQuality:]
++[FLTImagePickerPhotoAssetUtil saveImageWithPickerInfo:image:imageQuality:]
++[FLTImagePickerPhotoAssetUtil saveImageWithMetaData:gifInfo:suffix:]
++[FLTImagePickerPhotoAssetUtil saveImageWithMetaData:image:suffix:type:imageQuality:]
++[FLTImagePickerPhotoAssetUtil saveImageWithMetaData:gifInfo:path:]
++[FLTImagePickerPhotoAssetUtil temporaryFilePath:]
++[FLTImagePickerPhotoAssetUtil createFile:suffix:]
+-[FLTImagePickerMethodCallContext initWithResult:]
+-[FLTImagePickerMethodCallContext result]
+-[FLTImagePickerMethodCallContext setResult:]
+-[FLTImagePickerMethodCallContext maxSize]
+-[FLTImagePickerMethodCallContext setMaxSize:]
+-[FLTImagePickerMethodCallContext imageQuality]
+-[FLTImagePickerMethodCallContext setImageQuality:]
+-[FLTImagePickerMethodCallContext maxImageCount]
+-[FLTImagePickerMethodCallContext setMaxImageCount:]
+-[FLTImagePickerMethodCallContext requestFullMetadata]
+-[FLTImagePickerMethodCallContext setRequestFullMetadata:]
+-[FLTImagePickerMethodCallContext includeVideo]
+-[FLTImagePickerMethodCallContext setIncludeVideo:]
+-[FLTImagePickerMethodCallContext .cxx_destruct]
++[FLTImagePickerPlugin registerWithRegistrar:]
+-[FLTImagePickerPlugin createImagePickerController]
+-[FLTImagePickerPlugin setImagePickerControllerOverrides:]
+-[FLTImagePickerPlugin viewControllerWithWindow:]
+-[FLTImagePickerPlugin cameraDeviceForSource:]
+-[FLTImagePickerPlugin launchPHPickerWithContext:]
+-[FLTImagePickerPlugin launchUIImagePickerWithSource:context:]
+-[FLTImagePickerPlugin pickImageWithSource:maxSize:quality:fullMetadata:completion:]
+___84-[FLTImagePickerPlugin pickImageWithSource:maxSize:quality:fullMetadata:completion:]_block_invoke
+___copy_helper_block_e8_32b
+-[FLTImagePickerPlugin pickMultiImageWithMaxSize:quality:fullMetadata:limit:completion:]
+-[FLTImagePickerPlugin pickMediaWithMediaSelectionOptions:completion:]
+-[FLTImagePickerPlugin pickVideoWithSource:maxDuration:completion:]
+___67-[FLTImagePickerPlugin pickVideoWithSource:maxDuration:completion:]_block_invoke
+-[FLTImagePickerPlugin cancelInProgressCall]
+-[FLTImagePickerPlugin showCamera:withImagePicker:]
+___51-[FLTImagePickerPlugin showCamera:withImagePicker:]_block_invoke
+-[FLTImagePickerPlugin checkCameraAuthorizationWithImagePicker:camera:]
+___71-[FLTImagePickerPlugin checkCameraAuthorizationWithImagePicker:camera:]_block_invoke
+___71-[FLTImagePickerPlugin checkCameraAuthorizationWithImagePicker:camera:]_block_invoke_2
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[FLTImagePickerPlugin checkPhotoAuthorizationWithImagePicker:]
+___63-[FLTImagePickerPlugin checkPhotoAuthorizationWithImagePicker:]_block_invoke
+___63-[FLTImagePickerPlugin checkPhotoAuthorizationWithImagePicker:]_block_invoke_2
+-[FLTImagePickerPlugin errorNoCameraAccess:]
+-[FLTImagePickerPlugin errorNoPhotoAccess:]
+-[FLTImagePickerPlugin showPhotoLibraryWithPHPicker:]
+-[FLTImagePickerPlugin showPhotoLibraryWithImagePicker:]
+-[FLTImagePickerPlugin getDesiredImageQuality:]
+-[FLTImagePickerPlugin presentationControllerDidDismiss:]
+-[FLTImagePickerPlugin picker:didFinishPicking:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___48-[FLTImagePickerPlugin picker:didFinishPicking:]_block_invoke
+___copy_helper_block_e8_32s40r48r56w
+___destroy_helper_block_e8_32s40r48r56w
+___48-[FLTImagePickerPlugin picker:didFinishPicking:]_block_invoke.108
+___48-[FLTImagePickerPlugin picker:didFinishPicking:]_block_invoke_2
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+___copy_helper_block_e8_32s40s48s56s64s72r80r
+___destroy_helper_block_e8_32s40s48s56s64s72r80r
+-[FLTImagePickerPlugin imagePickerController:didFinishPickingMediaWithInfo:]
+___76-[FLTImagePickerPlugin imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+___copy_helper_block_e8_32s40s48s56s64s
+___destroy_helper_block_e8_32s40s48s56s64s
+___76-[FLTImagePickerPlugin imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke.121
+-[FLTImagePickerPlugin imagePickerControllerDidCancel:]
+-[FLTImagePickerPlugin saveImageWithOriginalImageData:image:maxWidth:maxHeight:imageQuality:]
+-[FLTImagePickerPlugin saveImageWithPickerInfo:image:imageQuality:]
+-[FLTImagePickerPlugin sendCallResultWithSavedPathList:]
+-[FLTImagePickerPlugin sendCallResultWithError:]
+-[FLTImagePickerPlugin imagePickerControllerOverrides]
+-[FLTImagePickerPlugin callContext]
+-[FLTImagePickerPlugin setCallContext:]
+-[FLTImagePickerPlugin .cxx_destruct]
+-[FLTPHPickerSaveImageToPathOperation initWithResult:maxHeight:maxWidth:desiredImageQuality:fullMetadata:savedPathBlock:]
+-[FLTPHPickerSaveImageToPathOperation isConcurrent]
+-[FLTPHPickerSaveImageToPathOperation isExecuting]
+-[FLTPHPickerSaveImageToPathOperation isFinished]
+-[FLTPHPickerSaveImageToPathOperation setFinished:]
+-[FLTPHPickerSaveImageToPathOperation setExecuting:]
+-[FLTPHPickerSaveImageToPathOperation completeOperationWithPath:error:]
+-[FLTPHPickerSaveImageToPathOperation start]
+___44-[FLTPHPickerSaveImageToPathOperation start]_block_invoke
+-[FLTPHPickerSaveImageToPathOperation processImage:]
+-[FLTPHPickerSaveImageToPathOperation processVideo]
+___51-[FLTPHPickerSaveImageToPathOperation processVideo]_block_invoke
+-[FLTPHPickerSaveImageToPathOperation result]
+-[FLTPHPickerSaveImageToPathOperation setResult:]
+-[FLTPHPickerSaveImageToPathOperation maxHeight]
+-[FLTPHPickerSaveImageToPathOperation setMaxHeight:]
+-[FLTPHPickerSaveImageToPathOperation maxWidth]
+-[FLTPHPickerSaveImageToPathOperation setMaxWidth:]
+-[FLTPHPickerSaveImageToPathOperation desiredImageQuality]
+-[FLTPHPickerSaveImageToPathOperation setDesiredImageQuality:]
+-[FLTPHPickerSaveImageToPathOperation requestFullMetadata]
+-[FLTPHPickerSaveImageToPathOperation setRequestFullMetadata:]
+-[FLTPHPickerSaveImageToPathOperation .cxx_destruct]
+-[FLTSourceCameraBox initWithValue:]
+-[FLTSourceCameraBox value]
+-[FLTSourceCameraBox setValue:]
+-[FLTSourceTypeBox initWithValue:]
+-[FLTSourceTypeBox value]
+-[FLTSourceTypeBox setValue:]
++[FLTMaxSize makeWithWidth:height:]
++[FLTMaxSize fromList:]
+_GetNullableObjectAtIndex
++[FLTMaxSize nullableFromList:]
+-[FLTMaxSize toList]
+-[FLTMaxSize width]
+-[FLTMaxSize setWidth:]
+-[FLTMaxSize height]
+-[FLTMaxSize setHeight:]
+-[FLTMaxSize .cxx_destruct]
++[FLTMediaSelectionOptions makeWithMaxSize:imageQuality:requestFullMetadata:allowMultiple:limit:]
++[FLTMediaSelectionOptions fromList:]
++[FLTMediaSelectionOptions nullableFromList:]
+-[FLTMediaSelectionOptions toList]
+-[FLTMediaSelectionOptions maxSize]
+-[FLTMediaSelectionOptions setMaxSize:]
+-[FLTMediaSelectionOptions imageQuality]
+-[FLTMediaSelectionOptions setImageQuality:]
+-[FLTMediaSelectionOptions requestFullMetadata]
+-[FLTMediaSelectionOptions setRequestFullMetadata:]
+-[FLTMediaSelectionOptions allowMultiple]
+-[FLTMediaSelectionOptions setAllowMultiple:]
+-[FLTMediaSelectionOptions limit]
+-[FLTMediaSelectionOptions setLimit:]
+-[FLTMediaSelectionOptions .cxx_destruct]
++[FLTSourceSpecification makeWithType:camera:]
++[FLTSourceSpecification fromList:]
++[FLTSourceSpecification nullableFromList:]
+-[FLTSourceSpecification toList]
+-[FLTSourceSpecification type]
+-[FLTSourceSpecification setType:]
+-[FLTSourceSpecification camera]
+-[FLTSourceSpecification setCamera:]
+-[FLTMessagesPigeonCodecReader readValueOfType:]
+-[FLTMessagesPigeonCodecWriter writeValue:]
+-[FLTMessagesPigeonCodecReaderWriter writerWithData:]
+-[FLTMessagesPigeonCodecReaderWriter readerWithData:]
+___FLTGetMessagesCodec_block_invoke
+___SetUpFLTImagePickerApiWithSuffix_block_invoke
+___SetUpFLTImagePickerApiWithSuffix_block_invoke_2
+_wrapResult
+___SetUpFLTImagePickerApiWithSuffix_block_invoke.115
+___SetUpFLTImagePickerApiWithSuffix_block_invoke_2.116
+___SetUpFLTImagePickerApiWithSuffix_block_invoke.120
+___SetUpFLTImagePickerApiWithSuffix_block_invoke_2.121
+___SetUpFLTImagePickerApiWithSuffix_block_invoke_3
+___SetUpFLTImagePickerApiWithSuffix_block_invoke_4
+_FLTGetMessagesCodec.cold.1
+_objc_msgSend$CGContext
+_objc_msgSend$CGImage
+_objc_msgSend$actionWithTitle:style:handler:
+_objc_msgSend$addAction:
+_objc_msgSend$addDependency:
+_objc_msgSend$addObject:
+_objc_msgSend$addOperation:
+_objc_msgSend$alertControllerWithTitle:message:preferredStyle:
+_objc_msgSend$allowMultiple
+_objc_msgSend$anyFilterMatchingSubfilters:
+_objc_msgSend$array
+_objc_msgSend$arrayWithCapacity:
+_objc_msgSend$arrayWithObjects:count:
+_objc_msgSend$authorizationStatus
+_objc_msgSend$authorizationStatusForMediaType:
+_objc_msgSend$blockOperationWithBlock:
+_objc_msgSend$boolValue
+_objc_msgSend$callContext
+_objc_msgSend$camera
+_objc_msgSend$cameraDeviceForSource:
+_objc_msgSend$cancelInProgressCall
+_objc_msgSend$checkCameraAuthorizationWithImagePicker:camera:
+_objc_msgSend$checkPhotoAuthorizationWithImagePicker:
+_objc_msgSend$code
+_objc_msgSend$codecWithReaderWriter:
+_objc_msgSend$completeOperationWithPath:error:
+_objc_msgSend$containsObject:
+_objc_msgSend$convertImage:usingType:quality:
+_objc_msgSend$copy
+_objc_msgSend$copyItemAtURL:toURL:error:
+_objc_msgSend$count
+_objc_msgSend$countByEnumeratingWithState:objects:count:
+_objc_msgSend$createFile:suffix:
+_objc_msgSend$createFileAtPath:contents:attributes:
+_objc_msgSend$createImagePickerController
+_objc_msgSend$data
+_objc_msgSend$defaultManager
+_objc_msgSend$desiredImageQuality
+_objc_msgSend$details
+_objc_msgSend$dictionary
+_objc_msgSend$dictionaryWithDictionary:
+_objc_msgSend$dictionaryWithObjects:forKeys:count:
+_objc_msgSend$didChangeValueForKey:
+_objc_msgSend$dismissViewControllerAnimated:completion:
+_objc_msgSend$domain
+_objc_msgSend$doubleValue
+_objc_msgSend$enumerateObjectsUsingBlock:
+_objc_msgSend$errorNoCameraAccess:
+_objc_msgSend$errorNoPhotoAccess:
+_objc_msgSend$errorWithCode:message:details:
+_objc_msgSend$fileURLWithPath:
+_objc_msgSend$firstObject
+_objc_msgSend$floatValue
+_objc_msgSend$fromList:
+_objc_msgSend$getAssetFromImagePickerInfo:
+_objc_msgSend$getBytes:length:
+_objc_msgSend$getDesiredImageQuality:
+_objc_msgSend$getImageMIMETypeFromImageData:
+_objc_msgSend$getMetaDataFromImageData:
+_objc_msgSend$globallyUniqueString
+_objc_msgSend$hasItemConformingToTypeIdentifier:
+_objc_msgSend$height
+_objc_msgSend$identifier
+_objc_msgSend$imageFromImage:withMetaData:
+_objc_msgSend$imageOrientation
+_objc_msgSend$imagePickerControllerOverrides
+_objc_msgSend$imageQuality
+_objc_msgSend$imageRendererFormat
+_objc_msgSend$imageTypeSuffixFromType:
+_objc_msgSend$imageWithActions:
+_objc_msgSend$imageWithCGImage:scale:orientation:
+_objc_msgSend$images
+_objc_msgSend$imagesFilter
+_objc_msgSend$includeVideo
+_objc_msgSend$initWithCapacity:
+_objc_msgSend$initWithConfiguration:
+_objc_msgSend$initWithData:
+_objc_msgSend$initWithImages:interval:
+_objc_msgSend$initWithName:binaryMessenger:codec:
+_objc_msgSend$initWithPhotoLibrary:
+_objc_msgSend$initWithResult:
+_objc_msgSend$initWithResult:maxHeight:maxWidth:desiredImageQuality:fullMetadata:savedPathBlock:
+_objc_msgSend$initWithSize:format:
+_objc_msgSend$initWithValue:
+_objc_msgSend$intValue
+_objc_msgSend$integerValue
+_objc_msgSend$interval
+_objc_msgSend$isBeingPresented
+_objc_msgSend$isCameraDeviceAvailable:
+_objc_msgSend$isCancelled
+_objc_msgSend$isKeyWindow
+_objc_msgSend$isReadableFileAtPath:
+_objc_msgSend$isSourceTypeAvailable:
+_objc_msgSend$itemProvider
+_objc_msgSend$lastPathComponent
+_objc_msgSend$launchPHPickerWithContext:
+_objc_msgSend$launchUIImagePickerWithSource:context:
+_objc_msgSend$length
+_objc_msgSend$limit
+_objc_msgSend$loadDataRepresentationForTypeIdentifier:completionHandler:
+_objc_msgSend$loadFileRepresentationForTypeIdentifier:completionHandler:
+_objc_msgSend$localizedDescription
+_objc_msgSend$localizedStringForKey:value:table:
+_objc_msgSend$mainBundle
+_objc_msgSend$mainQueue
+_objc_msgSend$maxHeight
+_objc_msgSend$maxImageCount
+_objc_msgSend$maxSize
+_objc_msgSend$maxWidth
+_objc_msgSend$message
+_objc_msgSend$messenger
+_objc_msgSend$mutableCopy
+_objc_msgSend$null
+_objc_msgSend$numberWithBool:
+_objc_msgSend$numberWithDouble:
+_objc_msgSend$numberWithFloat:
+_objc_msgSend$numberWithInteger:
+_objc_msgSend$objectAtIndex:
+_objc_msgSend$objectAtIndexedSubscript:
+_objc_msgSend$objectForKeyedSubscript:
+_objc_msgSend$path
+_objc_msgSend$pickImageWithSource:maxSize:quality:fullMetadata:completion:
+_objc_msgSend$pickMediaWithMediaSelectionOptions:completion:
+_objc_msgSend$pickMultiImageWithMaxSize:quality:fullMetadata:limit:completion:
+_objc_msgSend$pickVideoWithSource:maxDuration:completion:
+_objc_msgSend$presentViewController:animated:completion:
+_objc_msgSend$presentationController
+_objc_msgSend$presentedViewController
+_objc_msgSend$processImage:
+_objc_msgSend$processInfo
+_objc_msgSend$processVideo
+_objc_msgSend$readValue
+_objc_msgSend$registeredTypeIdentifiers
+_objc_msgSend$removeObjectAtIndex:
+_objc_msgSend$requestAccessForMediaType:completionHandler:
+_objc_msgSend$requestAuthorization:
+_objc_msgSend$requestFullMetadata
+_objc_msgSend$requestImageDataAndOrientationForAsset:options:resultHandler:
+_objc_msgSend$result
+_objc_msgSend$rootViewController
+_objc_msgSend$saveImageWithMetaData:gifInfo:path:
+_objc_msgSend$saveImageWithMetaData:gifInfo:suffix:
+_objc_msgSend$saveImageWithMetaData:image:suffix:type:imageQuality:
+_objc_msgSend$saveImageWithOriginalImageData:image:maxWidth:maxHeight:imageQuality:
+_objc_msgSend$saveImageWithPickerInfo:image:imageQuality:
+_objc_msgSend$saveVideoFromURL:
+_objc_msgSend$scaledGIFImage:maxWidth:maxHeight:
+_objc_msgSend$scaledImage:maxWidth:maxHeight:isMetadataAvailable:
+_objc_msgSend$sendCallResultWithError:
+_objc_msgSend$sendCallResultWithSavedPathList:
+_objc_msgSend$setAllowMultiple:
+_objc_msgSend$setCallContext:
+_objc_msgSend$setCamera:
+_objc_msgSend$setCameraDevice:
+_objc_msgSend$setDelegate:
+_objc_msgSend$setDesiredImageQuality:
+_objc_msgSend$setExecuting:
+_objc_msgSend$setFilter:
+_objc_msgSend$setFinished:
+_objc_msgSend$setHeight:
+_objc_msgSend$setImageQuality:
+_objc_msgSend$setImages:
+_objc_msgSend$setIncludeVideo:
+_objc_msgSend$setInterval:
+_objc_msgSend$setLimit:
+_objc_msgSend$setMaxHeight:
+_objc_msgSend$setMaxImageCount:
+_objc_msgSend$setMaxSize:
+_objc_msgSend$setMaxWidth:
+_objc_msgSend$setMediaTypes:
+_objc_msgSend$setMessageHandler:
+_objc_msgSend$setModalPresentationStyle:
+_objc_msgSend$setName:
+_objc_msgSend$setObject:atIndexedSubscript:
+_objc_msgSend$setObject:forKeyedSubscript:
+_objc_msgSend$setQualityOfService:
+_objc_msgSend$setRequestFullMetadata:
+_objc_msgSend$setResult:
+_objc_msgSend$setSelectionLimit:
+_objc_msgSend$setSourceType:
+_objc_msgSend$setType:
+_objc_msgSend$setVideoMaximumDuration:
+_objc_msgSend$setVideoQuality:
+_objc_msgSend$setWidth:
+_objc_msgSend$sharedApplication
+_objc_msgSend$sharedPhotoLibrary
+_objc_msgSend$showCamera:withImagePicker:
+_objc_msgSend$showPhotoLibraryWithImagePicker:
+_objc_msgSend$showPhotoLibraryWithPHPicker:
+_objc_msgSend$size
+_objc_msgSend$stringByAppendingPathComponent:
+_objc_msgSend$stringByAppendingString:
+_objc_msgSend$stringWithFormat:
+_objc_msgSend$temporaryFilePath:
+_objc_msgSend$toList
+_objc_msgSend$type
+_objc_msgSend$value
+_objc_msgSend$videosFilter
+_objc_msgSend$viewControllerWithWindow:
+_objc_msgSend$width
+_objc_msgSend$willChangeValueForKey:
+_objc_msgSend$windows
+_objc_msgSend$writeByte:
+_objc_msgSend$writeValue:
+__OBJC_$_CLASS_METHODS_FLTImagePickerImageUtil
+__OBJC_$_CLASS_METHODS_FLTImagePickerMetaDataUtil
+__OBJC_$_CLASS_METHODS_FLTImagePickerPhotoAssetUtil
+__OBJC_$_CLASS_METHODS_FLTImagePickerPlugin
+__OBJC_$_CLASS_METHODS_FLTMaxSize
+__OBJC_$_CLASS_METHODS_FLTMediaSelectionOptions
+__OBJC_$_CLASS_METHODS_FLTSourceSpecification
+__OBJC_$_INSTANCE_METHODS_FLTImagePickerMethodCallContext
+__OBJC_$_INSTANCE_METHODS_FLTImagePickerPlugin
+__OBJC_$_INSTANCE_METHODS_FLTMaxSize
+__OBJC_$_INSTANCE_METHODS_FLTMediaSelectionOptions
+__OBJC_$_INSTANCE_METHODS_FLTMessagesPigeonCodecReader
+__OBJC_$_INSTANCE_METHODS_FLTMessagesPigeonCodecReaderWriter
+__OBJC_$_INSTANCE_METHODS_FLTMessagesPigeonCodecWriter
+__OBJC_$_INSTANCE_METHODS_FLTPHPickerSaveImageToPathOperation
+__OBJC_$_INSTANCE_METHODS_FLTSourceCameraBox
+__OBJC_$_INSTANCE_METHODS_FLTSourceSpecification
+__OBJC_$_INSTANCE_METHODS_FLTSourceTypeBox
+__OBJC_$_INSTANCE_METHODS_GIFInfo
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FLTImagePickerApi
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_PHPickerViewControllerDelegate
+GCC_except_table30
+GCC_except_table46
+___block_descriptor_56_e8_32s_e40_v16
+"UIGraphicsImageRendererContext"8l
+___block_descriptor_40_e8_32bs_e34_v24
+"NSArray"8
+"FlutterError"16l
+___block_descriptor_32_e23_v16
+"UIAlertAction"8l
+___block_literal_global
+___block_descriptor_57_e8_32s40s_e5_v8
+___block_descriptor_56_e8_32s40s_e8_v12
+?0B8l
+___block_descriptor_56_e8_32s40s_e5_v8
+___block_descriptor_48_e8_32s40s_e8_v16
+?0q8l
+___block_descriptor_64_e8_32s40r48r56w_e5_v8
+___block_descriptor_56_e8_32s40r_e35_v24
+"NSString"8
+"FlutterError"16l
+___block_descriptor_89_e8_32s40s48s56s64s72r80r_e31_v32
+"PHPickerResult"8Q16^B24l
+___block_descriptor_72_e8_32s40s48s56s64s_e46_v32
+"NSData"8
+"NSString"16
+"NSDictionary"24l
+___block_descriptor_40_e8_32bs_e49_v36
+"NSData"8
+"NSString"16I24
+"NSDictionary"28l
+___block_descriptor_40_e8_32s_e28_v24
+"NSData"8
+"NSError"16l
+___block_descriptor_40_e8_32s_e27_v24
+"NSURL"8
+"NSError"16l
+___block_descriptor_32_e5_v8
+___block_literal_global
+___block_descriptor_40_e8_32bs_e35_v24
+"NSString"8
+"FlutterError"16l
+___block_descriptor_40_e8_32s_e18_v24
+>16l
+__OBJC_LABEL_PROTOCOL_$_FLTImagePickerApi
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIImagePickerControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_PHPickerViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_METACLASS_RO_$_GIFInfo
+__OBJC_$_INSTANCE_VARIABLES_GIFInfo
+__OBJC_$_PROP_LIST_GIFInfo
+__OBJC_CLASS_RO_$_GIFInfo
+__OBJC_METACLASS_RO_$_FLTImagePickerImageUtil
+__OBJC_CLASS_RO_$_FLTImagePickerImageUtil
+__OBJC_METACLASS_RO_$_FLTImagePickerMetaDataUtil
+__OBJC_CLASS_RO_$_FLTImagePickerMetaDataUtil
+__OBJC_METACLASS_RO_$_FLTImagePickerPhotoAssetUtil
+__OBJC_CLASS_RO_$_FLTImagePickerPhotoAssetUtil
+__OBJC_METACLASS_RO_$_FLTImagePickerMethodCallContext
+__OBJC_$_INSTANCE_VARIABLES_FLTImagePickerMethodCallContext
+__OBJC_$_PROP_LIST_FLTImagePickerMethodCallContext
+__OBJC_CLASS_RO_$_FLTImagePickerMethodCallContext
+__OBJC_$_PROTOCOL_METHOD_TYPES_FLTImagePickerApi
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_REFS_PHPickerViewControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_PHPickerViewControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_CLASS_PROTOCOLS_$_FLTImagePickerPlugin
+__OBJC_METACLASS_RO_$_FLTImagePickerPlugin
+__OBJC_$_INSTANCE_VARIABLES_FLTImagePickerPlugin
+__OBJC_$_PROP_LIST_FLTImagePickerPlugin
+__OBJC_CLASS_RO_$_FLTImagePickerPlugin
+__OBJC_METACLASS_RO_$_FLTPHPickerSaveImageToPathOperation
+__OBJC_$_INSTANCE_VARIABLES_FLTPHPickerSaveImageToPathOperation
+__OBJC_$_PROP_LIST_FLTPHPickerSaveImageToPathOperation
+__OBJC_CLASS_RO_$_FLTPHPickerSaveImageToPathOperation
+__OBJC_METACLASS_RO_$_PodsDummy_image_picker_ios
+__OBJC_CLASS_RO_$_PodsDummy_image_picker_ios
+__OBJC_METACLASS_RO_$_FLTSourceCameraBox
+__OBJC_$_INSTANCE_VARIABLES_FLTSourceCameraBox
+__OBJC_$_PROP_LIST_FLTSourceCameraBox
+__OBJC_CLASS_RO_$_FLTSourceCameraBox
+__OBJC_METACLASS_RO_$_FLTSourceTypeBox
+__OBJC_$_INSTANCE_VARIABLES_FLTSourceTypeBox
+__OBJC_$_PROP_LIST_FLTSourceTypeBox
+__OBJC_CLASS_RO_$_FLTSourceTypeBox
+__OBJC_METACLASS_RO_$_FLTMaxSize
+__OBJC_$_INSTANCE_VARIABLES_FLTMaxSize
+__OBJC_$_PROP_LIST_FLTMaxSize
+__OBJC_CLASS_RO_$_FLTMaxSize
+__OBJC_METACLASS_RO_$_FLTMediaSelectionOptions
+__OBJC_$_INSTANCE_VARIABLES_FLTMediaSelectionOptions
+__OBJC_$_PROP_LIST_FLTMediaSelectionOptions
+__OBJC_CLASS_RO_$_FLTMediaSelectionOptions
+__OBJC_METACLASS_RO_$_FLTSourceSpecification
+__OBJC_$_INSTANCE_VARIABLES_FLTSourceSpecification
+__OBJC_$_PROP_LIST_FLTSourceSpecification
+__OBJC_CLASS_RO_$_FLTSourceSpecification
+__OBJC_METACLASS_RO_$_FLTMessagesPigeonCodecReader
+__OBJC_CLASS_RO_$_FLTMessagesPigeonCodecReader
+__OBJC_METACLASS_RO_$_FLTMessagesPigeonCodecWriter
+__OBJC_CLASS_RO_$_FLTMessagesPigeonCodecWriter
+__OBJC_METACLASS_RO_$_FLTMessagesPigeonCodecReaderWriter
+__OBJC_CLASS_RO_$_FLTMessagesPigeonCodecReaderWriter
+_OBJC_IVAR_$_GIFInfo._images
+_OBJC_IVAR_$_GIFInfo._interval
+_OBJC_IVAR_$_FLTImagePickerMethodCallContext._requestFullMetadata
+_OBJC_IVAR_$_FLTImagePickerMethodCallContext._includeVideo
+_OBJC_IVAR_$_FLTImagePickerMethodCallContext._maxImageCount
+_OBJC_IVAR_$_FLTImagePickerMethodCallContext._result
+_OBJC_IVAR_$_FLTImagePickerMethodCallContext._maxSize
+_OBJC_IVAR_$_FLTImagePickerMethodCallContext._imageQuality
+_OBJC_IVAR_$_FLTImagePickerPlugin._imagePickerControllerOverrides
+_OBJC_IVAR_$_FLTImagePickerPlugin._callContext
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation.getSavedPath
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation.executing
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation.finished
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation._result
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation._maxHeight
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation._maxWidth
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation._desiredImageQuality
+_OBJC_IVAR_$_FLTPHPickerSaveImageToPathOperation._requestFullMetadata
+_OBJC_IVAR_$_FLTSourceCameraBox._value
+_OBJC_IVAR_$_FLTSourceTypeBox._value
+_OBJC_IVAR_$_FLTMaxSize._width
+_OBJC_IVAR_$_FLTMaxSize._height
+_OBJC_IVAR_$_FLTMediaSelectionOptions._requestFullMetadata
+_OBJC_IVAR_$_FLTMediaSelectionOptions._allowMultiple
+_OBJC_IVAR_$_FLTMediaSelectionOptions._maxSize
+_OBJC_IVAR_$_FLTMediaSelectionOptions._imageQuality
+_OBJC_IVAR_$_FLTMediaSelectionOptions._limit
+_OBJC_IVAR_$_FLTSourceSpecification._type
+_OBJC_IVAR_$_FLTSourceSpecification._camera
+__OBJC_PROTOCOL_$_FLTImagePickerApi
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UINavigationControllerDelegate
+__OBJC_PROTOCOL_$_UIImagePickerControllerDelegate
+__OBJC_PROTOCOL_$_PHPickerViewControllerDelegate
+__OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterPlugin
+_FLTGetMessagesCodec.sSharedObject
+_FLTGetMessagesCodec.sPred
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/DerivedSources/
+image_picker_ios_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/image_picker_ios_vers.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/ios/image_picker_ios/Sources/image_picker_ios/
+FLTImagePickerImageUtil.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/FLTImagePickerImageUtil.o
+-[GIFInfo initWithImages:interval:]
+/Users/wujichao/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/ios/image_picker_ios/Sources/image_picker_ios/
+FLTImagePickerMetaDataUtil.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/FLTImagePickerMetaDataUtil.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/ios/image_picker_ios/Sources/image_picker_ios/
+FLTImagePickerPhotoAssetUtil.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/FLTImagePickerPhotoAssetUtil.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/ios/image_picker_ios/Sources/image_picker_ios/
+FLTImagePickerPlugin.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/FLTImagePickerPlugin.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/ios/image_picker_ios/Sources/image_picker_ios/
+FLTPHPickerSaveImageToPathOperation.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/FLTPHPickerSaveImageToPathOperation.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/image_picker_ios/
+image_picker_ios-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/image_picker_ios-dummy.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.12+2/ios/image_picker_ios/Sources/image_picker_ios/
+messages.g.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/image_picker_ios.build/Objects-normal/arm64/messages.g.o
+image_picker_ios
+~P7TE
+N,*,
+mI5T
+_z5R{
+GZP_
+TjR:
+$Jg-3
+b!2.
+image_picker_ios
+subject.CN

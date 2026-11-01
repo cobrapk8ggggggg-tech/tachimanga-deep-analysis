@@ -1,0 +1,21 @@
+bplist00
+!"#$%#&'()*-_
+BuildMachineOSBuild_
+CFBundleDevelopmentRegion_
+CFBundleExecutable_
+CFBundleIdentifier_
+CFBundleInfoDictionaryVersion\CFBundleName_
+CFBundlePackageType_
+CFBundleShortVersionString_
+CFBundleSignature_
+CFBundleSupportedPlatforms_
+CFBundleVersionZDTCompiler_
+DTPlatformBuild^DTPlatformName_
+DTPlatformVersionZDTSDKBuildYDTSDKNameWDTXcode\DTXcodeBuild_
+MinimumOSVersion^UIDeviceFamily_
+UIRequiredDeviceCapabilitiesV25G241Ren_
+webview_flutter_wkwebview_
+'org.cocoapods.webview-flutter-wkwebviewS6.0TFMWKU0.0.1T????
+ XiPhoneOSQ1_
+"com.apple.compilers.llvm.clang.1_0X24A94232XiphoneosT27.1\iphoneos27.1T2710W27A9275T15.0
+.Uarm64

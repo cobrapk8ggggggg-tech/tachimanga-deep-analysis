@@ -1,0 +1,530 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_classname__TEXT
+__cstring
+__TEXT
+__objc_methtype
+__TEXT
+__objc_methname
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__LINKEDIT
+@rpath/device_info_plus.framework/device_info_plus
+@rpath/Flutter.framework/Flutter
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/UIKit.framework/UIKit
+@executable_path/Frameworks
+@loader_path/Frameworks
+@(#)PROGRAM:device_info_plus  PROJECT:Pods-1
+?PodsDummy_device_info_plus
+DeviceIdentifiers
+FPPDeviceInfoPlusPlugin
+FlutterPlugin
+NSObject
+FlutterApplicationLifeCycleDelegate
+UNUserNotificationCenterDelegate
+iPhone6,1
+iPhone 5s
+iPhone6,2
+iPhone7,2
+iPhone 6
+iPhone7,1
+iPhone 6 Plus
+iPhone8,1
+iPhone 6s
+iPhone8,2
+iPhone 6s Plus
+iPhone9,1
+iPhone9,3
+iPhone 7
+iPhone9,2
+iPhone9,4
+iPhone 7 Plus
+iPhone8,4
+iPhone SE
+iPhone10,1
+iPhone10,4
+iPhone 8
+iPhone10,2
+iPhone10,5
+iPhone 8 Plus
+iPhone10,3
+iPhone10,6
+iPhone X
+iPhone11,2
+iPhone XS
+iPhone11,4
+iPhone11,6
+iPhone XS Max
+iPhone11,8
+iPhone XR
+iPhone12,1
+iPhone 11
+iPhone12,3
+iPhone 11 Pro
+iPhone12,5
+iPhone 11 Pro Max
+iPhone12,8
+iPhone SE 2
+iPhone13,2
+iPhone 12
+iPhone13,1
+iPhone 12 Mini
+iPhone13,3
+iPhone 12 Pro
+iPhone13,4
+iPhone 12 Pro Max
+iPhone14,5
+iPhone 13
+iPhone14,4
+iPhone 13 Mini
+iPhone14,2
+iPhone 13 Pro
+iPhone14,3
+iPhone 13 Pro Max
+iPhone14,6
+iPhone SE 3
+iPhone14,7
+iPhone 14
+iPhone14,8
+iPhone 14 Plus
+iPhone15,2
+iPhone 14 Pro
+iPhone15,3
+iPhone 14 Pro Max
+iPhone15,4
+iPhone 15
+iPhone15,5
+iPhone 15 Plus
+iPhone16,1
+iPhone 15 Pro
+iPhone16,2
+iPhone 15 Pro Max
+iPhone17,3
+iPhone 16
+iPhone17,4
+iPhone 16 Plus
+iPhone17,1
+iPhone 16 Pro
+iPhone17,2
+iPhone 16 Pro Max
+iPad4,1
+iPad4,2
+iPad4,3
+iPad Air
+iPad5,3
+iPad5,4
+iPad Air 2
+iPad6,11
+iPad6,12
+iPad 5
+iPad7,5
+iPad7,6
+iPad 6
+iPad11,3
+iPad11,4
+iPad Air 3
+iPad7,11
+iPad7,12
+iPad 7
+iPad11,6
+iPad11,7
+iPad 8
+iPad12,1
+iPad12,2
+iPad 9
+iPad13,18
+iPad13,19
+iPad 10
+iPad13,1
+iPad13,2
+iPad Air 4
+iPad13,16
+iPad13,17
+iPad Air 5
+iPad14,8
+iPad14,9
+iPad Air 11-Inch M2
+iPad14,10
+iPad14,11
+iPad Air 13-Inch M2
+iPad2,5
+iPad2,6
+iPad2,7
+iPad Mini
+iPad4,4
+iPad4,5
+iPad4,6
+iPad Mini 2
+iPad4,7
+iPad4,8
+iPad4,9
+iPad Mini 3
+iPad5,1
+iPad5,2
+iPad Mini 4
+iPad11,1
+iPad11,2
+iPad Mini 5
+iPad14,1
+iPad14,2
+iPad Mini 6
+iPad6,3
+iPad6,4
+iPad Pro 9-Inch
+iPad6,7
+iPad6,8
+iPad Pro 12-Inch
+iPad7,1
+iPad7,2
+iPad Pro 12-Inch 2
+iPad7,3
+iPad7,4
+iPad Pro 10-Inch
+iPad8,1
+iPad8,2
+iPad8,3
+iPad8,4
+iPad Pro 11-Inch
+iPad8,5
+iPad8,6
+iPad8,7
+iPad8,8
+iPad Pro 12-Inch 3
+iPad8,9
+iPad8,10
+iPad Pro 11-Inch 2
+iPad8,11
+iPad8,12
+iPad Pro 12-Inch 4
+iPad13,4
+iPad13,5
+iPad13,6
+iPad13,7
+iPad Pro 11-Inch 3
+iPad13,8
+iPad13,9
+iPad13,10
+iPad13,11
+iPad Pro 12-Inch 5
+iPad14,3
+iPad14,4
+iPad Pro 11-Inch 4
+iPad14,5
+iPad14,6
+iPad Pro 12-Inch 6
+iPad16,3
+iPad16,4
+iPad Pro 11-Inch (M4)
+iPad16,5
+iPad16,6
+iPad Pro 13-Inch (M4)
+Unknown device
+dev.fluttercommunity.plus/device_info
+getDeviceInfo
+SIMULATOR_MODEL_IDENTIFIER
+name
+systemName
+systemVersion
+model
+localizedModel
+modelName
+identifierForVendor
+isPhysicalDevice
+isiOSAppOnMac
+utsname
+sysname
+nodename
+release
+version
+machine
+@24@0:8@16
+v24@0:8@16
+B24@0:8@16
+#16@0:8
+@16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v40@0:8@16@24@?32
+v32@0:8@16@24
+v40@0:8@"UNUserNotificationCenter"16@"UNNotification"24@?<v@?Q>32
+v40@0:8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32
+v32@0:8@"UNUserNotificationCenter"16@"UNNotification"24
+B32@0:8@16@24
+B40@0:8@16@24@?32
+B40@0:8@16@24@32
+B48@0:8@16@24@32@40
+B32@0:8@16@?24
+B32@0:8@"UIApplication"16@"NSDictionary"24
+v24@0:8@"UIApplication"16
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+B40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+B40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+B32@0:8@"UIApplication"16@?<v@?Q>24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v32@0:8@16@?24
+v24@0:8^?16
+v24@0:8@"NSObject<FlutterPluginRegistrar>"16
+v32@0:8@"FlutterMethodCall"16@?<v@?@>24
+applicationWillEnterForeground:
+T@"NSString",?,R,C
+numberWithBool:
+TQ,R
+T#,R
+isProxy
+T@"NSString",R,C
+release
+UUIDString
+addMethodCallDelegate:channel:
+application:continueUserActivity:restorationHandler:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleOpenURL:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationWillResignActive:
+applicationWillTerminate:
+autorelease
+class
+conformsToProtocol:
+currentDevice
+debugDescription
+description
+detachFromEngineForRegistrar:
+dictionaryWithObjects:forKeys:count:
+environment
+handleMethodCall:result:
+hash
+identifierForVendor
+isDevicePhysical
+isEqual:
+isEqualToString:
+isKindOfClass:
+isMemberOfClass:
+isiOSAppOnMac
+localizedModel
+messenger
+method
+methodChannelWithName:binaryMessenger:
+model
+name
+null
+objectForKeyedSubscript:
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+processInfo
+registerWithRegistrar:
+respondsToSelector:
+retain
+retainCount
+self
+setPluginRegistrantCallback:
+stringWithUTF8String:
+superclass
+systemName
+systemVersion
+userKnownDeviceModel:
+userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:
+userNotificationCenter:openSettingsForNotification:
+userNotificationCenter:willPresentNotification:withCompletionHandler:
+zone
+___CFConstantStringClassReference
+_FlutterMethodNotImplemented
+_objc_alloc_init
+_objc_msgSend
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+___stack_chk_fail
+___stack_chk_guard
+_uname
+_OBJC_CLASS_$_FlutterMethodChannel
+_OBJC_CLASS_$_UIDevice
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSDictionary
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+DeviceIdentifiers
+	FPPDeviceInfoPlusPlugin
+PodsDummy_device_info_plus
+DeviceIdentifiers
+eFPPDeviceInfoPlusPlugin
+kPodsDummy_device_info_plus
+CLASS_$_
+METACLASS_$_
+Number
+String
+OBJC_
+device_info_plusVersion
+_OBJC_CLASS_$_DeviceIdentifiers
+_OBJC_CLASS_$_FPPDeviceInfoPlusPlugin
+_OBJC_CLASS_$_PodsDummy_device_info_plus
+_OBJC_METACLASS_$_DeviceIdentifiers
+_OBJC_METACLASS_$_FPPDeviceInfoPlusPlugin
+_OBJC_METACLASS_$_PodsDummy_device_info_plus
+_device_info_plusVersionNumber
+_device_info_plusVersionString
+_FlutterMethodNotImplemented
+_OBJC_CLASS_$_FlutterMethodChannel
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_UIDevice
+_OBJC_METACLASS_$_NSObject
+___CFConstantStringClassReference
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_objc_alloc_init
+_objc_msgSend
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+_uname
++[DeviceIdentifiers userKnownDeviceModel:]
++[FPPDeviceInfoPlusPlugin registerWithRegistrar:]
+-[FPPDeviceInfoPlusPlugin handleMethodCall:result:]
+-[FPPDeviceInfoPlusPlugin isDevicePhysical]
+_objc_msgSend$UUIDString
+_objc_msgSend$addMethodCallDelegate:channel:
+_objc_msgSend$currentDevice
+_objc_msgSend$dictionaryWithObjects:forKeys:count:
+_objc_msgSend$environment
+_objc_msgSend$identifierForVendor
+_objc_msgSend$isDevicePhysical
+_objc_msgSend$isEqualToString:
+_objc_msgSend$isiOSAppOnMac
+_objc_msgSend$localizedModel
+_objc_msgSend$messenger
+_objc_msgSend$method
+_objc_msgSend$methodChannelWithName:binaryMessenger:
+_objc_msgSend$model
+_objc_msgSend$name
+_objc_msgSend$null
+_objc_msgSend$numberWithBool:
+_objc_msgSend$objectForKeyedSubscript:
+_objc_msgSend$processInfo
+_objc_msgSend$stringWithUTF8String:
+_objc_msgSend$systemName
+_objc_msgSend$systemVersion
+_objc_msgSend$userKnownDeviceModel:
+__OBJC_$_CLASS_METHODS_DeviceIdentifiers
+__OBJC_$_CLASS_METHODS_FPPDeviceInfoPlusPlugin
+__OBJC_$_INSTANCE_METHODS_FPPDeviceInfoPlusPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_METACLASS_RO_$_PodsDummy_device_info_plus
+__OBJC_CLASS_RO_$_PodsDummy_device_info_plus
+__OBJC_METACLASS_RO_$_DeviceIdentifiers
+__OBJC_CLASS_RO_$_DeviceIdentifiers
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_CLASS_PROTOCOLS_$_FPPDeviceInfoPlusPlugin
+__OBJC_METACLASS_RO_$_FPPDeviceInfoPlusPlugin
+__OBJC_$_PROP_LIST_FPPDeviceInfoPlusPlugin
+__OBJC_CLASS_RO_$_FPPDeviceInfoPlusPlugin
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterPlugin
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/device_info_plus.build/DerivedSources/
+device_info_plus_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/device_info_plus.build/Objects-normal/arm64/device_info_plus_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/device_info_plus/
+device_info_plus-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/device_info_plus.build/Objects-normal/arm64/device_info_plus-dummy.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/device_info_plus-11.3.0/ios/device_info_plus/Sources/device_info_plus/
+DeviceIdentifiers.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/device_info_plus.build/Objects-normal/arm64/DeviceIdentifiers.o
++[DeviceIdentifiers userKnownDeviceModel:]
+/Users/wujichao/.pub-cache/hosted/pub.dev/device_info_plus-11.3.0/ios/device_info_plus/Sources/device_info_plus/
+FPPDeviceInfoPlusPlugin.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/device_info_plus.build/Objects-normal/arm64/FPPDeviceInfoPlusPlugin.o
+device_info_plus
+(0azb
+c@<7~
+3,8W
+s)DP
+"767
+device_info_plus
+subject.CN

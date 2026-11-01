@@ -1,0 +1,973 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_methname
+__TEXT
+__objc_classname__TEXT
+__objc_methtype
+__TEXT
+__cstring
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/local_auth_darwin.framework/local_auth_darwin
+@rpath/Flutter.framework/Flutter
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+/System/Library/Frameworks/UIKit.framework/UIKit
+@executable_path/Frameworks
+@loader_path/Frameworks
+@(#)PROGRAM:local_auth_darwin  PROJECT:Pods-1
+T@"NSString",C,N,V_cancelButton
+T#,R
+T@"NSString",C,N,V_errorMessage
+T@"FLADAuthStrings",&,N,V_strings
+_result
+T@"LAContext",&,N,V_context
+applicationWillEnterForeground:
+T@"NSObject<FLADAuthContextFactory>",&,N,V_authContextFactory
+details
+T@"NSObject<FlutterPluginRegistrar>",&,N,V_registrar
+handleSucceeded:withCompletion:
+T@"NSString",C,N
+lockOut
+T@"NSString",C,N,V_goToSettingsDescription
+numberWithBool:
+T@"NSString",C,N,V_lockOut
+readerWithData:
+T@"NSString",R,C
+strings
+T@?,C,N,V_resultHandler
+writerWithData:
+.cxx_destruct
+T@"NSString",C,N,V_errorDetails
+T@"FLADAuthOptions",&,N,V_options
+_reason
+T@"FLAStickyAuthState",&,N,V_lastCallState
+_sticky
+T@"NSObject<FLADAlertFactory>",&,N,V_alertFactory
+context
+T@"NSObject<FLAViewProvider>",&,N,V_viewProvider
+getEnrolledBiometricsWithError:
+T@"NSString",?,R,C
+isProxy
+T@"NSString",C,N,V_goToSettingsButton
+message
+T@"NSString",C,N,V_localizedFallbackTitle
+options
+T@"NSString",C,N,V_reason
+release
+T@"UIAlertController",&,N,V_controller
+useErrorDialogs
+TB,N,V_biometricOnly
+TB,N,V_sticky
+TB,N,V_useErrorDialogs
+TQ,N,V_result
+TQ,N,V_value
+TQ,R
+Tq,R,N
+URLWithString:
+_alertFactory
+_authContextFactory
+_biometricOnly
+_cancelButton
+_context
+_controller
+_errorDetails
+_errorMessage
+_goToSettingsButton
+_goToSettingsDescription
+_lastCallState
+_localizedFallbackTitle
+_lockOut
+_options
+_registrar
+_resultHandler
+_strings
+_useErrorDialogs
+_value
+_viewProvider
+actionWithTitle:style:handler:
+addAction:
+addApplicationDelegate:
+addObject:
+alertControllerWithTitle:message:preferredStyle:
+alertFactory
+application:continueUserActivity:restorationHandler:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleOpenURL:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationWillResignActive:
+applicationWillTerminate:
+arrayWithObjects:count:
+authContextFactory
+authenticateWithOptions:strings:completion:
+autorelease
+biometricOnly
+biometryType
+boolValue
+canEvaluatePolicy:error:
+cancelButton
+class
+code
+codecWithReaderWriter:
+conformsToProtocol:
+controller
+createAlertControllerWithTitle:message:preferredStyle:
+createAuthContext
+debugDescription
+delegate
+description
+detachFromEngineForRegistrar:
+deviceCanSupportBiometricsWithError:
+domain
+errorDetails
+errorMessage
+evaluatePolicy:localizedReason:reply:
+fromList:
+goToSettingsButton
+goToSettingsDescription
+handleAuthReplyWithSuccess:error:options:strings:completion:
+handleError:withOptions:strings:completion:
+handleMethodCall:result:
+hash
+init
+initWithAlertController:
+initWithContext:
+initWithContextFactory:alertFactory:viewProvider:
+initWithData:
+initWithName:binaryMessenger:codec:
+initWithOptions:strings:resultHandler:
+initWithRegistrar:
+initWithValue:
+integerValue
+isDeviceSupportedWithError:
+isEqual:
+isKindOfClass:
+isMemberOfClass:
+lastCallState
+length
+localizedDescription
+localizedFallbackTitle
+makeWithBiometricOnly:sticky:useErrorDialogs:
+makeWithReason:lockOut:goToSettingsButton:goToSettingsDescription:cancelButton:localizedFallbackTitle:
+makeWithResult:errorMessage:errorDetails:
+messenger
+null
+nullableFromList:
+numberWithInteger:
+objectAtIndexedSubscript:
+openURL:options:completionHandler:
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+presentOnViewController:animated:completion:
+presentViewController:animated:completion:
+readValue
+readValueOfType:
+reason
+registerWithRegistrar:
+registrar
+respondsToSelector:
+result
+resultHandler
+retain
+retainCount
+rootViewController
+self
+setAlertFactory:
+setAuthContextFactory:
+setBiometricOnly:
+setCancelButton:
+setContext:
+setController:
+setErrorDetails:
+setErrorMessage:
+setGoToSettingsButton:
+setGoToSettingsDescription:
+setLastCallState:
+setLocalizedFallbackTitle:
+setLockOut:
+setMessageHandler:
+setOptions:
+setPluginRegistrantCallback:
+setReason:
+setRegistrar:
+setResult:
+setResultHandler:
+setSticky:
+setStrings:
+setUseErrorDialogs:
+setValue:
+setViewProvider:
+sharedApplication
+showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:
+sticky
+stringWithFormat:
+superclass
+toList
+userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:
+userNotificationCenter:openSettingsForNotification:
+userNotificationCenter:willPresentNotification:withCompletionHandler:
+value
+viewProvider
+window
+writeByte:
+writeValue:
+zone
+FLADefaultAuthContext
+FLADAuthContext
+NSObject
+FLADefaultAuthContextFactory
+FLADAuthContextFactory
+FLADefaultUIAlertController
+FLAUIAlertController
+FLADefaultAlertFactory
+FLADAlertFactory
+FLADefaultViewProvider
+FLAViewProvider
+FLAStickyAuthState
+FLALocalAuthPlugin
+FlutterPlugin
+FlutterApplicationLifeCycleDelegate
+UNUserNotificationCenterDelegate
+FLADLocalAuthApi
+PodsDummy_local_auth_darwin
+FLADAuthResultBox
+FLADAuthBiometricBox
+FLADAuthStrings
+FLADAuthOptions
+FLADAuthResultDetails
+FLADMessagesPigeonCodecReader
+FLADMessagesPigeonCodecWriter
+FLADMessagesPigeonCodecReaderWriter
+B24@0:8@16
+#16@0:8
+@16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+B32@0:8q16^@24
+v40@0:8q16@24@?32
+v24@0:8@16
+q16@0:8
+v40@0:8q16@"NSString"24@?<v@?B@"NSError">32
+v24@0:8@"NSString"16
+@24@0:8@16
+v16@0:8
+@"LAContext"
+@"NSObject<FLADAuthContext>"16@0:8
+v36@0:8@16B24@?28
+v24@0:8@"UIAlertAction"16
+v36@0:8@"UIViewController"16B24@?<v@?>28
+@"UIAlertController"
+@40@0:8@16@24q32
+@"NSObject<FLAUIAlertController>"40@0:8@"NSString"16@"NSString"24q32
+@"NSObject<FlutterPluginRegistrar>"
+@40@0:8@16@24@?32
+@?16@0:8
+v24@0:8@?16
+@"FLADAuthOptions"
+@"FLADAuthStrings"
+v40@0:8@16@24@?32
+v32@0:8@16@24
+v40@0:8@"UNUserNotificationCenter"16@"UNNotification"24@?<v@?Q>32
+v40@0:8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32
+v32@0:8@"UNUserNotificationCenter"16@"UNNotification"24
+B32@0:8@16@24
+B40@0:8@16@24@?32
+B40@0:8@16@24@32
+B48@0:8@16@24@32@40
+B32@0:8@16@?24
+B32@0:8@"UIApplication"16@"NSDictionary"24
+v24@0:8@"UIApplication"16
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+B40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+B40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+B32@0:8@"UIApplication"16@?<v@?Q>24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v32@0:8@16@?24
+v24@0:8^?16
+v24@0:8@"NSObject<FlutterPluginRegistrar>"16
+v32@0:8@"FlutterMethodCall"16@?<v@?@>24
+@24@0:8^@16
+@"NSNumber"24@0:8^@16
+@"NSArray"24@0:8^@16
+v40@0:8@"FLADAuthOptions"16@"FLADAuthStrings"24@?<v@?@"FLADAuthResultDetails"@"FlutterError">32
+@40@0:8@16@24@32
+v48@0:8@16@24@32@?40
+v52@0:8B16@20@28@36@?44
+v28@0:8B16@?20
+@"FLAStickyAuthState"
+@"NSObject<FLADAuthContextFactory>"
+@"NSObject<FLADAlertFactory>"
+@"NSObject<FLAViewProvider>"
+@24@0:8Q16
+v24@0:8Q16
+@64@0:8@16@24@32@40@48@56
+@"NSString"
+@28@0:8B16B20B24
+v20@0:8B16
+@40@0:8Q16@24@32
+@20@0:8C16
+v8@?0
+v20@?0B8@"NSError"12
+v16@?0@"UIAlertAction"8
+%@%@
+dev.flutter.pigeon.local_auth_darwin.LocalAuthApi.isDeviceSupported
+v24@?0@8@?<v@?@>16
+dev.flutter.pigeon.local_auth_darwin.LocalAuthApi.deviceCanSupportBiometrics
+dev.flutter.pigeon.local_auth_darwin.LocalAuthApi.getEnrolledBiometrics
+dev.flutter.pigeon.local_auth_darwin.LocalAuthApi.authenticate
+v24@?0@"FLADAuthResultDetails"8@"FlutterError"16
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+__Block_object_assign
+__NSConcreteStackBlock
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+_dispatch_async
+_dispatch_once
+___NSDictionary0__struct
+___kCFBooleanFalse
+___kCFBooleanTrue
+_UIApplicationOpenSettingsURLString
+_OBJC_CLASS_$_LAContext
+_OBJC_CLASS_$_UIAlertController
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_UIAlertAction
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_FlutterStandardMessageCodec
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_FlutterBasicMessageChannel
+__objc_empty_cache
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_FlutterStandardReader
+_OBJC_METACLASS_$_FlutterStandardReader
+_OBJC_CLASS_$_FlutterStandardWriter
+_OBJC_METACLASS_$_FlutterStandardWriter
+_OBJC_METACLASS_$_FlutterStandardReaderWriter
+_OBJC_CLASS_$_FlutterStandardReaderWriter
+Details
+BiometricBox
+Options
+Result
+'Strings
+Writer
+Reader
+mWriter
+Factory
+lertFactory
+uthContext
+UIAlertController
+ViewProvider
+Auth
+=MessagesPigeonCodec
+efault
+LocalAuthPlugin
+StickyAuthState
+PodsDummy_local_auth_darwin
+Details
+BiometricBox
+Options
+Result
+Strings
+Writer
+Reader
+Writer
+Factory
+lertFactory
+uthContext
+UIAlertController
+ViewProvider
+Auth
+MessagesPigeonCodec
+efault
+LocalAuthPlugin
+StickyAuthState
+PodsDummy_local_auth_darwin
+CLASS_$_
+METACLASS_$_
+WithSuffix
+Number
+String
+FLADGetMessagesCodec
+	OBJC_
+SetUpFLADLocalAuthApi
+local_auth_darwinVersion
+xDP<T|
+L@D8
+LL0X
+_FLADGetMessagesCodec
+_OBJC_CLASS_$_FLADAuthBiometricBox
+_OBJC_CLASS_$_FLADAuthOptions
+_OBJC_CLASS_$_FLADAuthResultBox
+_OBJC_CLASS_$_FLADAuthResultDetails
+_OBJC_CLASS_$_FLADAuthStrings
+_OBJC_CLASS_$_FLADMessagesPigeonCodecReader
+_OBJC_CLASS_$_FLADMessagesPigeonCodecReaderWriter
+_OBJC_CLASS_$_FLADMessagesPigeonCodecWriter
+_OBJC_CLASS_$_FLADefaultAlertFactory
+_OBJC_CLASS_$_FLADefaultAuthContext
+_OBJC_CLASS_$_FLADefaultAuthContextFactory
+_OBJC_CLASS_$_FLADefaultUIAlertController
+_OBJC_CLASS_$_FLADefaultViewProvider
+_OBJC_CLASS_$_FLALocalAuthPlugin
+_OBJC_CLASS_$_FLAStickyAuthState
+_OBJC_CLASS_$_PodsDummy_local_auth_darwin
+_OBJC_METACLASS_$_FLADAuthBiometricBox
+_OBJC_METACLASS_$_FLADAuthOptions
+_OBJC_METACLASS_$_FLADAuthResultBox
+_OBJC_METACLASS_$_FLADAuthResultDetails
+_OBJC_METACLASS_$_FLADAuthStrings
+_OBJC_METACLASS_$_FLADMessagesPigeonCodecReader
+_OBJC_METACLASS_$_FLADMessagesPigeonCodecReaderWriter
+_OBJC_METACLASS_$_FLADMessagesPigeonCodecWriter
+_OBJC_METACLASS_$_FLADefaultAlertFactory
+_OBJC_METACLASS_$_FLADefaultAuthContext
+_OBJC_METACLASS_$_FLADefaultAuthContextFactory
+_OBJC_METACLASS_$_FLADefaultUIAlertController
+_OBJC_METACLASS_$_FLADefaultViewProvider
+_OBJC_METACLASS_$_FLALocalAuthPlugin
+_OBJC_METACLASS_$_FLAStickyAuthState
+_OBJC_METACLASS_$_PodsDummy_local_auth_darwin
+_SetUpFLADLocalAuthApi
+_SetUpFLADLocalAuthApiWithSuffix
+_local_auth_darwinVersionNumber
+_local_auth_darwinVersionString
+_OBJC_CLASS_$_FlutterBasicMessageChannel
+_OBJC_CLASS_$_FlutterStandardMessageCodec
+_OBJC_CLASS_$_FlutterStandardReader
+_OBJC_CLASS_$_FlutterStandardReaderWriter
+_OBJC_CLASS_$_FlutterStandardWriter
+_OBJC_CLASS_$_LAContext
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_UIAlertAction
+_OBJC_CLASS_$_UIAlertController
+_OBJC_CLASS_$_UIApplication
+_OBJC_METACLASS_$_FlutterStandardReader
+_OBJC_METACLASS_$_FlutterStandardReaderWriter
+_OBJC_METACLASS_$_FlutterStandardWriter
+_OBJC_METACLASS_$_NSObject
+_UIApplicationOpenSettingsURLString
+__Block_object_assign
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+___CFConstantStringClassReference
+___NSDictionary0__struct
+___kCFBooleanFalse
+___kCFBooleanTrue
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+_dispatch_async
+_dispatch_once
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+-[FLADefaultAuthContext initWithContext:]
+-[FLADefaultAuthContext localizedFallbackTitle]
+-[FLADefaultAuthContext setLocalizedFallbackTitle:]
+-[FLADefaultAuthContext biometryType]
+-[FLADefaultAuthContext canEvaluatePolicy:error:]
+-[FLADefaultAuthContext evaluatePolicy:localizedReason:reply:]
+-[FLADefaultAuthContext context]
+-[FLADefaultAuthContext setContext:]
+-[FLADefaultAuthContext .cxx_destruct]
+-[FLADefaultAuthContextFactory createAuthContext]
+-[FLADefaultUIAlertController initWithAlertController:]
+-[FLADefaultUIAlertController addAction:]
+-[FLADefaultUIAlertController presentOnViewController:animated:completion:]
+-[FLADefaultUIAlertController controller]
+-[FLADefaultUIAlertController setController:]
+-[FLADefaultUIAlertController .cxx_destruct]
+-[FLADefaultAlertFactory createAlertControllerWithTitle:message:preferredStyle:]
+-[FLADefaultViewProvider initWithRegistrar:]
+-[FLADefaultViewProvider registrar]
+-[FLADefaultViewProvider setRegistrar:]
+-[FLADefaultViewProvider .cxx_destruct]
+-[FLAStickyAuthState initWithOptions:strings:resultHandler:]
+-[FLAStickyAuthState options]
+-[FLAStickyAuthState setOptions:]
+-[FLAStickyAuthState strings]
+-[FLAStickyAuthState setStrings:]
+-[FLAStickyAuthState resultHandler]
+-[FLAStickyAuthState setResultHandler:]
+-[FLAStickyAuthState .cxx_destruct]
++[FLALocalAuthPlugin registerWithRegistrar:]
+-[FLALocalAuthPlugin initWithContextFactory:alertFactory:viewProvider:]
+-[FLALocalAuthPlugin authenticateWithOptions:strings:completion:]
+___65-[FLALocalAuthPlugin authenticateWithOptions:strings:completion:]_block_invoke
+___65-[FLALocalAuthPlugin authenticateWithOptions:strings:completion:]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56s64b
+___destroy_helper_block_e8_32s40s48s56s64s
+___copy_helper_block_e8_32s40s48s56b
+___destroy_helper_block_e8_32s40s48s56s
+-[FLALocalAuthPlugin deviceCanSupportBiometricsWithError:]
+-[FLALocalAuthPlugin getEnrolledBiometricsWithError:]
+-[FLALocalAuthPlugin isDeviceSupportedWithError:]
+-[FLALocalAuthPlugin showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:]
+___97-[FLALocalAuthPlugin showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:]_block_invoke
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+___97-[FLALocalAuthPlugin showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:]_block_invoke.144
+-[FLALocalAuthPlugin handleAuthReplyWithSuccess:error:options:strings:completion:]
+-[FLALocalAuthPlugin handleSucceeded:withCompletion:]
+-[FLALocalAuthPlugin handleError:withOptions:strings:completion:]
+-[FLALocalAuthPlugin applicationDidBecomeActive:]
+-[FLALocalAuthPlugin lastCallState]
+-[FLALocalAuthPlugin setLastCallState:]
+-[FLALocalAuthPlugin authContextFactory]
+-[FLALocalAuthPlugin setAuthContextFactory:]
+-[FLALocalAuthPlugin alertFactory]
+-[FLALocalAuthPlugin setAlertFactory:]
+-[FLALocalAuthPlugin viewProvider]
+-[FLALocalAuthPlugin setViewProvider:]
+-[FLALocalAuthPlugin .cxx_destruct]
+-[FLADAuthResultBox initWithValue:]
+-[FLADAuthResultBox value]
+-[FLADAuthResultBox setValue:]
+-[FLADAuthBiometricBox initWithValue:]
+-[FLADAuthBiometricBox value]
+-[FLADAuthBiometricBox setValue:]
++[FLADAuthStrings makeWithReason:lockOut:goToSettingsButton:goToSettingsDescription:cancelButton:localizedFallbackTitle:]
++[FLADAuthStrings fromList:]
+_GetNullableObjectAtIndex
++[FLADAuthStrings nullableFromList:]
+-[FLADAuthStrings toList]
+-[FLADAuthStrings reason]
+-[FLADAuthStrings setReason:]
+-[FLADAuthStrings lockOut]
+-[FLADAuthStrings setLockOut:]
+-[FLADAuthStrings goToSettingsButton]
+-[FLADAuthStrings setGoToSettingsButton:]
+-[FLADAuthStrings goToSettingsDescription]
+-[FLADAuthStrings setGoToSettingsDescription:]
+-[FLADAuthStrings cancelButton]
+-[FLADAuthStrings setCancelButton:]
+-[FLADAuthStrings localizedFallbackTitle]
+-[FLADAuthStrings setLocalizedFallbackTitle:]
+-[FLADAuthStrings .cxx_destruct]
++[FLADAuthOptions makeWithBiometricOnly:sticky:useErrorDialogs:]
++[FLADAuthOptions fromList:]
++[FLADAuthOptions nullableFromList:]
+-[FLADAuthOptions toList]
+-[FLADAuthOptions biometricOnly]
+-[FLADAuthOptions setBiometricOnly:]
+-[FLADAuthOptions sticky]
+-[FLADAuthOptions setSticky:]
+-[FLADAuthOptions useErrorDialogs]
+-[FLADAuthOptions setUseErrorDialogs:]
++[FLADAuthResultDetails makeWithResult:errorMessage:errorDetails:]
++[FLADAuthResultDetails fromList:]
++[FLADAuthResultDetails nullableFromList:]
+-[FLADAuthResultDetails toList]
+-[FLADAuthResultDetails result]
+-[FLADAuthResultDetails setResult:]
+-[FLADAuthResultDetails errorMessage]
+-[FLADAuthResultDetails setErrorMessage:]
+-[FLADAuthResultDetails errorDetails]
+-[FLADAuthResultDetails setErrorDetails:]
+-[FLADAuthResultDetails .cxx_destruct]
+-[FLADMessagesPigeonCodecReader readValueOfType:]
+-[FLADMessagesPigeonCodecWriter writeValue:]
+-[FLADMessagesPigeonCodecReaderWriter writerWithData:]
+-[FLADMessagesPigeonCodecReaderWriter readerWithData:]
+___FLADGetMessagesCodec_block_invoke
+___SetUpFLADLocalAuthApiWithSuffix_block_invoke
+_wrapResult
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___SetUpFLADLocalAuthApiWithSuffix_block_invoke.128
+___SetUpFLADLocalAuthApiWithSuffix_block_invoke_2
+___SetUpFLADLocalAuthApiWithSuffix_block_invoke_3
+___SetUpFLADLocalAuthApiWithSuffix_block_invoke_4
+___copy_helper_block_e8_32b
+_FLADGetMessagesCodec.cold.1
+_objc_msgSend$URLWithString:
+_objc_msgSend$actionWithTitle:style:handler:
+_objc_msgSend$addAction:
+_objc_msgSend$addApplicationDelegate:
+_objc_msgSend$addObject:
+_objc_msgSend$alertControllerWithTitle:message:preferredStyle:
+_objc_msgSend$arrayWithObjects:count:
+_objc_msgSend$authContextFactory
+_objc_msgSend$authenticateWithOptions:strings:completion:
+_objc_msgSend$biometricOnly
+_objc_msgSend$biometryType
+_objc_msgSend$boolValue
+_objc_msgSend$canEvaluatePolicy:error:
+_objc_msgSend$cancelButton
+_objc_msgSend$code
+_objc_msgSend$codecWithReaderWriter:
+_objc_msgSend$context
+_objc_msgSend$controller
+_objc_msgSend$createAlertControllerWithTitle:message:preferredStyle:
+_objc_msgSend$createAuthContext
+_objc_msgSend$delegate
+_objc_msgSend$details
+_objc_msgSend$deviceCanSupportBiometricsWithError:
+_objc_msgSend$domain
+_objc_msgSend$errorDetails
+_objc_msgSend$errorMessage
+_objc_msgSend$evaluatePolicy:localizedReason:reply:
+_objc_msgSend$fromList:
+_objc_msgSend$getEnrolledBiometricsWithError:
+_objc_msgSend$goToSettingsButton
+_objc_msgSend$goToSettingsDescription
+_objc_msgSend$handleAuthReplyWithSuccess:error:options:strings:completion:
+_objc_msgSend$handleError:withOptions:strings:completion:
+_objc_msgSend$handleSucceeded:withCompletion:
+_objc_msgSend$initWithAlertController:
+_objc_msgSend$initWithContext:
+_objc_msgSend$initWithContextFactory:alertFactory:viewProvider:
+_objc_msgSend$initWithData:
+_objc_msgSend$initWithName:binaryMessenger:codec:
+_objc_msgSend$initWithOptions:strings:resultHandler:
+_objc_msgSend$initWithRegistrar:
+_objc_msgSend$initWithValue:
+_objc_msgSend$integerValue
+_objc_msgSend$isDeviceSupportedWithError:
+_objc_msgSend$lastCallState
+_objc_msgSend$length
+_objc_msgSend$localizedDescription
+_objc_msgSend$localizedFallbackTitle
+_objc_msgSend$lockOut
+_objc_msgSend$makeWithResult:errorMessage:errorDetails:
+_objc_msgSend$message
+_objc_msgSend$messenger
+_objc_msgSend$null
+_objc_msgSend$numberWithBool:
+_objc_msgSend$numberWithInteger:
+_objc_msgSend$objectAtIndexedSubscript:
+_objc_msgSend$openURL:options:completionHandler:
+_objc_msgSend$options
+_objc_msgSend$presentOnViewController:animated:completion:
+_objc_msgSend$presentViewController:animated:completion:
+_objc_msgSend$readValue
+_objc_msgSend$reason
+_objc_msgSend$result
+_objc_msgSend$resultHandler
+_objc_msgSend$rootViewController
+_objc_msgSend$setBiometricOnly:
+_objc_msgSend$setCancelButton:
+_objc_msgSend$setErrorDetails:
+_objc_msgSend$setErrorMessage:
+_objc_msgSend$setGoToSettingsButton:
+_objc_msgSend$setGoToSettingsDescription:
+_objc_msgSend$setLastCallState:
+_objc_msgSend$setLocalizedFallbackTitle:
+_objc_msgSend$setLockOut:
+_objc_msgSend$setMessageHandler:
+_objc_msgSend$setReason:
+_objc_msgSend$setResult:
+_objc_msgSend$setSticky:
+_objc_msgSend$setUseErrorDialogs:
+_objc_msgSend$sharedApplication
+_objc_msgSend$showAlertWithMessage:dismissButtonTitle:openSettingsButtonTitle:completion:
+_objc_msgSend$sticky
+_objc_msgSend$stringWithFormat:
+_objc_msgSend$strings
+_objc_msgSend$toList
+_objc_msgSend$useErrorDialogs
+_objc_msgSend$value
+_objc_msgSend$window
+_objc_msgSend$writeByte:
+_objc_msgSend$writeValue:
+__OBJC_$_CLASS_METHODS_FLADAuthOptions
+__OBJC_$_CLASS_METHODS_FLADAuthResultDetails
+__OBJC_$_CLASS_METHODS_FLADAuthStrings
+__OBJC_$_CLASS_METHODS_FLALocalAuthPlugin
+__OBJC_$_INSTANCE_METHODS_FLADAuthBiometricBox
+__OBJC_$_INSTANCE_METHODS_FLADAuthOptions
+__OBJC_$_INSTANCE_METHODS_FLADAuthResultBox
+__OBJC_$_INSTANCE_METHODS_FLADAuthResultDetails
+__OBJC_$_INSTANCE_METHODS_FLADAuthStrings
+__OBJC_$_INSTANCE_METHODS_FLADMessagesPigeonCodecReader
+__OBJC_$_INSTANCE_METHODS_FLADMessagesPigeonCodecReaderWriter
+__OBJC_$_INSTANCE_METHODS_FLADMessagesPigeonCodecWriter
+__OBJC_$_INSTANCE_METHODS_FLADefaultAlertFactory
+__OBJC_$_INSTANCE_METHODS_FLADefaultAuthContext
+__OBJC_$_INSTANCE_METHODS_FLADefaultAuthContextFactory
+__OBJC_$_INSTANCE_METHODS_FLADefaultUIAlertController
+__OBJC_$_INSTANCE_METHODS_FLADefaultViewProvider
+__OBJC_$_INSTANCE_METHODS_FLALocalAuthPlugin
+__OBJC_$_INSTANCE_METHODS_FLAStickyAuthState
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FLADAlertFactory
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FLADAuthContext
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FLADAuthContextFactory
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FLADLocalAuthApi
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FLAUIAlertController
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+___block_descriptor_73_e8_32s40s48s56s64bs_e5_v8
+___block_descriptor_64_e8_32s40s48s56bs_e20_v20
+?0B8
+"NSError"12l
+___block_descriptor_48_e8_32s40bs_e23_v16
+"UIAlertAction"8l
+___block_descriptor_32_e5_v8
+___block_literal_global
+___block_descriptor_40_e8_32s_e18_v24
+>16l
+___block_descriptor_40_e8_32bs_e48_v24
+"FLADAuthResultDetails"8
+"FlutterError"16l
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_FLADAuthContext
+__OBJC_LABEL_PROTOCOL_$_FLADAuthContextFactory
+__OBJC_LABEL_PROTOCOL_$_FLAUIAlertController
+__OBJC_LABEL_PROTOCOL_$_FLADAlertFactory
+__OBJC_LABEL_PROTOCOL_$_FLAViewProvider
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_LABEL_PROTOCOL_$_FLADLocalAuthApi
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_FLADAuthContext
+__OBJC_$_PROP_LIST_FLADAuthContext
+__OBJC_$_PROTOCOL_METHOD_TYPES_FLADAuthContext
+__OBJC_CLASS_PROTOCOLS_$_FLADefaultAuthContext
+__OBJC_METACLASS_RO_$_FLADefaultAuthContext
+__OBJC_$_INSTANCE_VARIABLES_FLADefaultAuthContext
+__OBJC_$_PROP_LIST_FLADefaultAuthContext
+__OBJC_CLASS_RO_$_FLADefaultAuthContext
+__OBJC_$_PROTOCOL_REFS_FLADAuthContextFactory
+__OBJC_$_PROTOCOL_METHOD_TYPES_FLADAuthContextFactory
+__OBJC_CLASS_PROTOCOLS_$_FLADefaultAuthContextFactory
+__OBJC_METACLASS_RO_$_FLADefaultAuthContextFactory
+__OBJC_$_PROP_LIST_FLADefaultAuthContextFactory
+__OBJC_CLASS_RO_$_FLADefaultAuthContextFactory
+__OBJC_$_PROTOCOL_REFS_FLAUIAlertController
+__OBJC_$_PROTOCOL_METHOD_TYPES_FLAUIAlertController
+__OBJC_CLASS_PROTOCOLS_$_FLADefaultUIAlertController
+__OBJC_METACLASS_RO_$_FLADefaultUIAlertController
+__OBJC_$_INSTANCE_VARIABLES_FLADefaultUIAlertController
+__OBJC_$_PROP_LIST_FLADefaultUIAlertController
+__OBJC_CLASS_RO_$_FLADefaultUIAlertController
+__OBJC_$_PROTOCOL_REFS_FLADAlertFactory
+__OBJC_$_PROTOCOL_METHOD_TYPES_FLADAlertFactory
+__OBJC_CLASS_PROTOCOLS_$_FLADefaultAlertFactory
+__OBJC_METACLASS_RO_$_FLADefaultAlertFactory
+__OBJC_$_PROP_LIST_FLADefaultAlertFactory
+__OBJC_CLASS_RO_$_FLADefaultAlertFactory
+__OBJC_$_PROTOCOL_REFS_FLAViewProvider
+__OBJC_CLASS_PROTOCOLS_$_FLADefaultViewProvider
+__OBJC_METACLASS_RO_$_FLADefaultViewProvider
+__OBJC_$_INSTANCE_VARIABLES_FLADefaultViewProvider
+__OBJC_$_PROP_LIST_FLADefaultViewProvider
+__OBJC_CLASS_RO_$_FLADefaultViewProvider
+__OBJC_METACLASS_RO_$_FLAStickyAuthState
+__OBJC_$_INSTANCE_VARIABLES_FLAStickyAuthState
+__OBJC_$_PROP_LIST_FLAStickyAuthState
+__OBJC_CLASS_RO_$_FLAStickyAuthState
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FLADLocalAuthApi
+__OBJC_CLASS_PROTOCOLS_$_FLALocalAuthPlugin
+__OBJC_METACLASS_RO_$_FLALocalAuthPlugin
+__OBJC_$_INSTANCE_VARIABLES_FLALocalAuthPlugin
+__OBJC_$_PROP_LIST_FLALocalAuthPlugin
+__OBJC_CLASS_RO_$_FLALocalAuthPlugin
+__OBJC_METACLASS_RO_$_PodsDummy_local_auth_darwin
+__OBJC_CLASS_RO_$_PodsDummy_local_auth_darwin
+__OBJC_METACLASS_RO_$_FLADAuthResultBox
+__OBJC_$_INSTANCE_VARIABLES_FLADAuthResultBox
+__OBJC_$_PROP_LIST_FLADAuthResultBox
+__OBJC_CLASS_RO_$_FLADAuthResultBox
+__OBJC_METACLASS_RO_$_FLADAuthBiometricBox
+__OBJC_$_INSTANCE_VARIABLES_FLADAuthBiometricBox
+__OBJC_$_PROP_LIST_FLADAuthBiometricBox
+__OBJC_CLASS_RO_$_FLADAuthBiometricBox
+__OBJC_METACLASS_RO_$_FLADAuthStrings
+__OBJC_$_INSTANCE_VARIABLES_FLADAuthStrings
+__OBJC_$_PROP_LIST_FLADAuthStrings
+__OBJC_CLASS_RO_$_FLADAuthStrings
+__OBJC_METACLASS_RO_$_FLADAuthOptions
+__OBJC_$_INSTANCE_VARIABLES_FLADAuthOptions
+__OBJC_$_PROP_LIST_FLADAuthOptions
+__OBJC_CLASS_RO_$_FLADAuthOptions
+__OBJC_METACLASS_RO_$_FLADAuthResultDetails
+__OBJC_$_INSTANCE_VARIABLES_FLADAuthResultDetails
+__OBJC_$_PROP_LIST_FLADAuthResultDetails
+__OBJC_CLASS_RO_$_FLADAuthResultDetails
+__OBJC_METACLASS_RO_$_FLADMessagesPigeonCodecReader
+__OBJC_CLASS_RO_$_FLADMessagesPigeonCodecReader
+__OBJC_METACLASS_RO_$_FLADMessagesPigeonCodecWriter
+__OBJC_CLASS_RO_$_FLADMessagesPigeonCodecWriter
+__OBJC_METACLASS_RO_$_FLADMessagesPigeonCodecReaderWriter
+__OBJC_CLASS_RO_$_FLADMessagesPigeonCodecReaderWriter
+_OBJC_IVAR_$_FLADefaultAuthContext._context
+_OBJC_IVAR_$_FLADefaultUIAlertController._controller
+_OBJC_IVAR_$_FLADefaultViewProvider._registrar
+_OBJC_IVAR_$_FLAStickyAuthState._options
+_OBJC_IVAR_$_FLAStickyAuthState._strings
+_OBJC_IVAR_$_FLAStickyAuthState._resultHandler
+_OBJC_IVAR_$_FLALocalAuthPlugin._lastCallState
+_OBJC_IVAR_$_FLALocalAuthPlugin._authContextFactory
+_OBJC_IVAR_$_FLALocalAuthPlugin._alertFactory
+_OBJC_IVAR_$_FLALocalAuthPlugin._viewProvider
+_OBJC_IVAR_$_FLADAuthResultBox._value
+_OBJC_IVAR_$_FLADAuthBiometricBox._value
+_OBJC_IVAR_$_FLADAuthStrings._reason
+_OBJC_IVAR_$_FLADAuthStrings._lockOut
+_OBJC_IVAR_$_FLADAuthStrings._goToSettingsButton
+_OBJC_IVAR_$_FLADAuthStrings._goToSettingsDescription
+_OBJC_IVAR_$_FLADAuthStrings._cancelButton
+_OBJC_IVAR_$_FLADAuthStrings._localizedFallbackTitle
+_OBJC_IVAR_$_FLADAuthOptions._biometricOnly
+_OBJC_IVAR_$_FLADAuthOptions._sticky
+_OBJC_IVAR_$_FLADAuthOptions._useErrorDialogs
+_OBJC_IVAR_$_FLADAuthResultDetails._result
+_OBJC_IVAR_$_FLADAuthResultDetails._errorMessage
+_OBJC_IVAR_$_FLADAuthResultDetails._errorDetails
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_FLADAuthContext
+__OBJC_PROTOCOL_$_FLADAuthContextFactory
+__OBJC_PROTOCOL_$_FLAUIAlertController
+__OBJC_PROTOCOL_$_FLADAlertFactory
+__OBJC_PROTOCOL_$_FLAViewProvider
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterPlugin
+__OBJC_PROTOCOL_$_FLADLocalAuthApi
+_FLADGetMessagesCodec.sSharedObject
+_FLADGetMessagesCodec.sPred
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/local_auth_darwin.build/DerivedSources/
+local_auth_darwin_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/local_auth_darwin.build/Objects-normal/arm64/local_auth_darwin_vers.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/local_auth_darwin-1.4.3/darwin/local_auth_darwin/Sources/local_auth_darwin/
+FLALocalAuthPlugin.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/local_auth_darwin.build/Objects-normal/arm64/FLALocalAuthPlugin.o
+-[FLADefaultAuthContext initWithContext:]
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/local_auth_darwin/
+local_auth_darwin-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/local_auth_darwin.build/Objects-normal/arm64/local_auth_darwin-dummy.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/local_auth_darwin-1.4.3/darwin/local_auth_darwin/Sources/local_auth_darwin/
+messages.g.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/local_auth_darwin.build/Objects-normal/arm64/messages.g.o
+local_auth_darwin
+xP@6
+'kwI
+f$xq
+1FCY
+.?[_
+&Z_4
+2MVRv2
+%:+D*1
+-w)W
+Mb5k
+local_auth_darwin
+subject.CN

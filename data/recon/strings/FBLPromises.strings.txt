@@ -1,0 +1,1227 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__gcc_except_tab__TEXT
+__cstring
+__TEXT
+__objc_methname
+__TEXT
+__objc_classname__TEXT
+__objc_methtype
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/FBLPromises.framework/FBLPromises
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+@executable_path/Frameworks
+@loader_path/Frameworks
+@(#)PROGRAM:FBLPromises  PROJECT:Pods-1
+<%@ %p> Fulfilled: %@
+<%@ %p> Rejected: %@
+<%@ %p> Pending
+v8@?0
+v24@?0q8@16
+v16@?0@8
+v16@?0@"NSError"8
+@"FBLPromise"8@?0
+@"FBLPromise"16@?0@8
+v24@?0@?<v@?@>8@?<v@?@"NSError">16
+@"FBLPromise"16@?0@"NSArray"8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@"NSArray"16
+@16@?0@8
+@16@?0@"NSError"8
+@"FBLPromise"16@?0@?<v@?>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?>16
+FBLPromiseCombineValuesAndErrors
+FBLPromise+Any.m
+!promise.isPending
+@"FBLPromise"16@?0@?<v@?@?<v@?@>@?<v@?@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?@>@?<v@?@"NSError">>16
+FBLPromiseAwait
+FBLPromise+Await.m
+promise
+com.google.FBLPromises.Await
+@"FBLPromise"16@?0@?<v@?@"NSError">8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@"NSError">16
+@"FBLPromise"16@?0d8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8d16
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<@@?>16
+@"FBLPromise"16@?0@?<@@?@"NSError">8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<@@?@"NSError">16
+@"FBLPromise"24@?0@"NSArray"8@?<@@?@@>16
+@"FBLPromise"32@?0@"NSObject<OS_dispatch_queue>"8@"NSArray"16@?<@@?@@>24
+@16@?0@?<@@?>8
+@24@?0@"NSObject<OS_dispatch_queue>"8@?<@@?>16
+@40@?0q8d16@?<B@?q@"NSError">24@?<@@?>32
+@48@?0@"NSObject<OS_dispatch_queue>"8q16d24@?<B@?q@"NSError">32@?<@@?>40
+@"FBLPromise"16@?0@?<@@?@>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<@@?@>16
+@"FBLPromise"16@?0@?<B@?@>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<B@?@>16
+v24@?0@8@"NSError"16
+v24@?0@"NSError"8@16
+v32@?0@8@16@"NSError"24
+v12@?0B8
+v20@?0B8@"NSError"12
+v16@?0q8
+v24@?0q8@"NSError"16
+v16@?0d8
+v24@?0d8@"NSError"16
+@"FBLPromise"16@?0@?<v@?@?<v@?>>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?>>16
+@"FBLPromise"16@?0@?<v@?@?<v@?@>>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?@>>16
+@"FBLPromise"16@?0@?<v@?@?<v@?@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?@"NSError">>16
+@"FBLPromise"16@?0@?<v@?@?<v@?@@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?@@"NSError">>16
+@"FBLPromise"16@?0@?<v@?@?<v@?@"NSError"@>>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?@"NSError"@>>16
+@"FBLPromise"16@?0@?<v@?@?<v@?@@@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?@@@"NSError">>16
+@"FBLPromise"16@?0@?<v@?@?<v@?B>>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?B>>16
+@"FBLPromise"16@?0@?<v@?@?<v@?B@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?B@"NSError">>16
+@"FBLPromise"16@?0@?<v@?@?<v@?q>>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?q>>16
+@"FBLPromise"16@?0@?<v@?@?<v@?q@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?q@"NSError">>16
+@"FBLPromise"16@?0@?<v@?@?<v@?d>>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?d>>16
+@"FBLPromise"16@?0@?<v@?@?<v@?d@"NSError">>8
+@"FBLPromise"24@?0@"NSObject<OS_dispatch_queue>"8@?<v@?@?<v@?d@"NSError">>16
+com.google.FBLPromises.Error
+_pendingObjects
+T@"NSError",R,D,N
+always:
+T@"NSObject<OS_dispatch_queue>",&
+asyncOn
+TB,R,D,N
+attempts:retry:
+_observers
+dealloc
+_value
+addPendingObject:
+onQueue:always:
+allOn
+recover
+alwaysOn
+reject:
+anyOn
+timeout
+async
+wrapCompletion:
+.cxx_destruct
+T@"NSObject<OS_dispatch_group>",R,N
+T@,R,D,N
+attempts:delay:condition:retry:
+_error
+catchOn
+_state
+delayOn
+addObject:
+numberWithBool:
+all:
+pending
+always
+reduce:combine:
+any:
+retryOn
+arrayWithObjects:count:
+wrap2ObjectsOrErrorCompletionOn
+async:
+catch
+catch:
+chainOnQueue:chainedFulfill:chainedReject:
+copy
+count
+countByEnumeratingWithState:objects:count:
+currentRunLoop
+dateWithTimeIntervalSinceNow:
+defaultDispatchQueue
+delay
+delay:
+description
+dispatchGroup
+doOn
+error
+fulfill:
+init
+initPending
+initWithDomain:code:userInfo:
+initWithResolution:
+initialize
+isFulfilled
+isPending
+isRejected
+mutableCopy
+noop
+null
+numberWithDouble:
+numberWithInteger:
+objectAtIndexedSubscript:
+observeOnQueue:fulfill:reject:
+onQueue:all:
+onQueue:any:
+onQueue:async:
+onQueue:attempts:delay:condition:retry:
+onQueue:attempts:retry:
+onQueue:catch:
+onQueue:delay:
+onQueue:do:
+onQueue:race:
+onQueue:recover:
+onQueue:reduce:combine:
+onQueue:retry:
+onQueue:then:
+onQueue:timeout:
+onQueue:validate:
+onQueue:wrap2ObjectsOrErrorCompletion:
+onQueue:wrapBoolCompletion:
+onQueue:wrapBoolOrErrorCompletion:
+onQueue:wrapCompletion:
+onQueue:wrapDoubleCompletion:
+onQueue:wrapDoubleOrErrorCompletion:
+onQueue:wrapErrorCompletion:
+onQueue:wrapErrorOrObjectCompletion:
+onQueue:wrapIntegerCompletion:
+onQueue:wrapIntegerOrErrorCompletion:
+onQueue:wrapObjectCompletion:
+onQueue:wrapObjectOrErrorCompletion:
+pendingPromise
+race
+race:
+raceOn
+recover:
+recoverOn
+reduce
+reduceOn
+replaceObjectAtIndex:withObject:
+resolved
+resolvedWith:
+retry
+retry:
+retryAgain
+retryAgainOn
+runUntilDate:
+setDefaultDispatchQueue:
+stringWithFormat:
+then
+then:
+thenOn
+timeIntervalSinceNow
+timeout:
+timeoutOn
+validate
+validate:
+validateOn
+value
+valueForKey:
+wrap2ObjectsOrErrorCompletion
+wrap2ObjectsOrErrorCompletion:
+wrapBoolCompletion
+wrapBoolCompletion:
+wrapBoolCompletionOn
+wrapBoolOrErrorCompletion
+wrapBoolOrErrorCompletion:
+wrapBoolOrErrorCompletionOn
+wrapCompletion
+wrapCompletionOn
+wrapDoubleCompletion
+wrapDoubleCompletion:
+wrapDoubleCompletionOn
+wrapDoubleOrErrorCompletion
+wrapDoubleOrErrorCompletion:
+wrapDoubleOrErrorCompletionOn
+wrapErrorCompletion
+wrapErrorCompletion:
+wrapErrorCompletionOn
+wrapErrorOrObjectCompletion
+wrapErrorOrObjectCompletion:
+wrapErrorOrObjectCompletionOn
+wrapIntegerCompletion
+wrapIntegerCompletion:
+wrapIntegerCompletionOn
+wrapIntegerOrErrorCompletion
+wrapIntegerOrErrorCompletion:
+wrapIntegerOrErrorCompletionOn
+wrapObjectCompletion
+wrapObjectCompletion:
+wrapObjectCompletionOn
+wrapObjectOrErrorCompletion
+wrapObjectOrErrorCompletion:
+wrapObjectOrErrorCompletionOn
+FBLPromise
+DotSyntaxAdditions
+AllAdditions
+DotSyntax_AllAdditions
+AlwaysAdditions
+DotSyntax_AlwaysAdditions
+AnyAdditions
+DotSyntax_AnyAdditions
+AsyncAdditions
+DotSyntax_AsyncAdditions
+CatchAdditions
+DotSyntax_CatchAdditions
+DelayAdditions
+DotSyntax_DelayAdditions
+DoAdditions
+DotSyntax_DoAdditions
+RaceAdditions
+DotSyntax_RaceAdditions
+RecoverAdditions
+DotSyntax_RecoverAdditions
+ReduceAdditions
+DotSyntax_ReduceAdditions
+RetryAdditions
+DotSyntax_RetryAdditions
+TestingAdditions
+ThenAdditions
+DotSyntax_ThenAdditions
+TimeoutAdditions
+DotSyntax_TimeoutAdditions
+ValidateAdditions
+DotSyntax_ValidateAdditions
+WrapAdditions
+DotSyntax_WrapAdditions
+PodsDummy_PromisesObjC
+v16@0:8
+@16@0:8
+v24@0:8@16
+@24@0:8@16
+B16@0:8
+v40@0:8@16@?24@?32
+@40@0:8@16@?24@?32
+@"NSMutableSet"
+@"NSError"
+@"NSMutableArray"
+@?16@0:8
+@32@0:8@16@24
+@24@0:8@?16
+@32@0:8@16@?24
+@24@0:8d16
+@32@0:8@16d24
+@40@0:8@16@24@?32
+@32@0:8q16@?24
+@40@0:8@16q24@?32
+@48@0:8q16d24@?32@?40
+@56@0:8@16q24d32@?40@?48
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_NSStringFromClass
+_NSStringFromSelector
+___objc_personality_v0
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+_objc_unsafeClaimAutoreleasedReturnValue
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___assert_rtn
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_queue_attr_concurrent
+_dispatch_after
+_dispatch_group_async
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_wait
+_dispatch_once
+_dispatch_queue_create
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_time
+___NSArray0__struct
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSNumber
+__objc_empty_cache
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSObject
+lCategory
+	waysCategory
+nyCategory
+0syncCategory
+6waitCategory
+elayCategory
+uoCategory
+coverCategory
+duceCategory
+tryCategory
+aceCategory
+estingCategory
+henCategory
+imeoutCategory
+BCatchCategory
+ValidateCategory
+WrapCategory
+AttemptsCount
+DelayInterval
+Number
+String
+Await
+ErrorDomain
+RetryDefault
+sVersion
+Include
+Promise
+WaitForPromisesWithTimeout
+FBLPromise
+PodsDummy_PromisesObjC
+FBLPromise
+PodsDummy_PromisesObjC
+CLASS_$_
+METACLASS_$_
+OBJC_
+lDDDDD
+(p<xTHP
+T4,T
+_FBLIncludeAllCategory
+_FBLIncludeAlwaysCategory
+_FBLIncludeAnyCategory
+_FBLIncludeAsyncCategory
+_FBLIncludeAwaitCategory
+_FBLIncludeCatchCategory
+_FBLIncludeDelayCategory
+_FBLIncludeDoCategory
+_FBLIncludeRaceCategory
+_FBLIncludeRecoverCategory
+_FBLIncludeReduceCategory
+_FBLIncludeRetryCategory
+_FBLIncludeTestingCategory
+_FBLIncludeThenCategory
+_FBLIncludeTimeoutCategory
+_FBLIncludeValidateCategory
+_FBLIncludeWrapCategory
+_FBLPromiseAwait
+_FBLPromiseErrorDomain
+_FBLPromiseRetryDefaultAttemptsCount
+_FBLPromiseRetryDefaultDelayInterval
+_FBLPromisesVersionNumber
+_FBLPromisesVersionString
+_FBLWaitForPromisesWithTimeout
+_OBJC_CLASS_$_FBLPromise
+_OBJC_CLASS_$_PodsDummy_PromisesObjC
+_OBJC_METACLASS_$_FBLPromise
+_OBJC_METACLASS_$_PodsDummy_PromisesObjC
+_NSStringFromClass
+_NSStringFromSelector
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___NSArray0__struct
+___assert_rtn
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__dispatch_queue_attr_concurrent
+__objc_empty_cache
+_dispatch_after
+_dispatch_group_async
+_dispatch_group_create
+_dispatch_group_enter
+_dispatch_group_leave
+_dispatch_group_wait
+_dispatch_once
+_dispatch_queue_create
+_dispatch_semaphore_create
+_dispatch_semaphore_signal
+_dispatch_semaphore_wait
+_dispatch_time
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_copyWeak
+_objc_destroyWeak
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+_objc_unsafeClaimAutoreleasedReturnValue
++[FBLPromise initialize]
++[FBLPromise defaultDispatchQueue]
++[FBLPromise setDefaultDispatchQueue:]
++[FBLPromise pendingPromise]
++[FBLPromise resolvedWith:]
+-[FBLPromise fulfill:]
+-[FBLPromise reject:]
+-[FBLPromise description]
+-[FBLPromise initPending]
+-[FBLPromise initWithResolution:]
+-[FBLPromise dealloc]
+-[FBLPromise isPending]
+-[FBLPromise isFulfilled]
+-[FBLPromise isRejected]
+-[FBLPromise value]
+-[FBLPromise error]
+-[FBLPromise addPendingObject:]
+-[FBLPromise observeOnQueue:fulfill:reject:]
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke_2
+___copy_helper_block_e8_32s40b48b
+___destroy_helper_block_e8_32s40s48s
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke.13
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+___44-[FBLPromise observeOnQueue:fulfill:reject:]_block_invoke.14
+-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke_2
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.16
+___copy_helper_block_e8_32s40s
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.18
+___copy_helper_block_e8_32b40b
+___56-[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]_block_invoke.19
++[FBLPromise noop]
+-[FBLPromise .cxx_destruct]
++[FBLPromise(DotSyntaxAdditions) pending]
+___41+[FBLPromise(DotSyntaxAdditions) pending]_block_invoke
++[FBLPromise(DotSyntaxAdditions) resolved]
+___42+[FBLPromise(DotSyntaxAdditions) resolved]_block_invoke
++[FBLPromise(AllAdditions) all:]
++[FBLPromise(AllAdditions) onQueue:all:]
+___40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke
+___40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke_2
+___40+[FBLPromise(AllAdditions) onQueue:all:]_block_invoke.1
+___copy_helper_block_e8_32b
++[FBLPromise(DotSyntax_AllAdditions) all]
+___41+[FBLPromise(DotSyntax_AllAdditions) all]_block_invoke
++[FBLPromise(DotSyntax_AllAdditions) allOn]
+___43+[FBLPromise(DotSyntax_AllAdditions) allOn]_block_invoke
+-[FBLPromise(AlwaysAdditions) always:]
+-[FBLPromise(AlwaysAdditions) onQueue:always:]
+___46-[FBLPromise(AlwaysAdditions) onQueue:always:]_block_invoke
+___46-[FBLPromise(AlwaysAdditions) onQueue:always:]_block_invoke.1
+-[FBLPromise(DotSyntax_AlwaysAdditions) always]
+___47-[FBLPromise(DotSyntax_AlwaysAdditions) always]_block_invoke
+-[FBLPromise(DotSyntax_AlwaysAdditions) alwaysOn]
+___49-[FBLPromise(DotSyntax_AlwaysAdditions) alwaysOn]_block_invoke
++[FBLPromise(AnyAdditions) any:]
++[FBLPromise(AnyAdditions) onQueue:any:]
+___40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke
+___40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke_2
+_FBLPromiseCombineValuesAndErrors
+___40+[FBLPromise(AnyAdditions) onQueue:any:]_block_invoke.1
++[FBLPromise(DotSyntax_AnyAdditions) any]
+___41+[FBLPromise(DotSyntax_AnyAdditions) any]_block_invoke
++[FBLPromise(DotSyntax_AnyAdditions) anyOn]
+___43+[FBLPromise(DotSyntax_AnyAdditions) anyOn]_block_invoke
++[FBLPromise(AsyncAdditions) async:]
++[FBLPromise(AsyncAdditions) onQueue:async:]
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke_2
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke_3
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke.1
+___44+[FBLPromise(AsyncAdditions) onQueue:async:]_block_invoke.3
+___copy_helper_block_e8_32s40s48b
++[FBLPromise(DotSyntax_AsyncAdditions) async]
+___45+[FBLPromise(DotSyntax_AsyncAdditions) async]_block_invoke
++[FBLPromise(DotSyntax_AsyncAdditions) asyncOn]
+___47+[FBLPromise(DotSyntax_AsyncAdditions) asyncOn]_block_invoke
+___FBLPromiseAwait_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___FBLPromiseAwait_block_invoke.4
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+___FBLPromiseAwait_block_invoke.6
+-[FBLPromise(CatchAdditions) catch:]
+-[FBLPromise(CatchAdditions) onQueue:catch:]
+___44-[FBLPromise(CatchAdditions) onQueue:catch:]_block_invoke
+-[FBLPromise(DotSyntax_CatchAdditions) catch]
+___45-[FBLPromise(DotSyntax_CatchAdditions) catch]_block_invoke
+-[FBLPromise(DotSyntax_CatchAdditions) catchOn]
+___47-[FBLPromise(DotSyntax_CatchAdditions) catchOn]_block_invoke
+-[FBLPromise(DelayAdditions) delay:]
+-[FBLPromise(DelayAdditions) onQueue:delay:]
+___44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke
+___44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke_2
+___44-[FBLPromise(DelayAdditions) onQueue:delay:]_block_invoke.2
+-[FBLPromise(DotSyntax_DelayAdditions) delay]
+___45-[FBLPromise(DotSyntax_DelayAdditions) delay]_block_invoke
+-[FBLPromise(DotSyntax_DelayAdditions) delayOn]
+___47-[FBLPromise(DotSyntax_DelayAdditions) delayOn]_block_invoke
++[FBLPromise(DoAdditions) do:]
++[FBLPromise(DoAdditions) onQueue:do:]
+___38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke
+___38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke_2
+___38+[FBLPromise(DoAdditions) onQueue:do:]_block_invoke.1
++[FBLPromise(DotSyntax_DoAdditions) doOn]
+___41+[FBLPromise(DotSyntax_DoAdditions) doOn]_block_invoke
++[FBLPromise(RaceAdditions) race:]
++[FBLPromise(RaceAdditions) onQueue:race:]
+___42+[FBLPromise(RaceAdditions) onQueue:race:]_block_invoke
++[FBLPromise(DotSyntax_RaceAdditions) race]
+___43+[FBLPromise(DotSyntax_RaceAdditions) race]_block_invoke
++[FBLPromise(DotSyntax_RaceAdditions) raceOn]
+___45+[FBLPromise(DotSyntax_RaceAdditions) raceOn]_block_invoke
+-[FBLPromise(RecoverAdditions) recover:]
+-[FBLPromise(RecoverAdditions) onQueue:recover:]
+___48-[FBLPromise(RecoverAdditions) onQueue:recover:]_block_invoke
+-[FBLPromise(DotSyntax_RecoverAdditions) recover]
+___49-[FBLPromise(DotSyntax_RecoverAdditions) recover]_block_invoke
+-[FBLPromise(DotSyntax_RecoverAdditions) recoverOn]
+___51-[FBLPromise(DotSyntax_RecoverAdditions) recoverOn]_block_invoke
+-[FBLPromise(ReduceAdditions) reduce:combine:]
+-[FBLPromise(ReduceAdditions) onQueue:reduce:combine:]
+___54-[FBLPromise(ReduceAdditions) onQueue:reduce:combine:]_block_invoke
+-[FBLPromise(DotSyntax_ReduceAdditions) reduce]
+___47-[FBLPromise(DotSyntax_ReduceAdditions) reduce]_block_invoke
+-[FBLPromise(DotSyntax_ReduceAdditions) reduceOn]
+___49-[FBLPromise(DotSyntax_ReduceAdditions) reduceOn]_block_invoke
++[FBLPromise(RetryAdditions) retry:]
++[FBLPromise(RetryAdditions) onQueue:retry:]
++[FBLPromise(RetryAdditions) attempts:retry:]
++[FBLPromise(RetryAdditions) onQueue:attempts:retry:]
++[FBLPromise(RetryAdditions) attempts:delay:condition:retry:]
++[FBLPromise(RetryAdditions) onQueue:attempts:delay:condition:retry:]
+_FBLPromiseRetryAttempt
++[FBLPromise(DotSyntax_RetryAdditions) retry]
+___45+[FBLPromise(DotSyntax_RetryAdditions) retry]_block_invoke
++[FBLPromise(DotSyntax_RetryAdditions) retryOn]
+___47+[FBLPromise(DotSyntax_RetryAdditions) retryOn]_block_invoke
++[FBLPromise(DotSyntax_RetryAdditions) retryAgain]
+___50+[FBLPromise(DotSyntax_RetryAdditions) retryAgain]_block_invoke
++[FBLPromise(DotSyntax_RetryAdditions) retryAgainOn]
+___52+[FBLPromise(DotSyntax_RetryAdditions) retryAgainOn]_block_invoke
+___FBLPromiseRetryAttempt_block_invoke
+___FBLPromiseRetryAttempt_block_invoke_2
+___copy_helper_block_e8_32s40s48b56b
+___destroy_helper_block_e8_32s40s48s56s
++[FBLPromise(TestingAdditions) dispatchGroup]
+___45+[FBLPromise(TestingAdditions) dispatchGroup]_block_invoke
+-[FBLPromise(ThenAdditions) then:]
+-[FBLPromise(ThenAdditions) onQueue:then:]
+-[FBLPromise(DotSyntax_ThenAdditions) then]
+___43-[FBLPromise(DotSyntax_ThenAdditions) then]_block_invoke
+-[FBLPromise(DotSyntax_ThenAdditions) thenOn]
+___45-[FBLPromise(DotSyntax_ThenAdditions) thenOn]_block_invoke
+-[FBLPromise(TimeoutAdditions) timeout:]
+-[FBLPromise(TimeoutAdditions) onQueue:timeout:]
+___48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke
+___48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke.1
+___48-[FBLPromise(TimeoutAdditions) onQueue:timeout:]_block_invoke.3
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
+-[FBLPromise(DotSyntax_TimeoutAdditions) timeout]
+___49-[FBLPromise(DotSyntax_TimeoutAdditions) timeout]_block_invoke
+-[FBLPromise(DotSyntax_TimeoutAdditions) timeoutOn]
+___51-[FBLPromise(DotSyntax_TimeoutAdditions) timeoutOn]_block_invoke
+-[FBLPromise(ValidateAdditions) validate:]
+-[FBLPromise(ValidateAdditions) onQueue:validate:]
+___50-[FBLPromise(ValidateAdditions) onQueue:validate:]_block_invoke
+-[FBLPromise(DotSyntax_ValidateAdditions) validate]
+___51-[FBLPromise(DotSyntax_ValidateAdditions) validate]_block_invoke
+-[FBLPromise(DotSyntax_ValidateAdditions) validateOn]
+___53-[FBLPromise(DotSyntax_ValidateAdditions) validateOn]_block_invoke
++[FBLPromise(WrapAdditions) wrapCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]
+___52+[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]_block_invoke
+___52+[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapObjectCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]
+___58+[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]_block_invoke
+___58+[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]
+___57+[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]_block_invoke
+___57+[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapObjectOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]
+___65+[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]_block_invoke
+___65+[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapErrorOrObjectCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]
+___65+[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]_block_invoke
+___65+[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrap2ObjectsOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]
+___67+[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]_block_invoke
+___67+[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapBoolCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]
+___56+[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]_block_invoke
+___56+[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapBoolOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]
+___63+[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]_block_invoke
+___63+[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapIntegerCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]
+___59+[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]_block_invoke
+___59+[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapIntegerOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]
+___66+[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]_block_invoke
+___66+[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapDoubleCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]
+___58+[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]_block_invoke
+___58+[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]_block_invoke_2
++[FBLPromise(WrapAdditions) wrapDoubleOrErrorCompletion:]
++[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]
+___65+[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]_block_invoke
+___65+[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]_block_invoke_2
++[FBLPromise(DotSyntax_WrapAdditions) wrapCompletion]
+___53+[FBLPromise(DotSyntax_WrapAdditions) wrapCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapCompletionOn]
+___55+[FBLPromise(DotSyntax_WrapAdditions) wrapCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletion]
+___59+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletionOn]
+___61+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletion]
+___58+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletionOn]
+___60+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletion]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletionOn]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletion]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletionOn]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletion]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletionOn]
+___70+[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletion]
+___57+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletionOn]
+___59+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletion]
+___64+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletionOn]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletion]
+___60+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletionOn]
+___62+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletion]
+___67+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletionOn]
+___69+[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletion]
+___59+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletionOn]
+___61+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletionOn]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletion]
+___66+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletion]_block_invoke
++[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletionOn]
+___68+[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletionOn]_block_invoke
+_FBLPromiseCombineValuesAndErrors.cold.1
+_FBLPromiseAwait.cold.1
+_FBLPromiseAwait.cold.2
++[FBLPromise(TestingAdditions) dispatchGroup].cold.1
+_objc_msgSend$addObject:
+_objc_msgSend$all:
+_objc_msgSend$always:
+_objc_msgSend$any:
+_objc_msgSend$arrayWithObjects:count:
+_objc_msgSend$async:
+_objc_msgSend$attempts:delay:condition:retry:
+_objc_msgSend$catch:
+_objc_msgSend$chainOnQueue:chainedFulfill:chainedReject:
+_objc_msgSend$copy
+_objc_msgSend$count
+_objc_msgSend$countByEnumeratingWithState:objects:count:
+_objc_msgSend$currentRunLoop
+_objc_msgSend$dateWithTimeIntervalSinceNow:
+_objc_msgSend$defaultDispatchQueue
+_objc_msgSend$delay:
+_objc_msgSend$dispatchGroup
+_objc_msgSend$error
+_objc_msgSend$fulfill:
+_objc_msgSend$initPending
+_objc_msgSend$initWithDomain:code:userInfo:
+_objc_msgSend$initWithResolution:
+_objc_msgSend$isFulfilled
+_objc_msgSend$isPending
+_objc_msgSend$isRejected
+_objc_msgSend$mutableCopy
+_objc_msgSend$null
+_objc_msgSend$numberWithBool:
+_objc_msgSend$numberWithDouble:
+_objc_msgSend$numberWithInteger:
+_objc_msgSend$objectAtIndexedSubscript:
+_objc_msgSend$observeOnQueue:fulfill:reject:
+_objc_msgSend$onQueue:all:
+_objc_msgSend$onQueue:always:
+_objc_msgSend$onQueue:any:
+_objc_msgSend$onQueue:async:
+_objc_msgSend$onQueue:attempts:delay:condition:retry:
+_objc_msgSend$onQueue:attempts:retry:
+_objc_msgSend$onQueue:catch:
+_objc_msgSend$onQueue:delay:
+_objc_msgSend$onQueue:do:
+_objc_msgSend$onQueue:race:
+_objc_msgSend$onQueue:recover:
+_objc_msgSend$onQueue:reduce:combine:
+_objc_msgSend$onQueue:retry:
+_objc_msgSend$onQueue:then:
+_objc_msgSend$onQueue:timeout:
+_objc_msgSend$onQueue:validate:
+_objc_msgSend$onQueue:wrap2ObjectsOrErrorCompletion:
+_objc_msgSend$onQueue:wrapBoolCompletion:
+_objc_msgSend$onQueue:wrapBoolOrErrorCompletion:
+_objc_msgSend$onQueue:wrapCompletion:
+_objc_msgSend$onQueue:wrapDoubleCompletion:
+_objc_msgSend$onQueue:wrapDoubleOrErrorCompletion:
+_objc_msgSend$onQueue:wrapErrorCompletion:
+_objc_msgSend$onQueue:wrapErrorOrObjectCompletion:
+_objc_msgSend$onQueue:wrapIntegerCompletion:
+_objc_msgSend$onQueue:wrapIntegerOrErrorCompletion:
+_objc_msgSend$onQueue:wrapObjectCompletion:
+_objc_msgSend$onQueue:wrapObjectOrErrorCompletion:
+_objc_msgSend$pendingPromise
+_objc_msgSend$race:
+_objc_msgSend$recover:
+_objc_msgSend$reduce:combine:
+_objc_msgSend$reject:
+_objc_msgSend$replaceObjectAtIndex:withObject:
+_objc_msgSend$resolvedWith:
+_objc_msgSend$retry:
+_objc_msgSend$runUntilDate:
+_objc_msgSend$stringWithFormat:
+_objc_msgSend$then:
+_objc_msgSend$timeIntervalSinceNow
+_objc_msgSend$timeout:
+_objc_msgSend$validate:
+_objc_msgSend$value
+_objc_msgSend$valueForKey:
+_objc_msgSend$wrap2ObjectsOrErrorCompletion:
+_objc_msgSend$wrapBoolCompletion:
+_objc_msgSend$wrapBoolOrErrorCompletion:
+_objc_msgSend$wrapCompletion:
+_objc_msgSend$wrapDoubleCompletion:
+_objc_msgSend$wrapDoubleOrErrorCompletion:
+_objc_msgSend$wrapErrorCompletion:
+_objc_msgSend$wrapErrorOrObjectCompletion:
+_objc_msgSend$wrapIntegerCompletion:
+_objc_msgSend$wrapIntegerOrErrorCompletion:
+_objc_msgSend$wrapObjectCompletion:
+_objc_msgSend$wrapObjectOrErrorCompletion:
+__OBJC_$_CLASS_METHODS_FBLPromise(DotSyntaxAdditions|AllAdditions|DotSyntax_AllAdditions|AlwaysAdditions|DotSyntax_AlwaysAdditions|AnyAdditions|DotSyntax_AnyAdditions|AsyncAdditions|DotSyntax_AsyncAdditions|CatchAdditions|DotSyntax_CatchAdditions|DelayAdditions|DotSyntax_DelayAdditions|DoAdditions|DotSyntax_DoAdditions|RaceAdditions|DotSyntax_RaceAdditions|RecoverAdditions|DotSyntax_RecoverAdditions|ReduceAdditions|DotSyntax_ReduceAdditions|RetryAdditions|DotSyntax_RetryAdditions|TestingAdditions|ThenAdditions|DotSyntax_ThenAdditions|TimeoutAdditions|DotSyntax_TimeoutAdditions|ValidateAdditions|DotSyntax_ValidateAdditions|WrapAdditions|DotSyntax_WrapAdditions)
+__OBJC_$_INSTANCE_METHODS_FBLPromise(DotSyntaxAdditions|AllAdditions|DotSyntax_AllAdditions|AlwaysAdditions|DotSyntax_AlwaysAdditions|AnyAdditions|DotSyntax_AnyAdditions|AsyncAdditions|DotSyntax_AsyncAdditions|CatchAdditions|DotSyntax_CatchAdditions|DelayAdditions|DotSyntax_DelayAdditions|DoAdditions|DotSyntax_DoAdditions|RaceAdditions|DotSyntax_RaceAdditions|RecoverAdditions|DotSyntax_RecoverAdditions|ReduceAdditions|DotSyntax_ReduceAdditions|RetryAdditions|DotSyntax_RetryAdditions|TestingAdditions|ThenAdditions|DotSyntax_ThenAdditions|TimeoutAdditions|DotSyntax_TimeoutAdditions|ValidateAdditions|DotSyntax_ValidateAdditions|WrapAdditions|DotSyntax_WrapAdditions)
+GCC_except_table5
+GCC_except_table6
+GCC_except_table16
+GCC_except_table17
+GCC_except_table0
+___block_descriptor_64_e8_32s40bs48bs_e5_v8
+___block_descriptor_56_e8_32s40bs48bs_e11_v24
+?0q8
+___block_descriptor_48_e8_32s40bs_e5_v8
+___block_descriptor_40_e8_32s_e8_v16
+___block_descriptor_40_e8_32s_e17_v16
+"NSError"8l
+___block_descriptor_48_e8_32s40s_e8_v16
+___block_descriptor_48_e8_32bs40bs_e8_v16
+___block_descriptor_48_e8_32bs40bs_e17_v16
+"NSError"8l
+___block_descriptor_40_e17_
+"FBLPromise"8
+___block_descriptor_40_e20_
+"FBLPromise"16
+___block_descriptor_48_e8_32s40bs_e8_v16
+___block_descriptor_40_e8_32bs_e17_v16
+"NSError"8l
+___block_descriptor_56_e8_32s40s_e34_v24
+"NSError">16l
+___block_descriptor_40_e29_
+"FBLPromise"16
+"NSArray"8l
+___block_descriptor_40_e61_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSArray"16l
+___block_descriptor_40_e8_32bs_e8_
+___block_descriptor_40_e8_32bs_e17_
+"NSError"8l
+___block_descriptor_40_e8_32s_e26_
+"FBLPromise"16
+?>8l
+___block_descriptor_40_e8_32s_e58_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+?>16l
+___block_descriptor_56_e8_32s40bs48bs_e17_v16
+"NSError"8l
+___block_descriptor_56_e8_32s40s48bs_e5_v8
+___block_descriptor_40_e51_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e83_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+___block_descriptor_32_e5_v8
+___block_literal_global
+___block_descriptor_48_e8_32s40r_e8_
+___block_descriptor_48_e8_32s40r_e17_
+"NSError"8l
+___block_descriptor_40_e8_32s_e36_
+"FBLPromise"16
+"NSError">8l
+___block_descriptor_40_e8_32s_e68_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">16l
+___block_descriptor_48_e8_32s40s_e5_v8
+___block_descriptor_56_e8_32s40s_e8_v16
+___block_descriptor_40_e8_32s_e20_
+"FBLPromise"16
+?0d8l
+___block_descriptor_40_e8_32s_e52_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8d16l
+___block_descriptor_40_e58_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+?>16l
+___block_descriptor_40_e8_32s_e36_
+"FBLPromise"16
+"NSError">8l
+___block_descriptor_40_e8_32s_e68_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">16l
+___block_descriptor_48_e8_32s40bs_e8_
+___block_descriptor_40_e8_32s_e40_
+"FBLPromise"24
+"NSArray"8
+>16l
+___block_descriptor_40_e8_32s_e72_
+"FBLPromise"32
+"NSObject<OS_dispatch_queue>"8
+"NSArray"16
+>24l
+___block_descriptor_40_e14_
+?>8l
+___block_descriptor_40_e46_
+"NSObject<OS_dispatch_queue>"8
+?>16l
+___block_descriptor_40_e40_
+?0q8d16
+"NSError">24
+?>32l
+___block_descriptor_40_e72_
+"NSObject<OS_dispatch_queue>"8q16d24
+"NSError">32
+?>40l
+___block_descriptor_80_e8_32s40s48bs56bs_e5_v8
+___block_descriptor_80_e8_32s40s48bs56bs_e8_v16
+___block_literal_global
+___block_descriptor_40_e8_32s_e27_
+"FBLPromise"16
+___block_descriptor_40_e8_32s_e59_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+>16l
+___block_descriptor_40_e8_32w_e5_v8
+___block_descriptor_40_e8_32s_e27_
+"FBLPromise"16
+___block_descriptor_40_e8_32s_e59_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+>16l
+___block_descriptor_40_e8_32bs_e5_v8
+___block_descriptor_40_e8_32bs_e34_v24
+"NSError">16l
+___block_descriptor_40_e8_32bs_e8_v16
+___block_descriptor_48_e8_32bs40bs_e20_v24
+"NSError"16l
+___block_descriptor_48_e8_32bs40bs_e20_v24
+"NSError"8
+___block_descriptor_48_e8_32bs40bs_e23_v32
+"NSError"24l
+___block_descriptor_40_e8_32bs_e8_v12
+?0B8l
+___block_descriptor_48_e8_32bs40bs_e20_v20
+?0B8
+"NSError"12l
+___block_descriptor_40_e8_32bs_e8_v16
+?0q8l
+___block_descriptor_48_e8_32bs40bs_e20_v24
+?0q8
+"NSError"16l
+___block_descriptor_40_e8_32bs_e8_v16
+?0d8l
+___block_descriptor_48_e8_32bs40bs_e20_v24
+?0d8
+"NSError"16l
+___block_descriptor_40_e33_
+"FBLPromise"16
+?>>8l
+___block_descriptor_40_e65_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+?>>16l
+___block_descriptor_40_e34_
+"FBLPromise"16
+>>8l
+___block_descriptor_40_e66_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+>>16l
+___block_descriptor_40_e43_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e75_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+___block_descriptor_40_e44_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e76_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+___block_descriptor_40_e44_
+"FBLPromise"16
+"NSError"
+>>8l
+___block_descriptor_40_e76_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError"
+>>16l
+___block_descriptor_40_e45_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e77_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+___block_descriptor_40_e34_
+"FBLPromise"16
+?B>>8l
+___block_descriptor_40_e66_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+?B>>16l
+___block_descriptor_40_e44_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e76_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+___block_descriptor_40_e34_
+"FBLPromise"16
+?q>>8l
+___block_descriptor_40_e66_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+?q>>16l
+___block_descriptor_40_e44_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e76_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+___block_descriptor_40_e34_
+"FBLPromise"16
+?d>>8l
+___block_descriptor_40_e66_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+?d>>16l
+___block_descriptor_40_e44_
+"FBLPromise"16
+"NSError">>8l
+___block_descriptor_40_e76_
+"FBLPromise"24
+"NSObject<OS_dispatch_queue>"8
+"NSError">>16l
+__OBJC_METACLASS_RO_$_FBLPromise
+__OBJC_$_INSTANCE_VARIABLES_FBLPromise
+__OBJC_CLASS_RO_$_FBLPromise
+__OBJC_METACLASS_RO_$_PodsDummy_PromisesObjC
+__OBJC_CLASS_RO_$_PodsDummy_PromisesObjC
+_OBJC_IVAR_$_FBLPromise._state
+_OBJC_IVAR_$_FBLPromise._pendingObjects
+_OBJC_IVAR_$_FBLPromise._value
+_OBJC_IVAR_$_FBLPromise._error
+_OBJC_IVAR_$_FBLPromise._observers
+_gFBLPromiseDefaultDispatchQueue
+_FBLPromiseAwait.onceToken
+_FBLPromiseAwait.queue
+_dispatchGroup.gDispatchGroup
+_dispatchGroup.onceToken
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/DerivedSources/
+FBLPromises_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromises_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise.o
++[FBLPromise initialize]
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+All.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+All.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Always.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Always.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Any.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Any.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Async.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Async.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Await.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Await.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Catch.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Catch.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Delay.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Delay.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Do.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Do.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Race.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Race.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Recover.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Recover.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Reduce.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Reduce.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Retry.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Retry.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Testing.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Testing.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Then.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Then.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Timeout.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Timeout.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Validate.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Validate.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromise+Wrap.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromise+Wrap.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/PromisesObjC/Sources/FBLPromises/
+FBLPromiseError.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/FBLPromiseError.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/PromisesObjC/
+PromisesObjC-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/PromisesObjC.build/Objects-normal/arm64/PromisesObjC-dummy.o
+FBLPromises
+cNPv
+uEqE
+_:mV
+K8,Y
+I:? 
+Ob[e
+1<!p0
+t~DQ`
+]%.M-q
+XK-dT'L{.)
+,9x9+jaH
+FBLPromises
+subject.CN

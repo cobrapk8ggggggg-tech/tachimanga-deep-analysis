@@ -1,0 +1,424 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__cstring
+__TEXT
+__objc_classname__TEXT
+__objc_methname
+__TEXT
+__objc_methtype
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/SAMKeychain.framework/SAMKeychain
+/System/Library/Frameworks/Foundation.framework/Foundation
+/System/Library/Frameworks/Security.framework/Security
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+@executable_path/Frameworks
+@loader_path/Frameworks
+@(#)PROGRAM:SAMKeychain  PROJECT:Pods-1
+@com.samsoffes.samkeychain
+acct
+cdat
+labl
+desc
+mdat
+svce
+v8@?0
+SAMKeychain
+bundle
+SAMKeychainErrorBadArguments
+errSecUnimplemented
+errSecParam
+errSecAllocate
+errSecNotAvailable
+errSecDuplicateItem
+errSecItemNotFound
+errSecInteractionNotAllowed
+errSecDecode
+errSecAuthFailed
+errSecDefault
+SAMKeychain
+PodsDummy_SAMKeychain
+SAMKeychainQuery
+account
+T@"<NSCoding>",C,N
+passwordDataForService:account:
+T@"NSString",C,N
+setAccessGroup:
+T@"NSString",C,N,V_account
+.cxx_destruct
+bundleForClass:
+T@"NSData",C,N,V_passwordData
+service
+T@"NSString",C,N,V_accessGroup
+setPassword:forService:account:
+T@"NSString",C,N,V_label
+T@"NSString",C,N,V_service
+TQ,N,V_synchronizationMode
+URLForResource:withExtension:
+_accessGroup
+_account
+_label
+_passwordData
+_service
+_synchronizationMode
+accessGroup
+accessibilityType
+accountsForService:
+accountsForService:error:
+allAccounts
+allAccounts:
+archivedDataWithRootObject:
+bundleWithURL:
+dataUsingEncoding:
+deleteItem:
+deletePasswordForService:account:
+deletePasswordForService:account:error:
+dictionaryWithCapacity:
+dictionaryWithObjects:forKeys:count:
+errorWithCode:
+errorWithDomain:code:userInfo:
+fetch:
+fetchAll:
+initWithData:encoding:
+isSynchronizationAvailable
+label
+length
+localizedStringForKey:value:table:
+password
+passwordData
+passwordDataForService:account:error:
+passwordForService:account:
+passwordForService:account:error:
+passwordObject
+query
+save:
+setAccessibilityType:
+setAccount:
+setLabel:
+setObject:forKey:
+setPassword:
+setPassword:forService:account:error:
+setPasswordData:
+setPasswordData:forService:account:
+setPasswordData:forService:account:error:
+setPasswordObject:
+setService:
+setSynchronizationMode:
+synchronizationMode
+unarchiveObjectWithData:
+@32@0:8@16@24
+@40@0:8@16@24^@32
+B32@0:8@16@24
+B40@0:8@16@24^@32
+B40@0:8@16@24@32
+B48@0:8@16@24@32^@40
+@16@0:8
+@24@0:8^@16
+@24@0:8@16
+@32@0:8@16^@24
+^v16@0:8
+v24@0:8^v16
+B16@0:8
+@20@0:8i16
+B24@0:8^@16
+v24@0:8@16
+Q16@0:8
+v24@0:8Q16
+v16@0:8
+@"NSString"
+@"NSData"
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_NSFoundationVersionNumber
+_NSLocalizedDescriptionKey
+_SecItemAdd
+_SecItemCopyMatching
+_SecItemDelete
+_SecItemUpdate
+_kSecAttrAccessGroup
+_kSecAttrAccessible
+_kSecAttrAccount
+_kSecAttrLabel
+_kSecAttrService
+_kSecAttrSynchronizable
+_kSecAttrSynchronizableAny
+_kSecClass
+_kSecClassGenericPassword
+_kSecMatchLimit
+_kSecMatchLimitAll
+_kSecMatchLimitOne
+_kSecReturnAttributes
+_kSecReturnData
+_kSecValueData
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_opt_class
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+___stack_chk_fail
+___stack_chk_guard
+_dispatch_once
+_CFRelease
+_CFRetain
+___kCFBooleanFalse
+___kCFBooleanTrue
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+Query
+PodsDummy_SAMKeychain
+	SAMKeychain
+Query
+PodsDummy_SAMKeychain
+HSAMKeychain
+CLASS_$_
+"METACLASS_$_
+Number
+String
+lassKey
+reatedAtKey
+belKey
+stModifiedKey
+AccountKey
+DescriptionKey
+ErrorDomain
+WhereKey
+OBJC_
+SAMKeychainVersion
+kSAMKeychain
+_OBJC_CLASS_$_PodsDummy_SAMKeychain
+_OBJC_CLASS_$_SAMKeychain
+_OBJC_CLASS_$_SAMKeychainQuery
+_OBJC_METACLASS_$_PodsDummy_SAMKeychain
+_OBJC_METACLASS_$_SAMKeychain
+_OBJC_METACLASS_$_SAMKeychainQuery
+_SAMKeychainVersionNumber
+_SAMKeychainVersionString
+_kSAMKeychainAccountKey
+_kSAMKeychainClassKey
+_kSAMKeychainCreatedAtKey
+_kSAMKeychainDescriptionKey
+_kSAMKeychainErrorDomain
+_kSAMKeychainLabelKey
+_kSAMKeychainLastModifiedKey
+_kSAMKeychainWhereKey
+_CFRelease
+_CFRetain
+_NSFoundationVersionNumber
+_NSLocalizedDescriptionKey
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_METACLASS_$_NSObject
+_SecItemAdd
+_SecItemCopyMatching
+_SecItemDelete
+_SecItemUpdate
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+___kCFBooleanFalse
+___kCFBooleanTrue
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_dispatch_once
+_kSecAttrAccessGroup
+_kSecAttrAccessible
+_kSecAttrAccount
+_kSecAttrLabel
+_kSecAttrService
+_kSecAttrSynchronizable
+_kSecAttrSynchronizableAny
+_kSecClass
+_kSecClassGenericPassword
+_kSecMatchLimit
+_kSecMatchLimitAll
+_kSecMatchLimitOne
+_kSecReturnAttributes
+_kSecReturnData
+_kSecValueData
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_opt_class
+_objc_release
+_objc_retain
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
++[SAMKeychain passwordForService:account:]
++[SAMKeychain passwordForService:account:error:]
++[SAMKeychain passwordDataForService:account:]
++[SAMKeychain passwordDataForService:account:error:]
++[SAMKeychain deletePasswordForService:account:]
++[SAMKeychain deletePasswordForService:account:error:]
++[SAMKeychain setPassword:forService:account:]
++[SAMKeychain setPassword:forService:account:error:]
++[SAMKeychain setPasswordData:forService:account:]
++[SAMKeychain setPasswordData:forService:account:error:]
++[SAMKeychain allAccounts]
++[SAMKeychain allAccounts:]
++[SAMKeychain accountsForService:]
++[SAMKeychain accountsForService:error:]
++[SAMKeychain accessibilityType]
++[SAMKeychain setAccessibilityType:]
+-[SAMKeychainQuery save:]
+-[SAMKeychainQuery deleteItem:]
+-[SAMKeychainQuery fetchAll:]
+-[SAMKeychainQuery fetch:]
+-[SAMKeychainQuery setPasswordObject:]
+-[SAMKeychainQuery passwordObject]
+-[SAMKeychainQuery setPassword:]
+-[SAMKeychainQuery password]
++[SAMKeychainQuery isSynchronizationAvailable]
+-[SAMKeychainQuery query]
++[SAMKeychainQuery errorWithCode:]
+___34+[SAMKeychainQuery errorWithCode:]_block_invoke
+-[SAMKeychainQuery account]
+-[SAMKeychainQuery setAccount:]
+-[SAMKeychainQuery service]
+-[SAMKeychainQuery setService:]
+-[SAMKeychainQuery label]
+-[SAMKeychainQuery setLabel:]
+-[SAMKeychainQuery passwordData]
+-[SAMKeychainQuery setPasswordData:]
+-[SAMKeychainQuery accessGroup]
+-[SAMKeychainQuery setAccessGroup:]
+-[SAMKeychainQuery synchronizationMode]
+-[SAMKeychainQuery setSynchronizationMode:]
+-[SAMKeychainQuery .cxx_destruct]
++[SAMKeychainQuery errorWithCode:].cold.1
+_objc_msgSend$URLForResource:withExtension:
+_objc_msgSend$accessGroup
+_objc_msgSend$accessibilityType
+_objc_msgSend$account
+_objc_msgSend$accountsForService:error:
+_objc_msgSend$allAccounts:
+_objc_msgSend$archivedDataWithRootObject:
+_objc_msgSend$bundleForClass:
+_objc_msgSend$bundleWithURL:
+_objc_msgSend$dataUsingEncoding:
+_objc_msgSend$deleteItem:
+_objc_msgSend$deletePasswordForService:account:error:
+_objc_msgSend$dictionaryWithCapacity:
+_objc_msgSend$dictionaryWithObjects:forKeys:count:
+_objc_msgSend$errorWithCode:
+_objc_msgSend$errorWithDomain:code:userInfo:
+_objc_msgSend$fetch:
+_objc_msgSend$fetchAll:
+_objc_msgSend$initWithData:encoding:
+_objc_msgSend$isSynchronizationAvailable
+_objc_msgSend$label
+_objc_msgSend$length
+_objc_msgSend$localizedStringForKey:value:table:
+_objc_msgSend$password
+_objc_msgSend$passwordData
+_objc_msgSend$passwordDataForService:account:error:
+_objc_msgSend$passwordForService:account:error:
+_objc_msgSend$query
+_objc_msgSend$save:
+_objc_msgSend$service
+_objc_msgSend$setAccount:
+_objc_msgSend$setObject:forKey:
+_objc_msgSend$setPassword:
+_objc_msgSend$setPassword:forService:account:error:
+_objc_msgSend$setPasswordData:
+_objc_msgSend$setPasswordData:forService:account:error:
+_objc_msgSend$setService:
+_objc_msgSend$synchronizationMode
+_objc_msgSend$unarchiveObjectWithData:
+__OBJC_$_CLASS_METHODS_SAMKeychain
+__OBJC_$_CLASS_METHODS_SAMKeychainQuery
+__OBJC_$_INSTANCE_METHODS_SAMKeychainQuery
+___block_descriptor_32_e5_v8
+___block_literal_global
+__OBJC_METACLASS_RO_$_SAMKeychain
+__OBJC_CLASS_RO_$_SAMKeychain
+__OBJC_METACLASS_RO_$_PodsDummy_SAMKeychain
+__OBJC_CLASS_RO_$_PodsDummy_SAMKeychain
+__OBJC_METACLASS_RO_$_SAMKeychainQuery
+__OBJC_$_INSTANCE_VARIABLES_SAMKeychainQuery
+__OBJC_$_PROP_LIST_SAMKeychainQuery
+__OBJC_CLASS_RO_$_SAMKeychainQuery
+_OBJC_IVAR_$_SAMKeychainQuery._account
+_OBJC_IVAR_$_SAMKeychainQuery._service
+_OBJC_IVAR_$_SAMKeychainQuery._label
+_OBJC_IVAR_$_SAMKeychainQuery._passwordData
+_OBJC_IVAR_$_SAMKeychainQuery._accessGroup
+_OBJC_IVAR_$_SAMKeychainQuery._synchronizationMode
+_SAMKeychainAccessibilityType
+_errorWithCode:.onceToken
+_errorWithCode:.resourcesBundle
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SAMKeychain.build/DerivedSources/
+SAMKeychain_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SAMKeychain.build/Objects-normal/arm64/SAMKeychain_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/SAMKeychain/Sources/
+SAMKeychain.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SAMKeychain.build/Objects-normal/arm64/SAMKeychain.o
++[SAMKeychain passwordForService:account:]
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/SAMKeychain/
+SAMKeychain-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SAMKeychain.build/Objects-normal/arm64/SAMKeychain-dummy.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/SAMKeychain/Sources/
+SAMKeychainQuery.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SAMKeychain.build/Objects-normal/arm64/SAMKeychainQuery.o
+SAMKeychain
+ 2]l
+.+!\
+imx	
+SAMKeychain
+subject.CN

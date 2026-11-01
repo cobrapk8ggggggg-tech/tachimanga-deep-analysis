@@ -1,0 +1,975 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_classname__TEXT
+__gcc_except_tab__TEXT
+__cstring
+__TEXT
+__objc_methname
+__TEXT
+__objc_methtype
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_catlist
+__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/fluttertoast.framework/fluttertoast
+@rpath/Flutter.framework/Flutter
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+/System/Library/Frameworks/UIKit.framework/UIKit
+@executable_path/Frameworks
+@loader_path/Frameworks
+k3Am
+k3Am:
+m !k
+@(#)PROGRAM:fluttertoast  PROJECT:Pods-1
+PodsDummy_fluttertoast
+FluttertoastPlugin
+FlutterPlugin
+NSObject
+FlutterApplicationLifeCycleDelegate
+UNUserNotificationCenterDelegate
+Toast
+CSToastStyle
+CSToastManager
+PonnamKarthik/fluttertoast
+cancel
+showToast
+gravity
+time
+bgcolor
+textcolor
+fontSize
+center
+v8@?0
+CSToastPositionTop
+CSToastPositionCenter
+CSToastPositionBottom
+CSToastTimerKey
+CSToastDurationKey
+CSToastPositionKey
+CSToastCompletionKey
+CSToastActiveKey
+CSToastActivityViewKey
+CSToastQueueKey
+v12@?0B8
+CGColor
+CGPointValue
+_titleAlignment
+T@"CSToastStyle",&,N,V_sharedStyle
+backgroundColor
+T@"NSString",?,R,C
+clearToastQueue
+T@"UIColor",&,N,V_backgroundColor
+cs_activeToasts
+T@"UIColor",&,N,V_shadowColor
+dealloc
+T@"UIFont",&,N,V_messageFont
+defaultPosition
+T@,&,N,V_defaultPosition
+isProxy
+TB,N,GisTapToDismissEnabled,V_tapToDismissEnabled
+release
+TB,N,V_isKeyboardVisible
+setMessageFont:
+Td,N,V_cornerRadius
+setSharedStyle:
+Td,N,V_fadeDuration
+windows
+.cxx_destruct
+_result
+T#,R
+applicationWillEnterForeground:
+T@"FlutterMethodChannel",&,N,V_channel
+channel
+T@"NSString",R,C
+containsObject:
+T@"UIColor",&,N,V_messageColor
+cs_showToast:duration:position:
+T@"UIColor",&,N,V_titleColor
+defaultDuration
+T@"UIFont",&,N,V_titleFont
+initWithActivityIndicatorStyle:
+TB,N,GisQueueEnabled,V_queueEnabled
+numberWithBool:
+TB,N,V_displayShadow
+setContentMode:
+TQ,R
+setShadowColor:
+Td,N,V_defaultDuration
+verticalPadding
+Td,N,V_horizontalPadding
+Td,N,V_maxHeightPercentage
+Td,N,V_maxWidthPercentage
+Td,N,V_shadowOpacity
+Td,N,V_shadowRadius
+Td,N,V_verticalPadding
+Tq,N,V_messageAlignment
+Tq,N,V_messageNumberOfLines
+Tq,N,V_titleAlignment
+Tq,N,V_titleNumberOfLines
+T{CGSize=dd},N,V_activitySize
+T{CGSize=dd},N,V_imageSize
+T{CGSize=dd},N,V_shadowOffset
+_activitySize
+_backgroundColor
+_channel
+_cornerRadius
+_defaultDuration
+_defaultPosition
+_displayShadow
+_fadeDuration
+_horizontalPadding
+_imageSize
+_isKeyboardVisible
+_maxHeightPercentage
+_maxWidthPercentage
+_messageAlignment
+_messageColor
+_messageFont
+_messageNumberOfLines
+_queueEnabled
+_readKeyWindow
+_shadowColor
+_shadowOffset
+_shadowOpacity
+_shadowRadius
+_sharedStyle
+_tapToDismissEnabled
+_titleColor
+_titleFont
+_titleNumberOfLines
+_verticalPadding
+activitySize
+addGestureRecognizer:
+addMethodCallDelegate:channel:
+addObject:
+addObserver:selector:name:object:
+addSubview:
+addTimer:forMode:
+animateWithDuration:delay:options:animations:completion:
+application:continueUserActivity:restorationHandler:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleOpenURL:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationWillResignActive:
+applicationWillTerminate:
+arguments
+autorelease
+blackColor
+boldSystemFontOfSize:
+bounds
+caseInsensitiveCompare:
+class
+clearColor
+colorWithAlphaComponent:
+colorWithHex:
+colorWithRed:green:blue:alpha:
+conformsToProtocol:
+cornerRadius
+count
+countByEnumeratingWithState:objects:count:
+cs_centerPointForPosition:withToast:
+cs_handleToastTapped:
+cs_hideToast:
+cs_hideToast:fromTap:
+cs_toastQueue
+cs_toastTimerDidFinish:
+debugDescription
+defaultCenter
+description
+detachFromEngineForRegistrar:
+displayShadow
+doubleValue
+fadeDuration
+firstObject
+frame
+handleMethodCall:result:
+hash
+hideAllToasts
+hideAllToasts:clearQueue:
+hideToast
+hideToast:
+hideToastActivity
+horizontalPadding
+imageSize
+init
+initWithDefaultStyle
+initWithFrame:
+initWithImage:
+initWithInt:
+initWithTarget:action:
+intValue
+invalidate
+isEqual:
+isEqualToString:
+isKeyWindow
+isKeyboardVisible
+isKindOfClass:
+isMemberOfClass:
+isQueueEnabled
+isTapToDismissEnabled
+keyboardWillHide
+keyboardWillShow
+lastObject
+layer
+mainRunLoop
+makeToast:
+makeToast:duration:position:
+makeToast:duration:position:style:
+makeToast:duration:position:title:image:style:completion:
+makeToastActivity:
+maxHeightPercentage
+maxWidthPercentage
+messageAlignment
+messageColor
+messageFont
+messageNumberOfLines
+messenger
+method
+methodChannelWithName:binaryMessenger:
+numberWithDouble:
+objectForKeyedSubscript:
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+queueEnabled
+registerWithRegistrar:
+removeAllObjects
+removeFromSuperview
+removeObject:
+removeObjectAtIndex:
+removeObserver:name:object:
+respondsToSelector:
+retain
+retainCount
+safeAreaInsets
+self
+setActivitySize:
+setAlpha:
+setAutoresizingMask:
+setBackgroundColor:
+setCenter:
+setChannel:
+setCornerRadius:
+setDefaultDuration:
+setDefaultPosition:
+setDisplayShadow:
+setExclusiveTouch:
+setFadeDuration:
+setFont:
+setFrame:
+setHorizontalPadding:
+setImageSize:
+setIsKeyboardVisible:
+setLineBreakMode:
+setMaxHeightPercentage:
+setMaxWidthPercentage:
+setMessageAlignment:
+setMessageColor:
+setMessageNumberOfLines:
+setNumberOfLines:
+setPluginRegistrantCallback:
+setQueueEnabled:
+setShadowOffset:
+setShadowOpacity:
+setShadowRadius:
+setTapToDismissEnabled:
+setText:
+setTextAlignment:
+setTextColor:
+setTitleAlignment:
+setTitleColor:
+setTitleFont:
+setTitleNumberOfLines:
+setUserInteractionEnabled:
+setVerticalPadding:
+shadowColor
+shadowOffset
+shadowOpacity
+shadowRadius
+sharedApplication
+sharedManager
+sharedStyle
+showToast:
+showToast:duration:position:completion:
+sizeThatFits:
+startAnimating
+superclass
+systemFontOfSize:
+tapToDismissEnabled
+timerWithTimeInterval:target:selector:userInfo:repeats:
+titleAlignment
+titleColor
+titleFont
+titleNumberOfLines
+toastViewForMessage:title:image:style:
+unsignedIntegerValue
+userInfo
+userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:
+userNotificationCenter:openSettingsForNotification:
+userNotificationCenter:willPresentNotification:withCompletionHandler:
+view
+whiteColor
+zone
+v24@0:8@16
+B24@0:8@16
+#16@0:8
+@16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v40@0:8@16@24@?32
+v32@0:8@16@24
+v40@0:8@"UNUserNotificationCenter"16@"UNNotification"24@?<v@?Q>32
+v40@0:8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32
+v32@0:8@"UNUserNotificationCenter"16@"UNNotification"24
+B32@0:8@16@24
+B40@0:8@16@24@?32
+B40@0:8@16@24@32
+B48@0:8@16@24@32@40
+B32@0:8@16@?24
+B32@0:8@"UIApplication"16@"NSDictionary"24
+v24@0:8@"UIApplication"16
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+B40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+B40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+B32@0:8@"UIApplication"16@?<v@?Q>24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v32@0:8@16@?24
+v24@0:8^?16
+v24@0:8@"NSObject<FlutterPluginRegistrar>"16
+v32@0:8@"FlutterMethodCall"16@?<v@?@>24
+v16@0:8
+@24@0:8Q16
+v48@0:8@16d24@32@40
+v20@0:8B16
+@"FlutterMethodChannel"
+v40@0:8@16d24@32
+v72@0:8@16d24@32@40@48@56@?64
+v48@0:8@16d24@32@?40
+v24@0:8B16B20
+v28@0:8@16B24
+@48@0:8@16@24@32@40
+{CGPoint=dd}32@0:8@16@24
+v24@0:8d16
+d16@0:8
+q16@0:8
+v24@0:8q16
+{CGSize=dd}16@0:8
+v32@0:8{CGSize=dd}16
+@"UIColor"
+@"UIFont"
+{CGSize="width"d"height"d}
+@"CSToastStyle"
+___CFConstantStringClassReference
+_FlutterMethodNotImplemented
+___objc_personality_v0
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getAssociatedObject
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setAssociatedObject
+_objc_storeStrong
+__NSConcreteStackBlock
+__Unwind_Resume
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+_dispatch_after
+_dispatch_once
+_dispatch_time
+_NSRunLoopCommonModes
+_OBJC_EHTYPE_$_NSException
+_CGRectZero
+_UIKeyboardWillHideNotification
+_UIKeyboardWillShowNotification
+_OBJC_CLASS_$_UIView
+_OBJC_CLASS_$_FlutterMethodChannel
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_UIFont
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UITapGestureRecognizer
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_UIImageView
+_OBJC_CLASS_$_UILabel
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_UIActivityIndicatorView
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSValue
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+Bottom
+	Center
+Manager
+2Style
+CSToast
+>FluttertoastPlugin
+PPodsDummy_fluttertoast
+Manager
+Style
+CSToast
+FluttertoastPlugin
+PodsDummy_fluttertoast
+CLASS_$_
+\METACLASS_$_
+Number
+String
+CSToastPosition
+OBJC_
+fluttertoastVersion
+dd@p
+PD8<8<@D
+_CSToastPositionBottom
+_CSToastPositionCenter
+_CSToastPositionTop
+_OBJC_CLASS_$_CSToastManager
+_OBJC_CLASS_$_CSToastStyle
+_OBJC_CLASS_$_FluttertoastPlugin
+_OBJC_CLASS_$_PodsDummy_fluttertoast
+_OBJC_METACLASS_$_CSToastManager
+_OBJC_METACLASS_$_CSToastStyle
+_OBJC_METACLASS_$_FluttertoastPlugin
+_OBJC_METACLASS_$_PodsDummy_fluttertoast
+_fluttertoastVersionNumber
+_fluttertoastVersionString
+_CGRectZero
+_FlutterMethodNotImplemented
+_NSRunLoopCommonModes
+_OBJC_CLASS_$_FlutterMethodChannel
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSRunLoop
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimer
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_UIActivityIndicatorView
+_OBJC_CLASS_$_UIApplication
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_UIFont
+_OBJC_CLASS_$_UIImageView
+_OBJC_CLASS_$_UILabel
+_OBJC_CLASS_$_UITapGestureRecognizer
+_OBJC_CLASS_$_UIView
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_UIKeyboardWillHideNotification
+_UIKeyboardWillShowNotification
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_main_q
+__objc_empty_cache
+_dispatch_after
+_dispatch_once
+_dispatch_time
+_objc_alloc
+_objc_alloc_init
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_getAssociatedObject
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setAssociatedObject
+_objc_storeStrong
++[FluttertoastPlugin registerWithRegistrar:]
+-[FluttertoastPlugin init]
+-[FluttertoastPlugin dealloc]
+-[FluttertoastPlugin keyboardWillShow]
+-[FluttertoastPlugin keyboardWillHide]
+-[FluttertoastPlugin colorWithHex:]
+-[FluttertoastPlugin handleMethodCall:result:]
+-[FluttertoastPlugin makeToast:duration:position:style:]
+___56-[FluttertoastPlugin makeToast:duration:position:style:]_block_invoke
+___copy_helper_block_e8_32s40s48s56w
+___destroy_helper_block_e8_32s40s48s56w
+-[FluttertoastPlugin _readKeyWindow]
+-[FluttertoastPlugin channel]
+-[FluttertoastPlugin setChannel:]
+-[FluttertoastPlugin isKeyboardVisible]
+-[FluttertoastPlugin setIsKeyboardVisible:]
+-[FluttertoastPlugin .cxx_destruct]
+-[UIView(Toast) makeToast:]
+-[UIView(Toast) makeToast:duration:position:]
+-[UIView(Toast) makeToast:duration:position:style:]
+-[UIView(Toast) makeToast:duration:position:title:image:style:completion:]
+-[UIView(Toast) showToast:]
+-[UIView(Toast) showToast:duration:position:completion:]
+-[UIView(Toast) hideToast]
+-[UIView(Toast) hideToast:]
+-[UIView(Toast) hideAllToasts]
+-[UIView(Toast) hideAllToasts:clearQueue:]
+-[UIView(Toast) clearToastQueue]
+-[UIView(Toast) cs_showToast:duration:position:]
+___48-[UIView(Toast) cs_showToast:duration:position:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___48-[UIView(Toast) cs_showToast:duration:position:]_block_invoke.23
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[UIView(Toast) cs_hideToast:]
+-[UIView(Toast) cs_hideToast:fromTap:]
+___38-[UIView(Toast) cs_hideToast:fromTap:]_block_invoke
+___38-[UIView(Toast) cs_hideToast:fromTap:]_block_invoke_2
+-[UIView(Toast) toastViewForMessage:title:image:style:]
+-[UIView(Toast) cs_activeToasts]
+-[UIView(Toast) cs_toastQueue]
+-[UIView(Toast) cs_toastTimerDidFinish:]
+-[UIView(Toast) cs_handleToastTapped:]
+-[UIView(Toast) makeToastActivity:]
+___35-[UIView(Toast) makeToastActivity:]_block_invoke
+-[UIView(Toast) hideToastActivity]
+___34-[UIView(Toast) hideToastActivity]_block_invoke
+___34-[UIView(Toast) hideToastActivity]_block_invoke_2
+-[UIView(Toast) cs_centerPointForPosition:withToast:]
+-[CSToastStyle initWithDefaultStyle]
+-[CSToastStyle setMaxWidthPercentage:]
+-[CSToastStyle setMaxHeightPercentage:]
+-[CSToastStyle init]
+-[CSToastStyle backgroundColor]
+-[CSToastStyle setBackgroundColor:]
+-[CSToastStyle titleColor]
+-[CSToastStyle setTitleColor:]
+-[CSToastStyle messageColor]
+-[CSToastStyle setMessageColor:]
+-[CSToastStyle maxWidthPercentage]
+-[CSToastStyle maxHeightPercentage]
+-[CSToastStyle horizontalPadding]
+-[CSToastStyle setHorizontalPadding:]
+-[CSToastStyle verticalPadding]
+-[CSToastStyle setVerticalPadding:]
+-[CSToastStyle cornerRadius]
+-[CSToastStyle setCornerRadius:]
+-[CSToastStyle titleFont]
+-[CSToastStyle setTitleFont:]
+-[CSToastStyle messageFont]
+-[CSToastStyle setMessageFont:]
+-[CSToastStyle titleAlignment]
+-[CSToastStyle setTitleAlignment:]
+-[CSToastStyle messageAlignment]
+-[CSToastStyle setMessageAlignment:]
+-[CSToastStyle titleNumberOfLines]
+-[CSToastStyle setTitleNumberOfLines:]
+-[CSToastStyle messageNumberOfLines]
+-[CSToastStyle setMessageNumberOfLines:]
+-[CSToastStyle displayShadow]
+-[CSToastStyle setDisplayShadow:]
+-[CSToastStyle shadowColor]
+-[CSToastStyle setShadowColor:]
+-[CSToastStyle shadowOpacity]
+-[CSToastStyle setShadowOpacity:]
+-[CSToastStyle shadowRadius]
+-[CSToastStyle setShadowRadius:]
+-[CSToastStyle shadowOffset]
+-[CSToastStyle setShadowOffset:]
+-[CSToastStyle imageSize]
+-[CSToastStyle setImageSize:]
+-[CSToastStyle activitySize]
+-[CSToastStyle setActivitySize:]
+-[CSToastStyle fadeDuration]
+-[CSToastStyle setFadeDuration:]
+-[CSToastStyle .cxx_destruct]
++[CSToastManager sharedManager]
+___31+[CSToastManager sharedManager]_block_invoke
+-[CSToastManager init]
++[CSToastManager setSharedStyle:]
++[CSToastManager sharedStyle]
++[CSToastManager setTapToDismissEnabled:]
++[CSToastManager isTapToDismissEnabled]
++[CSToastManager setQueueEnabled:]
++[CSToastManager isQueueEnabled]
++[CSToastManager setDefaultDuration:]
++[CSToastManager defaultDuration]
++[CSToastManager setDefaultPosition:]
++[CSToastManager defaultPosition]
+-[CSToastManager sharedStyle]
+-[CSToastManager setSharedStyle:]
+-[CSToastManager isTapToDismissEnabled]
+-[CSToastManager setTapToDismissEnabled:]
+-[CSToastManager isQueueEnabled]
+-[CSToastManager setQueueEnabled:]
+-[CSToastManager defaultDuration]
+-[CSToastManager setDefaultDuration:]
+-[CSToastManager defaultPosition]
+-[CSToastManager setDefaultPosition:]
+-[CSToastManager .cxx_destruct]
+_objc_msgSend$CGColor
+_objc_msgSend$CGPointValue
+_objc_msgSend$_readKeyWindow
+_objc_msgSend$activitySize
+_objc_msgSend$addGestureRecognizer:
+_objc_msgSend$addMethodCallDelegate:channel:
+_objc_msgSend$addObject:
+_objc_msgSend$addObserver:selector:name:object:
+_objc_msgSend$addSubview:
+_objc_msgSend$addTimer:forMode:
+_objc_msgSend$animateWithDuration:delay:options:animations:completion:
+_objc_msgSend$arguments
+_objc_msgSend$backgroundColor
+_objc_msgSend$blackColor
+_objc_msgSend$boldSystemFontOfSize:
+_objc_msgSend$bounds
+_objc_msgSend$caseInsensitiveCompare:
+_objc_msgSend$clearColor
+_objc_msgSend$clearToastQueue
+_objc_msgSend$colorWithAlphaComponent:
+_objc_msgSend$colorWithHex:
+_objc_msgSend$colorWithRed:green:blue:alpha:
+_objc_msgSend$containsObject:
+_objc_msgSend$cornerRadius
+_objc_msgSend$count
+_objc_msgSend$countByEnumeratingWithState:objects:count:
+_objc_msgSend$cs_activeToasts
+_objc_msgSend$cs_centerPointForPosition:withToast:
+_objc_msgSend$cs_hideToast:
+_objc_msgSend$cs_hideToast:fromTap:
+_objc_msgSend$cs_showToast:duration:position:
+_objc_msgSend$cs_toastQueue
+_objc_msgSend$defaultCenter
+_objc_msgSend$defaultDuration
+_objc_msgSend$defaultPosition
+_objc_msgSend$displayShadow
+_objc_msgSend$doubleValue
+_objc_msgSend$fadeDuration
+_objc_msgSend$firstObject
+_objc_msgSend$frame
+_objc_msgSend$hideAllToasts
+_objc_msgSend$hideAllToasts:clearQueue:
+_objc_msgSend$hideToast:
+_objc_msgSend$hideToastActivity
+_objc_msgSend$horizontalPadding
+_objc_msgSend$imageSize
+_objc_msgSend$initWithActivityIndicatorStyle:
+_objc_msgSend$initWithDefaultStyle
+_objc_msgSend$initWithFrame:
+_objc_msgSend$initWithImage:
+_objc_msgSend$initWithInt:
+_objc_msgSend$initWithTarget:action:
+_objc_msgSend$intValue
+_objc_msgSend$invalidate
+_objc_msgSend$isEqualToString:
+_objc_msgSend$isKeyWindow
+_objc_msgSend$isKeyboardVisible
+_objc_msgSend$isQueueEnabled
+_objc_msgSend$isTapToDismissEnabled
+_objc_msgSend$lastObject
+_objc_msgSend$layer
+_objc_msgSend$mainRunLoop
+_objc_msgSend$makeToast:duration:position:style:
+_objc_msgSend$maxHeightPercentage
+_objc_msgSend$maxWidthPercentage
+_objc_msgSend$messageAlignment
+_objc_msgSend$messageColor
+_objc_msgSend$messageFont
+_objc_msgSend$messageNumberOfLines
+_objc_msgSend$messenger
+_objc_msgSend$method
+_objc_msgSend$methodChannelWithName:binaryMessenger:
+_objc_msgSend$numberWithBool:
+_objc_msgSend$numberWithDouble:
+_objc_msgSend$objectForKeyedSubscript:
+_objc_msgSend$removeAllObjects
+_objc_msgSend$removeFromSuperview
+_objc_msgSend$removeObject:
+_objc_msgSend$removeObjectAtIndex:
+_objc_msgSend$removeObserver:name:object:
+_objc_msgSend$safeAreaInsets
+_objc_msgSend$setActivitySize:
+_objc_msgSend$setAlpha:
+_objc_msgSend$setAutoresizingMask:
+_objc_msgSend$setBackgroundColor:
+_objc_msgSend$setCenter:
+_objc_msgSend$setChannel:
+_objc_msgSend$setContentMode:
+_objc_msgSend$setCornerRadius:
+_objc_msgSend$setDefaultDuration:
+_objc_msgSend$setDefaultPosition:
+_objc_msgSend$setDisplayShadow:
+_objc_msgSend$setExclusiveTouch:
+_objc_msgSend$setFadeDuration:
+_objc_msgSend$setFont:
+_objc_msgSend$setFrame:
+_objc_msgSend$setHorizontalPadding:
+_objc_msgSend$setImageSize:
+_objc_msgSend$setIsKeyboardVisible:
+_objc_msgSend$setLineBreakMode:
+_objc_msgSend$setMaxHeightPercentage:
+_objc_msgSend$setMaxWidthPercentage:
+_objc_msgSend$setMessageAlignment:
+_objc_msgSend$setMessageColor:
+_objc_msgSend$setMessageFont:
+_objc_msgSend$setMessageNumberOfLines:
+_objc_msgSend$setNumberOfLines:
+_objc_msgSend$setQueueEnabled:
+_objc_msgSend$setShadowColor:
+_objc_msgSend$setShadowOffset:
+_objc_msgSend$setShadowOpacity:
+_objc_msgSend$setShadowRadius:
+_objc_msgSend$setSharedStyle:
+_objc_msgSend$setTapToDismissEnabled:
+_objc_msgSend$setText:
+_objc_msgSend$setTextAlignment:
+_objc_msgSend$setTextColor:
+_objc_msgSend$setTitleAlignment:
+_objc_msgSend$setTitleColor:
+_objc_msgSend$setTitleFont:
+_objc_msgSend$setTitleNumberOfLines:
+_objc_msgSend$setUserInteractionEnabled:
+_objc_msgSend$setVerticalPadding:
+_objc_msgSend$shadowColor
+_objc_msgSend$shadowOffset
+_objc_msgSend$shadowOpacity
+_objc_msgSend$shadowRadius
+_objc_msgSend$sharedApplication
+_objc_msgSend$sharedManager
+_objc_msgSend$sharedStyle
+_objc_msgSend$showToast:duration:position:completion:
+_objc_msgSend$sizeThatFits:
+_objc_msgSend$startAnimating
+_objc_msgSend$systemFontOfSize:
+_objc_msgSend$timerWithTimeInterval:target:selector:userInfo:repeats:
+_objc_msgSend$titleAlignment
+_objc_msgSend$titleColor
+_objc_msgSend$titleFont
+_objc_msgSend$titleNumberOfLines
+_objc_msgSend$toastViewForMessage:title:image:style:
+_objc_msgSend$unsignedIntegerValue
+_objc_msgSend$userInfo
+_objc_msgSend$verticalPadding
+_objc_msgSend$view
+_objc_msgSend$whiteColor
+_objc_msgSend$windows
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_Toast
+__OBJC_$_CLASS_METHODS_CSToastManager
+__OBJC_$_CLASS_METHODS_FluttertoastPlugin
+__OBJC_$_INSTANCE_METHODS_CSToastManager
+__OBJC_$_INSTANCE_METHODS_CSToastStyle
+__OBJC_$_INSTANCE_METHODS_FluttertoastPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+GCC_except_table6
+___block_descriptor_72_e8_32s40s48s56w_e5_v8
+___block_descriptor_40_e8_32s_e5_v8
+___block_descriptor_56_e8_32s40s_e8_v12
+?0B8l
+___block_descriptor_49_e8_32s40s_e8_v12
+?0B8l
+___block_descriptor_48_e8_32s40s_e8_v12
+?0B8l
+___block_descriptor_40_e5_v8
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_METACLASS_RO_$_PodsDummy_fluttertoast
+__OBJC_CLASS_RO_$_PodsDummy_fluttertoast
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_CLASS_PROTOCOLS_$_FluttertoastPlugin
+__OBJC_METACLASS_RO_$_FluttertoastPlugin
+__OBJC_$_INSTANCE_VARIABLES_FluttertoastPlugin
+__OBJC_$_PROP_LIST_FluttertoastPlugin
+__OBJC_CLASS_RO_$_FluttertoastPlugin
+__OBJC_$_CATEGORY_UIView_$_Toast
+__OBJC_METACLASS_RO_$_CSToastStyle
+__OBJC_$_INSTANCE_VARIABLES_CSToastStyle
+__OBJC_$_PROP_LIST_CSToastStyle
+__OBJC_CLASS_RO_$_CSToastStyle
+__OBJC_METACLASS_RO_$_CSToastManager
+__OBJC_$_INSTANCE_VARIABLES_CSToastManager
+__OBJC_$_PROP_LIST_CSToastManager
+__OBJC_CLASS_RO_$_CSToastManager
+_OBJC_IVAR_$_FluttertoastPlugin._result
+_OBJC_IVAR_$_FluttertoastPlugin._isKeyboardVisible
+_OBJC_IVAR_$_FluttertoastPlugin._channel
+_OBJC_IVAR_$_CSToastStyle._displayShadow
+_OBJC_IVAR_$_CSToastStyle._backgroundColor
+_OBJC_IVAR_$_CSToastStyle._titleColor
+_OBJC_IVAR_$_CSToastStyle._messageColor
+_OBJC_IVAR_$_CSToastStyle._maxWidthPercentage
+_OBJC_IVAR_$_CSToastStyle._maxHeightPercentage
+_OBJC_IVAR_$_CSToastStyle._horizontalPadding
+_OBJC_IVAR_$_CSToastStyle._verticalPadding
+_OBJC_IVAR_$_CSToastStyle._cornerRadius
+_OBJC_IVAR_$_CSToastStyle._titleFont
+_OBJC_IVAR_$_CSToastStyle._messageFont
+_OBJC_IVAR_$_CSToastStyle._titleAlignment
+_OBJC_IVAR_$_CSToastStyle._messageAlignment
+_OBJC_IVAR_$_CSToastStyle._titleNumberOfLines
+_OBJC_IVAR_$_CSToastStyle._messageNumberOfLines
+_OBJC_IVAR_$_CSToastStyle._shadowColor
+_OBJC_IVAR_$_CSToastStyle._shadowOpacity
+_OBJC_IVAR_$_CSToastStyle._shadowRadius
+_OBJC_IVAR_$_CSToastStyle._fadeDuration
+_OBJC_IVAR_$_CSToastStyle._shadowOffset
+_OBJC_IVAR_$_CSToastStyle._imageSize
+_OBJC_IVAR_$_CSToastStyle._activitySize
+_OBJC_IVAR_$_CSToastManager._tapToDismissEnabled
+_OBJC_IVAR_$_CSToastManager._queueEnabled
+_OBJC_IVAR_$_CSToastManager._sharedStyle
+_OBJC_IVAR_$_CSToastManager._defaultDuration
+_OBJC_IVAR_$_CSToastManager._defaultPosition
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterPlugin
+_CSToastTimerKey
+_CSToastDurationKey
+_CSToastPositionKey
+_CSToastCompletionKey
+_CSToastActiveKey
+_CSToastActivityViewKey
+_CSToastQueueKey
+_sharedManager._sharedManager
+_sharedManager.oncePredicate
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/fluttertoast.build/DerivedSources/
+fluttertoast_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/fluttertoast.build/Objects-normal/arm64/fluttertoast_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/fluttertoast/
+fluttertoast-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/fluttertoast.build/Objects-normal/arm64/fluttertoast-dummy.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/fluttertoast-8.2.12/ios/Classes/
+FluttertoastPlugin.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/fluttertoast.build/Objects-normal/arm64/FluttertoastPlugin.o
++[FluttertoastPlugin registerWithRegistrar:]
+/Users/wujichao/.pub-cache/hosted/pub.dev/fluttertoast-8.2.12/ios/Classes/
+UIView+Toast.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/fluttertoast.build/Objects-normal/arm64/UIView+Toast.o
+fluttertoast
+yZ[X
+2O}&
+EA#q
+eY&IlNG
+V1}"
+7384d
+<`M 
+HBS5
+EqRP
+r5LD-<
+J];Vz
+2! 'K
+BJp ^r
+[}N2
+djsnN~
+YNc~
+y)2?
+fluttertoast
+subject.CN

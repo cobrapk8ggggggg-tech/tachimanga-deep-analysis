@@ -1,0 +1,2312 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_classname__TEXT
+__cstring
+__TEXT
+__objc_methname
+__TEXT
+__objc_methtype
+__TEXT
+__gcc_except_tab__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/sqflite_darwin.framework/sqflite_darwin
+@rpath/Flutter.framework/Flutter
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/UIKit.framework/UIKit
+/usr/lib/libsqlite3.dylib
+@executable_path/Frameworks
+@loader_path/Frameworks
+@9h	
+kh8)	
+@yC.
+4h&@
+?@9`
+ThB@9
+@(#)PROGRAM:sqflite_darwin  PROJECT:Pods-1
+PodsDummy_sqflite_darwin
+SqfliteCursor
+SqfliteDarwinDatabase
+SqfliteDarwinStatement
+SqfliteDarwinDatabaseAdditions
+SqfliteDarwinDatabaseQueue
+SqfliteDarwinResultSet
+SqfliteDatabase
+SqfliteOperation
+SqfliteBatchOperation
+SqfliteMethodCallOperation
+SqfliteQueuedOperation
+SqflitePlugin
+FlutterPlugin
+NSObject
+FlutterApplicationLifeCycleDelegate
+UNUserNotificationCenterDelegate
+-[SqfliteDarwinDatabase initWithPath:]
+SqfliteDarwinDatabase.m
+sqlite3_threadsafe()
+2.7.8
+SqfliteDarwinDBVersion is invalid: Please use SqfliteDarwinDBUserVersion instead.
+v8@?0
+:memory:
+error opening!: %d
+Closing leaked statement
+error closing!: %d
+%s:%d
+-[SqfliteDarwinDatabase busyRetryTimeout]
+SqfliteDarwinDB: busyRetryTimeout no longer works, please use maxBusyRetryTimeInterval
+-[SqfliteDarwinDatabase setBusyRetryTimeout:]
+SqfliteDarwinDB: setBusyRetryTimeout does nothing, please use setMaxBusyRetryTimeInterval:
+B24@?0@"SqfliteDarwinStatement"8^B16
+API misuse, -[SqfliteDarwinDatabase setCachedStatement:forQuery:] query must not be nil
+en_US
+select name from sqlite_master where type='table'
+The SqfliteDarwinDatabase %@ is currently in use.
+The SqfliteDarwinDatabase %@ is not open.
+SqfliteDarwinDatabase
+NULL
+%@ executeQuery: %@
+DB Error: %d "%@"
+DB Query: %@
+DB Path: %@
+%@ = %@
+Error: unable to bind (%d, %s
+Could not find index for %@
+data: %ld bytes
+obj: %@
+Error: the bind count is not correct for the # of variables (executeQuery)
+Error inserting batch: %s
+rollback transaction
+commit transaction
+begin exclusive transaction
+begin deferred transaction
+begin immediate transaction
+savepoint '%@';
+release savepoint '%@';
+rollback transaction to savepoint '%@';
+dbSavePoint%ld
+%@ %ld hit(s) for query %@
+WARNING: Requested sleep of %i milliseconds, but SQLite returned %i. Maybe SQLite wasn't built with HAVE_USLEEP=1?
+select [sql] from sqlite_master where [type] = 'table' and lower(name) = ?
+SELECT type, name, tbl_name, rootpage, sql FROM (SELECT * FROM sqlite_master UNION ALL SELECT * FROM sqlite_temp_master) WHERE type != 'meta' AND name NOT LIKE 'sqlite_%' ORDER BY tbl_name, type DESC, name
+pragma table_info('%@')
+name
+pragma application_id
+pragma application_id=%d
+pragma user_version
+pragma user_version = %d
+Could not create database queue for path %@
+fmdb.%@
+SqfliteDarwinDatabaseQueue could not reopen database for path %@
+-[SqfliteDarwinDatabaseQueue inDatabase:]
+SqfliteDarwinDatabaseQueue.m
+currentSyncQueue != self && "inDatabase: was called reentrantly on the same queue, which would lead to a deadlock"
+Warning: there is at least one open result set around after performing [SqfliteDarwinDatabaseQueue inDatabase:]
+savePoint%ld
+Warning: There seem to be no columns in this set.
+%s:%d Database busy (%@)
+-[SqfliteDarwinResultSet internalStepWithError:]
+Database busy
+Error calling sqlite3_step (%d: %s) rs
+parentDB does not exist
+Unknown error calling sqlite3_step (%d: %s) rs
+Warning: I could not find the column named '%@'.
+PRAGMA sqflite -- db_config_defensive_off
+cursorPageSize
+cursorId
+cancel
+operations
+v24@?0@"SqfliteDarwinDatabase"8@"SqfliteOperation"16
+%@ %@
+no changes
+inserted %@
+changed %@
+queryCursorNext %@%s
+ (cancel)
+cursor %@ not found.
+Cursor not found
+Batch method '%@' not supported
+closing cursor %@
+com.tekartik.sqflite
+getPlatformVersion
+getDatabasesPath
+debugMode
+debug
+options
+openDatabase
+closeDatabase
+deleteDatabase
+databaseExists
+queryCursorNext
+batch
+darwinCreateUnprotectedFolder
+readOnly
+singleInstance
+recovered
+recoveredInTransaction
+path
+open_failed
+database_closed
+databases
+logLevel
+parent
+execute
+insert
+update
+query
+sqlite_error
+bad_param
+fs_error
+arguments
+inTransaction
+transactionId
+noResult
+continueOnError
+method
+result
+error
+code
+message
+data
+db not found.
+v32@?0@8@16^B24
+columns
+rows
+v16@?0@"SqfliteDarwinDatabase"8
+opening %@ %@ %@
+ read-only
+ new instance
+re-opened %@singleInstance %@ id %@
+(in transaction) 
+Creating parent dir %@
+Could not open db.
+Creating operation queue
+closing %@
+No more databases open
+Deleting file %@
+Deleting db %@
+-shm
+-wal
+-journal
+Deleting opened %@ id %@
+databaseExists %@
+v32@?0@"NSNumber"8@"SqfliteDatabase"16^B24
+Debug mode %d
+Sqflite: logLevel %d
+error creating unprotected dir: %@
+iOS 
+T@"NSString",R,N,V_databasePath
+SqfliteDarwinDBUserVersion
+TB,V_logsErrors
+T#,R
+T^v,V_statement
+T@"FlutterMethodCall",&,VflutterMethodCall
+T@"NSDictionary",R,N
+_openResultSets
+T@"NSMutableDictionary",&,V_cachedStatements
+_traceExecution
+T@"NSMutableDictionary",&,VcursorMap
+applicationWillEnterForeground:
+T@"NSMutableDictionary",R
+continueOnError
+T@"NSNumber",&,VcursorId
+dateFromString:
+T@"NSNumber",&,VpageSize
+details
+T@"NSObject",&,Vresults
+executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:
+T@"NSString",&,V_query
+getSqlArguments
+T@"NSString",C,V_vfsName
+handleCloseDatabaseCall:result:
+T@"NSURL",R,N
+initWithFormat:
+T@"SqfliteDarwinDatabaseQueue",&,VfmDatabaseQueue
+isInTransaction
+T@"SqfliteDarwinStatement",&,V_statement
+lastInsertRowId
+T@?,C,VflutterResult
+lowercaseString
+TB,N,V_inTransaction
+message
+TB,N,V_shouldAutoClose
+numberWithLong:
+TB,N,V_singleInstance
+releaseSavePointWithName:error:
+TB,R,N,V_isInTransaction
+TB,V_inUse
+setKey:
+TB,VcontinueOnError
+setNoTransactionOperationQueue:
+TI,N
+shouldAutoClose
+Ti,N,VlastCursorId
+stringForQuery:
+Ti,N,VlogLevel
+toSqlArguments:
+Ti,R,V_openFlags
+.cxx_destruct
+TB,V_checkedOut
+SqfliteDarwinDBVersion
+T^v,R,N
+T@"FlutterError",&,Verror
+Td,N,V_maxBusyRetryTimeInterval
+T@"NSDictionary",&,Vdictionary
+_isOpen
+T@"NSMutableArray",&,VnoTransactionOperationQueue
+_singleInstance
+T@"NSMutableDictionary",&,V_singleInstanceDatabaseMap
+allKeys
+T@"NSMutableDictionary",&,VdatabaseMap
+changes
+T@"NSNumber",&,VcurrentTransactionId
+databaseExists:
+T@"NSNumber",&,VdatabaseId
+dealloc
+T@"NSObject",&,VmapLock
+doubleForQuery:
+T@"NSString",&,V_path
+fmDatabaseQueue
+T@"NSString",?,R,C
+getTableSchema:
+T@"NSString",R,C
+handler
+T@"SqfliteDarwinDatabase",&,N,V_parentDB
+isInMemoryPath:
+T@"SqfliteDarwinResultSet",&,VresultSet
+isProxy
+T@"SqfliteOperation",&,Voperation
+limitFor:value:
+T@?,C,Vhandler
+mapLock
+TB,N,V_isOpen
+numberWithBool:
+TB,N,V_shouldCacheStatements
+release
+TB,R,N
+results
+TB,V_crashOnErrors
+setDatabaseMap:
+TB,V_traceExecution
+setKeyWithData:
+TB,VnoResult
+setUserVersion:
+TQ,R
+stringByAppendingPathComponent:
+Ti,N,VlastTransactionId
+stringFromDate:
+Ti,R,N
+vfsName
+Tq,R,N
+Tq,V_useCount
+UTF8String
+UTF8StringForColumn:
+UTF8StringForColumnIndex:
+UTF8StringForColumnName:
+_cachedStatements
+_checkedOut
+_columnNameToIndexMap
+_crashOnErrors
+_databasePath
+_dateFormat
+_inTransaction
+_inUse
+_isExecutingStatement
+_isInTransaction
+_logsErrors
+_maxBusyRetryTimeInterval
+_openFlags
+_openFunctions
+_parentDB
+_path
+_query
+_queue
+_shouldAutoClose
+_shouldCacheStatements
+_singleInstanceDatabaseMap
+_startBusyRetryTime
+_statement
+_useCount
+_vfsName
+addMethodCallDelegate:channel:
+addObject:
+allObjects
+anyObject
+appendBytes:length:
+appendFormat:
+appendString:
+application:continueUserActivity:restorationHandler:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleOpenURL:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationID
+applicationWillResignActive:
+applicationWillTerminate:
+arguments
+array
+arrayIsEmpty:
+autorelease
+beginDeferredTransaction
+beginExclusiveTransaction
+beginImmediateTransaction
+beginTransaction
+beginTransaction:withBlock:
+bindObject:toColumn:inStatement:
+bindStatement:WithArgumentsInArray:orDictionary:orVAList:
+bindWithArray:
+bindWithArray:orDictionary:orVAList:
+bindWithDictionary:
+boolForColumn:
+boolForColumnIndex:
+boolForQuery:
+boolValue
+busyRetryTimeout
+bytes
+cachedStatementForQuery:
+cachedStatements
+charValue
+characterAtIndex:
+checkedOut
+checkpoint:error:
+checkpoint:name:error:
+checkpoint:name:logFrameCount:checkpointCount:error:
+class
+clearCachedStatements
+close
+closeCursor:
+closeCursorById:
+closeDatabase:callback:
+closeOpenResultSets
+code
+columnCount
+columnExists:columnName:
+columnExists:inTableWithName:
+columnIndexForName:
+columnIndexIsNull:
+columnIsNull:
+columnNameForIndex:
+columnNameToIndexMap
+commit
+componentsSeparatedByString:
+conformsToProtocol:
+copy
+count
+countByEnumeratingWithState:objects:count:
+crashOnErrors
+createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+currentDevice
+currentTransactionId
+cursorId
+cursorMap
+data
+dataForColumn:
+dataForColumnIndex:
+dataForQuery:
+dataNoCopyForColumn:
+dataNoCopyForColumnIndex:
+dataWithBytes:length:
+dataWithBytesNoCopy:length:freeWhenDone:
+database
+databaseClass
+databaseExists
+databaseId
+databaseMap
+databasePath
+databaseQueueWithPath:
+databaseQueueWithPath:flags:
+databaseQueueWithURL:
+databaseQueueWithURL:flags:
+databaseURL
+databaseWithPath:
+databaseWithURL:
+dateForColumn:
+dateForColumnIndex:
+dateForQuery:
+dateWithTimeIntervalSince1970:
+dbBatch:operation:
+dbDoExecute:operation:
+dbDoInsert:operation:
+dbDoQuery:operation:
+dbDoUpdate:operation:
+dbExecute:operation:
+dbExecuteOrError:operation:
+dbHandleError:operation:
+dbHandleError:result:
+dbInsert:operation:
+dbQuery:operation:
+dbQueryCursorNext:operation:
+dbRunQueuedOperations:
+dbUpdate:operation:
+debugDescription
+defaultManager
+deleteDatabaseFile:
+deleteSimpleFile:
+description
+detachFromEngineForRegistrar:
+dictionary
+dictionaryWithCapacity:
+dictionaryWithObject:forKey:
+dictionaryWithObjects:forKeys:count:
+doubleForColumn:
+doubleForColumnIndex:
+doubleValue
+enumerateKeysAndObjectsUsingBlock:
+error
+error:
+errorWithCode:message:details:
+errorWithDomain:code:userInfo:
+errorWithMessage:
+executeQuery:
+executeQuery:values:error:
+executeQuery:withArgumentsInArray:
+executeQuery:withArgumentsInArray:orDictionary:orVAList:shouldBind:
+executeQuery:withParameterDictionary:
+executeQuery:withVAList:
+executeQueryWithFormat:
+executeStatements:
+executeStatements:withResultBlock:
+executeUpdate:
+executeUpdate:values:error:
+executeUpdate:withArgumentsInArray:
+executeUpdate:withErrorAndBindings:
+executeUpdate:withParameterDictionary:
+executeUpdate:withVAList:
+executeUpdateWithFormat:
+extractSQL:argumentsList:intoString:arguments:
+fileExistsAtPath:
+fileSystemRepresentation
+fileURLWithPath:
+firstObject
+floatValue
+flutterMethodCall
+flutterResult
+fromSqlDictionary:
+fromSqlValue:
+getArgument:
+getContinueOnError
+getDatabaseOrError:result:
+getInTransactionChange
+getMethod
+getNoResult
+getSchema
+getSql
+getTransactionId
+goodConnection
+hadError
+handleBatchCall:result:
+handleDarwinCreateUnprotectedFolder:result:
+handleDatabaseExistsCall:result:
+handleDebugCall:result:
+handleDebugModeCall:result:
+handleDeleteDatabaseCall:result:
+handleError:
+handleError:operation:
+handleError:result:
+handleErrorContinue:
+handleExecuteCall:result:
+handleGetDatabasesPath:result:
+handleInsertCall:result:
+handleMethodCall:result:
+handleOpenDatabaseCall:result:
+handleOptionsCall:result:
+handleQueryCall:result:
+handleQueryCursorNextCall:result:
+handleSuccess:
+handleUpdateCall:result:
+hasAnotherRow
+hasArgument:
+hasDateFormatter
+hasNullTransactionId
+hasOpenResultSets
+hash
+inDatabase:
+inDeferredTransaction:
+inExclusiveTransaction:
+inImmediateTransaction:
+inSavePoint:
+inTransaction
+inTransaction:
+inUse
+init
+initWithCapacity:
+initWithLocaleIdentifier:
+initWithName:binaryMessenger:codec:taskQueue:
+initWithPath:
+initWithPath:flags:
+initWithPath:flags:vfs:
+initWithURL:
+initWithURL:flags:
+initWithURL:flags:vfs:
+intForColumn:
+intForColumnIndex:
+intForQuery:
+intValue
+internalStepWithError:
+interrupt
+isEqual:
+isEqualToString:
+isKindOfClass:
+isMemberOfClass:
+isOpen
+isSQLiteThreadSafe
+keyEnumerator
+kvcMagic:
+lastCursorId
+lastError
+lastErrorCode
+lastErrorMessage
+lastExtendedErrorCode
+lastTransactionId
+length
+logLevel
+logsErrors
+longForColumn:
+longForColumnIndex:
+longForQuery:
+longLongIntForColumn:
+longLongIntForColumnIndex:
+longLongValue
+longValue
+makeBackgroundTaskQueue
+makeFunctionNamed:arguments:block:
+makeFunctionNamed:maximumArguments:withBlock:
+makeOpenResult:recovered:recoveredInTransaction:
+maxBusyRetryTimeInterval
+messenger
+method
+newWithCall:result:
+next
+nextObject
+nextWithError:
+noResult
+noTransactionOperationQueue
+null
+numberWithDouble:
+numberWithFloat:
+numberWithInt:
+numberWithInteger:
+numberWithLongLong:
+numberWithShort:
+numberWithUnsignedInt:
+numberWithUnsignedLong:
+numberWithUnsignedLongLong:
+numberWithUnsignedShort:
+objCType
+objectAtIndex:
+objectAtIndexedSubscript:
+objectEnumerator
+objectForColumn:
+objectForColumnIndex:
+objectForColumnName:
+objectForKey:
+objectForKeyedSubscript:
+objectsPassingTest:
+open
+openFlags
+openWithFlags:
+openWithFlags:vfs:
+operation
+pageSize
+parentDB
+path
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+pointerValue
+prepare:
+query
+query:fmdb:operation:
+registerWithRegistrar:
+rekey:
+rekeyWithData:
+removeAllObjects
+removeItemAtPath:error:
+removeObject:
+removeObjectAtIndex:
+removeObjectForKey:
+reset
+respondsToSelector:
+resultData:context:
+resultDict
+resultDictionary
+resultDouble:context:
+resultError:context:
+resultErrorCode:context:
+resultErrorNoMemoryInContext:
+resultErrorTooBigInContext:
+resultInt:context:
+resultLong:context:
+resultNullInContext:
+resultSet
+resultSetDidClose:
+resultSetToResults:cursorPageSize:
+resultSetWithStatement:usingParentDatabase:shouldAutoClose:
+resultString:context:
+retain
+retainCount
+rollback
+rollbackToSavePointWithName:error:
+rsObjectForColumn:index:
+self
+setApplicationID:
+setBusyRetryTimeout:
+setCachedStatement:forQuery:
+setCachedStatements:
+setCheckedOut:
+setContinueOnError:
+setCrashOnErrors:
+setCurrentTransactionId:
+setCursorId:
+setCursorMap:
+setDatabaseId:
+setDateFormat:
+setDictionary:
+setError:
+setFlutterMethodCall:
+setFlutterResult:
+setFmDatabaseQueue:
+setHandler:
+setInTransaction:
+setInUse:
+setIsOpen:
+setLastCursorId:
+setLastTransactionId:
+setLocale:
+setLogLevel:
+setLogsErrors:
+setMapLock:
+setMaxBusyRetryTimeInterval:
+setNoResult:
+setObject:forKey:
+setObject:forKeyedSubscript:
+setOperation:
+setPageSize:
+setParentDB:
+setPath:
+setPluginRegistrantCallback:
+setQuery:
+setResultSet:
+setResults:
+setShouldAutoClose:
+setShouldCacheStatements:
+setSingleInstance:
+setSingleInstanceDatabaseMap:
+setStatement:
+setTimeZone:
+setTraceExecution:
+setUseCount:
+setValue:forKey:
+setVfsName:
+sharedInstance
+shortValue
+shouldCacheStatements
+singleInstance
+singleInstanceDatabaseMap
+sqliteHandle
+sqliteLibVersion
+sqlitePath
+startSavePointWithName:error:
+statement
+step
+stepWithError:
+storeableDateFormat:
+stringByAppendingString:
+stringByDeletingLastPathComponent
+stringByReplacingOccurrencesOfString:withString:
+stringForColumn:
+stringForColumnIndex:
+stringValue
+stringWithCapacity:
+stringWithFormat:
+stringWithUTF8String:
+success:
+superclass
+systemVersion
+tableExists:
+timeIntervalSince1970
+timeIntervalSinceReferenceDate
+timeZoneForSecondsFromGMT:
+toSqlValue:
+traceExecution
+typeForColumn:
+typeForColumnIndex:
+typedDataWithBytes:
+unsignedCharValue
+unsignedIntValue
+unsignedLongLongIntForColumn:
+unsignedLongLongIntForColumnIndex:
+unsignedLongLongValue
+unsignedLongValue
+unsignedShortValue
+update:withErrorAndBindings:
+useCount
+userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:
+userNotificationCenter:openSettingsForNotification:
+userNotificationCenter:willPresentNotification:withCompletionHandler:
+userVersion
+validateSQL:error:
+valueData:
+valueDouble:
+valueInt:
+valueLong:
+valueString:
+valueType:
+valueWithNonretainedObject:
+warnInUse
+wrapSqlOperationHandler:operation:handler:
+zone
+@16@0:8
+v24@0:8@16
+v16@0:8
+@"NSNumber"
+@"SqfliteDarwinResultSet"
+@24@0:8@16
+i16@0:8
+B16@0:8
+^v16@0:8
+r*16@0:8
+i24@0:8i16i20
+B20@0:8i16
+B28@0:8i16@20
+v24@0:8d16
+d16@0:8
+v20@0:8i16
+v32@0:8@16@24
+B24@0:8@16
+q16@0:8
+i36@0:8@16i24^{sqlite3_stmt=}28
+v48@0:8@16*24@32@40
+@32@0:8@16@24
+@52@0:8@16@24@32*40B48
+B48@0:8^{sqlite3_stmt=}16@24@32*40
+@40@0:8@16@24^@32
+@32@0:8@16*24
+B56@0:8@16^@24@32@40*48
+B32@0:8@16@24
+B40@0:8@16@24^@32
+B32@0:8@16*24
+B32@0:8@16@?24
+B32@0:8@16^@24
+@24@0:8@?16
+B28@0:8i16^@20
+B36@0:8i16@20^@28
+B52@0:8i16@20^i28^i36^@44
+v20@0:8B16
+v36@0:8@16i24@?28
+i24@0:8^v16
+q24@0:8^v16
+d24@0:8^v16
+@24@0:8^v16
+v24@0:8^v16
+v28@0:8i16^v20
+v32@0:8q16^v24
+v32@0:8d16^v24
+v32@0:8@16^v24
+@"NSMutableSet"
+@"NSDateFormatter"
+@"NSMutableDictionary"
+@"NSString"
+v24@0:8q16
+i24@0:8@16
+q24@0:8@16
+d24@0:8@16
+I16@0:8
+v20@0:8I16
+@28@0:8@16i24
+#16@0:8
+@36@0:8@16i24@28
+v24@0:8@?16
+v32@0:8q16@?24
+@"NSObject<OS_dispatch_queue>"
+@"SqfliteDarwinDatabase"
+@36@0:8@16@24B32
+B24@0:8^@16
+i24@0:8^@16
+i20@0:8i16
+q20@0:8i16
+Q24@0:8@16
+Q20@0:8i16
+d20@0:8i16
+@20@0:8i16
+r*20@0:8i16
+r*24@0:8@16
+B40@0:8@16@24*32
+@"SqfliteDarwinStatement"
+v32@0:8@16@?24
+v40@0:8@16@24@?32
+@"SqfliteDarwinDatabaseQueue"
+@"NSMutableArray"
+@"NSDictionary"
+@"NSObject"
+@"FlutterError"
+@32@0:8@16@?24
+@?16@0:8
+@"FlutterMethodCall"
+@"SqfliteOperation"
+@32@0:8@16B24B28
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v40@0:8@"UNUserNotificationCenter"16@"UNNotification"24@?<v@?Q>32
+v40@0:8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32
+v32@0:8@"UNUserNotificationCenter"16@"UNNotification"24
+B40@0:8@16@24@?32
+B40@0:8@16@24@32
+B48@0:8@16@24@32@40
+B32@0:8@"UIApplication"16@"NSDictionary"24
+v24@0:8@"UIApplication"16
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+B40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+B40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+B32@0:8@"UIApplication"16@?<v@?Q>24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v24@0:8^?16
+v24@0:8@"NSObject<FlutterPluginRegistrar>"16
+v32@0:8@"FlutterMethodCall"16@?<v@?@>24
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_FlutterMethodNotImplemented
+_NSCocoaErrorDomain
+_NSFileProtectionKey
+_NSFileProtectionNone
+_NSLocalizedDescriptionKey
+_NSLog
+_NSSearchPathForDirectoriesInDomains
+___objc_personality_v0
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_new
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___assert_rtn
+___stack_chk_fail
+___stack_chk_guard
+_abort
+_arc4random_uniform
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_get_specific
+_dispatch_once
+_dispatch_queue_create
+_dispatch_queue_set_specific
+_dispatch_sync
+_strlen
+___NSArray0__struct
+_sqlite3_bind_blob
+_sqlite3_bind_double
+_sqlite3_bind_int
+_sqlite3_bind_int64
+_sqlite3_bind_null
+_sqlite3_bind_parameter_count
+_sqlite3_bind_parameter_index
+_sqlite3_bind_text
+_sqlite3_busy_handler
+_sqlite3_changes
+_sqlite3_close
+_sqlite3_column_blob
+_sqlite3_column_bytes
+_sqlite3_column_count
+_sqlite3_column_double
+_sqlite3_column_int
+_sqlite3_column_int64
+_sqlite3_column_name
+_sqlite3_column_text
+_sqlite3_column_type
+_sqlite3_create_function
+_sqlite3_data_count
+_sqlite3_db_config
+_sqlite3_errcode
+_sqlite3_errmsg
+_sqlite3_exec
+_sqlite3_extended_errcode
+_sqlite3_extended_result_codes
+_sqlite3_finalize
+_sqlite3_free
+_sqlite3_interrupt
+_sqlite3_last_insert_rowid
+_sqlite3_libversion
+_sqlite3_limit
+_sqlite3_next_stmt
+_sqlite3_open
+_sqlite3_open_v2
+_sqlite3_prepare_v2
+_sqlite3_reset
+_sqlite3_result_blob
+_sqlite3_result_double
+_sqlite3_result_error
+_sqlite3_result_error_code
+_sqlite3_result_error_nomem
+_sqlite3_result_error_toobig
+_sqlite3_result_int
+_sqlite3_result_int64
+_sqlite3_result_null
+_sqlite3_result_text
+_sqlite3_sleep
+_sqlite3_step
+_sqlite3_threadsafe
+_sqlite3_user_data
+_sqlite3_value_blob
+_sqlite3_value_bytes
+_sqlite3_value_double
+_sqlite3_value_int
+_sqlite3_value_int64
+_sqlite3_value_text
+_sqlite3_value_type
+_sqlite3_wal_checkpoint_v2
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_FlutterError
+_OBJC_CLASS_$_FlutterMethodChannel
+_OBJC_CLASS_$_FlutterStandardMethodCodec
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_FlutterStandardTypedData
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_UIDevice
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+Queue
+Database
+!ResultSet
+.Statement
+rwin
+:tabase
+BatchOperation
+Cursor
+bMethodCallOperation
+rOperation
+xPlugin
+~QueuedOperation
+PodsDummy_sqflite_darwin
+	Sqflite
+inUse
+query
+statement
+useCount
+Queue
+Database
+ResultSet
+Statement
+rwin
+tabase
+BatchOperation
+Cursor
+MethodCallOperation
+Operation
+Plugin
+QueuedOperation
+PodsDummy_sqflite_darwin
+Sqflite
+CLASS_$_
+IVAR_$_SqfliteDarwinStatement._
+METACLASS_$_
+BlockSQLiteCallBackFunction
+ExecuteBulkSQLCallback
+Execute
+Insert
+Query
+Update
+Code
+Data
+Message
+Arguments
+ContinueOnError
+Error
+InTransactionChange
+Method
+NoResult
+Result
+TransactionId
+DarwinDB
+ErrorBadParam
+FsErrorCode
+Method
+Param
+SqlPragmaSqliteDefensiveOff
+flite
+liteErrorCode
+SqlLogLevel
+VerboseLogLevel
+Number
+	String
+_darwinVersion
+OBJC_
+sqflite
+d(<0 
+004444
+TD0,
+dxdx
+HTXd
+(((((((
+4(l(
+(`(<
+Thhx
+_OBJC_CLASS_$_PodsDummy_sqflite_darwin
+_OBJC_CLASS_$_SqfliteBatchOperation
+_OBJC_CLASS_$_SqfliteCursor
+_OBJC_CLASS_$_SqfliteDarwinDatabase
+_OBJC_CLASS_$_SqfliteDarwinDatabaseQueue
+_OBJC_CLASS_$_SqfliteDarwinResultSet
+_OBJC_CLASS_$_SqfliteDarwinStatement
+_OBJC_CLASS_$_SqfliteDatabase
+_OBJC_CLASS_$_SqfliteMethodCallOperation
+_OBJC_CLASS_$_SqfliteOperation
+_OBJC_CLASS_$_SqflitePlugin
+_OBJC_CLASS_$_SqfliteQueuedOperation
+_OBJC_IVAR_$_SqfliteDarwinStatement._inUse
+_OBJC_IVAR_$_SqfliteDarwinStatement._query
+_OBJC_IVAR_$_SqfliteDarwinStatement._statement
+_OBJC_IVAR_$_SqfliteDarwinStatement._useCount
+_OBJC_METACLASS_$_PodsDummy_sqflite_darwin
+_OBJC_METACLASS_$_SqfliteBatchOperation
+_OBJC_METACLASS_$_SqfliteCursor
+_OBJC_METACLASS_$_SqfliteDarwinDatabase
+_OBJC_METACLASS_$_SqfliteDarwinDatabaseQueue
+_OBJC_METACLASS_$_SqfliteDarwinResultSet
+_OBJC_METACLASS_$_SqfliteDarwinStatement
+_OBJC_METACLASS_$_SqfliteDatabase
+_OBJC_METACLASS_$_SqfliteMethodCallOperation
+_OBJC_METACLASS_$_SqfliteOperation
+_OBJC_METACLASS_$_SqflitePlugin
+_OBJC_METACLASS_$_SqfliteQueuedOperation
+_SqfliteDarwinDBBlockSQLiteCallBackFunction
+_SqfliteDarwinDBExecuteBulkSQLCallback
+_SqfliteErrorBadParam
+_SqfliteFsErrorCode
+_SqfliteMethodExecute
+_SqfliteMethodInsert
+_SqfliteMethodQuery
+_SqfliteMethodUpdate
+_SqfliteParamContinueOnError
+_SqfliteParamError
+_SqfliteParamErrorCode
+_SqfliteParamErrorData
+_SqfliteParamErrorMessage
+_SqfliteParamInTransactionChange
+_SqfliteParamMethod
+_SqfliteParamNoResult
+_SqfliteParamResult
+_SqfliteParamSql
+_SqfliteParamSqlArguments
+_SqfliteParamTransactionId
+_SqfliteSqlPragmaSqliteDefensiveOff
+_SqliteErrorCode
+_sqfliteHasSqlLogLevel
+_sqfliteHasVerboseLogLevel
+_sqflite_darwinVersionNumber
+_sqflite_darwinVersionString
+_FlutterMethodNotImplemented
+_NSCocoaErrorDomain
+_NSFileProtectionKey
+_NSFileProtectionNone
+_NSLocalizedDescriptionKey
+_NSLog
+_NSSearchPathForDirectoriesInDomains
+_OBJC_CLASS_$_FlutterError
+_OBJC_CLASS_$_FlutterMethodChannel
+_OBJC_CLASS_$_FlutterStandardMethodCodec
+_OBJC_CLASS_$_FlutterStandardTypedData
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDateFormatter
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableString
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_UIDevice
+_OBJC_METACLASS_$_NSObject
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___NSArray0__struct
+___assert_rtn
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_abort
+_arc4random_uniform
+_dispatch_async
+_dispatch_get_global_queue
+_dispatch_get_specific
+_dispatch_once
+_dispatch_queue_create
+_dispatch_queue_set_specific
+_dispatch_sync
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_enumerationMutation
+_objc_getProperty
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_new
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setProperty_atomic
+_objc_setProperty_atomic_copy
+_objc_storeStrong
+_objc_sync_enter
+_objc_sync_exit
+_sqlite3_bind_blob
+_sqlite3_bind_double
+_sqlite3_bind_int
+_sqlite3_bind_int64
+_sqlite3_bind_null
+_sqlite3_bind_parameter_count
+_sqlite3_bind_parameter_index
+_sqlite3_bind_text
+_sqlite3_busy_handler
+_sqlite3_changes
+_sqlite3_close
+_sqlite3_column_blob
+_sqlite3_column_bytes
+_sqlite3_column_count
+_sqlite3_column_double
+_sqlite3_column_int
+_sqlite3_column_int64
+_sqlite3_column_name
+_sqlite3_column_text
+_sqlite3_column_type
+_sqlite3_create_function
+_sqlite3_data_count
+_sqlite3_db_config
+_sqlite3_errcode
+_sqlite3_errmsg
+_sqlite3_exec
+_sqlite3_extended_errcode
+_sqlite3_extended_result_codes
+_sqlite3_finalize
+_sqlite3_free
+_sqlite3_interrupt
+_sqlite3_last_insert_rowid
+_sqlite3_libversion
+_sqlite3_limit
+_sqlite3_next_stmt
+_sqlite3_open
+_sqlite3_open_v2
+_sqlite3_prepare_v2
+_sqlite3_reset
+_sqlite3_result_blob
+_sqlite3_result_double
+_sqlite3_result_error
+_sqlite3_result_error_code
+_sqlite3_result_error_nomem
+_sqlite3_result_error_toobig
+_sqlite3_result_int
+_sqlite3_result_int64
+_sqlite3_result_null
+_sqlite3_result_text
+_sqlite3_sleep
+_sqlite3_step
+_sqlite3_threadsafe
+_sqlite3_user_data
+_sqlite3_value_blob
+_sqlite3_value_bytes
+_sqlite3_value_double
+_sqlite3_value_int
+_sqlite3_value_int64
+_sqlite3_value_text
+_sqlite3_value_type
+_sqlite3_wal_checkpoint_v2
+_strlen
+-[SqfliteCursor cursorId]
+-[SqfliteCursor setCursorId:]
+-[SqfliteCursor pageSize]
+-[SqfliteCursor setPageSize:]
+-[SqfliteCursor resultSet]
+-[SqfliteCursor setResultSet:]
+-[SqfliteCursor .cxx_destruct]
++[SqfliteDarwinDatabase databaseWithPath:]
++[SqfliteDarwinDatabase databaseWithURL:]
+-[SqfliteDarwinDatabase init]
+-[SqfliteDarwinDatabase initWithURL:]
+-[SqfliteDarwinDatabase initWithPath:]
+-[SqfliteDarwinDatabase dealloc]
+-[SqfliteDarwinDatabase databaseURL]
++[SqfliteDarwinDatabase SqfliteDarwinDBUserVersion]
++[SqfliteDarwinDatabase SqfliteDarwinDBVersion]
+___47+[SqfliteDarwinDatabase SqfliteDarwinDBVersion]_block_invoke
++[SqfliteDarwinDatabase sqliteLibVersion]
++[SqfliteDarwinDatabase isSQLiteThreadSafe]
+-[SqfliteDarwinDatabase sqliteHandle]
+-[SqfliteDarwinDatabase sqlitePath]
+-[SqfliteDarwinDatabase limitFor:value:]
+-[SqfliteDarwinDatabase open]
+-[SqfliteDarwinDatabase openWithFlags:]
+-[SqfliteDarwinDatabase openWithFlags:vfs:]
+-[SqfliteDarwinDatabase close]
+-[SqfliteDarwinDatabase setMaxBusyRetryTimeInterval:]
+_SqfliteDarwinDBDatabaseBusyHandler
+-[SqfliteDarwinDatabase maxBusyRetryTimeInterval]
+-[SqfliteDarwinDatabase busyRetryTimeout]
+-[SqfliteDarwinDatabase setBusyRetryTimeout:]
+-[SqfliteDarwinDatabase hasOpenResultSets]
+-[SqfliteDarwinDatabase closeOpenResultSets]
+-[SqfliteDarwinDatabase resultSetDidClose:]
+-[SqfliteDarwinDatabase clearCachedStatements]
+-[SqfliteDarwinDatabase cachedStatementForQuery:]
+___49-[SqfliteDarwinDatabase cachedStatementForQuery:]_block_invoke
+-[SqfliteDarwinDatabase setCachedStatement:forQuery:]
+-[SqfliteDarwinDatabase rekey:]
+-[SqfliteDarwinDatabase rekeyWithData:]
+-[SqfliteDarwinDatabase setKey:]
+-[SqfliteDarwinDatabase setKeyWithData:]
++[SqfliteDarwinDatabase storeableDateFormat:]
+-[SqfliteDarwinDatabase hasDateFormatter]
+-[SqfliteDarwinDatabase setDateFormat:]
+-[SqfliteDarwinDatabase dateFromString:]
+-[SqfliteDarwinDatabase stringFromDate:]
+-[SqfliteDarwinDatabase goodConnection]
+-[SqfliteDarwinDatabase warnInUse]
+-[SqfliteDarwinDatabase databaseExists]
+-[SqfliteDarwinDatabase lastErrorMessage]
+-[SqfliteDarwinDatabase hadError]
+-[SqfliteDarwinDatabase lastErrorCode]
+-[SqfliteDarwinDatabase lastExtendedErrorCode]
+-[SqfliteDarwinDatabase errorWithMessage:]
+-[SqfliteDarwinDatabase lastError]
+-[SqfliteDarwinDatabase lastInsertRowId]
+-[SqfliteDarwinDatabase changes]
+-[SqfliteDarwinDatabase bindObject:toColumn:inStatement:]
+-[SqfliteDarwinDatabase extractSQL:argumentsList:intoString:arguments:]
+-[SqfliteDarwinDatabase executeQuery:withParameterDictionary:]
+-[SqfliteDarwinDatabase executeQuery:withArgumentsInArray:orDictionary:orVAList:shouldBind:]
+-[SqfliteDarwinDatabase bindStatement:WithArgumentsInArray:orDictionary:orVAList:]
+-[SqfliteDarwinDatabase executeQuery:]
+-[SqfliteDarwinDatabase executeQueryWithFormat:]
+-[SqfliteDarwinDatabase executeQuery:withArgumentsInArray:]
+-[SqfliteDarwinDatabase executeQuery:values:error:]
+-[SqfliteDarwinDatabase executeQuery:withVAList:]
+-[SqfliteDarwinDatabase executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:]
+-[SqfliteDarwinDatabase executeUpdate:]
+-[SqfliteDarwinDatabase executeUpdate:withArgumentsInArray:]
+-[SqfliteDarwinDatabase executeUpdate:values:error:]
+-[SqfliteDarwinDatabase executeUpdate:withParameterDictionary:]
+-[SqfliteDarwinDatabase executeUpdate:withVAList:]
+-[SqfliteDarwinDatabase executeUpdateWithFormat:]
+-[SqfliteDarwinDatabase executeStatements:]
+-[SqfliteDarwinDatabase executeStatements:withResultBlock:]
+-[SqfliteDarwinDatabase executeUpdate:withErrorAndBindings:]
+-[SqfliteDarwinDatabase update:withErrorAndBindings:]
+-[SqfliteDarwinDatabase prepare:]
+-[SqfliteDarwinDatabase rollback]
+-[SqfliteDarwinDatabase commit]
+-[SqfliteDarwinDatabase beginTransaction]
+-[SqfliteDarwinDatabase beginDeferredTransaction]
+-[SqfliteDarwinDatabase beginImmediateTransaction]
+-[SqfliteDarwinDatabase beginExclusiveTransaction]
+-[SqfliteDarwinDatabase inTransaction]
+-[SqfliteDarwinDatabase interrupt]
+-[SqfliteDarwinDatabase startSavePointWithName:error:]
+-[SqfliteDarwinDatabase releaseSavePointWithName:error:]
+-[SqfliteDarwinDatabase rollbackToSavePointWithName:error:]
+-[SqfliteDarwinDatabase inSavePoint:]
+-[SqfliteDarwinDatabase checkpoint:error:]
+-[SqfliteDarwinDatabase checkpoint:name:error:]
+-[SqfliteDarwinDatabase checkpoint:name:logFrameCount:checkpointCount:error:]
+-[SqfliteDarwinDatabase shouldCacheStatements]
+-[SqfliteDarwinDatabase setShouldCacheStatements:]
+-[SqfliteDarwinDatabase makeFunctionNamed:maximumArguments:withBlock:]
+-[SqfliteDarwinDatabase makeFunctionNamed:arguments:block:]
+-[SqfliteDarwinDatabase valueType:]
+-[SqfliteDarwinDatabase valueInt:]
+-[SqfliteDarwinDatabase valueLong:]
+-[SqfliteDarwinDatabase valueDouble:]
+-[SqfliteDarwinDatabase valueData:]
+-[SqfliteDarwinDatabase valueString:]
+-[SqfliteDarwinDatabase resultNullInContext:]
+-[SqfliteDarwinDatabase resultInt:context:]
+-[SqfliteDarwinDatabase resultLong:context:]
+-[SqfliteDarwinDatabase resultDouble:context:]
+-[SqfliteDarwinDatabase resultData:context:]
+-[SqfliteDarwinDatabase resultString:context:]
+-[SqfliteDarwinDatabase resultError:context:]
+-[SqfliteDarwinDatabase resultErrorCode:context:]
+-[SqfliteDarwinDatabase resultErrorNoMemoryInContext:]
+-[SqfliteDarwinDatabase resultErrorTooBigInContext:]
+-[SqfliteDarwinDatabase traceExecution]
+-[SqfliteDarwinDatabase setTraceExecution:]
+-[SqfliteDarwinDatabase checkedOut]
+-[SqfliteDarwinDatabase setCheckedOut:]
+-[SqfliteDarwinDatabase crashOnErrors]
+-[SqfliteDarwinDatabase setCrashOnErrors:]
+-[SqfliteDarwinDatabase logsErrors]
+-[SqfliteDarwinDatabase setLogsErrors:]
+-[SqfliteDarwinDatabase cachedStatements]
+-[SqfliteDarwinDatabase setCachedStatements:]
+-[SqfliteDarwinDatabase isOpen]
+-[SqfliteDarwinDatabase setIsOpen:]
+-[SqfliteDarwinDatabase isInTransaction]
+-[SqfliteDarwinDatabase databasePath]
+-[SqfliteDarwinDatabase .cxx_destruct]
+-[SqfliteDarwinStatement dealloc]
+-[SqfliteDarwinStatement close]
+-[SqfliteDarwinStatement reset]
+-[SqfliteDarwinStatement description]
+-[SqfliteDarwinStatement useCount]
+-[SqfliteDarwinStatement setUseCount:]
+-[SqfliteDarwinStatement query]
+-[SqfliteDarwinStatement setQuery:]
+-[SqfliteDarwinStatement statement]
+-[SqfliteDarwinStatement setStatement:]
+-[SqfliteDarwinStatement inUse]
+-[SqfliteDarwinStatement setInUse:]
+-[SqfliteDarwinStatement .cxx_destruct]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) stringForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) intForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) longForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) boolForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) doubleForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) dataForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) dateForQuery:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) tableExists:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) getSchema]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) getTableSchema:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) columnExists:inTableWithName:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) applicationID]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) setApplicationID:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) userVersion]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) setUserVersion:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) columnExists:columnName:]
+-[SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions) validateSQL:error:]
++[SqfliteDarwinDatabaseQueue databaseQueueWithPath:]
++[SqfliteDarwinDatabaseQueue databaseQueueWithURL:]
++[SqfliteDarwinDatabaseQueue databaseQueueWithPath:flags:]
++[SqfliteDarwinDatabaseQueue databaseQueueWithURL:flags:]
++[SqfliteDarwinDatabaseQueue databaseClass]
+-[SqfliteDarwinDatabaseQueue initWithURL:flags:vfs:]
+-[SqfliteDarwinDatabaseQueue initWithPath:flags:vfs:]
+-[SqfliteDarwinDatabaseQueue initWithPath:flags:]
+-[SqfliteDarwinDatabaseQueue initWithURL:flags:]
+-[SqfliteDarwinDatabaseQueue initWithURL:]
+-[SqfliteDarwinDatabaseQueue initWithPath:]
+-[SqfliteDarwinDatabaseQueue init]
+-[SqfliteDarwinDatabaseQueue dealloc]
+-[SqfliteDarwinDatabaseQueue close]
+___35-[SqfliteDarwinDatabaseQueue close]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[SqfliteDarwinDatabaseQueue interrupt]
+-[SqfliteDarwinDatabaseQueue database]
+-[SqfliteDarwinDatabaseQueue inDatabase:]
+___41-[SqfliteDarwinDatabaseQueue inDatabase:]_block_invoke
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+-[SqfliteDarwinDatabaseQueue beginTransaction:withBlock:]
+___57-[SqfliteDarwinDatabaseQueue beginTransaction:withBlock:]_block_invoke
+-[SqfliteDarwinDatabaseQueue inTransaction:]
+-[SqfliteDarwinDatabaseQueue inDeferredTransaction:]
+-[SqfliteDarwinDatabaseQueue inExclusiveTransaction:]
+-[SqfliteDarwinDatabaseQueue inImmediateTransaction:]
+-[SqfliteDarwinDatabaseQueue inSavePoint:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___42-[SqfliteDarwinDatabaseQueue inSavePoint:]_block_invoke
+___copy_helper_block_e8_32s40b48r
+___destroy_helper_block_e8_32s40s48r
+-[SqfliteDarwinDatabaseQueue checkpoint:error:]
+-[SqfliteDarwinDatabaseQueue checkpoint:name:error:]
+-[SqfliteDarwinDatabaseQueue checkpoint:name:logFrameCount:checkpointCount:error:]
+___82-[SqfliteDarwinDatabaseQueue checkpoint:name:logFrameCount:checkpointCount:error:]_block_invoke
+___copy_helper_block_e8_32s40s48r
+-[SqfliteDarwinDatabaseQueue path]
+-[SqfliteDarwinDatabaseQueue setPath:]
+-[SqfliteDarwinDatabaseQueue openFlags]
+-[SqfliteDarwinDatabaseQueue vfsName]
+-[SqfliteDarwinDatabaseQueue setVfsName:]
+-[SqfliteDarwinDatabaseQueue .cxx_destruct]
++[SqfliteDarwinResultSet resultSetWithStatement:usingParentDatabase:shouldAutoClose:]
+-[SqfliteDarwinResultSet dealloc]
+-[SqfliteDarwinResultSet close]
+-[SqfliteDarwinResultSet columnCount]
+-[SqfliteDarwinResultSet columnNameToIndexMap]
+-[SqfliteDarwinResultSet kvcMagic:]
+-[SqfliteDarwinResultSet resultDict]
+-[SqfliteDarwinResultSet resultDictionary]
+-[SqfliteDarwinResultSet next]
+-[SqfliteDarwinResultSet nextWithError:]
+-[SqfliteDarwinResultSet step]
+-[SqfliteDarwinResultSet stepWithError:]
+-[SqfliteDarwinResultSet internalStepWithError:]
+-[SqfliteDarwinResultSet hasAnotherRow]
+-[SqfliteDarwinResultSet columnIndexForName:]
+-[SqfliteDarwinResultSet intForColumn:]
+-[SqfliteDarwinResultSet intForColumnIndex:]
+-[SqfliteDarwinResultSet longForColumn:]
+-[SqfliteDarwinResultSet longForColumnIndex:]
+-[SqfliteDarwinResultSet longLongIntForColumn:]
+-[SqfliteDarwinResultSet longLongIntForColumnIndex:]
+-[SqfliteDarwinResultSet unsignedLongLongIntForColumn:]
+-[SqfliteDarwinResultSet unsignedLongLongIntForColumnIndex:]
+-[SqfliteDarwinResultSet boolForColumn:]
+-[SqfliteDarwinResultSet boolForColumnIndex:]
+-[SqfliteDarwinResultSet doubleForColumn:]
+-[SqfliteDarwinResultSet doubleForColumnIndex:]
+-[SqfliteDarwinResultSet stringForColumnIndex:]
+-[SqfliteDarwinResultSet stringForColumn:]
+-[SqfliteDarwinResultSet dateForColumn:]
+-[SqfliteDarwinResultSet dateForColumnIndex:]
+-[SqfliteDarwinResultSet dataForColumn:]
+-[SqfliteDarwinResultSet dataForColumnIndex:]
+-[SqfliteDarwinResultSet dataNoCopyForColumn:]
+-[SqfliteDarwinResultSet dataNoCopyForColumnIndex:]
+-[SqfliteDarwinResultSet columnIndexIsNull:]
+-[SqfliteDarwinResultSet columnIsNull:]
+-[SqfliteDarwinResultSet UTF8StringForColumnIndex:]
+-[SqfliteDarwinResultSet UTF8StringForColumn:]
+-[SqfliteDarwinResultSet UTF8StringForColumnName:]
+-[SqfliteDarwinResultSet objectForColumnIndex:]
+-[SqfliteDarwinResultSet objectForColumnName:]
+-[SqfliteDarwinResultSet objectForColumn:]
+-[SqfliteDarwinResultSet typeForColumn:]
+-[SqfliteDarwinResultSet typeForColumnIndex:]
+-[SqfliteDarwinResultSet columnNameForIndex:]
+-[SqfliteDarwinResultSet objectAtIndexedSubscript:]
+-[SqfliteDarwinResultSet objectForKeyedSubscript:]
+-[SqfliteDarwinResultSet bindWithArray:orDictionary:orVAList:]
+-[SqfliteDarwinResultSet bindWithArray:]
+-[SqfliteDarwinResultSet bindWithDictionary:]
+-[SqfliteDarwinResultSet parentDB]
+-[SqfliteDarwinResultSet setParentDB:]
+-[SqfliteDarwinResultSet query]
+-[SqfliteDarwinResultSet setQuery:]
+-[SqfliteDarwinResultSet statement]
+-[SqfliteDarwinResultSet setStatement:]
+-[SqfliteDarwinResultSet shouldAutoClose]
+-[SqfliteDarwinResultSet setShouldAutoClose:]
+-[SqfliteDarwinResultSet .cxx_destruct]
+-[SqfliteDatabase init]
+-[SqfliteDatabase inDatabase:]
+___30-[SqfliteDatabase inDatabase:]_block_invoke
+-[SqfliteDatabase dbHandleError:result:]
+-[SqfliteDatabase dbHandleError:operation:]
+-[SqfliteDatabase dbRunQueuedOperations:]
+-[SqfliteDatabase wrapSqlOperationHandler:operation:handler:]
+-[SqfliteDatabase dbDoExecute:operation:]
+-[SqfliteDatabase dbExecute:operation:]
+___39-[SqfliteDatabase dbExecute:operation:]_block_invoke
+-[SqfliteDatabase dbExecuteOrError:operation:]
+-[SqfliteDatabase dbInsert:operation:]
+___38-[SqfliteDatabase dbInsert:operation:]_block_invoke
+-[SqfliteDatabase dbDoInsert:operation:]
+-[SqfliteDatabase dbUpdate:operation:]
+___38-[SqfliteDatabase dbUpdate:operation:]_block_invoke
+-[SqfliteDatabase dbDoUpdate:operation:]
+-[SqfliteDatabase dbQuery:operation:]
+___37-[SqfliteDatabase dbQuery:operation:]_block_invoke
+-[SqfliteDatabase dbDoQuery:operation:]
+-[SqfliteDatabase dbQueryCursorNext:operation:]
+-[SqfliteDatabase dbBatch:operation:]
+-[SqfliteDatabase closeCursorById:]
+-[SqfliteDatabase closeCursor:]
+-[SqfliteDatabase databaseId]
+-[SqfliteDatabase setDatabaseId:]
+-[SqfliteDatabase fmDatabaseQueue]
+-[SqfliteDatabase setFmDatabaseQueue:]
+-[SqfliteDatabase cursorMap]
+-[SqfliteDatabase setCursorMap:]
+-[SqfliteDatabase logLevel]
+-[SqfliteDatabase setLogLevel:]
+-[SqfliteDatabase currentTransactionId]
+-[SqfliteDatabase setCurrentTransactionId:]
+-[SqfliteDatabase noTransactionOperationQueue]
+-[SqfliteDatabase setNoTransactionOperationQueue:]
+-[SqfliteDatabase lastCursorId]
+-[SqfliteDatabase setLastCursorId:]
+-[SqfliteDatabase lastTransactionId]
+-[SqfliteDatabase setLastTransactionId:]
+-[SqfliteDatabase path]
+-[SqfliteDatabase setPath:]
+-[SqfliteDatabase singleInstance]
+-[SqfliteDatabase setSingleInstance:]
+-[SqfliteDatabase inTransaction]
+-[SqfliteDatabase setInTransaction:]
+-[SqfliteDatabase .cxx_destruct]
+-[SqfliteOperation getMethod]
+-[SqfliteOperation getSql]
+-[SqfliteOperation getSqlArguments]
+-[SqfliteOperation getNoResult]
+-[SqfliteOperation getContinueOnError]
+-[SqfliteOperation success:]
+-[SqfliteOperation error:]
+-[SqfliteOperation getArgument:]
+-[SqfliteOperation hasArgument:]
+-[SqfliteOperation getTransactionId]
+-[SqfliteOperation getInTransactionChange]
+-[SqfliteOperation hasNullTransactionId]
+-[SqfliteBatchOperation getMethod]
+-[SqfliteBatchOperation getSql]
+-[SqfliteBatchOperation getSqlArguments]
+-[SqfliteBatchOperation getNoResult]
+-[SqfliteBatchOperation getContinueOnError]
+-[SqfliteBatchOperation success:]
+-[SqfliteBatchOperation error:]
+-[SqfliteBatchOperation handleSuccess:]
+-[SqfliteBatchOperation handleErrorContinue:]
+-[SqfliteBatchOperation handleError:]
+-[SqfliteBatchOperation getArgument:]
+-[SqfliteBatchOperation hasArgument:]
+-[SqfliteBatchOperation dictionary]
+-[SqfliteBatchOperation setDictionary:]
+-[SqfliteBatchOperation results]
+-[SqfliteBatchOperation setResults:]
+-[SqfliteBatchOperation error]
+-[SqfliteBatchOperation setError:]
+-[SqfliteBatchOperation noResult]
+-[SqfliteBatchOperation setNoResult:]
+-[SqfliteBatchOperation continueOnError]
+-[SqfliteBatchOperation setContinueOnError:]
+-[SqfliteBatchOperation .cxx_destruct]
++[SqfliteMethodCallOperation newWithCall:result:]
+-[SqfliteMethodCallOperation getMethod]
+-[SqfliteMethodCallOperation getSql]
+-[SqfliteMethodCallOperation getNoResult]
+-[SqfliteMethodCallOperation getContinueOnError]
+-[SqfliteMethodCallOperation getSqlArguments]
+-[SqfliteMethodCallOperation success:]
+-[SqfliteMethodCallOperation error:]
+-[SqfliteMethodCallOperation getArgument:]
+-[SqfliteMethodCallOperation flutterMethodCall]
+-[SqfliteMethodCallOperation setFlutterMethodCall:]
+-[SqfliteMethodCallOperation flutterResult]
+-[SqfliteMethodCallOperation setFlutterResult:]
+-[SqfliteMethodCallOperation .cxx_destruct]
+-[SqfliteQueuedOperation operation]
+-[SqfliteQueuedOperation setOperation:]
+-[SqfliteQueuedOperation handler]
+-[SqfliteQueuedOperation setHandler:]
+-[SqfliteQueuedOperation .cxx_destruct]
++[SqflitePlugin registerWithRegistrar:]
+-[SqflitePlugin init]
+-[SqflitePlugin getDatabaseOrError:result:]
+-[SqflitePlugin handleError:result:]
+-[SqflitePlugin handleError:operation:]
++[SqflitePlugin toSqlValue:]
++[SqflitePlugin fromSqlValue:]
++[SqflitePlugin arrayIsEmpty:]
++[SqflitePlugin toSqlArguments:]
++[SqflitePlugin fromSqlDictionary:]
+___35+[SqflitePlugin fromSqlDictionary:]_block_invoke
++[SqflitePlugin rsObjectForColumn:index:]
++[SqflitePlugin resultSetToResults:cursorPageSize:]
+-[SqflitePlugin query:fmdb:operation:]
+-[SqflitePlugin handleQueryCall:result:]
+___40-[SqflitePlugin handleQueryCall:result:]_block_invoke
+___copy_helper_block_e8_32s40s48b
+___destroy_helper_block_e8_32s40s48s
+-[SqflitePlugin handleQueryCursorNextCall:result:]
+___50-[SqflitePlugin handleQueryCursorNextCall:result:]_block_invoke
+-[SqflitePlugin handleInsertCall:result:]
+___41-[SqflitePlugin handleInsertCall:result:]_block_invoke
+-[SqflitePlugin handleUpdateCall:result:]
+___41-[SqflitePlugin handleUpdateCall:result:]_block_invoke
+-[SqflitePlugin handleExecuteCall:result:]
+___42-[SqflitePlugin handleExecuteCall:result:]_block_invoke
+-[SqflitePlugin handleBatchCall:result:]
+___40-[SqflitePlugin handleBatchCall:result:]_block_invoke
++[SqflitePlugin isInMemoryPath:]
++[SqflitePlugin makeOpenResult:recovered:recoveredInTransaction:]
+-[SqflitePlugin handleOpenDatabaseCall:result:]
+___47-[SqflitePlugin handleOpenDatabaseCall:result:]_block_invoke
+___47-[SqflitePlugin handleOpenDatabaseCall:result:]_block_invoke_2
+-[SqflitePlugin handleCloseDatabaseCall:result:]
+___48-[SqflitePlugin handleCloseDatabaseCall:result:]_block_invoke
+___copy_helper_block_e8_32b
+-[SqflitePlugin closeDatabase:callback:]
+___40-[SqflitePlugin closeDatabase:callback:]_block_invoke
+-[SqflitePlugin deleteSimpleFile:]
+-[SqflitePlugin deleteDatabaseFile:]
+-[SqflitePlugin handleDeleteDatabaseCall:result:]
+___49-[SqflitePlugin handleDeleteDatabaseCall:result:]_block_invoke
+-[SqflitePlugin databaseExists:]
+-[SqflitePlugin handleDatabaseExistsCall:result:]
+-[SqflitePlugin handleDebugCall:result:]
+___40-[SqflitePlugin handleDebugCall:result:]_block_invoke
+___copy_helper_block_e8_32s40s
+-[SqflitePlugin handleDebugModeCall:result:]
+-[SqflitePlugin handleOptionsCall:result:]
+-[SqflitePlugin handleGetDatabasesPath:result:]
+-[SqflitePlugin handleDarwinCreateUnprotectedFolder:result:]
+-[SqflitePlugin handleMethodCall:result:]
+-[SqflitePlugin databaseMap]
+-[SqflitePlugin setDatabaseMap:]
+-[SqflitePlugin mapLock]
+-[SqflitePlugin setMapLock:]
+-[SqflitePlugin singleInstanceDatabaseMap]
+-[SqflitePlugin setSingleInstanceDatabaseMap:]
+-[SqflitePlugin .cxx_destruct]
+-[SqfliteDarwinDatabase initWithPath:].cold.1
+-[SqfliteDarwinDatabaseQueue inDatabase:].cold.1
+_objc_msgSend$SqfliteDarwinDBUserVersion
+_objc_msgSend$UTF8String
+_objc_msgSend$UTF8StringForColumn:
+_objc_msgSend$UTF8StringForColumnIndex:
+_objc_msgSend$addMethodCallDelegate:channel:
+_objc_msgSend$addObject:
+_objc_msgSend$allKeys
+_objc_msgSend$allObjects
+_objc_msgSend$anyObject
+_objc_msgSend$appendBytes:length:
+_objc_msgSend$appendFormat:
+_objc_msgSend$appendString:
+_objc_msgSend$arguments
+_objc_msgSend$array
+_objc_msgSend$arrayIsEmpty:
+_objc_msgSend$beginDeferredTransaction
+_objc_msgSend$beginImmediateTransaction
+_objc_msgSend$beginTransaction
+_objc_msgSend$beginTransaction:withBlock:
+_objc_msgSend$bindObject:toColumn:inStatement:
+_objc_msgSend$bindStatement:WithArgumentsInArray:orDictionary:orVAList:
+_objc_msgSend$bindWithArray:orDictionary:orVAList:
+_objc_msgSend$boolForColumnIndex:
+_objc_msgSend$boolValue
+_objc_msgSend$bytes
+_objc_msgSend$cachedStatementForQuery:
+_objc_msgSend$changes
+_objc_msgSend$charValue
+_objc_msgSend$characterAtIndex:
+_objc_msgSend$checkpoint:name:logFrameCount:checkpointCount:error:
+_objc_msgSend$clearCachedStatements
+_objc_msgSend$close
+_objc_msgSend$closeCursor:
+_objc_msgSend$closeCursorById:
+_objc_msgSend$closeDatabase:callback:
+_objc_msgSend$closeOpenResultSets
+_objc_msgSend$code
+_objc_msgSend$columnCount
+_objc_msgSend$columnExists:inTableWithName:
+_objc_msgSend$columnIndexForName:
+_objc_msgSend$columnIndexIsNull:
+_objc_msgSend$columnNameForIndex:
+_objc_msgSend$columnNameToIndexMap
+_objc_msgSend$commit
+_objc_msgSend$componentsSeparatedByString:
+_objc_msgSend$copy
+_objc_msgSend$count
+_objc_msgSend$countByEnumeratingWithState:objects:count:
+_objc_msgSend$crashOnErrors
+_objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+_objc_msgSend$currentDevice
+_objc_msgSend$currentTransactionId
+_objc_msgSend$cursorId
+_objc_msgSend$cursorMap
+_objc_msgSend$data
+_objc_msgSend$dataForColumnIndex:
+_objc_msgSend$dataNoCopyForColumnIndex:
+_objc_msgSend$dataWithBytes:length:
+_objc_msgSend$dataWithBytesNoCopy:length:freeWhenDone:
+_objc_msgSend$database
+_objc_msgSend$databaseClass
+_objc_msgSend$databaseExists
+_objc_msgSend$databaseExists:
+_objc_msgSend$databaseId
+_objc_msgSend$databaseMap
+_objc_msgSend$databasePath
+_objc_msgSend$databaseQueueWithPath:
+_objc_msgSend$databaseQueueWithPath:flags:
+_objc_msgSend$databaseWithPath:
+_objc_msgSend$dateForColumnIndex:
+_objc_msgSend$dateFromString:
+_objc_msgSend$dateWithTimeIntervalSince1970:
+_objc_msgSend$dbBatch:operation:
+_objc_msgSend$dbDoExecute:operation:
+_objc_msgSend$dbDoInsert:operation:
+_objc_msgSend$dbDoQuery:operation:
+_objc_msgSend$dbDoUpdate:operation:
+_objc_msgSend$dbExecute:operation:
+_objc_msgSend$dbExecuteOrError:operation:
+_objc_msgSend$dbHandleError:operation:
+_objc_msgSend$dbInsert:operation:
+_objc_msgSend$dbQuery:operation:
+_objc_msgSend$dbQueryCursorNext:operation:
+_objc_msgSend$dbRunQueuedOperations:
+_objc_msgSend$dbUpdate:operation:
+_objc_msgSend$defaultManager
+_objc_msgSend$deleteDatabaseFile:
+_objc_msgSend$deleteSimpleFile:
+_objc_msgSend$description
+_objc_msgSend$details
+_objc_msgSend$dictionary
+_objc_msgSend$dictionaryWithCapacity:
+_objc_msgSend$dictionaryWithObject:forKey:
+_objc_msgSend$dictionaryWithObjects:forKeys:count:
+_objc_msgSend$doubleForColumnIndex:
+_objc_msgSend$doubleValue
+_objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+_objc_msgSend$error
+_objc_msgSend$error:
+_objc_msgSend$errorWithCode:message:details:
+_objc_msgSend$errorWithDomain:code:userInfo:
+_objc_msgSend$errorWithMessage:
+_objc_msgSend$executeQuery:
+_objc_msgSend$executeQuery:withArgumentsInArray:
+_objc_msgSend$executeQuery:withArgumentsInArray:orDictionary:orVAList:shouldBind:
+_objc_msgSend$executeStatements:withResultBlock:
+_objc_msgSend$executeUpdate:
+_objc_msgSend$executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:
+_objc_msgSend$executeUpdate:withArgumentsInArray:
+_objc_msgSend$extractSQL:argumentsList:intoString:arguments:
+_objc_msgSend$fileExistsAtPath:
+_objc_msgSend$fileSystemRepresentation
+_objc_msgSend$fileURLWithPath:
+_objc_msgSend$firstObject
+_objc_msgSend$floatValue
+_objc_msgSend$flutterResult
+_objc_msgSend$fmDatabaseQueue
+_objc_msgSend$fromSqlValue:
+_objc_msgSend$getArgument:
+_objc_msgSend$getContinueOnError
+_objc_msgSend$getDatabaseOrError:result:
+_objc_msgSend$getInTransactionChange
+_objc_msgSend$getMethod
+_objc_msgSend$getNoResult
+_objc_msgSend$getSql
+_objc_msgSend$getSqlArguments
+_objc_msgSend$getTableSchema:
+_objc_msgSend$getTransactionId
+_objc_msgSend$hadError
+_objc_msgSend$handleBatchCall:result:
+_objc_msgSend$handleCloseDatabaseCall:result:
+_objc_msgSend$handleDarwinCreateUnprotectedFolder:result:
+_objc_msgSend$handleDatabaseExistsCall:result:
+_objc_msgSend$handleDebugCall:result:
+_objc_msgSend$handleDebugModeCall:result:
+_objc_msgSend$handleDeleteDatabaseCall:result:
+_objc_msgSend$handleError:
+_objc_msgSend$handleError:operation:
+_objc_msgSend$handleErrorContinue:
+_objc_msgSend$handleExecuteCall:result:
+_objc_msgSend$handleGetDatabasesPath:result:
+_objc_msgSend$handleInsertCall:result:
+_objc_msgSend$handleOpenDatabaseCall:result:
+_objc_msgSend$handleOptionsCall:result:
+_objc_msgSend$handleQueryCall:result:
+_objc_msgSend$handleQueryCursorNextCall:result:
+_objc_msgSend$handleSuccess:
+_objc_msgSend$handleUpdateCall:result:
+_objc_msgSend$handler
+_objc_msgSend$hasAnotherRow
+_objc_msgSend$hasDateFormatter
+_objc_msgSend$hasNullTransactionId
+_objc_msgSend$hasOpenResultSets
+_objc_msgSend$inDatabase:
+_objc_msgSend$inTransaction
+_objc_msgSend$inUse
+_objc_msgSend$initWithCapacity:
+_objc_msgSend$initWithFormat:
+_objc_msgSend$initWithLocaleIdentifier:
+_objc_msgSend$initWithName:binaryMessenger:codec:taskQueue:
+_objc_msgSend$initWithPath:
+_objc_msgSend$initWithPath:flags:
+_objc_msgSend$initWithPath:flags:vfs:
+_objc_msgSend$initWithURL:
+_objc_msgSend$intForColumnIndex:
+_objc_msgSend$intValue
+_objc_msgSend$internalStepWithError:
+_objc_msgSend$interrupt
+_objc_msgSend$isEqualToString:
+_objc_msgSend$isInMemoryPath:
+_objc_msgSend$isOpen
+_objc_msgSend$keyEnumerator
+_objc_msgSend$lastCursorId
+_objc_msgSend$lastError
+_objc_msgSend$lastErrorCode
+_objc_msgSend$lastErrorMessage
+_objc_msgSend$lastInsertRowId
+_objc_msgSend$lastTransactionId
+_objc_msgSend$length
+_objc_msgSend$logLevel
+_objc_msgSend$logsErrors
+_objc_msgSend$longForColumnIndex:
+_objc_msgSend$longLongIntForColumnIndex:
+_objc_msgSend$longLongValue
+_objc_msgSend$longValue
+_objc_msgSend$lowercaseString
+_objc_msgSend$makeBackgroundTaskQueue
+_objc_msgSend$makeFunctionNamed:arguments:block:
+_objc_msgSend$makeOpenResult:recovered:recoveredInTransaction:
+_objc_msgSend$mapLock
+_objc_msgSend$maxBusyRetryTimeInterval
+_objc_msgSend$message
+_objc_msgSend$messenger
+_objc_msgSend$method
+_objc_msgSend$newWithCall:result:
+_objc_msgSend$next
+_objc_msgSend$nextObject
+_objc_msgSend$nextWithError:
+_objc_msgSend$null
+_objc_msgSend$numberWithBool:
+_objc_msgSend$numberWithDouble:
+_objc_msgSend$numberWithFloat:
+_objc_msgSend$numberWithInt:
+_objc_msgSend$numberWithInteger:
+_objc_msgSend$numberWithLong:
+_objc_msgSend$numberWithLongLong:
+_objc_msgSend$numberWithShort:
+_objc_msgSend$numberWithUnsignedInt:
+_objc_msgSend$numberWithUnsignedLong:
+_objc_msgSend$numberWithUnsignedLongLong:
+_objc_msgSend$numberWithUnsignedShort:
+_objc_msgSend$objCType
+_objc_msgSend$objectAtIndex:
+_objc_msgSend$objectAtIndexedSubscript:
+_objc_msgSend$objectEnumerator
+_objc_msgSend$objectForColumn:
+_objc_msgSend$objectForColumnIndex:
+_objc_msgSend$objectForColumnName:
+_objc_msgSend$objectForKey:
+_objc_msgSend$objectForKeyedSubscript:
+_objc_msgSend$objectsPassingTest:
+_objc_msgSend$openWithFlags:vfs:
+_objc_msgSend$operation
+_objc_msgSend$pageSize
+_objc_msgSend$path
+_objc_msgSend$pointerValue
+_objc_msgSend$rekeyWithData:
+_objc_msgSend$releaseSavePointWithName:error:
+_objc_msgSend$removeAllObjects
+_objc_msgSend$removeItemAtPath:error:
+_objc_msgSend$removeObject:
+_objc_msgSend$removeObjectAtIndex:
+_objc_msgSend$removeObjectForKey:
+_objc_msgSend$reset
+_objc_msgSend$resultSet
+_objc_msgSend$resultSetDidClose:
+_objc_msgSend$resultSetToResults:cursorPageSize:
+_objc_msgSend$resultSetWithStatement:usingParentDatabase:shouldAutoClose:
+_objc_msgSend$results
+_objc_msgSend$rollback
+_objc_msgSend$rollbackToSavePointWithName:error:
+_objc_msgSend$rsObjectForColumn:index:
+_objc_msgSend$set
+_objc_msgSend$setCachedStatement:forQuery:
+_objc_msgSend$setCachedStatements:
+_objc_msgSend$setCurrentTransactionId:
+_objc_msgSend$setCursorId:
+_objc_msgSend$setDatabaseId:
+_objc_msgSend$setDatabaseMap:
+_objc_msgSend$setDateFormat:
+_objc_msgSend$setDictionary:
+_objc_msgSend$setError:
+_objc_msgSend$setFlutterMethodCall:
+_objc_msgSend$setFlutterResult:
+_objc_msgSend$setFmDatabaseQueue:
+_objc_msgSend$setHandler:
+_objc_msgSend$setInTransaction:
+_objc_msgSend$setInUse:
+_objc_msgSend$setKeyWithData:
+_objc_msgSend$setLastCursorId:
+_objc_msgSend$setLastTransactionId:
+_objc_msgSend$setLocale:
+_objc_msgSend$setLogLevel:
+_objc_msgSend$setMapLock:
+_objc_msgSend$setMaxBusyRetryTimeInterval:
+_objc_msgSend$setNoResult:
+_objc_msgSend$setObject:forKey:
+_objc_msgSend$setObject:forKeyedSubscript:
+_objc_msgSend$setOperation:
+_objc_msgSend$setPageSize:
+_objc_msgSend$setParentDB:
+_objc_msgSend$setPath:
+_objc_msgSend$setQuery:
+_objc_msgSend$setResultSet:
+_objc_msgSend$setResults:
+_objc_msgSend$setShouldAutoClose:
+_objc_msgSend$setSingleInstance:
+_objc_msgSend$setSingleInstanceDatabaseMap:
+_objc_msgSend$setStatement:
+_objc_msgSend$setTimeZone:
+_objc_msgSend$setUseCount:
+_objc_msgSend$setValue:forKey:
+_objc_msgSend$sharedInstance
+_objc_msgSend$shortValue
+_objc_msgSend$singleInstance
+_objc_msgSend$singleInstanceDatabaseMap
+_objc_msgSend$sqliteHandle
+_objc_msgSend$sqlitePath
+_objc_msgSend$startSavePointWithName:error:
+_objc_msgSend$statement
+_objc_msgSend$stepWithError:
+_objc_msgSend$stringByAppendingPathComponent:
+_objc_msgSend$stringByAppendingString:
+_objc_msgSend$stringByDeletingLastPathComponent
+_objc_msgSend$stringByReplacingOccurrencesOfString:withString:
+_objc_msgSend$stringForColumn:
+_objc_msgSend$stringForColumnIndex:
+_objc_msgSend$stringFromDate:
+_objc_msgSend$stringValue
+_objc_msgSend$stringWithCapacity:
+_objc_msgSend$stringWithFormat:
+_objc_msgSend$stringWithUTF8String:
+_objc_msgSend$success:
+_objc_msgSend$systemVersion
+_objc_msgSend$timeIntervalSince1970
+_objc_msgSend$timeIntervalSinceReferenceDate
+_objc_msgSend$timeZoneForSecondsFromGMT:
+_objc_msgSend$toSqlArguments:
+_objc_msgSend$toSqlValue:
+_objc_msgSend$typedDataWithBytes:
+_objc_msgSend$unsignedCharValue
+_objc_msgSend$unsignedIntValue
+_objc_msgSend$unsignedLongLongIntForColumnIndex:
+_objc_msgSend$unsignedLongLongValue
+_objc_msgSend$unsignedLongValue
+_objc_msgSend$unsignedShortValue
+_objc_msgSend$useCount
+_objc_msgSend$valueWithNonretainedObject:
+_objc_msgSend$warnInUse
+_objc_msgSend$wrapSqlOperationHandler:operation:handler:
+__OBJC_$_CLASS_METHODS_SqfliteDarwinDatabase
+__OBJC_$_CLASS_METHODS_SqfliteDarwinDatabaseQueue
+__OBJC_$_CLASS_METHODS_SqfliteDarwinResultSet
+__OBJC_$_CLASS_METHODS_SqfliteMethodCallOperation
+__OBJC_$_CLASS_METHODS_SqflitePlugin
+__OBJC_$_INSTANCE_METHODS_SqfliteBatchOperation
+__OBJC_$_INSTANCE_METHODS_SqfliteCursor
+__OBJC_$_INSTANCE_METHODS_SqfliteDarwinDatabase(SqfliteDarwinDatabaseAdditions)
+__OBJC_$_INSTANCE_METHODS_SqfliteDarwinDatabaseQueue
+__OBJC_$_INSTANCE_METHODS_SqfliteDarwinResultSet
+__OBJC_$_INSTANCE_METHODS_SqfliteDarwinStatement
+__OBJC_$_INSTANCE_METHODS_SqfliteDatabase
+__OBJC_$_INSTANCE_METHODS_SqfliteMethodCallOperation
+__OBJC_$_INSTANCE_METHODS_SqfliteOperation
+__OBJC_$_INSTANCE_METHODS_SqflitePlugin
+__OBJC_$_INSTANCE_METHODS_SqfliteQueuedOperation
+__OBJC_$_PROTOCOL_CLASS_METHODS_FlutterPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FlutterPlugin
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UNUserNotificationCenterDelegate
+GCC_except_table34
+GCC_except_table40
+GCC_except_table46
+GCC_except_table50
+___block_descriptor_40_e5_v8
+___block_descriptor_32_e36_B24
+"SqfliteDarwinStatement"8^B16l
+___block_literal_global
+_kDispatchQueueSpecificKey
+___block_descriptor_40_e8_32s_e5_v8
+___block_descriptor_48_e8_32s40bs_e5_v8
+___block_descriptor_56_e8_32s40bs_e5_v8
+___block_descriptor_56_e8_32s40bs48r_e5_v8
+___block_descriptor_84_e8_32s40s48r_e5_v8
+___block_descriptor_40_e8_32s_e52_v24
+"SqfliteDarwinDatabase"8
+"SqfliteOperation"16l
+___block_descriptor_40_e8_32s_e15_v32
+16^B24l
+___block_descriptor_56_e8_32s40s48bs_e31_v16
+"SqfliteDarwinDatabase"8l
+___block_descriptor_32_e31_v16
+"SqfliteDarwinDatabase"8l
+___block_literal_global
+___block_descriptor_40_e8_32bs_e5_v8
+___block_descriptor_56_e8_32s40s48bs_e5_v8
+___block_descriptor_48_e8_32s40s_e42_v32
+"NSNumber"8
+"SqfliteDatabase"16^B24l
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_LABEL_PROTOCOL_$_FlutterPlugin
+__OBJC_METACLASS_RO_$_PodsDummy_sqflite_darwin
+__OBJC_CLASS_RO_$_PodsDummy_sqflite_darwin
+__OBJC_METACLASS_RO_$_SqfliteCursor
+__OBJC_$_INSTANCE_VARIABLES_SqfliteCursor
+__OBJC_$_PROP_LIST_SqfliteCursor
+__OBJC_CLASS_RO_$_SqfliteCursor
+__OBJC_METACLASS_RO_$_SqfliteDarwinDatabase
+__OBJC_$_INSTANCE_VARIABLES_SqfliteDarwinDatabase
+__OBJC_CLASS_RO_$_SqfliteDarwinDatabase
+__OBJC_METACLASS_RO_$_SqfliteDarwinStatement
+__OBJC_$_INSTANCE_VARIABLES_SqfliteDarwinStatement
+__OBJC_$_PROP_LIST_SqfliteDarwinStatement
+__OBJC_CLASS_RO_$_SqfliteDarwinStatement
+__OBJC_METACLASS_RO_$_SqfliteDarwinDatabaseQueue
+__OBJC_$_INSTANCE_VARIABLES_SqfliteDarwinDatabaseQueue
+__OBJC_$_PROP_LIST_SqfliteDarwinDatabaseQueue
+__OBJC_CLASS_RO_$_SqfliteDarwinDatabaseQueue
+__OBJC_METACLASS_RO_$_SqfliteDarwinResultSet
+__OBJC_$_INSTANCE_VARIABLES_SqfliteDarwinResultSet
+__OBJC_$_PROP_LIST_SqfliteDarwinResultSet
+__OBJC_CLASS_RO_$_SqfliteDarwinResultSet
+__OBJC_METACLASS_RO_$_SqfliteDatabase
+__OBJC_$_INSTANCE_VARIABLES_SqfliteDatabase
+__OBJC_$_PROP_LIST_SqfliteDatabase
+__OBJC_CLASS_RO_$_SqfliteDatabase
+__OBJC_METACLASS_RO_$_SqfliteOperation
+__OBJC_CLASS_RO_$_SqfliteOperation
+__OBJC_METACLASS_RO_$_SqfliteBatchOperation
+__OBJC_$_INSTANCE_VARIABLES_SqfliteBatchOperation
+__OBJC_$_PROP_LIST_SqfliteBatchOperation
+__OBJC_CLASS_RO_$_SqfliteBatchOperation
+__OBJC_METACLASS_RO_$_SqfliteMethodCallOperation
+__OBJC_$_INSTANCE_VARIABLES_SqfliteMethodCallOperation
+__OBJC_$_PROP_LIST_SqfliteMethodCallOperation
+__OBJC_CLASS_RO_$_SqfliteMethodCallOperation
+__OBJC_METACLASS_RO_$_SqfliteQueuedOperation
+__OBJC_$_INSTANCE_VARIABLES_SqfliteQueuedOperation
+__OBJC_$_PROP_LIST_SqfliteQueuedOperation
+__OBJC_CLASS_RO_$_SqfliteQueuedOperation
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UNUserNotificationCenterDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterApplicationLifeCycleDelegate
+__OBJC_$_PROTOCOL_REFS_FlutterPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_FlutterPlugin
+__OBJC_CLASS_PROTOCOLS_$_SqflitePlugin
+__OBJC_METACLASS_RO_$_SqflitePlugin
+__OBJC_$_INSTANCE_VARIABLES_SqflitePlugin
+__OBJC_$_PROP_LIST_SqflitePlugin
+__OBJC_CLASS_RO_$_SqflitePlugin
+_OBJC_IVAR_$_SqfliteCursor.cursorId
+_OBJC_IVAR_$_SqfliteCursor.pageSize
+_OBJC_IVAR_$_SqfliteCursor.resultSet
+_OBJC_IVAR_$_SqfliteDarwinDatabase._db
+_OBJC_IVAR_$_SqfliteDarwinDatabase._isExecutingStatement
+_OBJC_IVAR_$_SqfliteDarwinDatabase._startBusyRetryTime
+_OBJC_IVAR_$_SqfliteDarwinDatabase._openResultSets
+_OBJC_IVAR_$_SqfliteDarwinDatabase._openFunctions
+_OBJC_IVAR_$_SqfliteDarwinDatabase._dateFormat
+_OBJC_IVAR_$_SqfliteDarwinDatabase._shouldCacheStatements
+_OBJC_IVAR_$_SqfliteDarwinDatabase._traceExecution
+_OBJC_IVAR_$_SqfliteDarwinDatabase._checkedOut
+_OBJC_IVAR_$_SqfliteDarwinDatabase._crashOnErrors
+_OBJC_IVAR_$_SqfliteDarwinDatabase._logsErrors
+_OBJC_IVAR_$_SqfliteDarwinDatabase._isOpen
+_OBJC_IVAR_$_SqfliteDarwinDatabase._isInTransaction
+_OBJC_IVAR_$_SqfliteDarwinDatabase._maxBusyRetryTimeInterval
+_OBJC_IVAR_$_SqfliteDarwinDatabase._cachedStatements
+_OBJC_IVAR_$_SqfliteDarwinDatabase._databasePath
+_OBJC_IVAR_$_SqfliteDarwinDatabaseQueue._queue
+_OBJC_IVAR_$_SqfliteDarwinDatabaseQueue._db
+_OBJC_IVAR_$_SqfliteDarwinDatabaseQueue._openFlags
+_OBJC_IVAR_$_SqfliteDarwinDatabaseQueue._path
+_OBJC_IVAR_$_SqfliteDarwinDatabaseQueue._vfsName
+_OBJC_IVAR_$_SqfliteDarwinResultSet._columnNameToIndexMap
+_OBJC_IVAR_$_SqfliteDarwinResultSet._shouldAutoClose
+_OBJC_IVAR_$_SqfliteDarwinResultSet._parentDB
+_OBJC_IVAR_$_SqfliteDarwinResultSet._query
+_OBJC_IVAR_$_SqfliteDarwinResultSet._statement
+_OBJC_IVAR_$_SqfliteDatabase._singleInstance
+_OBJC_IVAR_$_SqfliteDatabase._inTransaction
+_OBJC_IVAR_$_SqfliteDatabase.logLevel
+_OBJC_IVAR_$_SqfliteDatabase.lastCursorId
+_OBJC_IVAR_$_SqfliteDatabase.lastTransactionId
+_OBJC_IVAR_$_SqfliteDatabase.databaseId
+_OBJC_IVAR_$_SqfliteDatabase.fmDatabaseQueue
+_OBJC_IVAR_$_SqfliteDatabase.cursorMap
+_OBJC_IVAR_$_SqfliteDatabase.currentTransactionId
+_OBJC_IVAR_$_SqfliteDatabase.noTransactionOperationQueue
+_OBJC_IVAR_$_SqfliteDatabase._path
+_OBJC_IVAR_$_SqfliteBatchOperation.noResult
+_OBJC_IVAR_$_SqfliteBatchOperation.continueOnError
+_OBJC_IVAR_$_SqfliteBatchOperation.dictionary
+_OBJC_IVAR_$_SqfliteBatchOperation.results
+_OBJC_IVAR_$_SqfliteBatchOperation.error
+_OBJC_IVAR_$_SqfliteMethodCallOperation.flutterMethodCall
+_OBJC_IVAR_$_SqfliteMethodCallOperation.flutterResult
+_OBJC_IVAR_$_SqfliteQueuedOperation.operation
+_OBJC_IVAR_$_SqfliteQueuedOperation.handler
+_OBJC_IVAR_$_SqflitePlugin.databaseMap
+_OBJC_IVAR_$_SqflitePlugin.mapLock
+_OBJC_IVAR_$_SqflitePlugin._singleInstanceDatabaseMap
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+__OBJC_PROTOCOL_$_FlutterApplicationLifeCycleDelegate
+__OBJC_PROTOCOL_$_FlutterPlugin
+_SqfliteDarwinDBVersion.once
+_SqfliteDarwinDBVersion.SqfliteDarwinDBVersionVal
+_inSavePoint:.savePointIdx
+_inSavePoint:.savePointIdx
+_logLevel
+__lastDatabaseId
+__databaseOpenCount
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/DerivedSources/
+sqflite_darwin_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/sqflite_darwin_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/sqflite_darwin/
+sqflite_darwin-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/sqflite_darwin-dummy.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteCursor.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteCursor.o
+-[SqfliteCursor cursorId]
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteDarwinDatabase.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteDarwinDatabase.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteDarwinDatabaseAdditions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteDarwinDatabaseAdditions.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteDarwinDatabaseQueue.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteDarwinDatabaseQueue.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteDarwinResultSet.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteDarwinResultSet.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteDatabase.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteDatabase.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqfliteOperation.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqfliteOperation.o
+/Users/wujichao/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/darwin/sqflite_darwin/Sources/sqflite_darwin/
+SqflitePlugin.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/sqflite_darwin.build/Objects-normal/arm64/SqflitePlugin.o
+sqflite_darwin
+~;J$
+'!G*
+-mq=J\[
+CUj|	
+uq};o
+i*,t
+]vIh
+GgFW
+MW5N
+t>`e
+J5iV
+H`Ez
+NO*;
+v}0Pe
+6azve
+^+8_
+b3A[
+HRv*
+l@R|
+O^G3I
+qg=\H
+sqflite_darwin
+subject.CN

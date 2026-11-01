@@ -1,0 +1,1149 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__cstring
+__TEXT
+__objc_classname__TEXT
+__gcc_except_tab__TEXT
+__objc_methname
+__TEXT
+__objc_methtype
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_catlist
+__DATA_CONST
+__objc_nlcatlist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_protorefs__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__LINKEDIT
+@rpath/Mantle.framework/Mantle
+-zH2
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+@executable_path/Frameworks
+@loader_path/Frameworks
+@(#)PROGRAM:Mantle  PROJECT:Pods-1
+ERROR: Could not get attribute string from property %s
+ERROR: Expected attribute string "%s" for property %s to start with 'T'
+ERROR: Could not read past type in attribute string "%s" for property %s
+ERROR: Invalid type in attribute string "%s" for property %s
+ERROR: Could not allocate mtl_propertyAttributes structure for attribute string "%s" for property %s
+ERROR: Could not read class name in attribute string "%s" for property %s
+ERROR: Found zero length selector name in attribute string "%s" for property %s
+ERROR: Old-style type encoding is unsupported in attribute string "%s" for property %s
+ERROR: Unrecognized attribute string flag '%c' in attribute string "%s" for property %s
+Warning: Unparsed data "%s" in attribute string "%s" for property %s
+MTLJSONAdapterErrorDomain
+MTLJSONAdapterThrownException
+Missing JSON array
+%@ could not be created because an invalid JSON array was provided: %@
+Missing JSON dictionary
+%@ could not be created because an invalid JSON dictionary was provided: %@
+Could not parse JSON
+No model class could be found to parse the JSON dictionary.
+Invalid JSON dictionary
+%1$@ could not be parsed because an invalid JSON dictionary was provided for key path "%2$@"
+*** Caught exception %@ parsing JSON key path "%@" from: %@
+v32@?0@"NSString"8@16^B24
+JSONTransformer
+MTLManagedObjectAdapterErrorDomain
+B24@?0@"NSString"8@16
+@8@?0
+B16@?0@"NSAttributeDescription"8
+No class specified for decoding relationship at key "%@" in managed object %@
+B16@?0@"NSRelationshipDescription"8
+No property by name "%@" exists on the entity.
+Could not deserialize managed object
+NSAttributeDescription
+NSRelationshipDescription
+Property descriptions of class %@ are unsupported.
+B16@?0@"NSPropertyDescription"8
+Invalid entity attribute mapping
+%1$@ could not be parsed because its entity attribute mapping contains illegal property keys.
+v8@?0
+No model class could be found to deserialize the object.
+NSEntityDescription
+NSFetchRequest
+Failed to fetch a managed object for uniqing predicate "%@".
+Could not serialize managed object
+Failed to initialize a managed object from entity named "%@".
+Property of class %@ cannot be encoded into an NSManagedObject.
+@16@?0@8
+Property of class %@ cannot be encoded into a to-many relationship.
+EntityAttributeTransformer
+v32@?0@"NSString"8@"NSString"16^B24
+%K == %@
+v24@?0^{objc_property=}8^B16
+merge
+FromModel:
+<%@: %p> %@
+*** Caught exception setting key "%@" : %@
+MTLModelVersion
+B32@?0@"NSString"8@"NSNumber"16^B24
+decode
+WithCoder:modelVersion:
+*** Caught exception decoding value for key "%@" on class %@: %@
+Warning: decoding an archive of %@ without a version, assuming 0
+externalRepresentation
+*** Could not decode old %@ archive: %@
+*** Could not unarchive %@: %@
+*** Caught exception encoding value for key "%@" on class %@: %@
+Cannot encode %@ securely, because keys are missing from +allowedSecureCodingClassesByPropertyKey: %@
+MTLModelErrorDomain
+MTLModelThrownException
+MTLURLValueTransformerName
+MTLBooleanValueTransformerName
+@16@?0@"NSString"8
+@16@?0@"NSURL"8
+@16@?0@"NSNumber"8
+@16@?0@"NSArray"8
+@16@?0@"<NSCopying>"8
+v32@?0@8@16^B24
+PodsDummy_Mantle
+MTLJSONAdapter
+Deprecated
+MTLManagedObjectSerializing
+NSFastEnumeration
+MTLManagedObjectAdapter
+MTLModel
+NSCopying
+NSCoding
+OldArchiveSupport
+MTLValueTransformer
+MTLReversibleValueTransformer
+MTLManipulationAdditions
+MTLModelException
+MTLInversionAdditions
+MTLPredefinedTransformerAdditions
+_managedObjectKeysByPropertyKey
+JSONArrayFromModels:
+concurrencyType
+JSONDictionaryFromModel:
+dictionaryValue
+JSONKeyPathsByPropertyKey
+getReturnValue:
+T#,R,N,V_modelClass
+reversibleTransformerWithBlock:
+T@"NSDictionary",R,C,N
+uppercaseString
+.cxx_destruct
+allKeys
+JSONDictionary
+containsObject:
+JSONKeyPathForPropertyKey:
+encodeConditionalObject:forKey:
+JSONTransformerForKey:
+mtl_firstObject
+T@"MTLModel<MTLJSONSerializing>",R,N,V_model
+T@"NSDictionary",R,C,N,V_JSONKeyPathsByPropertyKey
+T@"NSDictionary",R,C,N,V_managedObjectKeysByPropertyKey
+T@"NSDictionary",R,C,N,V_relationshipModelClassesByPropertyKey
+T@,R,N
+T@?,R,C,N,V_forwardBlock
+T@?,R,C,N,V_reverseBlock
+URLWithString:
+UTF8String
+_JSONKeyPathsByPropertyKey
+_forwardBlock
+_model
+_modelClass
+_relationshipModelClassesByPropertyKey
+_reverseBlock
+absoluteString
+addEntriesFromDictionary:
+addObject:
+allObjects
+allocWithZone:
+allowedSecureCodingClassesByPropertyKey
+allowsReverseTransformation
+andPredicateWithSubpredicates:
+array
+arrayWithCapacity:
+arrayWithObjects:count:
+boolValue
+classForDeserializingManagedObject:
+classForParsingJSONDictionary:
+componentsSeparatedByString:
+conformsToProtocol:
+copy
+copyWithZone:
+count
+countByEnumeratingWithState:objects:count:
+decodeObjectForKey:
+decodeObjectOfClass:forKey:
+decodeObjectOfClasses:forKey:
+decodeValueForKey:withCoder:modelVersion:
+deleteObject:
+description
+dictionary
+dictionaryValueFromArchivedExternalRepresentation:version:
+dictionaryWithObjects:forKeys:count:
+dictionaryWithValuesForKeys:
+encodeObject:forKey:
+encodeWithCoder:
+encodingBehaviorsByPropertyKey
+entity
+entityAttributeTransformerForKey:
+entityForName:inManagedObjectContext:
+enumerateKeysAndObjectsUsingBlock:
+enumeratePropertiesUsingBlock:
+errorWithDomain:code:userInfo:
+executeFetchRequest:error:
+firstObject
+forwardBlock
+getBytes:maxLength:usedLength:encoding:options:range:remainingRange:
+hash
+init
+initWithArray:
+initWithCapacity:
+initWithCoder:
+initWithDictionary:error:
+initWithForwardBlock:reverseBlock:
+initWithJSONDictionary:modelClass:
+initWithJSONDictionary:modelClass:error:
+initWithModel:
+initWithModelClass:
+insertNewObjectForEntityForName:inManagedObjectContext:
+invocationWithMethodSignature:
+invoke
+isEqual:
+isMemberOfClass:
+isOrdered
+isToMany
+keysOfEntriesPassingTest:
+length
+load
+localizedStringForKey:value:table:
+mainBundle
+managedObjectContext
+managedObjectEntityName
+managedObjectFromModel:insertingIntoContext:error:
+managedObjectFromModel:insertingIntoContext:processedObjects:error:
+managedObjectKeyForKey:
+managedObjectKeysByPropertyKey
+maximumLengthOfBytesUsingEncoding:
+mergeValueForKey:fromManagedObject:
+mergeValueForKey:fromModel:
+mergeValueOfModel:forKey:fromManagedObject:
+mergeValuesForKeysFromManagedObject:
+mergeValuesForKeysFromModel:
+mergeValuesOfModel:forKeysFromManagedObject:
+methodForSelector:
+methodSignatureForSelector:
+minusSet:
+model
+modelClass
+modelFromManagedObject:processedObjects:error:
+modelOfClass:fromJSONDictionary:
+modelOfClass:fromJSONDictionary:error:
+modelOfClass:fromManagedObject:error:
+modelOfClass:fromManagedObject:processedObjects:error:
+modelVersion
+modelWithDictionary:error:
+modelsOfClass:fromJSONArray:error:
+mtl_JSONArrayTransformerWithModelClass:
+mtl_JSONDictionaryTransformerWithModelClass:
+mtl_arrayByRemovingFirstObject
+mtl_arrayByRemovingLastObject
+mtl_arrayByRemovingObject:
+mtl_dictionaryByAddingEntriesFromDictionary:
+mtl_dictionaryByRemovingEntriesWithKeys:
+mtl_invertedTransformer
+mtl_modelErrorWithException:
+mtl_valueMappingTransformerWithDictionary:
+mtl_valueMappingTransformerWithDictionary:defaultValue:reverseDefaultValue:
+mutableCopy
+null
+numberWithUnsignedInteger:
+objectForKey:
+objectForKeyedSubscript:
+orderedSet
+performBlockAndWait:
+predicateWithFormat:
+propertiesByName
+propertyKeys
+propertyKeysForManagedObjectUniquing
+raise:format:
+reason
+relationshipModelClassesByPropertyKey
+removeObject:
+removeObjectsForKeys:
+requiresSecureCoding
+reverseBlock
+reverseTransformedValue:
+reversibleTransformerWithForwardBlock:reverseBlock:
+setArgument:atIndex:
+setEntity:
+setFetchLimit:
+setObject:forKeyedSubscript:
+setPredicate:
+setReturnsObjectsAsFaults:
+setSelector:
+setTarget:
+setValue:forKey:
+setValue:forKeyPath:
+setValueTransformer:forName:
+setWithArray:
+stringWithFormat:
+stringWithUTF8String:
+subarrayWithRange:
+substringFromIndex:
+substringToIndex:
+superclass
+supportsSecureCoding
+transformedValue:
+transformedValueClass
+transformerWithBlock:
+uniquingPredicateForModel:
+unsignedIntegerValue
+validate:
+validateForInsert:
+validateValue:forKey:error:
+valueForKey:
+valueForKeyPath:
+@40@0:8#16@24^@32
+@24@0:8@16
+@16@0:8
+@40@0:8@16#24^@32
+#16@0:8
+v16@0:8
+@"MTLModel<MTLJSONSerializing>"
+@"NSDictionary"
+@32@0:8@16#24
+@32@0:8#16@24
+v32@0:8@16@24
+v24@0:8@16
+#24@0:8@16
+@"NSString"16@0:8
+@"NSDictionary"16@0:8
+v32@0:8@"NSString"16@"NSManagedObject"24
+v24@0:8@"NSManagedObject"16
+@"NSSet"16@0:8
+@"NSValueTransformer"24@0:8@"NSString"16
+#24@0:8@"NSManagedObject"16
+Q40@0:8^{?=Q^@^Q[5Q]}16^@24Q32
+@48@0:8#16@24^{__CFDictionary=}32^@40
+@40@0:8@16@24^@32
+@48@0:8@16@24^{__CFDictionary=}32^@40
+@24@0:8#16
+@40@0:8@16^{__CFDictionary=}24^@32
+v40@0:8@16@24@32
+@32@0:8@16^@24
+v24@0:8@?16
+@24@0:8^{_NSZone=}16
+B24@0:8^@16
+Q16@0:8
+B24@0:8@16
+@40@0:8@16@24Q32
+B16@0:8
+v24@0:8@"NSCoder"16
+@24@0:8@"NSCoder"16
+@32@0:8@16Q24
+@24@0:8@?16
+@32@0:8@?16@?24
+@?16@0:8
+@40@0:8@16@24@32
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_NSClassFromString
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSLog
+_NSStringFromClass
+___objc_personality_v0
+_class_copyPropertyList
+_class_getProperty
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_getAssociatedObject
+_objc_getClass
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_respondsToSelector
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setAssociatedObject
+_objc_storeStrong
+_objc_terminate
+_objc_unsafeClaimAutoreleasedReturnValue
+_property_getAttributes
+_property_getName
+_sel_registerName
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___chkstk_darwin
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___toupper
+_calloc
+_fprintf
+_free
+_memcpy
+_strchr
+_strlen
+_strncpy
+_CFDictionaryAddValue
+_CFDictionaryCreateMutable
+_CFDictionaryGetValue
+_CFRelease
+_NSGetSizeAndAlignment
+_NSInvalidArgumentException
+_OBJC_EHTYPE_$_NSException
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSValueTransformer
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSCompoundPredicate
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSURL
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSValueTransformer
+Dictionary
+!Mapping
+Domain
+ExceptionThrown
+InvalidJSON
+-NoClassFound
+Mapping
+itializationFailed
+validManagedObject
+ManagedObjectPropertyType
+RelationshipClass
+iqueFetchRequestFailed
+supported
+Domain
+NoClassFound
+CapitalizedKeyPattern
+KeyPattern
+BooleanValueTransformerName
+	EqualObjects
+JSONAdapterError
+JManagedObjectAdapterError
+SelectorWith
+URLValueTransformerName
+Number
+String
+antleVersion
+anagedObjectAdapter
+odel
+JSONAdapter
+ReversibleValueTransformer
+ValueTransformer
+PodsDummy_Mantle
+anagedObjectAdapter
+odel
+JSONAdapter
+ReversibleValueTransformer
+ValueTransformer
+PodsDummy_Mantle
+CLASS_$_
+METACLASS_$_
+copyPropertyAttributes
+executeCleanupBlock
+OBJC_
+mtl_
+T<(4,(
+<D<X4
+HPPHp
+_MTLBooleanValueTransformerName
+_MTLEqualObjects
+_MTLJSONAdapterErrorDomain
+_MTLJSONAdapterErrorExceptionThrown
+_MTLJSONAdapterErrorInvalidJSONDictionary
+_MTLJSONAdapterErrorInvalidJSONMapping
+_MTLJSONAdapterErrorNoClassFound
+_MTLManagedObjectAdapterErrorDomain
+_MTLManagedObjectAdapterErrorInitializationFailed
+_MTLManagedObjectAdapterErrorInvalidManagedObjectKey
+_MTLManagedObjectAdapterErrorInvalidManagedObjectMapping
+_MTLManagedObjectAdapterErrorNoClassFound
+_MTLManagedObjectAdapterErrorUniqueFetchRequestFailed
+_MTLManagedObjectAdapterErrorUnsupportedManagedObjectPropertyType
+_MTLManagedObjectAdapterErrorUnsupportedRelationshipClass
+_MTLSelectorWithCapitalizedKeyPattern
+_MTLSelectorWithKeyPattern
+_MTLURLValueTransformerName
+_MantleVersionNumber
+_MantleVersionString
+_OBJC_CLASS_$_MTLJSONAdapter
+_OBJC_CLASS_$_MTLManagedObjectAdapter
+_OBJC_CLASS_$_MTLModel
+_OBJC_CLASS_$_MTLReversibleValueTransformer
+_OBJC_CLASS_$_MTLValueTransformer
+_OBJC_CLASS_$_PodsDummy_Mantle
+_OBJC_METACLASS_$_MTLJSONAdapter
+_OBJC_METACLASS_$_MTLManagedObjectAdapter
+_OBJC_METACLASS_$_MTLModel
+_OBJC_METACLASS_$_MTLReversibleValueTransformer
+_OBJC_METACLASS_$_MTLValueTransformer
+_OBJC_METACLASS_$_PodsDummy_Mantle
+_mtl_copyPropertyAttributes
+_mtl_executeCleanupBlock
+_CFDictionaryAddValue
+_CFDictionaryCreateMutable
+_CFDictionaryGetValue
+_CFRelease
+_NSClassFromString
+_NSGetSizeAndAlignment
+_NSInvalidArgumentException
+_NSLocalizedDescriptionKey
+_NSLocalizedFailureReasonErrorKey
+_NSLog
+_NSStringFromClass
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCompoundPredicate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSException
+_OBJC_CLASS_$_NSInvocation
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableOrderedSet
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSPredicate
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSValue
+_OBJC_CLASS_$_NSValueTransformer
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSValueTransformer
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___chkstk_darwin
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+___stderrp
+___toupper
+__objc_empty_cache
+_calloc
+_class_copyPropertyList
+_class_getProperty
+_fprintf
+_free
+_kCFBooleanFalse
+_kCFBooleanTrue
+_kCFTypeDictionaryKeyCallBacks
+_kCFTypeDictionaryValueCallBacks
+_memcpy
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_end_catch
+_objc_enumerationMutation
+_objc_exception_throw
+_objc_getAssociatedObject
+_objc_getClass
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_respondsToSelector
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_setAssociatedObject
+_objc_storeStrong
+_objc_terminate
+_objc_unsafeClaimAutoreleasedReturnValue
+_property_getAttributes
+_property_getName
+_sel_registerName
+_strchr
+_strlen
+_strncpy
++[MTLJSONAdapter modelOfClass:fromJSONDictionary:error:]
++[MTLJSONAdapter modelsOfClass:fromJSONArray:error:]
++[MTLJSONAdapter JSONDictionaryFromModel:]
++[MTLJSONAdapter JSONArrayFromModels:]
+-[MTLJSONAdapter init]
+-[MTLJSONAdapter initWithJSONDictionary:modelClass:error:]
+-[MTLJSONAdapter initWithModel:]
+-[MTLJSONAdapter JSONDictionary]
+___32-[MTLJSONAdapter JSONDictionary]_block_invoke
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+-[MTLJSONAdapter JSONTransformerForKey:]
+-[MTLJSONAdapter JSONKeyPathForPropertyKey:]
+-[MTLJSONAdapter model]
+-[MTLJSONAdapter modelClass]
+-[MTLJSONAdapter JSONKeyPathsByPropertyKey]
+-[MTLJSONAdapter .cxx_destruct]
++[MTLJSONAdapter(Deprecated) modelOfClass:fromJSONDictionary:]
+-[MTLJSONAdapter(Deprecated) initWithJSONDictionary:modelClass:]
+-[MTLManagedObjectAdapter init]
+-[MTLManagedObjectAdapter initWithModelClass:]
+-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke.4
+_performInContext
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56s64s72b
+___destroy_helper_block_e8_32s40s48s56s64s72s
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke.7
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke_2.10
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke.13
+___73-[MTLManagedObjectAdapter modelFromManagedObject:processedObjects:error:]_block_invoke.15
+___copy_helper_block_e8_32s40b48b
++[MTLManagedObjectAdapter modelOfClass:fromManagedObject:error:]
+___64+[MTLManagedObjectAdapter modelOfClass:fromManagedObject:error:]_block_invoke
++[MTLManagedObjectAdapter modelOfClass:fromManagedObject:processedObjects:error:]
+-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke
+___copy_helper_block_e8_32s40s48s56r64r
+___destroy_helper_block_e8_32s40s48s56r64r
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke.54
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56s64r72r
+___destroy_helper_block_e8_32s40s48s56s64r72r
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke.56
+___copy_helper_block_e8_32s40s48r
+___destroy_helper_block_e8_32s40s48r
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke.78
+___copy_helper_block_e8_32s40s48b56r64r
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke.86
+___copy_helper_block_e8_32s40b48b56r
+___destroy_helper_block_e8_32s40s48s56r
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke.87
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+___94-[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]_block_invoke.89
++[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:error:]
+___77+[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:error:]_block_invoke
++[MTLManagedObjectAdapter managedObjectFromModel:insertingIntoContext:processedObjects:error:]
+-[MTLManagedObjectAdapter entityAttributeTransformerForKey:]
+-[MTLManagedObjectAdapter managedObjectKeyForKey:]
+-[MTLManagedObjectAdapter mergeValueOfModel:forKey:fromManagedObject:]
+-[MTLManagedObjectAdapter mergeValuesOfModel:forKeysFromManagedObject:]
+___71-[MTLManagedObjectAdapter mergeValuesOfModel:forKeysFromManagedObject:]_block_invoke
+-[MTLManagedObjectAdapter uniquingPredicateForModel:]
+-[MTLManagedObjectAdapter modelClass]
+-[MTLManagedObjectAdapter managedObjectKeysByPropertyKey]
+-[MTLManagedObjectAdapter relationshipModelClassesByPropertyKey]
+-[MTLManagedObjectAdapter .cxx_destruct]
+___performInContext_block_invoke
+___copy_helper_block_e8_32b40r
++[MTLModel modelWithDictionary:error:]
+-[MTLModel init]
+-[MTLModel initWithDictionary:error:]
+_MTLValidateAndSetValue
++[MTLModel enumeratePropertiesUsingBlock:]
+___42+[MTLModel enumeratePropertiesUsingBlock:]_block_invoke
++[MTLModel propertyKeys]
+___24+[MTLModel propertyKeys]_block_invoke
+___24+[MTLModel propertyKeys]_block_invoke_2
+-[MTLModel dictionaryValue]
+-[MTLModel mergeValueForKey:fromModel:]
+-[MTLModel mergeValuesForKeysFromModel:]
+-[MTLModel validate:]
+-[MTLModel copyWithZone:]
+-[MTLModel description]
+-[MTLModel hash]
+-[MTLModel isEqual:]
++[MTLModel(NSCoding) modelVersion]
++[MTLModel(NSCoding) encodingBehaviorsByPropertyKey]
+___52+[MTLModel(NSCoding) encodingBehaviorsByPropertyKey]_block_invoke
++[MTLModel(NSCoding) allowedSecureCodingClassesByPropertyKey]
+___61+[MTLModel(NSCoding) allowedSecureCodingClassesByPropertyKey]_block_invoke
+___61+[MTLModel(NSCoding) allowedSecureCodingClassesByPropertyKey]_block_invoke_2
+-[MTLModel(NSCoding) decodeValueForKey:withCoder:modelVersion:]
+_coderRequiresSecureCoding
+-[MTLModel(NSCoding) initWithCoder:]
+_verifyAllowedClassesByPropertyKey
+-[MTLModel(NSCoding) encodeWithCoder:]
+___38-[MTLModel(NSCoding) encodeWithCoder:]_block_invoke
++[MTLModel(NSCoding) supportsSecureCoding]
++[MTLModel(OldArchiveSupport) dictionaryValueFromArchivedExternalRepresentation:version:]
+___encodablePropertyKeysForClass_block_invoke
++[MTLValueTransformer transformerWithBlock:]
++[MTLValueTransformer reversibleTransformerWithBlock:]
++[MTLValueTransformer reversibleTransformerWithForwardBlock:reverseBlock:]
+-[MTLValueTransformer initWithForwardBlock:reverseBlock:]
++[MTLValueTransformer allowsReverseTransformation]
++[MTLValueTransformer transformedValueClass]
+-[MTLValueTransformer transformedValue:]
+-[MTLValueTransformer forwardBlock]
+-[MTLValueTransformer reverseBlock]
+-[MTLValueTransformer .cxx_destruct]
+-[MTLReversibleValueTransformer initWithForwardBlock:reverseBlock:]
++[MTLReversibleValueTransformer allowsReverseTransformation]
+-[MTLReversibleValueTransformer reverseTransformedValue:]
+-[NSArray(MTLManipulationAdditions) mtl_firstObject]
+-[NSArray(MTLManipulationAdditions) mtl_arrayByRemovingObject:]
+-[NSArray(MTLManipulationAdditions) mtl_arrayByRemovingFirstObject]
+-[NSArray(MTLManipulationAdditions) mtl_arrayByRemovingLastObject]
+-[NSDictionary(MTLManipulationAdditions) mtl_dictionaryByAddingEntriesFromDictionary:]
+-[NSDictionary(MTLManipulationAdditions) mtl_dictionaryByRemovingEntriesWithKeys:]
++[NSError(MTLModelException) mtl_modelErrorWithException:]
+-[NSValueTransformer(MTLInversionAdditions) mtl_invertedTransformer]
+___68-[NSValueTransformer(MTLInversionAdditions) mtl_invertedTransformer]_block_invoke
+___68-[NSValueTransformer(MTLInversionAdditions) mtl_invertedTransformer]_block_invoke.1
++[NSValueTransformer(MTLPredefinedTransformerAdditions) load]
+___61+[NSValueTransformer(MTLPredefinedTransformerAdditions) load]_block_invoke
+___61+[NSValueTransformer(MTLPredefinedTransformerAdditions) load]_block_invoke_2
+___61+[NSValueTransformer(MTLPredefinedTransformerAdditions) load]_block_invoke_3
++[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_JSONDictionaryTransformerWithModelClass:]
+___101+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_JSONDictionaryTransformerWithModelClass:]_block_invoke
+___101+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_JSONDictionaryTransformerWithModelClass:]_block_invoke_2
++[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_JSONArrayTransformerWithModelClass:]
+___96+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_JSONArrayTransformerWithModelClass:]_block_invoke
+___96+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_JSONArrayTransformerWithModelClass:]_block_invoke.18
++[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_valueMappingTransformerWithDictionary:]
++[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_valueMappingTransformerWithDictionary:defaultValue:reverseDefaultValue:]
+___132+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_valueMappingTransformerWithDictionary:defaultValue:reverseDefaultValue:]_block_invoke
+___132+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_valueMappingTransformerWithDictionary:defaultValue:reverseDefaultValue:]_block_invoke.20
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___132+[NSValueTransformer(MTLPredefinedTransformerAdditions) mtl_valueMappingTransformerWithDictionary:defaultValue:reverseDefaultValue:]_block_invoke.21
+_objc_msgSend$JSONDictionary
+_objc_msgSend$JSONDictionaryFromModel:
+_objc_msgSend$JSONKeyPathForPropertyKey:
+_objc_msgSend$JSONKeyPathsByPropertyKey
+_objc_msgSend$JSONTransformerForKey:
+_objc_msgSend$URLWithString:
+_objc_msgSend$UTF8String
+_objc_msgSend$absoluteString
+_objc_msgSend$addEntriesFromDictionary:
+_objc_msgSend$addObject:
+_objc_msgSend$allKeys
+_objc_msgSend$allObjects
+_objc_msgSend$allocWithZone:
+_objc_msgSend$allowedSecureCodingClassesByPropertyKey
+_objc_msgSend$allowsReverseTransformation
+_objc_msgSend$andPredicateWithSubpredicates:
+_objc_msgSend$array
+_objc_msgSend$arrayWithCapacity:
+_objc_msgSend$arrayWithObjects:count:
+_objc_msgSend$boolValue
+_objc_msgSend$classForDeserializingManagedObject:
+_objc_msgSend$classForParsingJSONDictionary:
+_objc_msgSend$componentsSeparatedByString:
+_objc_msgSend$concurrencyType
+_objc_msgSend$conformsToProtocol:
+_objc_msgSend$containsObject:
+_objc_msgSend$copy
+_objc_msgSend$count
+_objc_msgSend$countByEnumeratingWithState:objects:count:
+_objc_msgSend$decodeObjectForKey:
+_objc_msgSend$decodeObjectOfClass:forKey:
+_objc_msgSend$decodeObjectOfClasses:forKey:
+_objc_msgSend$decodeValueForKey:withCoder:modelVersion:
+_objc_msgSend$deleteObject:
+_objc_msgSend$description
+_objc_msgSend$dictionary
+_objc_msgSend$dictionaryValue
+_objc_msgSend$dictionaryValueFromArchivedExternalRepresentation:version:
+_objc_msgSend$dictionaryWithObjects:forKeys:count:
+_objc_msgSend$dictionaryWithValuesForKeys:
+_objc_msgSend$encodeConditionalObject:forKey:
+_objc_msgSend$encodeObject:forKey:
+_objc_msgSend$encodingBehaviorsByPropertyKey
+_objc_msgSend$entity
+_objc_msgSend$entityAttributeTransformerForKey:
+_objc_msgSend$entityForName:inManagedObjectContext:
+_objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+_objc_msgSend$enumeratePropertiesUsingBlock:
+_objc_msgSend$errorWithDomain:code:userInfo:
+_objc_msgSend$executeFetchRequest:error:
+_objc_msgSend$firstObject
+_objc_msgSend$forwardBlock
+_objc_msgSend$getBytes:maxLength:usedLength:encoding:options:range:remainingRange:
+_objc_msgSend$getReturnValue:
+_objc_msgSend$hash
+_objc_msgSend$init
+_objc_msgSend$initWithArray:
+_objc_msgSend$initWithCapacity:
+_objc_msgSend$initWithDictionary:error:
+_objc_msgSend$initWithForwardBlock:reverseBlock:
+_objc_msgSend$initWithJSONDictionary:modelClass:error:
+_objc_msgSend$initWithModel:
+_objc_msgSend$initWithModelClass:
+_objc_msgSend$insertNewObjectForEntityForName:inManagedObjectContext:
+_objc_msgSend$invocationWithMethodSignature:
+_objc_msgSend$invoke
+_objc_msgSend$isEqual:
+_objc_msgSend$isMemberOfClass:
+_objc_msgSend$isOrdered
+_objc_msgSend$isToMany
+_objc_msgSend$keysOfEntriesPassingTest:
+_objc_msgSend$length
+_objc_msgSend$localizedStringForKey:value:table:
+_objc_msgSend$mainBundle
+_objc_msgSend$managedObjectContext
+_objc_msgSend$managedObjectEntityName
+_objc_msgSend$managedObjectFromModel:insertingIntoContext:processedObjects:error:
+_objc_msgSend$managedObjectKeyForKey:
+_objc_msgSend$managedObjectKeysByPropertyKey
+_objc_msgSend$maximumLengthOfBytesUsingEncoding:
+_objc_msgSend$mergeValueForKey:fromManagedObject:
+_objc_msgSend$mergeValueForKey:fromModel:
+_objc_msgSend$mergeValueOfModel:forKey:fromManagedObject:
+_objc_msgSend$mergeValuesForKeysFromManagedObject:
+_objc_msgSend$mergeValuesOfModel:forKeysFromManagedObject:
+_objc_msgSend$methodForSelector:
+_objc_msgSend$methodSignatureForSelector:
+_objc_msgSend$minusSet:
+_objc_msgSend$model
+_objc_msgSend$modelClass
+_objc_msgSend$modelFromManagedObject:processedObjects:error:
+_objc_msgSend$modelOfClass:fromJSONDictionary:error:
+_objc_msgSend$modelOfClass:fromManagedObject:processedObjects:error:
+_objc_msgSend$modelVersion
+_objc_msgSend$modelWithDictionary:error:
+_objc_msgSend$mtl_JSONDictionaryTransformerWithModelClass:
+_objc_msgSend$mtl_firstObject
+_objc_msgSend$mtl_modelErrorWithException:
+_objc_msgSend$mtl_valueMappingTransformerWithDictionary:defaultValue:reverseDefaultValue:
+_objc_msgSend$mutableCopy
+_objc_msgSend$null
+_objc_msgSend$numberWithUnsignedInteger:
+_objc_msgSend$objectForKey:
+_objc_msgSend$objectForKeyedSubscript:
+_objc_msgSend$orderedSet
+_objc_msgSend$performBlockAndWait:
+_objc_msgSend$predicateWithFormat:
+_objc_msgSend$propertiesByName
+_objc_msgSend$propertyKeys
+_objc_msgSend$propertyKeysForManagedObjectUniquing
+_objc_msgSend$raise:format:
+_objc_msgSend$reason
+_objc_msgSend$relationshipModelClassesByPropertyKey
+_objc_msgSend$removeObject:
+_objc_msgSend$removeObjectsForKeys:
+_objc_msgSend$reverseBlock
+_objc_msgSend$reverseTransformedValue:
+_objc_msgSend$reversibleTransformerWithBlock:
+_objc_msgSend$reversibleTransformerWithForwardBlock:reverseBlock:
+_objc_msgSend$set
+_objc_msgSend$setArgument:atIndex:
+_objc_msgSend$setEntity:
+_objc_msgSend$setFetchLimit:
+_objc_msgSend$setObject:forKeyedSubscript:
+_objc_msgSend$setPredicate:
+_objc_msgSend$setReturnsObjectsAsFaults:
+_objc_msgSend$setSelector:
+_objc_msgSend$setTarget:
+_objc_msgSend$setValue:forKey:
+_objc_msgSend$setValue:forKeyPath:
+_objc_msgSend$setValueTransformer:forName:
+_objc_msgSend$setWithArray:
+_objc_msgSend$stringWithFormat:
+_objc_msgSend$stringWithUTF8String:
+_objc_msgSend$subarrayWithRange:
+_objc_msgSend$substringFromIndex:
+_objc_msgSend$substringToIndex:
+_objc_msgSend$superclass
+_objc_msgSend$transformedValue:
+_objc_msgSend$uniquingPredicateForModel:
+_objc_msgSend$unsignedIntegerValue
+_objc_msgSend$uppercaseString
+_objc_msgSend$validateForInsert:
+_objc_msgSend$validateValue:forKey:error:
+_objc_msgSend$valueForKey:
+_objc_msgSend$valueForKeyPath:
+__OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_MTLModelException
+__OBJC_$_CATEGORY_CLASS_METHODS_NSValueTransformer_$_MTLPredefinedTransformerAdditions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_MTLManipulationAdditions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_MTLManipulationAdditions
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSValueTransformer_$_MTLInversionAdditions
+__OBJC_$_CLASS_METHODS_MTLJSONAdapter(Deprecated)
+__OBJC_$_CLASS_METHODS_MTLManagedObjectAdapter
+__OBJC_$_CLASS_METHODS_MTLModel(NSCoding|OldArchiveSupport)
+__OBJC_$_CLASS_METHODS_MTLReversibleValueTransformer
+__OBJC_$_CLASS_METHODS_MTLValueTransformer
+__OBJC_$_INSTANCE_METHODS_MTLJSONAdapter(Deprecated)
+__OBJC_$_INSTANCE_METHODS_MTLManagedObjectAdapter
+__OBJC_$_INSTANCE_METHODS_MTLModel(NSCoding|OldArchiveSupport)
+__OBJC_$_INSTANCE_METHODS_MTLReversibleValueTransformer
+__OBJC_$_INSTANCE_METHODS_MTLValueTransformer
+__OBJC_$_PROTOCOL_CLASS_METHODS_MTLManagedObjectSerializing
+__OBJC_$_PROTOCOL_CLASS_METHODS_OPT_MTLManagedObjectSerializing
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSFastEnumeration
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MTLManagedObjectSerializing
+GCC_except_table5
+GCC_except_table7
+GCC_except_table20
+GCC_except_table23
+GCC_except_table45
+GCC_except_table3
+GCC_except_table4
+GCC_except_table7
+GCC_except_table1
+GCC_except_table3
+GCC_except_table6
+GCC_except_table11
+GCC_except_table17
+___block_descriptor_48_e8_32s40s_e25_v32
+"NSString"8
+16^B24l
+___block_descriptor_48_e8_32s_e21_B24
+"NSString"8
+___block_descriptor_48_e8_32s40s_e5_
+___block_descriptor_80_e8_32s40s48s56s64s72bs_e32_B16
+"NSAttributeDescription"8l
+___block_descriptor_80_e8_32s40s48s_e5_
+?0lu56l8
+___block_descriptor_96_e8_32s40s48s56s64s72bs_e35_B16
+"NSRelationshipDescription"8l
+___block_descriptor_64_e8_32s40bs48bs_e31_B16
+"NSPropertyDescription"8l
+___block_descriptor_40_e5_v8
+___block_descriptor_96_e8_32s40s48s56r64r_e5_
+?0lu72l8u80l8
+___block_descriptor_80_e8_32s40s48s56s64r72r_e32_B16
+"NSAttributeDescription"8l
+___block_descriptor_64_e8_32s40s48r_e8_
+___block_descriptor_72_e8_32s40s48bs56r64r_e35_B16
+"NSRelationshipDescription"8l
+___block_descriptor_64_e8_32s40bs48bs56r_e31_B16
+"NSPropertyDescription"8l
+___block_descriptor_48_e8_32s40r_e5_
+___block_descriptor_80_e8_32s40s48s56r64r_e25_v32
+"NSString"8
+16^B24l
+___block_descriptor_56_e8_32s40s48s_e35_v32
+"NSString"8
+"NSString"16^B24l
+___block_descriptor_48_e8_32bs40r_e5_v8
+___block_descriptor_40_e8_32s_e28_v24
+?0^{objc_property=}8^B16l
+___block_descriptor_32_e35_B32
+"NSString"8
+"NSNumber"16^B24l
+___block_literal_global
+___block_descriptor_56_e8_32s40s48s_e25_v32
+"NSString"8
+16^B24l
+___block_literal_global.45
+___block_descriptor_40_e8_32s_e8_
+___block_descriptor_32_e18_
+"NSString"8l
+___block_literal_global
+___block_descriptor_32_e15_
+"NSURL"8l
+___block_literal_global.7
+___block_descriptor_32_e18_
+"NSNumber"8l
+___block_literal_global.10
+___block_descriptor_40_e8_
+8lu32l8
+___block_descriptor_32_e8_
+___block_literal_global.14
+___block_descriptor_40_e8_32s_e17_
+"NSArray"8l
+___block_descriptor_48_e8_32s40s_e21_
+"<NSCopying>"8l
+___block_descriptor_48_e8_32s40r_e15_v32
+16^B24l
+___block_descriptor_48_e8_32s40s_e8_
+__OBJC_LABEL_PROTOCOL_$_MTLManagedObjectSerializing
+__OBJC_LABEL_PROTOCOL_$_NSFastEnumeration
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_METACLASS_RO_$_PodsDummy_Mantle
+__OBJC_CLASS_RO_$_PodsDummy_Mantle
+__OBJC_METACLASS_RO_$_MTLJSONAdapter
+__OBJC_$_INSTANCE_VARIABLES_MTLJSONAdapter
+__OBJC_$_PROP_LIST_MTLJSONAdapter
+__OBJC_CLASS_RO_$_MTLJSONAdapter
+__OBJC_$_PROTOCOL_METHOD_TYPES_MTLManagedObjectSerializing
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSFastEnumeration
+__OBJC_METACLASS_RO_$_MTLManagedObjectAdapter
+__OBJC_$_INSTANCE_VARIABLES_MTLManagedObjectAdapter
+__OBJC_$_PROP_LIST_MTLManagedObjectAdapter
+__OBJC_CLASS_RO_$_MTLManagedObjectAdapter
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_METACLASS_RO_$_MTLModel
+__OBJC_$_PROP_LIST_MTLModel
+__OBJC_CLASS_RO_$_MTLModel
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_METACLASS_RO_$_MTLValueTransformer
+__OBJC_$_INSTANCE_VARIABLES_MTLValueTransformer
+__OBJC_$_PROP_LIST_MTLValueTransformer
+__OBJC_CLASS_RO_$_MTLValueTransformer
+__OBJC_METACLASS_RO_$_MTLReversibleValueTransformer
+__OBJC_CLASS_RO_$_MTLReversibleValueTransformer
+__OBJC_$_PROP_LIST_NSArray_$_MTLManipulationAdditions
+__OBJC_$_CATEGORY_NSArray_$_MTLManipulationAdditions
+__OBJC_$_CATEGORY_NSDictionary_$_MTLManipulationAdditions
+__OBJC_$_CATEGORY_NSError_$_MTLModelException
+__OBJC_$_CATEGORY_NSValueTransformer_$_MTLInversionAdditions
+__OBJC_$_CATEGORY_NSValueTransformer_$_MTLPredefinedTransformerAdditions
+__OBJC_CLASS_PROTOCOLS_$_MTLModel(NSCoding|OldArchiveSupport)
+__OBJC_PROTOCOL_REFERENCE_$_MTLManagedObjectSerializing
+__OBJC_PROTOCOL_REFERENCE_$_NSFastEnumeration
+_OBJC_IVAR_$_MTLJSONAdapter._model
+_OBJC_IVAR_$_MTLJSONAdapter._modelClass
+_OBJC_IVAR_$_MTLJSONAdapter._JSONKeyPathsByPropertyKey
+_OBJC_IVAR_$_MTLManagedObjectAdapter._modelClass
+_OBJC_IVAR_$_MTLManagedObjectAdapter._managedObjectKeysByPropertyKey
+_OBJC_IVAR_$_MTLManagedObjectAdapter._relationshipModelClassesByPropertyKey
+_OBJC_IVAR_$_MTLValueTransformer._forwardBlock
+_OBJC_IVAR_$_MTLValueTransformer._reverseBlock
+__OBJC_PROTOCOL_$_MTLManagedObjectSerializing
+__OBJC_PROTOCOL_$_NSFastEnumeration
+_MTLModelCachedPropertyKeysKey
+__OBJC_PROTOCOL_$_NSCopying
+_MTLModelCachedAllowedClassesKey
+__OBJC_PROTOCOL_$_NSCoding
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/DerivedSources/
+Mantle_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/Mantle_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/extobjc/
+EXTRuntimeExtensions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/EXTRuntimeExtensions.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/extobjc/
+EXTScope.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/EXTScope.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/Mantle/
+Mantle-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/Mantle-dummy.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+MTLJSONAdapter.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/MTLJSONAdapter.o
++[MTLJSONAdapter modelOfClass:fromJSONDictionary:error:]
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+MTLManagedObjectAdapter.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/MTLManagedObjectAdapter.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+MTLModel.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/MTLModel.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+MTLModel+NSCoding.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/MTLModel+NSCoding.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+MTLReflection.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/MTLReflection.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+MTLValueTransformer.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/MTLValueTransformer.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+NSArray+MTLManipulationAdditions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/NSArray+MTLManipulationAdditions.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+NSDictionary+MTLManipulationAdditions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/NSDictionary+MTLManipulationAdditions.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+NSError+MTLModelException.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/NSError+MTLModelException.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+NSObject+MTLComparisonAdditions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/NSObject+MTLComparisonAdditions.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+NSValueTransformer+MTLInversionAdditions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/NSValueTransformer+MTLInversionAdditions.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Mantle/Mantle/
+NSValueTransformer+MTLPredefinedTransformerAdditions.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Mantle.build/Objects-normal/arm64/NSValueTransformer+MTLPredefinedTransformerAdditions.o
+Mantle
+o~Uku
+`hMKqV
+\(*l
+4P^R
+>PB+
+Dn]X-g=
+Lbt1
+l<bx[s
+~OuyT/6
+4sH5
+,].%
+6+Is
+<-la
+W7A`
+e)(Z)
+p|q`
+Mantle
+subject.CN

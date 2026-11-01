@@ -1,0 +1,499 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__objc_methname
+__TEXT
+__cstring
+__TEXT
+__objc_classname__TEXT
+__objc_methtype
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__LINKEDIT
+@rpath/HCSStarRatingView.framework/HCSStarRatingView
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+/System/Library/Frameworks/UIKit.framework/UIKit
+@executable_path/Frameworks
+@loader_path/Frameworks
+Rij(
+tj(8H
+Thj(
+	hh8?
+h(89
+	hh8?
+h(81
+hjz8!
+T   
+ujh8
+T`jy
+hjh8
+hjh8
+hjh8
+bjh8
+T @e
+@(#)PROGRAM:HCSStarRatingView  PROJECT:Pods-1
+?o*Ral!
+?333333
+?LOX
+?CGColor
+T@"UIColor",&,D,N
+T@"UIImage",&,N,V_halfStarImage
+T@"UIImage",&,N,V_emptyStarImage
+_emptyStarImage
+T@?,C,N,V_shouldBeginGestureRecognizerBlock
+addLineToPoint:
+TB,N,V_allowsHalfStars
+backgroundColor
+TB,N,V_shouldBecomeFirstResponder
+filledStarImage
+TQ,D,N
+setFill
+Td,N,V_spacing
+shouldUseImages
+_accurateHalfStars
+starBorderColor
+_continuous
+.cxx_destruct
+CGImage
+T@"UIColor",&,N,V_emptyStarColor
+_emptyStarColor
+T@"UIImage",&,N,V_filledStarImage
+addClip
+TB,N,V_accurateHalfStars
+allowsHalfStars
+TB,N,V_continuous
+endTrackingWithTouch:withEvent:
+TB,R,D,N
+locationInView:
+Td,D,N
+setNeedsDisplay
+Td,N,V_starBorderWidth
+spacing
+_allowsHalfStars
+starBorderWidth
+_customInit
+_drawAccurateHalfStarImageWithFrame:tintColor:progress:
+_drawAccurateHalfStarShapeWithFrame:tintColor:progress:
+_drawAccurateStarWithFrame:tintColor:progress:
+_drawHalfStarImageWithFrame:tintColor:
+_drawHalfStarShapeWithFrame:tintColor:
+_drawHalfStarWithFrame:tintColor:
+_drawImage:frame:tintColor:
+_drawStarImageWithFrame:tintColor:highlighted:
+_drawStarShapeWithFrame:tintColor:highlighted:
+_drawStarWithFrame:tintColor:highlighted:
+_filledStarImage
+_halfStarImage
+_handleTouch:
+_maximumValue
+_minimumValue
+_shouldBecomeFirstResponder
+_shouldBeginGestureRecognizerBlock
+_spacing
+_starBorderColor
+_starBorderWidth
+_updateAppearanceForState:
+_value
+accessibilityActivate
+accessibilityDecrement
+accessibilityIncrement
+accessibilityLabel
+accessibilityTraits
+accessibilityValue
+accurateHalfStars
+appendPath:
+becomeFirstResponder
+beginTrackingWithTouch:withEvent:
+bezierPath
+bezierPathWithRect:
+bounds
+canBecomeFirstResponder
+cancelTrackingWithEvent:
+clearColor
+closePath
+continueTrackingWithTouch:withEvent:
+continuous
+description
+didChangeValueForKey:
+drawInRect:
+drawRect:
+emptyStarColor
+emptyStarImage
+fill
+gestureRecognizerShouldBegin:
+halfStarImage
+imageOrientation
+imageWithCGImage:scale:orientation:
+imageWithRenderingMode:
+initWithCoder:
+initWithFrame:
+intrinsicContentSize
+invalidateIntrinsicContentSize
+isAccessibilityElement
+isEnabled
+isEqual:
+isFirstResponder
+isOpaque
+isUserInteractionEnabled
+localizedStringForKey:value:table:
+mainBundle
+maximumValue
+minimumValue
+moveToPoint:
+numberWithDouble:
+renderingMode
+resignFirstResponder
+scale
+sendActionsForControlEvents:
+setAccurateHalfStars:
+setAllowsHalfStars:
+setAlpha:
+setContinuous:
+setEmptyStarColor:
+setEmptyStarImage:
+setEnabled:
+setExclusiveTouch:
+setFilledStarImage:
+setHalfStarImage:
+setLineWidth:
+setMaximumValue:
+setMinimumValue:
+setMiterLimit:
+setNeedsLayout
+setShouldBecomeFirstResponder:
+setShouldBeginGestureRecognizerBlock:
+setSpacing:
+setStarBorderColor:
+setStarBorderWidth:
+setStroke
+setUsesEvenOddFillRule:
+setValue:
+setValue:sendValueChangedAction:
+shouldBecomeFirstResponder
+shouldBeginGestureRecognizerBlock
+size
+stroke
+tintColor
+value
+view
+whiteColor
+willChangeValueForKey:
+Rating
+HCSStarRatingView
+PodsDummy_HCSStarRatingView
+@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+@24@0:8@16
+v16@0:8
+@16@0:8
+d16@0:8
+v24@0:8d16
+Q16@0:8
+v24@0:8Q16
+v28@0:8d16B24
+v20@0:8B16
+v24@0:8@16
+B16@0:8
+v60@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48B56
+v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48
+v64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48d56
+v64@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56
+v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+B32@0:8@16@24
+v32@0:8@16@24
+B24@0:8@16
+{CGSize=dd}16@0:8
+@?16@0:8
+v24@0:8@?16
+@"UIColor"
+@"UIImage"
+___CFConstantStringClassReference
+_NSStringFromSelector
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+_CGContextFillRect
+_CGContextRestoreGState
+_CGContextSaveGState
+_CGContextSetFillColorWithColor
+_CGImageCreateWithImageInRect
+_CGImageRelease
+_CGRectGetHeight
+_CGRectGetMinX
+_CGRectGetMinY
+_CGRectGetWidth
+_CGRectInfinite
+_UIAccessibilityTraitAdjustable
+_UIGraphicsGetCurrentContext
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_UIImage
+_OBJC_CLASS_$_UIBezierPath
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSNumber
+__objc_empty_cache
+_OBJC_CLASS_$_UIControl
+_OBJC_METACLASS_$_UIControl
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+Number
+	String
+HCSStarRatingView
+'PodsDummy_HCSStarRatingView
+HCSStarRatingView
+ePodsDummy_HCSStarRatingView
+CLASS_$_
+3METACLASS_$_
+HCSStarRatingViewVersion
+OBJC_
+ ,@<
+  `````8
+_HCSStarRatingViewVersionNumber
+_HCSStarRatingViewVersionString
+_OBJC_CLASS_$_HCSStarRatingView
+_OBJC_CLASS_$_PodsDummy_HCSStarRatingView
+_OBJC_METACLASS_$_HCSStarRatingView
+_OBJC_METACLASS_$_PodsDummy_HCSStarRatingView
+_CGContextFillRect
+_CGContextRestoreGState
+_CGContextSaveGState
+_CGContextSetFillColorWithColor
+_CGImageCreateWithImageInRect
+_CGImageRelease
+_CGRectGetHeight
+_CGRectGetMinX
+_CGRectGetMinY
+_CGRectGetWidth
+_CGRectInfinite
+_NSStringFromSelector
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_UIBezierPath
+_OBJC_CLASS_$_UIColor
+_OBJC_CLASS_$_UIControl
+_OBJC_CLASS_$_UIImage
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_UIControl
+_UIAccessibilityTraitAdjustable
+_UIGraphicsGetCurrentContext
+___CFConstantStringClassReference
+__objc_empty_cache
+_objc_autoreleaseReturnValue
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleasedReturnValue
+_objc_setProperty_nonatomic_copy
+_objc_storeStrong
+-[HCSStarRatingView initWithFrame:]
+-[HCSStarRatingView initWithCoder:]
+-[HCSStarRatingView _customInit]
+-[HCSStarRatingView setNeedsLayout]
+-[HCSStarRatingView backgroundColor]
+-[HCSStarRatingView minimumValue]
+-[HCSStarRatingView setMinimumValue:]
+-[HCSStarRatingView maximumValue]
+-[HCSStarRatingView setMaximumValue:]
+-[HCSStarRatingView value]
+-[HCSStarRatingView setValue:]
+-[HCSStarRatingView setValue:sendValueChangedAction:]
+-[HCSStarRatingView setSpacing:]
+-[HCSStarRatingView setAllowsHalfStars:]
+-[HCSStarRatingView setAccurateHalfStars:]
+-[HCSStarRatingView setEmptyStarImage:]
+-[HCSStarRatingView setHalfStarImage:]
+-[HCSStarRatingView setFilledStarImage:]
+-[HCSStarRatingView setEmptyStarColor:]
+-[HCSStarRatingView setStarBorderColor:]
+-[HCSStarRatingView starBorderColor]
+-[HCSStarRatingView setStarBorderWidth:]
+-[HCSStarRatingView shouldUseImages]
+-[HCSStarRatingView setEnabled:]
+-[HCSStarRatingView _updateAppearanceForState:]
+-[HCSStarRatingView _drawStarImageWithFrame:tintColor:highlighted:]
+-[HCSStarRatingView _drawHalfStarImageWithFrame:tintColor:]
+-[HCSStarRatingView _drawAccurateHalfStarImageWithFrame:tintColor:progress:]
+-[HCSStarRatingView _drawImage:frame:tintColor:]
+-[HCSStarRatingView _drawStarShapeWithFrame:tintColor:highlighted:]
+-[HCSStarRatingView _drawHalfStarShapeWithFrame:tintColor:]
+-[HCSStarRatingView _drawAccurateHalfStarShapeWithFrame:tintColor:progress:]
+-[HCSStarRatingView drawRect:]
+-[HCSStarRatingView _drawStarWithFrame:tintColor:highlighted:]
+-[HCSStarRatingView _drawHalfStarWithFrame:tintColor:]
+-[HCSStarRatingView _drawAccurateStarWithFrame:tintColor:progress:]
+-[HCSStarRatingView beginTrackingWithTouch:withEvent:]
+-[HCSStarRatingView continueTrackingWithTouch:withEvent:]
+-[HCSStarRatingView endTrackingWithTouch:withEvent:]
+-[HCSStarRatingView cancelTrackingWithEvent:]
+-[HCSStarRatingView gestureRecognizerShouldBegin:]
+-[HCSStarRatingView _handleTouch:]
+-[HCSStarRatingView canBecomeFirstResponder]
+-[HCSStarRatingView intrinsicContentSize]
+-[HCSStarRatingView isAccessibilityElement]
+-[HCSStarRatingView accessibilityLabel]
+-[HCSStarRatingView accessibilityTraits]
+-[HCSStarRatingView accessibilityValue]
+-[HCSStarRatingView accessibilityActivate]
+-[HCSStarRatingView accessibilityIncrement]
+-[HCSStarRatingView accessibilityDecrement]
+-[HCSStarRatingView spacing]
+-[HCSStarRatingView allowsHalfStars]
+-[HCSStarRatingView accurateHalfStars]
+-[HCSStarRatingView continuous]
+-[HCSStarRatingView setContinuous:]
+-[HCSStarRatingView shouldBecomeFirstResponder]
+-[HCSStarRatingView setShouldBecomeFirstResponder:]
+-[HCSStarRatingView shouldBeginGestureRecognizerBlock]
+-[HCSStarRatingView setShouldBeginGestureRecognizerBlock:]
+-[HCSStarRatingView starBorderWidth]
+-[HCSStarRatingView emptyStarColor]
+-[HCSStarRatingView emptyStarImage]
+-[HCSStarRatingView halfStarImage]
+-[HCSStarRatingView filledStarImage]
+-[HCSStarRatingView .cxx_destruct]
+_objc_msgSend$CGColor
+_objc_msgSend$CGImage
+_objc_msgSend$_customInit
+_objc_msgSend$_drawAccurateHalfStarImageWithFrame:tintColor:progress:
+_objc_msgSend$_drawAccurateHalfStarShapeWithFrame:tintColor:progress:
+_objc_msgSend$_drawAccurateStarWithFrame:tintColor:progress:
+_objc_msgSend$_drawHalfStarImageWithFrame:tintColor:
+_objc_msgSend$_drawHalfStarShapeWithFrame:tintColor:
+_objc_msgSend$_drawHalfStarWithFrame:tintColor:
+_objc_msgSend$_drawImage:frame:tintColor:
+_objc_msgSend$_drawStarImageWithFrame:tintColor:highlighted:
+_objc_msgSend$_drawStarShapeWithFrame:tintColor:highlighted:
+_objc_msgSend$_drawStarWithFrame:tintColor:highlighted:
+_objc_msgSend$_handleTouch:
+_objc_msgSend$_updateAppearanceForState:
+_objc_msgSend$addClip
+_objc_msgSend$addLineToPoint:
+_objc_msgSend$allowsHalfStars
+_objc_msgSend$appendPath:
+_objc_msgSend$backgroundColor
+_objc_msgSend$becomeFirstResponder
+_objc_msgSend$bezierPath
+_objc_msgSend$bezierPathWithRect:
+_objc_msgSend$bounds
+_objc_msgSend$clearColor
+_objc_msgSend$closePath
+_objc_msgSend$description
+_objc_msgSend$didChangeValueForKey:
+_objc_msgSend$drawInRect:
+_objc_msgSend$emptyStarImage
+_objc_msgSend$fill
+_objc_msgSend$filledStarImage
+_objc_msgSend$halfStarImage
+_objc_msgSend$imageOrientation
+_objc_msgSend$imageWithCGImage:scale:orientation:
+_objc_msgSend$imageWithRenderingMode:
+_objc_msgSend$invalidateIntrinsicContentSize
+_objc_msgSend$isEnabled
+_objc_msgSend$isEqual:
+_objc_msgSend$isFirstResponder
+_objc_msgSend$isOpaque
+_objc_msgSend$isUserInteractionEnabled
+_objc_msgSend$localizedStringForKey:value:table:
+_objc_msgSend$locationInView:
+_objc_msgSend$mainBundle
+_objc_msgSend$moveToPoint:
+_objc_msgSend$numberWithDouble:
+_objc_msgSend$renderingMode
+_objc_msgSend$resignFirstResponder
+_objc_msgSend$scale
+_objc_msgSend$sendActionsForControlEvents:
+_objc_msgSend$setAlpha:
+_objc_msgSend$setExclusiveTouch:
+_objc_msgSend$setFill
+_objc_msgSend$setLineWidth:
+_objc_msgSend$setMiterLimit:
+_objc_msgSend$setNeedsDisplay
+_objc_msgSend$setStroke
+_objc_msgSend$setUsesEvenOddFillRule:
+_objc_msgSend$setValue:sendValueChangedAction:
+_objc_msgSend$shouldBeginGestureRecognizerBlock
+_objc_msgSend$shouldUseImages
+_objc_msgSend$size
+_objc_msgSend$starBorderColor
+_objc_msgSend$stroke
+_objc_msgSend$tintColor
+_objc_msgSend$value
+_objc_msgSend$view
+_objc_msgSend$whiteColor
+_objc_msgSend$willChangeValueForKey:
+__OBJC_$_INSTANCE_METHODS_HCSStarRatingView
+__OBJC_METACLASS_RO_$_HCSStarRatingView
+__OBJC_$_INSTANCE_VARIABLES_HCSStarRatingView
+__OBJC_$_PROP_LIST_HCSStarRatingView
+__OBJC_CLASS_RO_$_HCSStarRatingView
+__OBJC_METACLASS_RO_$_PodsDummy_HCSStarRatingView
+__OBJC_CLASS_RO_$_PodsDummy_HCSStarRatingView
+_OBJC_IVAR_$_HCSStarRatingView._minimumValue
+_OBJC_IVAR_$_HCSStarRatingView._maximumValue
+_OBJC_IVAR_$_HCSStarRatingView._value
+_OBJC_IVAR_$_HCSStarRatingView._spacing
+_OBJC_IVAR_$_HCSStarRatingView._continuous
+_OBJC_IVAR_$_HCSStarRatingView._starBorderWidth
+_OBJC_IVAR_$_HCSStarRatingView._emptyStarColor
+_OBJC_IVAR_$_HCSStarRatingView._allowsHalfStars
+_OBJC_IVAR_$_HCSStarRatingView._accurateHalfStars
+_OBJC_IVAR_$_HCSStarRatingView._emptyStarImage
+_OBJC_IVAR_$_HCSStarRatingView._halfStarImage
+_OBJC_IVAR_$_HCSStarRatingView._filledStarImage
+_OBJC_IVAR_$_HCSStarRatingView._starBorderColor
+_OBJC_IVAR_$_HCSStarRatingView._shouldBecomeFirstResponder
+_OBJC_IVAR_$_HCSStarRatingView._shouldBeginGestureRecognizerBlock
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/HCSStarRatingView.build/DerivedSources/
+HCSStarRatingView_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/HCSStarRatingView.build/Objects-normal/arm64/HCSStarRatingView_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/HCSStarRatingView/HCSStarRatingView/
+HCSStarRatingView.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/HCSStarRatingView.build/Objects-normal/arm64/HCSStarRatingView.o
+-[HCSStarRatingView initWithFrame:]
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/HCSStarRatingView/
+HCSStarRatingView-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/HCSStarRatingView.build/Objects-normal/arm64/HCSStarRatingView-dummy.o
+HCSStarRatingView
+6e~T>
+~r!J
+;:/j
+HCSStarRatingView
+subject.CN

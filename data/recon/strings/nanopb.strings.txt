@@ -1,0 +1,228 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__const
+__TEXT
+__objc_classname__TEXT
+__cstring
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_data
+__DATA
+__LINKEDIT
+@rpath/nanopb.framework/nanopb
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+@executable_path/Frameworks
+@loader_path/Frameworks
+($A))}@
+T,)@
++%A))}@
+,%E))}@
+?@9?
+?@9	
+	*)k(
+TI}	
+y	=@
+@9	}
+i"8B
+4Hhi
+4Hhi8
+iju8
+@(#)PROGRAM:nanopb  PROJECT:Pods-1
+PodsDummy_nanopb
+end-of-stream
+io error
+varint overflow
+invalid wire_type
+parent stream too short
+wrong size for fixed count field
+missing required field
+invalid field type
+invalid union tag
+iterator error
+array overflow
+invalid data_size
+integer too large
+bytes overflow
+size too large
+invalid size
+realloc failed
+string overflow
+invalid field descriptor
+incorrect fixed length bytes size
+too many array entries
+callback failed
+stream full
+submsg size changed
+bytes size exceeded
+array max size exceeded
+callback error
+___stack_chk_fail
+___stack_chk_guard
+_bzero
+_free
+_memcpy
+_realloc
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+CLASS_$_PodsDummy_nanopb
+	METACLASS_$_PodsDummy_nanopb
+Number
+OString
+_noinit
+oinit
+ullterminated
+bool
+sdelimited
+fixed
+svarint
+varint
+tring
+ubmessage
+varint
+_for_field
+delimited
+fixed
+nullterminated
+varint
+begin
+find
+next
+lease
+close_string_substream
+mdecode
+encode
+field_iter_
+get_encoded_size
+istream_from_buffer
+make_string_substream
+ostream_from_buffer
+skip_field
+write
+OBJC_
+nanopbVersion
+[pb_
+DD@<hX
+llt,
+_OBJC_CLASS_$_PodsDummy_nanopb
+_OBJC_METACLASS_$_PodsDummy_nanopb
+_nanopbVersionNumber
+_nanopbVersionString
+_pb_close_string_substream
+_pb_decode
+_pb_decode_bool
+_pb_decode_delimited
+_pb_decode_delimited_noinit
+_pb_decode_fixed32
+_pb_decode_fixed64
+_pb_decode_noinit
+_pb_decode_nullterminated
+_pb_decode_svarint
+_pb_decode_tag
+_pb_decode_varint
+_pb_decode_varint32
+_pb_encode
+_pb_encode_delimited
+_pb_encode_fixed32
+_pb_encode_fixed64
+_pb_encode_nullterminated
+_pb_encode_string
+_pb_encode_submessage
+_pb_encode_svarint
+_pb_encode_tag
+_pb_encode_tag_for_field
+_pb_encode_varint
+_pb_field_iter_begin
+_pb_field_iter_find
+_pb_field_iter_next
+_pb_get_encoded_size
+_pb_istream_from_buffer
+_pb_make_string_substream
+_pb_ostream_from_buffer
+_pb_read
+_pb_release
+_pb_skip_field
+_pb_write
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSObject
+___stack_chk_fail
+___stack_chk_guard
+__objc_empty_cache
+_bzero
+_free
+_memcpy
+_realloc
+_buf_read
+_pb_decode_varint32_eof
+_pb_readbyte
+_decode_field
+_pb_message_set_to_defaults
+_pb_release_single_field
+_pb_dec_bool
+_iter_from_extension
+_pb_dec_varint
+_pb_dec_uvarint
+_pb_dec_svarint
+_pb_dec_fixed32
+_pb_dec_fixed64
+_pb_dec_bytes
+_pb_dec_string
+_pb_dec_submessage
+_pb_dec_fixed_length_bytes
+_allocate_field
+_initialize_pointer_field
+_pb_field_set_to_default
+_buf_write
+_encode_field
+_pb_check_proto3_default_value
+_pb_enc_bool
+_pb_enc_varint
+_pb_enc_uvarint
+_pb_enc_svarint
+_pb_enc_fixed32
+_pb_enc_fixed64
+_pb_enc_bytes
+_pb_enc_string
+_pb_enc_submessage
+_pb_enc_fixed_length_bytes
+_PB_DECODERS
+_PB_ENCODERS
+__OBJC_METACLASS_RO_$_PodsDummy_nanopb
+__OBJC_CLASS_RO_$_PodsDummy_nanopb
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/nanopb.build/DerivedSources/
+nanopb_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/nanopb.build/Objects-normal/arm64/nanopb_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/nanopb/
+nanopb-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/nanopb.build/Objects-normal/arm64/nanopb-dummy.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/nanopb/
+pb_common.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/nanopb.build/Objects-normal/arm64/pb_common.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/nanopb/
+pb_decode.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/nanopb.build/Objects-normal/arm64/pb_decode.o
+_buf_read
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/nanopb/
+pb_encode.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/nanopb.build/Objects-normal/arm64/pb_encode.o
+nanopb
+?DEVL
+`3zh
+nanopb
+subject.CN

@@ -1,0 +1,54 @@
+__TEXT
+__text
+__TEXT
+__const
+__TEXT
+__objc_classname__TEXT
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_data
+__DATA
+__LINKEDIT
+@rpath/FirebaseCoreExtension.framework/FirebaseCoreExtension
+N 3K
+@rpath/FirebaseCore.framework/FirebaseCore
+/System/Library/Frameworks/Foundation.framework/Foundation
+/System/Library/Frameworks/UIKit.framework/UIKit
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+@executable_path/Frameworks
+@loader_path/Frameworks
+@(#)PROGRAM:FirebaseCoreExtension  PROJECT:Pods-1
+?PodsDummy_FirebaseCoreExtension
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+Number
+	String
+CLASS_$_PodsDummy_FirebaseCoreExtension
+'METACLASS_$_PodsDummy_FirebaseCoreExtension
+FirebaseCoreExtensionVersion
+OBJC_
+_FirebaseCoreExtensionVersionNumber
+_FirebaseCoreExtensionVersionString
+_OBJC_CLASS_$_PodsDummy_FirebaseCoreExtension
+_OBJC_METACLASS_$_PodsDummy_FirebaseCoreExtension
+_OBJC_CLASS_$_NSObject
+_OBJC_METACLASS_$_NSObject
+__objc_empty_cache
+__OBJC_METACLASS_RO_$_PodsDummy_FirebaseCoreExtension
+__OBJC_CLASS_RO_$_PodsDummy_FirebaseCoreExtension
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreExtension.build/DerivedSources/
+FirebaseCoreExtension_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreExtension.build/Objects-normal/arm64/FirebaseCoreExtension_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/FirebaseCoreExtension/
+FirebaseCoreExtension-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreExtension.build/Objects-normal/arm64/FirebaseCoreExtension-dummy.o
+__OBJC_METACLASS_RO_$_PodsDummy_FirebaseCoreExtension
+FirebaseCoreExtension
+FirebaseCoreExtension
+subject.CN

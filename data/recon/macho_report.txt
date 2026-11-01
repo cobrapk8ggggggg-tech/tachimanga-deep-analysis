@@ -1,0 +1,106 @@
+## Mach-O binaries in Tachimanga.app
+ipa/Payload/Tachimanga.app/Tachimanga: Mach-O 64-bit arm64 executable, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|PIE|HAS_TLV_DESCRIPTORS|NLIST_OUTOFSYNC_WITH_DYLDINFO>
+ipa/Payload/Tachimanga.app/Frameworks/App.framework/App: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS|APP_EXTENSION_SAFE>
+ipa/Payload/Tachimanga.app/Frameworks/App.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/DWAlertController.framework/DWAlertController: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/DWAlertController.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FBLPromises.framework/FBLPromises: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FBLPromises.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FMDB.framework/FMDB: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FMDB.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FileMD5Hash.framework/FileMD5Hash: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FileMD5Hash.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseABTesting.framework/FirebaseABTesting: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseABTesting.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCore.framework/FirebaseCore: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCore.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCoreExtension.framework/FirebaseCoreExtension: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCoreExtension.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCoreInternal.framework/FirebaseCoreInternal: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCoreInternal.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseCrashlytics.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseInstallations.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseRemoteConfig.framework/FirebaseRemoteConfig: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseRemoteConfig.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseRemoteConfigInterop.framework/FirebaseRemoteConfigInterop: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseRemoteConfigInterop.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseSessions.framework/FirebaseSessions: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseSessions.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseSharedSwift.framework/FirebaseSharedSwift: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/FirebaseSharedSwift.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/Flutter.framework/Flutter: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS|HAS_TLV_DESCRIPTORS>
+ipa/Payload/Tachimanga.app/Frameworks/Flutter.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/Flutter.framework/PrivacyInfo.xcprivacy: XML 1.0 document, ASCII text
+ipa/Payload/Tachimanga.app/Frameworks/Flutter.framework/icudtl.dat: data
+ipa/Payload/Tachimanga.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/GoogleDataTransport.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/GoogleUtilities.framework/GoogleUtilities: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/GoogleUtilities.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/HCSStarRatingView.framework/HCSStarRatingView: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/HCSStarRatingView.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/Mantle.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/Mantle.framework/Mantle: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/Masonry.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/Masonry.framework/Masonry: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/NSFWDetector.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/NSFWDetector.framework/NSFWDetector: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/Promises.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/Promises.framework/Promises: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/SAMKeychain.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/SAMKeychain.framework/SAMKeychain: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/SDWebImage.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/SDWebImage.framework/SDWebImage: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/SSZipArchive.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/SSZipArchive.framework/SSZipArchive: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/apple_pencil_double_tap.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/apple_pencil_double_tap.framework/apple_pencil_double_tap: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/connectivity_plus.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/connectivity_plus.framework/connectivity_plus: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/cupertino_http.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/cupertino_http.framework/cupertino_http: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/cupertino_native.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/cupertino_native.framework/cupertino_native: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/device_info_plus.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/device_info_plus.framework/device_info_plus: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/file_picker.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/file_picker.framework/file_picker: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/flutter_nsfw.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/flutter_nsfw.framework/flutter_nsfw: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/flutter_path_provider_plus.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/flutter_path_provider_plus.framework/flutter_path_provider_plus: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/flutter_web_auth_2.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/flutter_web_auth_2.framework/flutter_web_auth_2: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/fluttertoast.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/fluttertoast.framework/fluttertoast: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/image_picker_ios.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/image_picker_ios.framework/image_picker_ios: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/in_app_purchase_storekit.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/in_app_review.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/in_app_review.framework/in_app_review: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/libzstd.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/libzstd.framework/libzstd: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/local_auth_darwin.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/local_auth_darwin.framework/local_auth_darwin: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/nanopb.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/nanopb.framework/nanopb: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/package_info_plus.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/package_info_plus.framework/package_info_plus: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/path_provider_foundation.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/path_provider_foundation.framework/path_provider_foundation: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/shared_preferences_foundation.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/shared_preferences_foundation.framework/shared_preferences_foundation: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/sign_in_with_apple.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/sign_in_with_apple.framework/sign_in_with_apple: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/sqflite_darwin.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/sqflite_darwin.framework/sqflite_darwin: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/system_proxy.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/system_proxy.framework/system_proxy: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/url_launcher_ios.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/url_launcher_ios.framework/url_launcher_ios: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|BINDS_TO_WEAK|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/webview_flutter_wkwebview.framework/Info.plist: Apple binary property list
+ipa/Payload/Tachimanga.app/Frameworks/webview_flutter_wkwebview.framework/webview_flutter_wkwebview: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>
+ipa/Payload/Tachimanga.app/Frameworks/Tachimanga.dylib: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS|HAS_TLV_DESCRIPTORS>
+ipa/Payload/Tachimanga.app/Frameworks/blatantsPatch.dylib: Mach-O 64-bit arm64 dynamically linked shared library, flags:<NOUNDEFS|DYLDLINK|TWOLEVEL|NO_REEXPORTED_DYLIBS>

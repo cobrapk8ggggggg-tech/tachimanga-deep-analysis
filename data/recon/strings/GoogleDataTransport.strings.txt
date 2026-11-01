@@ -1,0 +1,3341 @@
+__TEXT
+__text
+__TEXT
+__stubs
+__TEXT
+__objc_stubs
+__TEXT
+__objc_methlist
+__TEXT
+__const
+__TEXT
+__cstring
+__TEXT
+__objc_classname__TEXT
+__objc_methtype
+__TEXT
+__gcc_except_tab__TEXT
+__objc_methname
+__TEXT
+__unwind_info
+__TEXT
+__DATA_CONST
+__const
+__DATA_CONST
+__cfstring
+__DATA_CONST
+__objc_classlist__DATA_CONST
+__objc_nlclslist__DATA_CONST
+__objc_protolist__DATA_CONST
+__objc_imageinfo__DATA_CONST
+__objc_intobj
+__DATA_CONST
+__objc_arraydata__DATA_CONST
+__objc_arrayobj
+__DATA_CONST
+__got
+__DATA_CONST
+__DATA
+__objc_const
+__DATA
+__objc_selrefs
+__DATA
+__objc_protorefs__DATA
+__objc_classrefs__DATA
+__objc_superrefs__DATA
+__objc_ivar
+__DATA
+__objc_data
+__DATA
+__data
+__DATA
+__bss
+__DATA
+__LINKEDIT
+@rpath/GoogleDataTransport.framework/GoogleDataTransport
+dwZ2
+/usr/lib/libz.1.dylib
+/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+@rpath/FBLPromises.framework/FBLPromises
+/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+@rpath/nanopb.framework/nanopb
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libobjc.A.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+/System/Library/Frameworks/UIKit.framework/UIKit
+@executable_path/Frameworks
+@loader_path/Frameworks
+R(!*
+tjh8
+tjh8
+Rij(8(
+j(8(
+Rij(8
+ijh8
+j(8(
+Rij(8
+RH!)
+R !*
+<`"@
+T +D
+@(#)PROGRAM:GoogleDataTransport  PROJECT:Pods-1
+5zn1BCc
+AIzaSyB4G40IhwotnuD26vAV-0PAxOVr
+https://firebaselogging.googleapis.com/v0cc/log/logging-pa.googleapis.com/v1/firelog/legacy/batchttps://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/bbatc
+hlog
+atchlog
+1.2.12
+Error in nanopb encoding for size: %s
+(none)
+Error in nanopb encoding for bytes: %s
+v32@?0@"NSString"8@"NSSet"16^B24
+An empty event set can't be serialized to proto.
+%@.%@
+v8@?0
+nanopb error:
+com.google.GDTCCTUploader
+Failed to upload target: %ld - could not find corresponding storage instance.
+Upload operation created: %@, target: %@
+Internal inconsistency: GDTCCTUploader was deallocated during upload.
+Upload operation finished: %@, uploadAttempted: %@
+Upload operation scheduled: %@, operation count: %@
+UNKNOWN
+GDTCCTUploader-upload
+Attempted to cancel invalid background task in GDTCCTUploadOperation.
+B16@?0@"NSNull"8
+@"FBLPromise"16@?0@"NSNull"8
+B16@?0@"NSNumber"8
+@"FBLPromise"16@?0@"NSNumber"8
+@"FBLPromise"16@?0@"GDTCORUploadBatch"8
+B16@?0@"GDTCORUploadBatch"8
+v16@?0@"NSError"8
+@"FBLPromise"16@?0@"GDTCCTURLSessionDataResponse"8
+@16@?0@"NSError"8
+CCT: batch %@ uploaded. Batch will be deleted.
+CCT: batch %@ upload failed. Batch will attempt to be uploaded later.
+CCT: batch %@ upload failed. Batch will be deleted.
+CTT: request containing %lu events for batch: %@ for target: %ld created: %@
+@"NSURLRequest"8@?0
+v32@?0@"NSData"8@"NSURLResponse"16@"NSError"24
+v16@?0@?<v@?@@"NSError">8
+@"FBLPromise"16@?0@"NSURLRequest"8
+@"GDTCCTURLSessionDataResponse"16@?0@"GDTCCTURLSessionDataResponse"8
+CCT: The backend responded asking to not upload for %lld millis from now.
+There was a response decoding error: %@
+Retry-After
+CCT: The backend response failed to parse, so the next request won't occur until 15 minutes from now
+Target %ld is not ready to upload with condition: %ld
+GDTCCTUploader
+CCT: Not ready to upload without a network connection.
+CCT: a high priority event is allowing an upload
+CCT: can upload to target %ld because the request wait time has transpired
+CCT: can't upload to target %ld because the backend asked to wait
+v24@?0@"GDTCOREvent"8^B16
+There was no data to construct a request for target %ld.
+unknown
+datatransport/%@ %@support/%@ apple/
+X-Goog-Api-Key
+gzip
+Content-Encoding
+application/x-protobuf
+Content-Type
+Accept-Encoding
+User-Agent
+POST
+@"GDTCORUploadBatch"16@?0@"GDTCORMetrics"8
+@"GDTCORUploadBatch"16@?0@"NSError"8
+isExecuting
+isFinished
+Upload operation started: %@
+GDTCORAssertHelper
+assertionBlock
+GDTCORClockTimeMillis
+GDTCORClockTimezoneOffsetSeconds
+GDTCORClockKernelBootTime
+GDTCORClockUptime
+[GoogleDataTransport]
+I-GDTCOR%06ld
+%@[%@] %@
+%@[%@] (%@:%ld) : %@
+B24@?0@"NSURL"8@"NSError"16
+https://dummyapiverylong-dummy.google.com/dummy/api/very/long
+Event %@ created. ID:%@ mappingID: %@ target:%ld
+Copying event %@ to event %@
+GDTCOREventEventIDKey
+GDTCOREventMappingIDKey
+GDTCOREventTargetKey
+GDTCOREventQoSTierKey
+GDTCOREventClockSnapshotKey
+GDTCOREventExpirationDateKey
+GDTCOREventSerializedDataObjectBytesKey
+GDTCOREventCustomDataKey
+GDTCOREventProductDataKey
+needs_network_connection_info
+network_connection_info
+event_code_info
+Error when setting an event's event_code: %@
+Error when setting the event for needs_network_connection_info: %@
+Error when setting an even'ts event_code: %@
+Error when checking the event for needs_network_connection_info: %@
+Error when setting an event's network_connection_info: %@
+Error when getting an event's network_connection_info: %@
+Error when getting an event's event_code: %@
+1710
+GDTCORFlatFileStorageBatchIDCounter
+GDTCOREventComponentsEventIDKey
+GDTCOREventComponentsQoSTierKey
+GDTCOREventComponentsMappingIDKey
+GDTCOREventComponentsExpirationKey
+GDTCORBatchComponentsTargetKey
+GDTCORBatchComponentsBatchIDKey
+GDTCORBatchComponentsExpirationKey
+GDTCORFlatFileStorage
+com.google.GDTCORFlatFileStorage
+Saving event: %@
+The event was nil, so it was not saved.
+event %@ stored. success:%@ error:%@
+v20@?0B8@"NSError"12
+GDTStorage
+Storage size limit has been reached.
+Delegate notified that event with mapping ID %@ was dropped.
+Attempt to write archive failed: path:%@ error:%@
+Writing archive succeeded: %@
+Error deserializing event: %@
+An event file wasn't moveable into the batch directory: %@
+v24@?0@"NSNumber"8@"NSSet"16
+v16@?0@"NSSet"8
+v16@?0@"NSNumber"8
+Error writing new value in libraryDataForKey: %@
+%@/%ld
+Checking for expired events and batches
+Error deserializing event while checking for expired events: %@
+There was an error deleting an expired item: %@
+Item deleted because it expired: %@
+Delegate notified that %@ events were dropped.
+Failed to find event file paths for batchID: %@, error: %@
+Batch removed at path: %@
+Failed to remove batch at path: %@
+v16@?0@"NSString"8
+Batched events at path: %@ moved back to the storage: %@
+Error encountered whilst moving events back: %@
+%@/%@/gdt_event_data
+%@/%@/gdt_batch_data
+%@/%@/gdt_library_data
+%@/%ld%@%@%@%llu
+%@/%ld/%@%@%@%@%llu%@%@
+There was an error reading the contents of the target path: %@
+There was an error reading the filename components: %@
+v24@?0@"NSData"8@"NSError"16
+@"NSData"8@?0
+There was an error parsing the event filename components: %@
+The event filename could not be split: %@
+There was an error parsing the batch filename components: %@
+The batch filename could not be split: %@
+v16@?0@?<v@?@>8
+v16@?0@?<v@?>8
+@16@?0@8
+@16@?0@"NSSet"8
+v16@?0@?<v@?B>8
+There are no events for the selector.
+v24@?0@?<v@?@>8@?<v@?@"NSError">16
+metrics_metadata
+@8@?0
+v16@?0Q8
+Signaling GDTCORTransformer that the app is backgrounding.
+Signaling GDTCORUploadCoordinator that the app is backgrounding.
+Signaling GDTCORRegistrar that the app is backgrounding.
+Signaling GDTCORTransformer that the app is foregrounding.
+Signaling GDTCORUploadCoordinator that the app is foregrounding.
+Signaling GDTCORRegistrar that the app is foregrounding.
+Signaling GDTCORTransformer that the app is terminating.
+Signaling GDTCORUploadCoordinator that the app is terminating.
+Signaling GDTCORRegistrar that the app is terminating.
+droppedEventCounterByLogSource
+@"NSNumber"24@?0@"NSNumber"8@"NSNumber"16
+@"NSDictionary"24@?0@"NSDictionary"8@"NSDictionary"16
+v32@?0@8@16^B24
+%@ %@
+%@ {
+	collectionStartDate: %@,
+	collectionEndDate: %@,
+	currentCacheSize: %llu,
+	maxCacheSize: %llu,
+	bundleID: %@,
+	logSourceMetrics: %@}
+v32@?0@"NSNumber"8@"NSNumber"16^B24
+v32@?0@"NSString"8@"NSDictionary"16^B24
+Error fetching metrics metadata: %@
+@"GDTCORMetricsMetadata"24@?0@"GDTCORMetricsMetadata"8@"NSError"16
+@"GDTCORMetrics"16@?0@"GDTCORStorageMetadata"8
+collectionStartDate
+logSourceMetrics
+Unknown
+GDTCORApplicationDidEnterBackgroundNotification
+GDTCORApplicationWillEnterForegroundNotification
+GDTCORApplicationWillTerminateNotification
+%@/google-sdks-events
+GDT's state will be saved to: %@
+hw.machine
+Attempt to create directory failed: path:%@ error:%@
+Encoding an object failed: %@
+Attempt to write archive failed: path:%@
+GDT is initializing. Please note that if you quit the app via the debugger and not through a lifecycle event, event data will remain on disk but storage won't have a reference to them since the singleton wasn't saved to disk.
+Creating background task with name:%@ bgID:%ld
+Ending background task with ID:%ld was successful
+.appex
+UIApplication
+sharedApplication
+GDTCORPlatform is sending a notif that the app is backgrounding.
+GDTCORPlatform is sending a notif that the app is foregrounding.
+GDTCORPlatform is sending a notif that the app is terminating.
+GDTCORProductDataProductIDKey
+Initial reachability flags determined: %d
+com.google.GDTCORReachability
+The reachability queue wasn't set.
+The reachability callback wasn't set.
+Determining reachability failed.
+Reachability changed, new flags: %d
+com.google.GDTCORRegistrar
+Registered an uploader: %@ for target:%ld
+Registered storage: %@ for target:%ld
+Registered metrics controller: %@ for target:%ld
+com.google.GDTCORTransformer
+GDTTransformer
+Attempted to cancel invalid background task in GDTCORTransformer.
+Applying a transformer to event %@
+Transformer doesn't implement transformGDTEvent: %@
+Transport object created. mappingID:%@ transformers:%@ target:%ld
+com.google.GDTCORUploadCoordinator
+Forcing an upload of target %ld
+Upload timer fired
+Upload timer started
+GDTCCTCompressionHelper
+GDTCCTUploader
+NSURLSessionDelegate
+NSObject
+GDTCCTUploadMetadataProvider
+GDTCORUploader
+GDTCORLifecycleProtocol
+GDTCCTUploadOperation
+GDTCCTURLSessionDataResponse
+GDTCORClock
+NSSecureCoding
+NSCoding
+GDTCORDirectorySizeTracker
+GDTCOREndpoints
+GDTCOREvent
+GDTCCTSupport
+GDTMetricsSupport
+GDTCORFlatFileStorage
+GDTCORStorageProtocol
+Promises
+GDTCORStoragePromiseProtocol
+GDTCORLifecycle
+GDTCORLogSourceMetrics
+GDTCORMetrics
+GDTCOREventDataObject
+GDTCORMetricsController
+GDTCORMetricsControllerProtocol
+GDTCORStorageDelegate
+GDTCORMetricsMetadata
+GDTCORApplication
+GDTCORApplicationProtocol
+GDTCORApplicationDelegate
+UIApplicationDelegate
+GDTCORProductData
+NSCopying
+GDTCORReachability
+GDTCORRegistrar
+GDTCORStorageEventSelector
+GDTCORStorageMetadata
+GDTCORTransformer
+GDTCORTransport
+GDTCORUploadBatch
+GDTCORUploadCoordinator
+PodsDummy_GoogleDataTransport
+@24@0:8@16
+B24@0:8@16
+v16@0:8
+@16@0:8
+v24@0:8@16
+@24@0:8q16
+#16@0:8
+@24@0:8:16
+@32@0:8:16@24
+@40@0:8:16@24@32
+B16@0:8
+B24@0:8#16
+B24@0:8:16
+Vv16@0:8
+Q16@0:8
+^{_NSZone=}16@0:8
+B24@0:8@"Protocol"16
+@"NSString"16@0:8
+v32@0:8@16@24
+v40@0:8@16@24@?32
+v32@0:8@"NSURLSession"16@"NSError"24
+v40@0:8@"NSURLSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32
+v24@0:8@"NSURLSession"16
+v32@0:8@16q24
+@"GDTCORClock"24@0:8q16
+v32@0:8@"GDTCORClock"16q24
+@"NSString"24@0:8q16
+v24@0:8@"GDTCORApplication"16
+v32@0:8q16q24
+@"NSOperationQueue"
+@"NSObject<OS_dispatch_queue>"
+@"NSMutableDictionary"
+@72@0:8q16q24@32@40@48@56@64
+@40@0:8@16q24@32
+@40@0:8@16@24@32
+@32@0:8@16q24
+@32@0:8q16q24
+B32@0:8q16q24
+v56@0:8@16@24@32@40@?48
+v20@0:8B16
+q16@0:8
+@"NSURLSessionUploadTask"
+@"NSURL"
+@"<GDTCORStoragePromiseProtocol>"
+@"<GDTCCTUploadMetadataProvider>"
+@"<GDTCORMetricsControllerProtocol>"
+@"NSURLSession"
+@"GDTCORMetrics"
+@32@0:8@16@24
+@"NSHTTPURLResponse"
+@"NSData"
+@24@0:8Q16
+v24@0:8@"NSCoder"16
+@24@0:8@"NSCoder"16
+v32@0:8@16Q24
+Q24@0:8@16
+@"NSString"
+@"NSNumber"
+@40@0:8@16@24q32
+v24@0:8q16
+@"<GDTCOREventDataObject>"
+@"GDTCORClock"
+@"NSDate"
+@"GDTCORProductData"
+@40@0:8q16@24@32
+@56@0:8q16@24@32@40@48
+v32@0:8@16@?24
+v32@0:8q16@?24
+v36@0:8@16B24@?28
+v40@0:8@16@?24@?32
+v24@0:8@?16
+v32@0:8@"GDTCOREvent"16@?<v@?B@"NSError">24
+v32@0:8q16@?<v@?B>24
+v40@0:8@"GDTCORStorageEventSelector"16@"NSDate"24@?<v@?@"NSNumber"@"NSSet">32
+v36@0:8@"NSNumber"16B24@?<v@?>28
+v32@0:8q16@?<v@?@"NSSet">24
+v40@0:8@"NSData"16@"NSString"24@?<v@?@"NSError">32
+v40@0:8@"NSString"16@?<v@?@"NSData"@"NSError">24@?<@"NSData"@?>32
+v32@0:8@"NSString"16@?<v@?@"NSError">24
+v24@0:8@?<v@?Q>16
+@"<GDTCORStorageDelegate>"16@0:8
+v24@0:8@"<GDTCORStorageDelegate>"16
+@32@0:8@16^@24
+B40@0:8@16@24^@32
+v28@0:8@16B24
+v56@0:8q16@24@32@40@?48
+@"GDTCORDirectorySizeTracker"
+@"<GDTCORStorageDelegate>"
+@"GDTCORUploadCoordinator"
+@28@0:8@16B24
+@28@0:8q16B24
+@24@0:8@?16
+@"FBLPromise"24@0:8q16
+@"FBLPromise"28@0:8@"NSNumber"16B24
+@"FBLPromise"28@0:8@"NSSet"16B24
+@"FBLPromise"28@0:8q16B24
+@"FBLPromise"24@0:8@?<@"GDTCORMetricsMetadata"@?@"GDTCORMetricsMetadata"@"NSError">16
+@"FBLPromise"16@0:8
+@"FBLPromise"32@0:8@"GDTCORStorageEventSelector"16@"NSDate"24
+@40@0:8@16@24@?32
+@"NSDictionary"
+@64@0:8@16@24@32Q40Q48@56
+@"GDTCORLogSourceMetrics"
+@"NSData"16@0:8
+v32@0:8@"<GDTCORStorageProtocol>"16@"NSSet"24
+v32@0:8@"<GDTCORStorageProtocol>"16@"GDTCOREvent"24
+@32@0:8q16@24
+@"FBLPromise"32@0:8q16@"NSSet"24
+@"FBLPromise"24@0:8@"GDTCORMetrics"16
+Q32@0:8@16@?24
+v24@0:8Q16
+Q32@0:8@"NSString"16@?<v@?>24
+B32@0:8@16@24
+B48@0:8@16@24@32@40
+B40@0:8@16@24@32
+v40@0:8@16q24d32
+v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v48@0:8@16@24@32@?40
+Q32@0:8@16@24
+B40@0:8@16@24@?32
+v40@0:8@16@24@32
+v24@0:8@"UIApplication"16
+B32@0:8@"UIApplication"16@"NSDictionary"24
+B32@0:8@"UIApplication"16@"NSURL"24
+B48@0:8@"UIApplication"16@"NSURL"24@"NSString"32@40
+B40@0:8@"UIApplication"16@"NSURL"24@"NSDictionary"32
+v40@0:8@"UIApplication"16q24d32
+v32@0:8@"UIApplication"16q24
+v56@0:8@"UIApplication"16{CGRect={CGPoint=dd}{CGSize=dd}}24
+v32@0:8@"UIApplication"16@"UIUserNotificationSettings"24
+v32@0:8@"UIApplication"16@"NSData"24
+v32@0:8@"UIApplication"16@"NSError"24
+v32@0:8@"UIApplication"16@"NSDictionary"24
+v32@0:8@"UIApplication"16@"UILocalNotification"24
+v48@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@?<v@?>40
+v56@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@"NSDictionary"40@?<v@?>48
+v48@0:8@"UIApplication"16@"NSString"24@"NSDictionary"32@?<v@?>40
+v56@0:8@"UIApplication"16@"NSString"24@"UILocalNotification"32@"NSDictionary"40@?<v@?>48
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?Q>32
+v32@0:8@"UIApplication"16@?<v@?Q>24
+v40@0:8@"UIApplication"16@"UIApplicationShortcutItem"24@?<v@?B>32
+v40@0:8@"UIApplication"16@"NSString"24@?<v@?>32
+v40@0:8@"UIApplication"16@"NSDictionary"24@?<v@?@"NSDictionary">32
+@32@0:8@"UIApplication"16@"INIntent"24
+v40@0:8@"UIApplication"16@"INIntent"24@?<v@?@"INIntentResponse">32
+Q32@0:8@"UIApplication"16@"UIWindow"24
+B32@0:8@"UIApplication"16@"NSString"24
+@"UIViewController"40@0:8@"UIApplication"16@"NSArray"24@"NSCoder"32
+B32@0:8@"UIApplication"16@"NSCoder"24
+v32@0:8@"UIApplication"16@"NSCoder"24
+B40@0:8@"UIApplication"16@"NSUserActivity"24@?<v@?@"NSArray">32
+v40@0:8@"UIApplication"16@"NSString"24@"NSError"32
+v32@0:8@"UIApplication"16@"NSUserActivity"24
+v32@0:8@"UIApplication"16@"CKShareMetadata"24
+@"UISceneConfiguration"40@0:8@"UIApplication"16@"UISceneSession"24@"UISceneConnectionOptions"32
+v32@0:8@"UIApplication"16@"NSSet"24
+B24@0:8@"UIApplication"16
+@"UIWindow"16@0:8
+v24@0:8@"UIWindow"16
+@24@0:8^{_NSZone=}16
+@20@0:8i16
+i16@0:8
+I16@0:8
+v20@0:8I16
+^{__SCNetworkReachability=}
+@48@0:8q16@24@32@40
+@"NSSet"
+@32@0:8Q16Q24
+@"<GDTCORApplicationProtocol>"
+@"NSArray"
+@"GDTCORTransformer"
+@"NSObject<OS_dispatch_source>"
+@"GDTCORRegistrar"
+T@"<GDTCORStorageDelegate>",W,N
+APIKeyForTarget:
+Tq,R,N,V_target
+HTTPBody
+_currentMetrics
+JSONObjectWithData:options:error:
+_events
+T@"<GDTCCTUploadMetadataProvider>",R,N,V_metadataProvider
+_registrarQueue
+T@"<GDTCOREventDataObject>",&,N,V_dataObject
+_target
+T@"<GDTCORStorageDelegate>",W,N,V_delegate
+allKeys
+T@"<GDTCORStoragePromiseProtocol>",R,N,V_storage
+asyncOn
+T@"GDTCORDirectorySizeTracker",R,N,V_sizeTracker
+batchID
+T@"GDTCORLogSourceMetrics",R,N,V_logSourceMetrics
+catchOn
+T@"GDTCORProductData",R,N,V_productData
+dealloc
+T@"GDTCORTransformer",&,N,V_transformerInstance
+finishOperation
+T@"NSArray",&,N,V_transformers
+isProxy
+T@"NSData",&,N,V_customBytes
+numberWithBool:
+T@"NSData",R,N,V_serializedDataObjectBytes
+qosTier
+T@"NSDate",R,N,V_collectionEndDate
+reject:
+T@"NSDictionary",R,N,V_droppedEventCounterByLogSource
+removeBatchWithID:deleteEvents:
+T@"NSMutableDictionary",R,N,V_nextUploadTimeByTarget
+requestWithURL:
+T@"NSMutableDictionary",R,V_targetToStorage
+sendURLRequestWithBatch:target:
+T@"NSNumber",&,N
+setCustomBytes:
+T@"NSNumber",R,N,V_batchID
+setNumberStyle:
+T@"NSObject<OS_dispatch_queue>",&,N,V_storageQueue
+storage:didRemoveExpiredEvents:
+T@"NSObject<OS_dispatch_queue>",R,N,V_registrarQueue
+stringByRemovingPercentEncoding
+T@"NSObject<OS_dispatch_queue>",R,N,V_uploaderQueue
+uploadAttempted
+T@"NSOperationQueue",R,N,V_uploadOperationQueue
+.cxx_destruct
+T@"NSDate",&,N,V_expirationDate
+FLLAndCSHAndINTAPIKey
+HTTPResponse
+_droppedEventCounterByLogSource
+T#,R
+_expirationDate
+T@"<GDTCORApplicationProtocol>",R,N,V_application
+_selectedTarget
+T@"<GDTCORMetricsControllerProtocol>",R,N,V_metricsController
+allHeaderFields
+T@"<GDTCORStoragePromiseProtocol>",&,N,V_storage
+applicationWillEnterForeground:
+T@"GDTCORClock",&,N,V_clockSnapshot
+base64EncodedStringWithOptions:
+T@"GDTCORLogSourceMetrics",R,C,N,V_logSourceMetrics
+cachedSizeBytes
+T@"GDTCORMetrics",&,N,V_currentMetrics
+containsObject:
+T@"GDTCORRegistrar",&,N,V_registrar
+eventID
+T@"GDTCORUploadCoordinator",&,N,V_uploadCoordinator
+initWithFormat:
+T@"NSData",&,N
+metrics
+T@"NSData",R,N,V_HTTPBody
+originalRequest
+T@"NSDate",R,C,N,V_collectionStartDate
+readyToUploadTarget:conditions:
+T@"NSDate",R,N,V_collectionStartDate
+release
+T@"NSHTTPURLResponse",R,N,V_HTTPResponse
+removeObserver:
+T@"NSMutableDictionary",R,V_targetToMetricsController
+resetCachedSize
+T@"NSMutableDictionary",R,V_targetToUploader
+T@"NSNumber",&,N,V_cachedSizeBytes
+setMaxConcurrentOperationCount:
+T@"NSObject<OS_dispatch_queue>",&,N,V_eventWritingQueue
+storage
+T@"NSObject<OS_dispatch_queue>",R,N,V_coordinationQueue
+stringByAppendingPathComponent:
+T@"NSObject<OS_dispatch_queue>",R,N,V_uploadQueue
+targetToStorage
+T@"NSObject<OS_dispatch_source>",R,N,V_timer
+uploaderSession
+T@"NSSet",R,N,V_events
+T@"NSSet",R,N,V_selectedEventIDs
+T@"NSSet",R,N,V_selectedMappingIDs
+T@"NSSet",R,N,V_selectedQosTiers
+T@"NSString",&,N,V_eventID
+T@"NSString",&,N,V_mappingID
+T@"NSString",?,R,C
+T@"NSString",R,C
+T@"NSString",R,N,V_bundleID
+T@"NSString",R,N,V_directoryPath
+T@"NSString",R,N,V_mappingID
+T@"NSURL",R,N,V_uploadURL
+T@"NSURLSession",&,N,V_uploaderSession
+T@"NSURLSessionUploadTask",R,N,V_currentTask
+T@"UIWindow",?,&,N
+TB,N
+TB,N,GisExecuting,V_executing
+TB,N,GisFinished,V_finished
+TB,N,V_uploadAttempted
+TB,R
+TB,V_isRunningInBackground
+TI,N,V_flags
+TQ,R
+TQ,R,N,V_currentCacheSize
+TQ,R,N,V_maxCacheSize
+TQ,R,N,V_timerInterval
+TQ,R,N,V_timerLeeway
+Ti,R,N,V_productID
+Tq,N,V_qosTier
+Tq,N,V_target
+Tq,R,N
+Tq,R,N,V_conditions
+Tq,R,N,V_kernelBootTimeNanoseconds
+Tq,R,N,V_selectedTarget
+Tq,R,N,V_timeMillis
+Tq,R,N,V_timezoneOffsetSeconds
+Tq,R,N,V_uptimeNanoseconds
+URLSession:didBecomeInvalidWithError:
+URLSession:didReceiveChallenge:completionHandler:
+URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:
+URLSessionDidFinishEventsForBackgroundURLSession:
+URLWithString:
+UUID
+UUIDString
+_HTTPBody
+_HTTPResponse
+_application
+_batchID
+_bundleID
+_cachedSizeBytes
+_callbackFlags
+_clockSnapshot
+_collectionEndDate
+_collectionStartDate
+_conditions
+_coordinationQueue
+_currentCacheSize
+_currentTask
+_customBytes
+_dataObject
+_delegate
+_directoryPath
+_eventID
+_eventWritingQueue
+_executing
+_finished
+_flags
+_isRunningInBackground
+_kernelBootTimeNanoseconds
+_logSourceMetrics
+_mappingID
+_maxCacheSize
+_metadataProvider
+_metricsController
+_nextUploadTimeByTarget
+_productData
+_productID
+_qosTier
+_reachabilityQueue
+_reachabilityRef
+_registrar
+_selectedEventIDs
+_selectedMappingIDs
+_selectedQosTiers
+_serializedDataObjectBytes
+_sizeTracker
+_storage
+_storageQueue
+_targetToMetricsController
+_targetToStorage
+_targetToUploader
+_timeMillis
+_timer
+_timerInterval
+_timerLeeway
+_timezoneOffsetSeconds
+_transformerInstance
+_transformers
+_uploadAttempted
+_uploadCoordinator
+_uploadOperationQueue
+_uploadQueue
+_uploadURL
+_uploaderQueue
+_uploaderSession
+_uptimeNanoseconds
+addCharactersInString:
+addObject:
+addObjectsFromArray:
+addObserver:selector:name:object:
+addOperation:
+allObjects
+allValues
+alphanumericCharacterSet
+alwaysOn
+appWillBackground:
+appWillForeground:
+appWillTerminate:
+appendBytes:length:
+application
+application:configurationForConnectingSceneSession:options:
+application:continueUserActivity:restorationHandler:
+application:didChangeStatusBarFrame:
+application:didChangeStatusBarOrientation:
+application:didDecodeRestorableStateWithCoder:
+application:didDiscardSceneSessions:
+application:didFailToContinueUserActivityWithType:error:
+application:didFailToRegisterForRemoteNotificationsWithError:
+application:didFinishLaunchingWithOptions:
+application:didReceiveLocalNotification:
+application:didReceiveRemoteNotification:
+application:didReceiveRemoteNotification:fetchCompletionHandler:
+application:didRegisterForRemoteNotificationsWithDeviceToken:
+application:didRegisterUserNotificationSettings:
+application:didUpdateUserActivity:
+application:handleActionWithIdentifier:forLocalNotification:completionHandler:
+application:handleActionWithIdentifier:forLocalNotification:withResponseInfo:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:completionHandler:
+application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:
+application:handleEventsForBackgroundURLSession:completionHandler:
+application:handleIntent:completionHandler:
+application:handleOpenURL:
+application:handleWatchKitExtensionRequest:reply:
+application:handlerForIntent:
+application:openURL:options:
+application:openURL:sourceApplication:annotation:
+application:performActionForShortcutItem:completionHandler:
+application:performFetchWithCompletionHandler:
+application:shouldAllowExtensionPointIdentifier:
+application:shouldRestoreApplicationState:
+application:shouldRestoreSecureApplicationState:
+application:shouldSaveApplicationState:
+application:shouldSaveSecureApplicationState:
+application:supportedInterfaceOrientationsForWindow:
+application:userDidAcceptCloudKitShareWithMetadata:
+application:viewControllerWithRestorationIdentifierPath:coder:
+application:willChangeStatusBarFrame:
+application:willChangeStatusBarOrientation:duration:
+application:willContinueUserActivityWithType:
+application:willEncodeRestorableStateWithCoder:
+application:willFinishLaunchingWithOptions:
+applicationDidBecomeActive:
+applicationDidEnterBackground:
+applicationDidEnterBackgroundNotification:
+applicationDidFinishLaunching:
+applicationDidReceiveMemoryWarning:
+applicationProtectedDataDidBecomeAvailable:
+applicationProtectedDataWillBecomeUnavailable:
+applicationShouldAutomaticallyLocalizeKeyCommands:
+applicationShouldRequestHealthAuthorization:
+applicationSignificantTimeChange:
+applicationWillEnterForegroundNotification:
+applicationWillResignActive:
+applicationWillTerminate:
+applicationWillTerminateNotification:
+archivedDataWithRootObject:requiringSecureCoding:error:
+array
+arrayWithCapacity:
+arrayWithObjects:count:
+autorelease
+batchByAddingMetricsEventToBatch:forTarget:
+batchComponentsFromFilename:
+batchDataStoragePath
+batchDirPathsForBatchID:error:
+batchIDsForTarget:
+batchIDsForTarget:onComplete:
+batchPathForTarget:batchID:expirationDate:
+batchWithEventSelector:batchExpiration:
+batchWithEventSelector:batchExpiration:onComplete:
+beginBackgroundTaskWithName:expirationHandler:
+boolValue
+bundleID
+bundleIdentifier
+bundlePath
+bytes
+calculateDirectoryContentSize
+cancel
+cancelAllOperations
+checkForExpirations
+class
+clockSnapshot
+clockSnapshotInTheFuture:
+collectionEndDate
+collectionStartDate
+componentsJoinedByString:
+componentsSeparatedByString:
+conditions
+conformsToProtocol:
+constructRequestProtoWithEvents:
+constructRequestWithURL:forTarget:data:
+contentsOfDirectoryAtPath:error:
+coordinationQueue
+copy
+copyWithZone:
+count
+countByEnumeratingWithState:objects:count:
+createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+currentCacheSize
+currentDevice
+currentFlags
+currentLocale
+currentMetrics
+currentTask
+customBytes
+dataObject
+dataTaskWithRequest:completionHandler:
+dataUsingEncoding:
+dataWithBytes:length:
+dataWithCapacity:
+dataWithContentsOfFile:options:error:
+dataWithJSONObject:options:error:
+date
+dateWithTimeIntervalSince1970:
+dateWithTimeIntervalSinceNow:
+debugDescription
+decodeInt32ForKey:
+decodeInt64ForKey:
+decodeIntegerForKey:
+decodeObjectOfClass:forKey:
+decodeObjectOfClasses:forKey:
+defaultCenter
+defaultManager
+defaultSessionConfiguration
+delegate
+description
+dictionary
+dictionaryByMergingDictionary:withOtherDictionary:uniquingKeysWithBlock:
+dictionaryWithDictionary:
+dictionaryWithObjects:forKeys:count:
+didChangeValueForKey:
+directoryContentSize
+directoryPath
+doOn
+doubleValue
+droppedEventCounterByLogSource
+encodeInt32:forKey:
+encodeInt64:forKey:
+encodeInteger:forKey:
+encodeObject:forKey:
+encodeWithCoder:
+endBackgroundTask:
+enumerateKeysAndObjectsUsingBlock:
+enumerateObjectsUsingBlock:
+enumeratorAtPath:
+enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:
+errorWithDomain:code:userInfo:
+eventCode
+eventComponentsFromFilename:
+eventDataStoragePath
+eventForTransport
+eventForTransportWithProductData:
+eventSelectorForTarget:
+eventSelectorTarget:withConditions:
+eventWithMetrics:forTarget:
+eventWritingQueue
+events
+executing
+expirationDate
+fetchAndUpdateMetricsWithHandler:
+fetchStorageMetadata
+fileExistsAtPath:
+fileSizeAtURL:
+fileURLWithPath:
+fileWasAddedAtPath:withSize:
+fileWasRemovedAtPath:withSize:
+finishTasksAndInvalidate
+finished
+firstObject
+flags
+forceUploadForTarget:
+fulfill:
+genericRejectedPromiseErrorWithReason:
+getAndResetMetrics
+getBytes:length:
+getResourceValue:forKey:error:
+gzippedData:
+hasEventsForTarget:
+hasEventsForTarget:onComplete:
+hasPrefix:
+hasSuffix:
+hash
+iOSApplicationDidEnterBackground:
+iOSApplicationWillEnterForeground:
+iOSApplicationWillTerminate:
+init
+initWithApplication:
+initWithBase64EncodedString:options:
+initWithBatchID:events:
+initWithCoder:
+initWithCollectionStartDate:collectionEndDate:logSourceMetrics:currentCacheSize:maxCacheSize:bundleID:
+initWithCollectionStartDate:logSourceMetrics:
+initWithCurrentCacheSize:maxCacheSize:
+initWithDirectoryPath:
+initWithDroppedEventCounterByLogSource:
+initWithMappingID:productData:target:
+initWithMappingID:target:
+initWithMappingID:transformers:target:
+initWithProductID:
+initWithResponse:HTTPBody:
+initWithStorage:
+initWithTarget:conditions:uploadURL:queue:storage:metadataProvider:metricsController:
+initWithTarget:eventIDs:mappingIDs:qosTiers:
+initialize
+intValue
+integerValue
+isAfter:
+isAppExtension
+isAsynchronous
+isCancelled
+isEqual:
+isEqualToDate:
+isEqualToDictionary:
+isEqualToLogSourceMetrics:
+isEqualToMetrics:
+isEqualToMetricsMetadata:
+isEqualToProductData:
+isEqualToString:
+isExecuting
+isFinished
+isGzipped:
+isKindOfClass:
+isMemberOfClass:
+isReadyToUploadTarget:conditions:
+isRunningInBackground
+kernelBootTime
+kernelBootTimeNanoseconds
+lastPathComponent
+length
+libraryDataForKey:onFetchComplete:setNewValue:
+libraryDataStoragePath
+load
+logEventsDroppedForReason:events:
+logSourceMetrics
+logSourceMetricsByMergingWithLogSourceMetrics:
+longLongValue
+mainBundle
+mappingID
+maxCacheSize
+metadataProvider
+metadataWithCollectionStartDate:logSourceMetrics:
+metadataWithCurrentCacheSize:maxCacheSize:
+methodForSelector:
+metricsController
+metricsWithEvents:droppedForReason:
+metricsWithMetricsMetadata:storageMetadata:
+model
+moveContentsOfDirectoryAtPath:to:error:
+moveItemAtPath:toPath:error:
+mutableCopy
+needsNetworkConnectionInfoPopulated
+networkConnectionInfoData
+nextBatchID:
+nextEventID
+nextObject
+nextUploadTimeByTarget
+nextUploadTimeForTarget:
+noop
+null
+numberFromString:
+numberWithInt:
+numberWithInteger:
+numberWithLongLong:
+numberWithUnsignedInteger:
+numberWithUnsignedLongLong:
+objectAtIndexedSubscript:
+objectForInfoDictionaryKey:
+objectForKey:
+objectForKeyedSubscript:
+offerMetrics:
+onQueue:all:
+onQueue:async:
+onQueue:do:
+onQueue:wrapBoolCompletion:
+onQueue:wrapCompletion:
+onQueue:wrapObjectCompletion:
+operatingSystemVersion
+operationCount
+path
+pathForTarget:eventID:qosTier:expirationDate:mappingID:
+pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:
+pendingPromise
+performSelector:
+performSelector:withObject:
+performSelector:withObject:withObject:
+postNotificationName:object:
+preferredLocalizations
+processInfo
+processResponse:forBatch:storage:
+productData
+productID
+recoverOn
+registerMetricsController:target:
+registerStorage:target:
+registerUploader:target:
+registrar
+registrarQueue
+removeAllBatchesForTarget:deleteEvents:
+removeBatchWithID:deleteEvents:onComplete:
+removeBatchesWithIDs:deleteEvents:
+removeItemAtPath:error:
+removeLibraryDataForKey:onComplete:
+removeObjectForKey:
+resolvedWith:
+respondsToSelector:
+resume
+retain
+retainCount
+secondsFromGMT
+selectedEventIDs
+selectedMappingIDs
+selectedQosTiers
+selectedTarget
+self
+sendDataEvent:
+sendDataEvent:onComplete:
+sendEvent:onComplete:
+sendTelemetryEvent:
+sendTelemetryEvent:onComplete:
+serializedDataObjectBytes
+serverURLForTarget:
+serviceCurrentRadioAccessTechnology
+sessionWithConfiguration:delegate:delegateQueue:
+setByAddingObject:
+setCachedSizeBytes:
+setCallbackFlags:
+setClockSnapshot:
+setCompletionBlock:
+setCurrentMetrics:
+setDataObject:
+setDelegate:
+setEventCode:
+setEventID:
+setEventWritingQueue:
+setExecuting:
+setExpirationDate:
+setFinished:
+setFlags:
+setHTTPBody:
+setHTTPMethod:
+setIsRunningInBackground:
+setMappingID:
+setMetricsControllerAsStorageDelegateForTarget:
+setNeedsNetworkConnectionInfoPopulated:
+setNetworkConnectionInfoData:
+setNextUploadTime:forTarget:
+setObject:forKey:
+setObject:forKeyedSubscript:
+setQosTier:
+setRegistrar:
+setStorage:
+setStorageQueue:
+setTarget:
+setTestServerURL:
+setTransformerInstance:
+setTransformers:
+setUploadAttempted:
+setUploadCoordinator:
+setUploaderSession:
+setValue:forHTTPHeaderField:
+setWindow:
+setWithArray:
+setWithObject:
+sharedApplication
+sharedApplicationForBackgroundTask
+sharedInstance
+signalToStoragesToCheckExpirations
+sizeTracker
+snapshot
+start
+startOperation
+startTimer
+statusCode
+stopTimer
+storage:didDropEvent:
+storageForTarget:
+storageQueue
+storageSizeWithCallback:
+storeEvent:onComplete:
+storeLibraryData:forKey:onComplete:
+stringByAddingPercentEncodingWithAllowedCharacters:
+stringByDeletingLastPathComponent
+stringByReplacingOccurrencesOfString:withString:
+stringValue
+stringWithCString:encoding:
+stringWithFormat:
+stringWithUTF8String:
+subarrayWithRange:
+superclass
+supportsSecureCoding
+syncThreadUnsafeRemoveBatchWithID:deleteEvents:
+systemTimeZone
+systemVersion
+target
+targetToMetricsController
+targetToUploader
+testServerURL
+then
+thenOn
+timeIntervalSince1970
+timeMillis
+timer
+timerInterval
+timerLeeway
+timezoneOffsetSeconds
+transformEvent:withTransformers:onComplete:
+transformGDTEvent:
+transformerInstance
+transformers
+transportBytes
+unarchivedObjectOfClass:fromData:error:
+unsignedIntegerValue
+unsignedLongLongValue
+updateNextUploadTimeWithResponse:forTarget:
+uploadBatch:toTarget:storage:
+uploadConditions
+uploadCoordinator
+uploadOperationQueue
+uploadQueue
+uploadTarget:withConditions:
+uploadTargets:conditions:
+uploadURL
+uploadURLForTarget:
+uploadURLs
+uploaderQueue
+uploaderSessionCreateIfNeeded
+uptime
+uptimeMilliseconds
+uptimeNanoseconds
+validate
+validateOn
+willChangeValueForKey:
+window
+wrapObjectOrErrorCompletion:
+writeToFile:options:error:
+zone
+__NSConcreteGlobalBlock
+___CFConstantStringClassReference
+_OBJC_CLASS_$_NSConstantIntegerNumber
+_OBJC_CLASS_$_NSConstantArray
+_deflate
+_deflateEnd
+_deflateInit2_
+_CTRadioAccessTechnologyCDMA1x
+_CTRadioAccessTechnologyCDMAEVDORev0
+_CTRadioAccessTechnologyCDMAEVDORevA
+_CTRadioAccessTechnologyCDMAEVDORevB
+_CTRadioAccessTechnologyEdge
+_CTRadioAccessTechnologyGPRS
+_CTRadioAccessTechnologyHSDPA
+_CTRadioAccessTechnologyHSUPA
+_CTRadioAccessTechnologyLTE
+_CTRadioAccessTechnologyWCDMA
+_CTRadioAccessTechnologyeHRPD
+_SCNetworkReachabilityCreateWithAddress
+_SCNetworkReachabilityGetFlags
+_SCNetworkReachabilitySetCallback
+_SCNetworkReachabilitySetDispatchQueue
+_pb_decode
+_pb_encode
+_pb_istream_from_buffer
+_pb_ostream_from_buffer
+_pb_release
+_NSClassFromString
+_NSLocalizedFailureReasonErrorKey
+_NSLogv
+_NSSearchPathForDirectoriesInDomains
+_NSSelectorFromString
+_NSStringFromClass
+_NSURLErrorDomain
+_NSUnderlyingErrorKey
+___objc_personality_v0
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_respondsToSelector
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_objc_unsafeClaimAutoreleasedReturnValue
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteStackBlock
+__Unwind_Resume
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_source_type_timer
+_calloc
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_sync
+_dispatch_time
+_free
+_gettimeofday
+_sysctl
+_sysctlbyname
+_CFAbsoluteTimeGetCurrent
+_CFAllocatorGetDefault
+_CFDataCreateMutable
+_CFDataGetBytePtr
+_CFDataSetLength
+_NSInternalInconsistencyException
+_NSLocaleCountryCode
+_NSURLFileSizeKey
+_NSURLIsRegularFileKey
+_OBJC_EHTYPE_$_NSException
+___NSDictionary0__struct
+___kCFBooleanTrue
+_kCFAbsoluteTimeIntervalSince1970
+_kCFAllocatorDefault
+_kCFBundleVersionKey
+_UIApplicationDidEnterBackgroundNotification
+_UIApplicationWillEnterForegroundNotification
+_UIApplicationWillTerminateNotification
+_UISceneWillDeactivateNotification
+_UISceneWillEnterForegroundNotification
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_UIDevice
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSURLSessionConfiguration
+_OBJC_CLASS_$_NSURLSession
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_FBLPromise
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableURLRequest
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_CTTelephonyNetworkInfo
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+__objc_empty_cache
+_OBJC_METACLASS_$_NSObject
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperation
+_OBJC_METACLASS_$_NSOperation
+lientInfo
+omplianceData
+Event
+=Request
+CSourceMetrics
+BatchedLogRequest
+GlobalMetrics
+7Log
+OMacClientInfo
+pNetworkConnectionInfoData
+vTimeWindow
+|iOSClientInfo
+struct
+vertEventDropReasonToProtoReason
+BatchedLogRequest
+Data
+String
+ncode
+ventCodeInfo
+CCTSupport_Category
+MetricsSupport_Category
+Event_GDT
+LogSourceMetrics_Internal_Category
+NetworkMobileSubtype
+edsNetworkConnectionInfo
+tworkConnectionInfo
+DecodeLogResponse
+GetLogSourceMetricsCount
+Include_GDTCOR
+AtPath
+codeArchive
+viceModel
+Assert
+ssageCodeEnumToString
+tricsControllerInstanceForTarget
+MobileSubTypeMessage
+TypeMessage
+ContainWWAN
+Reachable
+eachabilityFlags
+ootDirectory
+InstanceForTarget
+PromiseInstanceForTarget
+AssertionBlockToRunInstead
+BackgroundIdentifierInvalid
+ConsoleLoggerLoggingLevel
+EncodeArchive
+FlatFileStorageErrorDomain
+Include_GDTCORLogSourceMetrics_Internal_Category
+Network
+Storage
+WriteDataToFile
+Number
+String
+oogleDataTransportVersion
+Operation
+RLSessionDataResponse
+pload
+CompressionHelper
+ndpoints
+vent
+ifecycle
+ogSourceMetrics
+Controller
+Metadata
+achability
+gistrar
+EventSelector
+Metadata
+former
+port
+Batch
+Coordinator
+Application
+Clock
+DirectorySizeTracker
+FlatFileStorage
+Metrics
+ProductData
+Storage
+Trans
+Upload
+GDTC
+PodsDummy_GoogleDataTransport
+Operation
+RLSessionDataResponse
+pload
+CompressionHelper
+ndpoints
+vent
+ifecycle
+ogSourceMetrics
+Controller
+Metadata
+achability
+gistrar
+EventSelector
+Metadata
+former
+port
+Batch
+Coordinator
+Application
+Clock
+DirectorySizeTracker
+FlatFileStorage
+Metrics
+ProductData
+Storage
+Trans
+Upload
+GDTC
+PodsDummy_GoogleDataTransport
+CLASS_$_
+METACLASS_$_
+fields
+product_id_origin_default
+lientInfo_fields
+omplianceData_
+fields
+qos_tier_default
+quest_
+sponse_fields
+Event_fields
+fields
+mobile_subtype_default
+network_type_default
+fields
+log_source_default
+Configuration_
+sOverride_fields
+BatchedLogRequest_fields
+IosClientInfo_fields
+MacClientInfo_fields
+NetworkConnectionInfo_
+QosTier
+EventDropped_fields
+SourceMetrics_fields
+ClientMetrics_fields
+GlobalMetrics_fields
+StorageMetrics_fields
+TimeWindow_fields
+lient_metrics_
+EnterForegroundNotification
+TerminateNotification
+DidEnterBackgroundNotification
+Will
+BatchIDKey
+ExpirationKey
+TargetKey
+ventIDKey
+xpirationKey
+MappingIDKey
+QoSTierKey
+Application
+BatchComponents
+EventComponents
+FlatFileStorageSizeLimit
+Version
+RequestContext_fields
+rivacyContext_fields
+OBJC_
+gdt_c
+kGDTCOR
+privacy_context_external_ExternalP
+L@D8
+lhxtp
+H8Xx
+_GDTCCTConstructBatchedLogRequest
+_GDTCCTConstructClientInfo
+_GDTCCTConstructComplianceData
+_GDTCCTConstructGlobalMetrics
+_GDTCCTConstructLogEvent
+_GDTCCTConstructLogRequest
+_GDTCCTConstructLogSourceMetrics
+_GDTCCTConstructMacClientInfo
+_GDTCCTConstructNetworkConnectionInfoData
+_GDTCCTConstructTimeWindow
+_GDTCCTConstructiOSClientInfo
+_GDTCCTConvertEventDropReasonToProtoReason
+_GDTCCTDecodeLogResponse
+_GDTCCTEncodeBatchedLogRequest
+_GDTCCTEncodeData
+_GDTCCTEncodeString
+_GDTCCTEventCodeInfo
+_GDTCCTGetLogSourceMetricsCount
+_GDTCCTInclude_GDTCOREvent_GDTCCTSupport_Category
+_GDTCCTInclude_GDTCOREvent_GDTMetricsSupport_Category
+_GDTCCTInclude_GDTCORLogSourceMetrics_Internal_Category
+_GDTCCTNeedsNetworkConnectionInfo
+_GDTCCTNetworkConnectionInfo
+_GDTCCTNetworkConnectionInfoNetworkMobileSubtype
+_GDTCORAssertionBlockToRunInstead
+_GDTCORBackgroundIdentifierInvalid
+_GDTCORConsoleLoggerLoggingLevel
+_GDTCORDecodeArchive
+_GDTCORDecodeArchiveAtPath
+_GDTCORDeviceModel
+_GDTCOREncodeArchive
+_GDTCORFlatFileStorageErrorDomain
+_GDTCORInclude_GDTCORLogSourceMetrics_Internal_Category
+_GDTCORLog
+_GDTCORLogAssert
+_GDTCORMessageCodeEnumToString
+_GDTCORMetricsControllerInstanceForTarget
+_GDTCORNetworkMobileSubTypeMessage
+_GDTCORNetworkTypeMessage
+_GDTCORReachabilityFlagsContainWWAN
+_GDTCORReachabilityFlagsReachable
+_GDTCORRootDirectory
+_GDTCORStorageInstanceForTarget
+_GDTCORStoragePromiseInstanceForTarget
+_GDTCORWriteDataToFile
+_GoogleDataTransportVersionNumber
+_GoogleDataTransportVersionString
+_OBJC_CLASS_$_GDTCCTCompressionHelper
+_OBJC_CLASS_$_GDTCCTURLSessionDataResponse
+_OBJC_CLASS_$_GDTCCTUploadOperation
+_OBJC_CLASS_$_GDTCCTUploader
+_OBJC_CLASS_$_GDTCORApplication
+_OBJC_CLASS_$_GDTCORClock
+_OBJC_CLASS_$_GDTCORDirectorySizeTracker
+_OBJC_CLASS_$_GDTCOREndpoints
+_OBJC_CLASS_$_GDTCOREvent
+_OBJC_CLASS_$_GDTCORFlatFileStorage
+_OBJC_CLASS_$_GDTCORLifecycle
+_OBJC_CLASS_$_GDTCORLogSourceMetrics
+_OBJC_CLASS_$_GDTCORMetrics
+_OBJC_CLASS_$_GDTCORMetricsController
+_OBJC_CLASS_$_GDTCORMetricsMetadata
+_OBJC_CLASS_$_GDTCORProductData
+_OBJC_CLASS_$_GDTCORReachability
+_OBJC_CLASS_$_GDTCORRegistrar
+_OBJC_CLASS_$_GDTCORStorageEventSelector
+_OBJC_CLASS_$_GDTCORStorageMetadata
+_OBJC_CLASS_$_GDTCORTransformer
+_OBJC_CLASS_$_GDTCORTransport
+_OBJC_CLASS_$_GDTCORUploadBatch
+_OBJC_CLASS_$_GDTCORUploadCoordinator
+_OBJC_CLASS_$_PodsDummy_GoogleDataTransport
+_OBJC_METACLASS_$_GDTCCTCompressionHelper
+_OBJC_METACLASS_$_GDTCCTURLSessionDataResponse
+_OBJC_METACLASS_$_GDTCCTUploadOperation
+_OBJC_METACLASS_$_GDTCCTUploader
+_OBJC_METACLASS_$_GDTCORApplication
+_OBJC_METACLASS_$_GDTCORClock
+_OBJC_METACLASS_$_GDTCORDirectorySizeTracker
+_OBJC_METACLASS_$_GDTCOREndpoints
+_OBJC_METACLASS_$_GDTCOREvent
+_OBJC_METACLASS_$_GDTCORFlatFileStorage
+_OBJC_METACLASS_$_GDTCORLifecycle
+_OBJC_METACLASS_$_GDTCORLogSourceMetrics
+_OBJC_METACLASS_$_GDTCORMetrics
+_OBJC_METACLASS_$_GDTCORMetricsController
+_OBJC_METACLASS_$_GDTCORMetricsMetadata
+_OBJC_METACLASS_$_GDTCORProductData
+_OBJC_METACLASS_$_GDTCORReachability
+_OBJC_METACLASS_$_GDTCORRegistrar
+_OBJC_METACLASS_$_GDTCORStorageEventSelector
+_OBJC_METACLASS_$_GDTCORStorageMetadata
+_OBJC_METACLASS_$_GDTCORTransformer
+_OBJC_METACLASS_$_GDTCORTransport
+_OBJC_METACLASS_$_GDTCORUploadBatch
+_OBJC_METACLASS_$_GDTCORUploadCoordinator
+_OBJC_METACLASS_$_PodsDummy_GoogleDataTransport
+_gdt_cct_BatchedLogRequest_fields
+_gdt_cct_ClientInfo_fields
+_gdt_cct_ComplianceData_fields
+_gdt_cct_ComplianceData_product_id_origin_default
+_gdt_cct_IosClientInfo_fields
+_gdt_cct_LogEvent_fields
+_gdt_cct_LogRequest_fields
+_gdt_cct_LogRequest_qos_tier_default
+_gdt_cct_LogResponse_fields
+_gdt_cct_MacClientInfo_fields
+_gdt_cct_NetworkConnectionInfo_fields
+_gdt_cct_NetworkConnectionInfo_mobile_subtype_default
+_gdt_cct_NetworkConnectionInfo_network_type_default
+_gdt_cct_QosTierConfiguration_fields
+_gdt_cct_QosTierConfiguration_log_source_default
+_gdt_cct_QosTiersOverride_fields
+_gdt_client_metrics_ClientMetrics_fields
+_gdt_client_metrics_GlobalMetrics_fields
+_gdt_client_metrics_LogEventDropped_fields
+_gdt_client_metrics_LogSourceMetrics_fields
+_gdt_client_metrics_StorageMetrics_fields
+_gdt_client_metrics_TimeWindow_fields
+_kGDTCORApplicationDidEnterBackgroundNotification
+_kGDTCORApplicationWillEnterForegroundNotification
+_kGDTCORApplicationWillTerminateNotification
+_kGDTCORBatchComponentsBatchIDKey
+_kGDTCORBatchComponentsExpirationKey
+_kGDTCORBatchComponentsTargetKey
+_kGDTCOREventComponentsEventIDKey
+_kGDTCOREventComponentsExpirationKey
+_kGDTCOREventComponentsMappingIDKey
+_kGDTCOREventComponentsQoSTierKey
+_kGDTCORFlatFileStorageSizeLimit
+_kGDTCORVersion
+_privacy_context_external_ExternalPRequestContext_fields
+_privacy_context_external_ExternalPrivacyContext_fields
+_CFAbsoluteTimeGetCurrent
+_CFAllocatorGetDefault
+_CFDataCreateMutable
+_CFDataGetBytePtr
+_CFDataSetLength
+_CTRadioAccessTechnologyCDMA1x
+_CTRadioAccessTechnologyCDMAEVDORev0
+_CTRadioAccessTechnologyCDMAEVDORevA
+_CTRadioAccessTechnologyCDMAEVDORevB
+_CTRadioAccessTechnologyEdge
+_CTRadioAccessTechnologyGPRS
+_CTRadioAccessTechnologyHSDPA
+_CTRadioAccessTechnologyHSUPA
+_CTRadioAccessTechnologyLTE
+_CTRadioAccessTechnologyWCDMA
+_CTRadioAccessTechnologyeHRPD
+_NSClassFromString
+_NSInternalInconsistencyException
+_NSLocaleCountryCode
+_NSLocalizedFailureReasonErrorKey
+_NSLogv
+_NSSearchPathForDirectoriesInDomains
+_NSSelectorFromString
+_NSStringFromClass
+_NSURLErrorDomain
+_NSURLFileSizeKey
+_NSURLIsRegularFileKey
+_NSUnderlyingErrorKey
+_OBJC_CLASS_$_CTTelephonyNetworkInfo
+_OBJC_CLASS_$_FBLPromise
+_OBJC_CLASS_$_NSArray
+_OBJC_CLASS_$_NSBundle
+_OBJC_CLASS_$_NSCharacterSet
+_OBJC_CLASS_$_NSConstantArray
+_OBJC_CLASS_$_NSConstantIntegerNumber
+_OBJC_CLASS_$_NSData
+_OBJC_CLASS_$_NSDate
+_OBJC_CLASS_$_NSDictionary
+_OBJC_CLASS_$_NSError
+_OBJC_CLASS_$_NSFileManager
+_OBJC_CLASS_$_NSJSONSerialization
+_OBJC_CLASS_$_NSKeyedArchiver
+_OBJC_CLASS_$_NSKeyedUnarchiver
+_OBJC_CLASS_$_NSLocale
+_OBJC_CLASS_$_NSMutableArray
+_OBJC_CLASS_$_NSMutableData
+_OBJC_CLASS_$_NSMutableDictionary
+_OBJC_CLASS_$_NSMutableSet
+_OBJC_CLASS_$_NSMutableURLRequest
+_OBJC_CLASS_$_NSNotificationCenter
+_OBJC_CLASS_$_NSNull
+_OBJC_CLASS_$_NSNumber
+_OBJC_CLASS_$_NSNumberFormatter
+_OBJC_CLASS_$_NSObject
+_OBJC_CLASS_$_NSOperation
+_OBJC_CLASS_$_NSOperationQueue
+_OBJC_CLASS_$_NSProcessInfo
+_OBJC_CLASS_$_NSSet
+_OBJC_CLASS_$_NSString
+_OBJC_CLASS_$_NSTimeZone
+_OBJC_CLASS_$_NSURL
+_OBJC_CLASS_$_NSURLSession
+_OBJC_CLASS_$_NSURLSessionConfiguration
+_OBJC_CLASS_$_NSUUID
+_OBJC_CLASS_$_UIDevice
+_OBJC_EHTYPE_$_NSException
+_OBJC_METACLASS_$_NSObject
+_OBJC_METACLASS_$_NSOperation
+_SCNetworkReachabilityCreateWithAddress
+_SCNetworkReachabilityGetFlags
+_SCNetworkReachabilitySetCallback
+_SCNetworkReachabilitySetDispatchQueue
+_UIApplicationDidEnterBackgroundNotification
+_UIApplicationWillEnterForegroundNotification
+_UIApplicationWillTerminateNotification
+_UISceneWillDeactivateNotification
+_UISceneWillEnterForegroundNotification
+__Block_object_assign
+__Block_object_dispose
+__NSConcreteGlobalBlock
+__NSConcreteStackBlock
+__Unwind_Resume
+___CFConstantStringClassReference
+___NSDictionary0__struct
+___kCFBooleanTrue
+___objc_personality_v0
+___stack_chk_fail
+___stack_chk_guard
+__dispatch_source_type_timer
+__objc_empty_cache
+_calloc
+_deflate
+_deflateEnd
+_deflateInit2_
+_dispatch_async
+_dispatch_once
+_dispatch_queue_create
+_dispatch_resume
+_dispatch_source_cancel
+_dispatch_source_create
+_dispatch_source_set_event_handler
+_dispatch_source_set_timer
+_dispatch_sync
+_dispatch_time
+_free
+_gettimeofday
+_kCFAbsoluteTimeIntervalSince1970
+_kCFAllocatorDefault
+_kCFBundleVersionKey
+_objc_alloc
+_objc_alloc_init
+_objc_autorelease
+_objc_autoreleasePoolPop
+_objc_autoreleasePoolPush
+_objc_autoreleaseReturnValue
+_objc_begin_catch
+_objc_copyWeak
+_objc_destroyWeak
+_objc_end_catch
+_objc_enumerationMutation
+_objc_initWeak
+_objc_loadWeakRetained
+_objc_msgSend
+_objc_msgSendSuper2
+_objc_opt_class
+_objc_opt_isKindOfClass
+_objc_opt_respondsToSelector
+_objc_release
+_objc_retain
+_objc_retainAutorelease
+_objc_retainAutoreleaseReturnValue
+_objc_retainAutoreleasedReturnValue
+_objc_retainBlock
+_objc_storeStrong
+_objc_storeWeak
+_objc_sync_enter
+_objc_sync_exit
+_objc_unsafeClaimAutoreleasedReturnValue
+_pb_decode
+_pb_encode
+_pb_istream_from_buffer
+_pb_ostream_from_buffer
+_pb_release
+_sysctl
+_sysctlbyname
++[GDTCCTCompressionHelper gzippedData:]
++[GDTCCTCompressionHelper isGzipped:]
+___GDTCCTConstructBatchedLogRequest_block_invoke
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
+___GDTCCTNetworkConnectionInfoNetworkMobileSubtype_block_invoke
++[GDTCCTUploader load]
++[GDTCCTUploader sharedInstance]
+___32+[GDTCCTUploader sharedInstance]_block_invoke
+-[GDTCCTUploader init]
+-[GDTCCTUploader uploadTarget:withConditions:]
+___46-[GDTCCTUploader uploadTarget:withConditions:]_block_invoke
+___copy_helper_block_e8_32w40w
+___destroy_helper_block_e8_32w40w
++[GDTCCTUploader setTestServerURL:]
++[GDTCCTUploader testServerURL]
++[GDTCCTUploader serverURLForTarget:]
+-[GDTCCTUploader FLLAndCSHAndINTAPIKey]
+___39-[GDTCCTUploader FLLAndCSHAndINTAPIKey]_block_invoke
+-[GDTCCTUploader nextUploadTimeForTarget:]
+-[GDTCCTUploader setNextUploadTime:forTarget:]
+-[GDTCCTUploader APIKeyForTarget:]
+-[GDTCCTUploader uploadOperationQueue]
+-[GDTCCTUploader uploadQueue]
+-[GDTCCTUploader nextUploadTimeByTarget]
+-[GDTCCTUploader .cxx_destruct]
+-[GDTCCTUploadOperation initWithTarget:conditions:uploadURL:queue:storage:metadataProvider:metricsController:]
+-[GDTCCTUploadOperation uploaderSessionCreateIfNeeded]
+-[GDTCCTUploadOperation uploadTarget:withConditions:]
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.6
+___copy_helper_block_e8_32s40b48r
+___destroy_helper_block_e8_32s40s48r
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.9
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.11
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.13
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke_2
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke_3
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.17
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.20
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.22
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke.23
+___53-[GDTCCTUploadOperation uploadTarget:withConditions:]_block_invoke_2.26
+___copy_helper_block_e8_32s40b
+-[GDTCCTUploadOperation uploadBatch:toTarget:storage:]
+___54-[GDTCCTUploadOperation uploadBatch:toTarget:storage:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
+___54-[GDTCCTUploadOperation uploadBatch:toTarget:storage:]_block_invoke.28
+-[GDTCCTUploadOperation processResponse:forBatch:storage:]
+-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]
+___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke
+___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke.40
+___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke_2
+___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke_3
+___copy_helper_block_e8_32b
+___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke.45
+___56-[GDTCCTUploadOperation sendURLRequestWithBatch:target:]_block_invoke.47
+-[GDTCCTUploadOperation updateNextUploadTimeWithResponse:forTarget:]
+-[GDTCCTUploadOperation isReadyToUploadTarget:conditions:]
+-[GDTCCTUploadOperation genericRejectedPromiseErrorWithReason:]
+-[GDTCCTUploadOperation readyToUploadTarget:conditions:]
+-[GDTCCTUploadOperation constructRequestProtoWithEvents:]
+___57-[GDTCCTUploadOperation constructRequestProtoWithEvents:]_block_invoke
+-[GDTCCTUploadOperation constructRequestWithURL:forTarget:data:]
+-[GDTCCTUploadOperation eventSelectorTarget:withConditions:]
+-[GDTCCTUploadOperation batchByAddingMetricsEventToBatch:forTarget:]
+___68-[GDTCCTUploadOperation batchByAddingMetricsEventToBatch:forTarget:]_block_invoke
+___68-[GDTCCTUploadOperation batchByAddingMetricsEventToBatch:forTarget:]_block_invoke.122
+-[GDTCCTUploadOperation URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[GDTCCTUploadOperation isFinished]
+-[GDTCCTUploadOperation isExecuting]
+-[GDTCCTUploadOperation isAsynchronous]
+-[GDTCCTUploadOperation startOperation]
+-[GDTCCTUploadOperation finishOperation]
+-[GDTCCTUploadOperation start]
+-[GDTCCTUploadOperation cancel]
++[GDTCCTUploadOperation noop]
+-[GDTCCTUploadOperation setExecuting:]
+-[GDTCCTUploadOperation setFinished:]
+-[GDTCCTUploadOperation uploadAttempted]
+-[GDTCCTUploadOperation setUploadAttempted:]
+-[GDTCCTUploadOperation uploaderQueue]
+-[GDTCCTUploadOperation currentTask]
+-[GDTCCTUploadOperation target]
+-[GDTCCTUploadOperation conditions]
+-[GDTCCTUploadOperation uploadURL]
+-[GDTCCTUploadOperation storage]
+-[GDTCCTUploadOperation metadataProvider]
+-[GDTCCTUploadOperation metricsController]
+-[GDTCCTUploadOperation uploaderSession]
+-[GDTCCTUploadOperation setUploaderSession:]
+-[GDTCCTUploadOperation currentMetrics]
+-[GDTCCTUploadOperation setCurrentMetrics:]
+-[GDTCCTUploadOperation .cxx_destruct]
+-[GDTCCTURLSessionDataResponse initWithResponse:HTTPBody:]
+-[GDTCCTURLSessionDataResponse HTTPResponse]
+-[GDTCCTURLSessionDataResponse HTTPBody]
+-[GDTCCTURLSessionDataResponse .cxx_destruct]
+-[GDTCORClock init]
+_KernelBootTimeInNanoseconds
++[GDTCORClock snapshot]
++[GDTCORClock clockSnapshotInTheFuture:]
+-[GDTCORClock isAfter:]
+-[GDTCORClock uptimeMilliseconds]
+-[GDTCORClock hash]
+-[GDTCORClock isEqual:]
++[GDTCORClock supportsSecureCoding]
+-[GDTCORClock initWithCoder:]
+-[GDTCORClock encodeWithCoder:]
+-[GDTCORClock kernelBootTime]
+-[GDTCORClock uptime]
+-[GDTCORClock timeMillis]
+-[GDTCORClock timezoneOffsetSeconds]
+-[GDTCORClock kernelBootTimeNanoseconds]
+-[GDTCORClock uptimeNanoseconds]
+-[GDTCORDirectorySizeTracker initWithDirectoryPath:]
+-[GDTCORDirectorySizeTracker directoryContentSize]
+-[GDTCORDirectorySizeTracker fileWasAddedAtPath:withSize:]
+-[GDTCORDirectorySizeTracker fileWasRemovedAtPath:withSize:]
+-[GDTCORDirectorySizeTracker resetCachedSize]
+-[GDTCORDirectorySizeTracker calculateDirectoryContentSize]
+___59-[GDTCORDirectorySizeTracker calculateDirectoryContentSize]_block_invoke
+-[GDTCORDirectorySizeTracker fileSizeAtURL:]
+-[GDTCORDirectorySizeTracker directoryPath]
+-[GDTCORDirectorySizeTracker cachedSizeBytes]
+-[GDTCORDirectorySizeTracker setCachedSizeBytes:]
+-[GDTCORDirectorySizeTracker .cxx_destruct]
++[GDTCOREndpoints uploadURLs]
+___29+[GDTCOREndpoints uploadURLs]_block_invoke
+___29+[GDTCOREndpoints uploadURLs]_block_invoke_2
+___29+[GDTCOREndpoints uploadURLs]_block_invoke_3
+___29+[GDTCOREndpoints uploadURLs]_block_invoke_4
++[GDTCOREndpoints uploadURLForTarget:]
++[GDTCOREvent nextEventID]
+-[GDTCOREvent initWithMappingID:productData:target:]
+-[GDTCOREvent initWithMappingID:target:]
+-[GDTCOREvent copy]
+-[GDTCOREvent hash]
+-[GDTCOREvent isEqual:]
+-[GDTCOREvent setDataObject:]
++[GDTCOREvent supportsSecureCoding]
+-[GDTCOREvent initWithCoder:]
+-[GDTCOREvent encodeWithCoder:]
+-[GDTCOREvent eventID]
+-[GDTCOREvent setEventID:]
+-[GDTCOREvent mappingID]
+-[GDTCOREvent target]
+-[GDTCOREvent dataObject]
+-[GDTCOREvent serializedDataObjectBytes]
+-[GDTCOREvent qosTier]
+-[GDTCOREvent setQosTier:]
+-[GDTCOREvent clockSnapshot]
+-[GDTCOREvent setClockSnapshot:]
+-[GDTCOREvent expirationDate]
+-[GDTCOREvent setExpirationDate:]
+-[GDTCOREvent customBytes]
+-[GDTCOREvent setCustomBytes:]
+-[GDTCOREvent productData]
+-[GDTCOREvent .cxx_destruct]
+-[GDTCOREvent(GDTCCTSupport) setNeedsNetworkConnectionInfoPopulated:]
+-[GDTCOREvent(GDTCCTSupport) needsNetworkConnectionInfoPopulated]
+-[GDTCOREvent(GDTCCTSupport) setNetworkConnectionInfoData:]
+-[GDTCOREvent(GDTCCTSupport) networkConnectionInfoData]
+-[GDTCOREvent(GDTCCTSupport) eventCode]
+-[GDTCOREvent(GDTCCTSupport) setEventCode:]
++[GDTCOREvent(GDTMetricsSupport) eventWithMetrics:forTarget:]
++[GDTCORFlatFileStorage load]
++[GDTCORFlatFileStorage sharedInstance]
+___39+[GDTCORFlatFileStorage sharedInstance]_block_invoke
+-[GDTCORFlatFileStorage init]
+-[GDTCORFlatFileStorage sizeTracker]
+-[GDTCORFlatFileStorage storeEvent:onComplete:]
+___47-[GDTCORFlatFileStorage storeEvent:onComplete:]_block_invoke
+___47-[GDTCORFlatFileStorage storeEvent:onComplete:]_block_invoke.41
+___47-[GDTCORFlatFileStorage storeEvent:onComplete:]_block_invoke.42
+___copy_helper_block_e8_32s40s48b56r
+___destroy_helper_block_e8_32s40s48s56r
+-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]
+___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke
+___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke_2
+___copy_helper_block_e8_32s40s48s56s64b
+___destroy_helper_block_e8_32s40s48s56s64s
+___copy_helper_block_e8_32s40s48s56b
+___destroy_helper_block_e8_32s40s48s56s
+___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke.61
+___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke_2.62
+___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke_3
+___copy_helper_block_e8_32s40s48s56b64b
+___75-[GDTCORFlatFileStorage batchWithEventSelector:batchExpiration:onComplete:]_block_invoke.65
+___copy_helper_block_e8_32b40b
+-[GDTCORFlatFileStorage removeBatchWithID:deleteEvents:onComplete:]
+___67-[GDTCORFlatFileStorage removeBatchWithID:deleteEvents:onComplete:]_block_invoke
+___copy_helper_block_e8_32s40s48b
+-[GDTCORFlatFileStorage batchIDsForTarget:onComplete:]
+___54-[GDTCORFlatFileStorage batchIDsForTarget:onComplete:]_block_invoke
+-[GDTCORFlatFileStorage libraryDataForKey:onFetchComplete:setNewValue:]
+___71-[GDTCORFlatFileStorage libraryDataForKey:onFetchComplete:setNewValue:]_block_invoke
+___copy_helper_block_e8_32s40s48b56b
+-[GDTCORFlatFileStorage storeLibraryData:forKey:onComplete:]
+___60-[GDTCORFlatFileStorage storeLibraryData:forKey:onComplete:]_block_invoke
+-[GDTCORFlatFileStorage removeLibraryDataForKey:onComplete:]
+___60-[GDTCORFlatFileStorage removeLibraryDataForKey:onComplete:]_block_invoke
+-[GDTCORFlatFileStorage hasEventsForTarget:onComplete:]
+___55-[GDTCORFlatFileStorage hasEventsForTarget:onComplete:]_block_invoke
+-[GDTCORFlatFileStorage checkForExpirations]
+___44-[GDTCORFlatFileStorage checkForExpirations]_block_invoke
+-[GDTCORFlatFileStorage storageSizeWithCallback:]
+___49-[GDTCORFlatFileStorage storageSizeWithCallback:]_block_invoke
+-[GDTCORFlatFileStorage batchDirPathsForBatchID:error:]
+-[GDTCORFlatFileStorage moveContentsOfDirectoryAtPath:to:error:]
+-[GDTCORFlatFileStorage syncThreadUnsafeRemoveBatchWithID:deleteEvents:]
+___72-[GDTCORFlatFileStorage syncThreadUnsafeRemoveBatchWithID:deleteEvents:]_block_invoke
++[GDTCORFlatFileStorage eventDataStoragePath]
+___45+[GDTCORFlatFileStorage eventDataStoragePath]_block_invoke
++[GDTCORFlatFileStorage batchDataStoragePath]
+___45+[GDTCORFlatFileStorage batchDataStoragePath]_block_invoke
++[GDTCORFlatFileStorage libraryDataStoragePath]
+___47+[GDTCORFlatFileStorage libraryDataStoragePath]_block_invoke
++[GDTCORFlatFileStorage batchPathForTarget:batchID:expirationDate:]
++[GDTCORFlatFileStorage pathForTarget:eventID:qosTier:expirationDate:mappingID:]
+-[GDTCORFlatFileStorage pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:]
+___80-[GDTCORFlatFileStorage pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:]_block_invoke
+___80-[GDTCORFlatFileStorage pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:]_block_invoke_2
+-[GDTCORFlatFileStorage nextBatchID:]
+___37-[GDTCORFlatFileStorage nextBatchID:]_block_invoke
+___copy_helper_block_e8_32b40r
+___destroy_helper_block_e8_32s40r
+___37-[GDTCORFlatFileStorage nextBatchID:]_block_invoke.115
+-[GDTCORFlatFileStorage eventComponentsFromFilename:]
+-[GDTCORFlatFileStorage batchComponentsFromFilename:]
+-[GDTCORFlatFileStorage appWillBackground:]
+___43-[GDTCORFlatFileStorage appWillBackground:]_block_invoke
+___43-[GDTCORFlatFileStorage appWillBackground:]_block_invoke_2
+___copy_helper_block_e8_32s40r
+-[GDTCORFlatFileStorage delegate]
+-[GDTCORFlatFileStorage setDelegate:]
+-[GDTCORFlatFileStorage storageQueue]
+-[GDTCORFlatFileStorage setStorageQueue:]
+-[GDTCORFlatFileStorage uploadCoordinator]
+-[GDTCORFlatFileStorage setUploadCoordinator:]
+-[GDTCORFlatFileStorage .cxx_destruct]
+-[GDTCORFlatFileStorage(Promises) batchIDsForTarget:]
+___53-[GDTCORFlatFileStorage(Promises) batchIDsForTarget:]_block_invoke
+-[GDTCORFlatFileStorage(Promises) removeBatchWithID:deleteEvents:]
+___66-[GDTCORFlatFileStorage(Promises) removeBatchWithID:deleteEvents:]_block_invoke
+-[GDTCORFlatFileStorage(Promises) removeBatchesWithIDs:deleteEvents:]
+___69-[GDTCORFlatFileStorage(Promises) removeBatchesWithIDs:deleteEvents:]_block_invoke
+-[GDTCORFlatFileStorage(Promises) removeAllBatchesForTarget:deleteEvents:]
+___74-[GDTCORFlatFileStorage(Promises) removeAllBatchesForTarget:deleteEvents:]_block_invoke
+-[GDTCORFlatFileStorage(Promises) hasEventsForTarget:]
+___54-[GDTCORFlatFileStorage(Promises) hasEventsForTarget:]_block_invoke
+-[GDTCORFlatFileStorage(Promises) batchWithEventSelector:batchExpiration:]
+___74-[GDTCORFlatFileStorage(Promises) batchWithEventSelector:batchExpiration:]_block_invoke
+___74-[GDTCORFlatFileStorage(Promises) batchWithEventSelector:batchExpiration:]_block_invoke_2
+___copy_helper_block_e8_32s40b48b
+-[GDTCORFlatFileStorage(Promises) fetchAndUpdateMetricsWithHandler:]
+___68-[GDTCORFlatFileStorage(Promises) fetchAndUpdateMetricsWithHandler:]_block_invoke
+-[GDTCORFlatFileStorage(Promises) fetchStorageMetadata]
+___55-[GDTCORFlatFileStorage(Promises) fetchStorageMetadata]_block_invoke
+___55-[GDTCORFlatFileStorage(Promises) fetchStorageMetadata]_block_invoke_2
+-[GDTCORFlatFileStorage(Promises) genericRejectedPromiseErrorWithReason:]
++[GDTCORLifecycle load]
++[GDTCORLifecycle sharedInstance]
+___33+[GDTCORLifecycle sharedInstance]_block_invoke
+-[GDTCORLifecycle init]
+-[GDTCORLifecycle dealloc]
+-[GDTCORLifecycle applicationDidEnterBackgroundNotification:]
+-[GDTCORLifecycle applicationWillEnterForegroundNotification:]
+-[GDTCORLifecycle applicationWillTerminateNotification:]
++[GDTCORLogSourceMetrics metrics]
++[GDTCORLogSourceMetrics metricsWithEvents:droppedForReason:]
+-[GDTCORLogSourceMetrics initWithDroppedEventCounterByLogSource:]
+-[GDTCORLogSourceMetrics logSourceMetricsByMergingWithLogSourceMetrics:]
+___72-[GDTCORLogSourceMetrics logSourceMetricsByMergingWithLogSourceMetrics:]_block_invoke
+___72-[GDTCORLogSourceMetrics logSourceMetricsByMergingWithLogSourceMetrics:]_block_invoke_2
++[GDTCORLogSourceMetrics dictionaryByMergingDictionary:withOtherDictionary:uniquingKeysWithBlock:]
+___98+[GDTCORLogSourceMetrics dictionaryByMergingDictionary:withOtherDictionary:uniquingKeysWithBlock:]_block_invoke
+-[GDTCORLogSourceMetrics isEqualToLogSourceMetrics:]
+-[GDTCORLogSourceMetrics isEqual:]
+-[GDTCORLogSourceMetrics hash]
++[GDTCORLogSourceMetrics supportsSecureCoding]
+-[GDTCORLogSourceMetrics initWithCoder:]
+-[GDTCORLogSourceMetrics encodeWithCoder:]
+-[GDTCORLogSourceMetrics description]
+-[GDTCORLogSourceMetrics droppedEventCounterByLogSource]
+-[GDTCORLogSourceMetrics .cxx_destruct]
+-[GDTCORMetrics initWithCollectionStartDate:collectionEndDate:logSourceMetrics:currentCacheSize:maxCacheSize:bundleID:]
++[GDTCORMetrics metricsWithMetricsMetadata:storageMetadata:]
+-[GDTCORMetrics isEqualToMetrics:]
+-[GDTCORMetrics isEqual:]
+-[GDTCORMetrics hash]
+-[GDTCORMetrics description]
+-[GDTCORMetrics collectionStartDate]
+-[GDTCORMetrics logSourceMetrics]
+-[GDTCORMetrics collectionEndDate]
+-[GDTCORMetrics currentCacheSize]
+-[GDTCORMetrics maxCacheSize]
+-[GDTCORMetrics bundleID]
+-[GDTCORMetrics .cxx_destruct]
+-[GDTCORMetrics(GDTCCTSupport) transportBytes]
+___GDTCCTConstructLogSourceMetrics_block_invoke
+___GDTCCTConstructLogSourceMetrics_block_invoke_2
+___copy_helper_block_e8_32r40r
+___destroy_helper_block_e8_32r40r
++[GDTCORMetricsController load]
++[GDTCORMetricsController sharedInstance]
+___41+[GDTCORMetricsController sharedInstance]_block_invoke
+-[GDTCORMetricsController initWithStorage:]
+-[GDTCORMetricsController logEventsDroppedForReason:events:]
+___60-[GDTCORMetricsController logEventsDroppedForReason:events:]_block_invoke
+-[GDTCORMetricsController getAndResetMetrics]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke
+___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke.8
+___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke.10
+___45-[GDTCORMetricsController getAndResetMetrics]_block_invoke.12
+-[GDTCORMetricsController offerMetrics:]
+___40-[GDTCORMetricsController offerMetrics:]_block_invoke
+-[GDTCORMetricsController storage:didRemoveExpiredEvents:]
+-[GDTCORMetricsController storage:didDropEvent:]
+-[GDTCORMetricsController storage]
+-[GDTCORMetricsController setStorage:]
+-[GDTCORMetricsController .cxx_destruct]
++[GDTCORMetricsMetadata metadataWithCollectionStartDate:logSourceMetrics:]
+-[GDTCORMetricsMetadata initWithCollectionStartDate:logSourceMetrics:]
+-[GDTCORMetricsMetadata isEqualToMetricsMetadata:]
+-[GDTCORMetricsMetadata isEqual:]
+-[GDTCORMetricsMetadata hash]
++[GDTCORMetricsMetadata supportsSecureCoding]
+-[GDTCORMetricsMetadata initWithCoder:]
+-[GDTCORMetricsMetadata encodeWithCoder:]
+-[GDTCORMetricsMetadata collectionStartDate]
+-[GDTCORMetricsMetadata logSourceMetrics]
+-[GDTCORMetricsMetadata .cxx_destruct]
+___GDTCORRootDirectory_block_invoke
+___GDTCORNetworkMobileSubTypeMessage_block_invoke
+___GDTCORDeviceModel_block_invoke
++[GDTCORApplication load]
++[GDTCORApplication initialize]
++[GDTCORApplication sharedApplication]
+___38+[GDTCORApplication sharedApplication]_block_invoke
+-[GDTCORApplication init]
+-[GDTCORApplication beginBackgroundTaskWithName:expirationHandler:]
+-[GDTCORApplication endBackgroundTask:]
+-[GDTCORApplication isAppExtension]
+-[GDTCORApplication sharedApplicationForBackgroundTask]
+-[GDTCORApplication iOSApplicationDidEnterBackground:]
+-[GDTCORApplication iOSApplicationWillEnterForeground:]
+-[GDTCORApplication iOSApplicationWillTerminate:]
+-[GDTCORApplication isRunningInBackground]
+-[GDTCORApplication setIsRunningInBackground:]
+-[GDTCORProductData initWithProductID:]
+-[GDTCORProductData copyWithZone:]
+-[GDTCORProductData isEqualToProductData:]
+-[GDTCORProductData isEqual:]
+-[GDTCORProductData hash]
++[GDTCORProductData supportsSecureCoding]
+-[GDTCORProductData initWithCoder:]
+-[GDTCORProductData encodeWithCoder:]
+-[GDTCORProductData productID]
++[GDTCORReachability initialize]
++[GDTCORReachability sharedInstance]
+___36+[GDTCORReachability sharedInstance]_block_invoke
++[GDTCORReachability currentFlags]
+___34+[GDTCORReachability currentFlags]_block_invoke
+-[GDTCORReachability init]
+_GDTCORReachabilityCallback
+___26-[GDTCORReachability init]_block_invoke
+-[GDTCORReachability setCallbackFlags:]
+-[GDTCORReachability flags]
+-[GDTCORReachability setFlags:]
+-[GDTCORReachability .cxx_destruct]
++[GDTCORRegistrar sharedInstance]
+___33+[GDTCORRegistrar sharedInstance]_block_invoke
+-[GDTCORRegistrar init]
+-[GDTCORRegistrar registerUploader:target:]
+___43-[GDTCORRegistrar registerUploader:target:]_block_invoke
+___copy_helper_block_e8_32s40w
+___destroy_helper_block_e8_32s40w
+-[GDTCORRegistrar registerStorage:target:]
+___42-[GDTCORRegistrar registerStorage:target:]_block_invoke
+___copy_helper_block_e8_32s40s48w
+___destroy_helper_block_e8_32s40s48w
+-[GDTCORRegistrar registerMetricsController:target:]
+___52-[GDTCORRegistrar registerMetricsController:target:]_block_invoke
+-[GDTCORRegistrar targetToUploader]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___35-[GDTCORRegistrar targetToUploader]_block_invoke
+___copy_helper_block_e8_32r40w
+___destroy_helper_block_e8_32r40w
+-[GDTCORRegistrar targetToStorage]
+___34-[GDTCORRegistrar targetToStorage]_block_invoke
+-[GDTCORRegistrar targetToMetricsController]
+___44-[GDTCORRegistrar targetToMetricsController]_block_invoke
+-[GDTCORRegistrar setMetricsControllerAsStorageDelegateForTarget:]
+-[GDTCORRegistrar appWillBackground:]
+-[GDTCORRegistrar appWillForeground:]
+-[GDTCORRegistrar appWillTerminate:]
+-[GDTCORRegistrar registrarQueue]
+-[GDTCORRegistrar .cxx_destruct]
++[GDTCORStorageEventSelector eventSelectorForTarget:]
+-[GDTCORStorageEventSelector initWithTarget:eventIDs:mappingIDs:qosTiers:]
+-[GDTCORStorageEventSelector selectedTarget]
+-[GDTCORStorageEventSelector selectedEventIDs]
+-[GDTCORStorageEventSelector selectedMappingIDs]
+-[GDTCORStorageEventSelector selectedQosTiers]
+-[GDTCORStorageEventSelector .cxx_destruct]
+-[GDTCORStorageMetadata initWithCurrentCacheSize:maxCacheSize:]
++[GDTCORStorageMetadata metadataWithCurrentCacheSize:maxCacheSize:]
+-[GDTCORStorageMetadata currentCacheSize]
+-[GDTCORStorageMetadata maxCacheSize]
++[GDTCORTransformer sharedInstance]
+___35+[GDTCORTransformer sharedInstance]_block_invoke
+-[GDTCORTransformer init]
+-[GDTCORTransformer initWithApplication:]
+-[GDTCORTransformer transformEvent:withTransformers:onComplete:]
+___64-[GDTCORTransformer transformEvent:withTransformers:onComplete:]_block_invoke
+___64-[GDTCORTransformer transformEvent:withTransformers:onComplete:]_block_invoke.3
+___copy_helper_block_e8_32b40r48w
+___destroy_helper_block_e8_32s40r48w
+___64-[GDTCORTransformer transformEvent:withTransformers:onComplete:]_block_invoke.7
+-[GDTCORTransformer eventWritingQueue]
+-[GDTCORTransformer setEventWritingQueue:]
+-[GDTCORTransformer application]
+-[GDTCORTransformer .cxx_destruct]
+-[GDTCORTransport initWithMappingID:transformers:target:]
+-[GDTCORTransport sendTelemetryEvent:onComplete:]
+-[GDTCORTransport sendDataEvent:onComplete:]
+-[GDTCORTransport sendTelemetryEvent:]
+-[GDTCORTransport sendDataEvent:]
+-[GDTCORTransport eventForTransport]
+-[GDTCORTransport eventForTransportWithProductData:]
+-[GDTCORTransport sendEvent:onComplete:]
++[GDTCORTransport noop]
+-[GDTCORTransport mappingID]
+-[GDTCORTransport setMappingID:]
+-[GDTCORTransport transformers]
+-[GDTCORTransport setTransformers:]
+-[GDTCORTransport target]
+-[GDTCORTransport setTarget:]
+-[GDTCORTransport transformerInstance]
+-[GDTCORTransport setTransformerInstance:]
+-[GDTCORTransport .cxx_destruct]
+-[GDTCORUploadBatch initWithBatchID:events:]
+-[GDTCORUploadBatch batchID]
+-[GDTCORUploadBatch events]
+-[GDTCORUploadBatch .cxx_destruct]
++[GDTCORUploadCoordinator sharedInstance]
+___41+[GDTCORUploadCoordinator sharedInstance]_block_invoke
+-[GDTCORUploadCoordinator init]
+-[GDTCORUploadCoordinator forceUploadForTarget:]
+___48-[GDTCORUploadCoordinator forceUploadForTarget:]_block_invoke
+-[GDTCORUploadCoordinator startTimer]
+___37-[GDTCORUploadCoordinator startTimer]_block_invoke
+___37-[GDTCORUploadCoordinator startTimer]_block_invoke_2
+-[GDTCORUploadCoordinator stopTimer]
+-[GDTCORUploadCoordinator uploadTargets:conditions:]
+___52-[GDTCORUploadCoordinator uploadTargets:conditions:]_block_invoke
+-[GDTCORUploadCoordinator signalToStoragesToCheckExpirations]
+-[GDTCORUploadCoordinator storageForTarget:]
+-[GDTCORUploadCoordinator uploadConditions]
+-[GDTCORUploadCoordinator appWillForeground:]
+-[GDTCORUploadCoordinator appWillBackground:]
+___45-[GDTCORUploadCoordinator appWillBackground:]_block_invoke
+-[GDTCORUploadCoordinator appWillTerminate:]
+___44-[GDTCORUploadCoordinator appWillTerminate:]_block_invoke
+-[GDTCORUploadCoordinator coordinationQueue]
+-[GDTCORUploadCoordinator timer]
+-[GDTCORUploadCoordinator timerInterval]
+-[GDTCORUploadCoordinator timerLeeway]
+-[GDTCORUploadCoordinator registrar]
+-[GDTCORUploadCoordinator setRegistrar:]
+-[GDTCORUploadCoordinator .cxx_destruct]
+_GDTCCTNetworkConnectionInfoNetworkMobileSubtype.cold.1
++[GDTCCTUploader sharedInstance].cold.1
+-[GDTCCTUploader FLLAndCSHAndINTAPIKey].cold.1
+_GDTCORAssertionBlockToRunInstead.cold.1
++[GDTCOREndpoints uploadURLs].cold.1
++[GDTCOREndpoints uploadURLs].cold.2
++[GDTCOREndpoints uploadURLs].cold.3
++[GDTCOREndpoints uploadURLs].cold.4
++[GDTCORFlatFileStorage sharedInstance].cold.1
++[GDTCORLifecycle sharedInstance].cold.1
+_GDTCORRootDirectory.cold.1
+_GDTCORNetworkMobileSubTypeMessage.cold.1
+_GDTCORDeviceModel.cold.1
++[GDTCORApplication sharedApplication].cold.1
++[GDTCORReachability sharedInstance].cold.1
++[GDTCORRegistrar sharedInstance].cold.1
++[GDTCORUploadCoordinator sharedInstance].cold.1
+_objc_msgSend$APIKeyForTarget:
+_objc_msgSend$FLLAndCSHAndINTAPIKey
+_objc_msgSend$HTTPBody
+_objc_msgSend$HTTPResponse
+_objc_msgSend$JSONObjectWithData:options:error:
+_objc_msgSend$URL
+_objc_msgSend$URLWithString:
+_objc_msgSend$UUID
+_objc_msgSend$UUIDString
+_objc_msgSend$addCharactersInString:
+_objc_msgSend$addObject:
+_objc_msgSend$addObjectsFromArray:
+_objc_msgSend$addObserver:selector:name:object:
+_objc_msgSend$addOperation:
+_objc_msgSend$allHeaderFields
+_objc_msgSend$allKeys
+_objc_msgSend$allObjects
+_objc_msgSend$allValues
+_objc_msgSend$alphanumericCharacterSet
+_objc_msgSend$alwaysOn
+_objc_msgSend$appWillBackground:
+_objc_msgSend$appWillForeground:
+_objc_msgSend$appWillTerminate:
+_objc_msgSend$appendBytes:length:
+_objc_msgSend$application
+_objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
+_objc_msgSend$array
+_objc_msgSend$arrayWithCapacity:
+_objc_msgSend$arrayWithObjects:count:
+_objc_msgSend$asyncOn
+_objc_msgSend$base64EncodedStringWithOptions:
+_objc_msgSend$batchByAddingMetricsEventToBatch:forTarget:
+_objc_msgSend$batchComponentsFromFilename:
+_objc_msgSend$batchDataStoragePath
+_objc_msgSend$batchDirPathsForBatchID:error:
+_objc_msgSend$batchID
+_objc_msgSend$batchIDsForTarget:
+_objc_msgSend$batchIDsForTarget:onComplete:
+_objc_msgSend$batchPathForTarget:batchID:expirationDate:
+_objc_msgSend$batchWithEventSelector:batchExpiration:
+_objc_msgSend$batchWithEventSelector:batchExpiration:onComplete:
+_objc_msgSend$beginBackgroundTaskWithName:expirationHandler:
+_objc_msgSend$boolValue
+_objc_msgSend$bundleID
+_objc_msgSend$bundleIdentifier
+_objc_msgSend$bundlePath
+_objc_msgSend$bytes
+_objc_msgSend$cachedSizeBytes
+_objc_msgSend$calculateDirectoryContentSize
+_objc_msgSend$cancel
+_objc_msgSend$cancelAllOperations
+_objc_msgSend$catchOn
+_objc_msgSend$checkForExpirations
+_objc_msgSend$clockSnapshot
+_objc_msgSend$clockSnapshotInTheFuture:
+_objc_msgSend$collectionEndDate
+_objc_msgSend$collectionStartDate
+_objc_msgSend$componentsJoinedByString:
+_objc_msgSend$componentsSeparatedByString:
+_objc_msgSend$conditions
+_objc_msgSend$conformsToProtocol:
+_objc_msgSend$constructRequestProtoWithEvents:
+_objc_msgSend$constructRequestWithURL:forTarget:data:
+_objc_msgSend$containsObject:
+_objc_msgSend$contentsOfDirectoryAtPath:error:
+_objc_msgSend$copy
+_objc_msgSend$count
+_objc_msgSend$countByEnumeratingWithState:objects:count:
+_objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+_objc_msgSend$currentCacheSize
+_objc_msgSend$currentDevice
+_objc_msgSend$currentFlags
+_objc_msgSend$currentLocale
+_objc_msgSend$currentMetrics
+_objc_msgSend$currentTask
+_objc_msgSend$customBytes
+_objc_msgSend$dataTaskWithRequest:completionHandler:
+_objc_msgSend$dataUsingEncoding:
+_objc_msgSend$dataWithBytes:length:
+_objc_msgSend$dataWithCapacity:
+_objc_msgSend$dataWithContentsOfFile:options:error:
+_objc_msgSend$dataWithJSONObject:options:error:
+_objc_msgSend$date
+_objc_msgSend$dateWithTimeIntervalSince1970:
+_objc_msgSend$dateWithTimeIntervalSinceNow:
+_objc_msgSend$decodeInt32ForKey:
+_objc_msgSend$decodeInt64ForKey:
+_objc_msgSend$decodeIntegerForKey:
+_objc_msgSend$decodeObjectOfClass:forKey:
+_objc_msgSend$decodeObjectOfClasses:forKey:
+_objc_msgSend$defaultCenter
+_objc_msgSend$defaultManager
+_objc_msgSend$defaultSessionConfiguration
+_objc_msgSend$delegate
+_objc_msgSend$dictionary
+_objc_msgSend$dictionaryByMergingDictionary:withOtherDictionary:uniquingKeysWithBlock:
+_objc_msgSend$dictionaryWithDictionary:
+_objc_msgSend$dictionaryWithObjects:forKeys:count:
+_objc_msgSend$didChangeValueForKey:
+_objc_msgSend$directoryContentSize
+_objc_msgSend$directoryPath
+_objc_msgSend$doOn
+_objc_msgSend$doubleValue
+_objc_msgSend$droppedEventCounterByLogSource
+_objc_msgSend$encodeInt32:forKey:
+_objc_msgSend$encodeInt64:forKey:
+_objc_msgSend$encodeInteger:forKey:
+_objc_msgSend$encodeObject:forKey:
+_objc_msgSend$endBackgroundTask:
+_objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+_objc_msgSend$enumerateObjectsUsingBlock:
+_objc_msgSend$enumeratorAtPath:
+_objc_msgSend$enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:
+_objc_msgSend$errorWithDomain:code:userInfo:
+_objc_msgSend$eventCode
+_objc_msgSend$eventComponentsFromFilename:
+_objc_msgSend$eventDataStoragePath
+_objc_msgSend$eventID
+_objc_msgSend$eventSelectorForTarget:
+_objc_msgSend$eventSelectorTarget:withConditions:
+_objc_msgSend$eventWithMetrics:forTarget:
+_objc_msgSend$events
+_objc_msgSend$expirationDate
+_objc_msgSend$fetchAndUpdateMetricsWithHandler:
+_objc_msgSend$fetchStorageMetadata
+_objc_msgSend$fileExistsAtPath:
+_objc_msgSend$fileSizeAtURL:
+_objc_msgSend$fileURLWithPath:
+_objc_msgSend$fileWasAddedAtPath:withSize:
+_objc_msgSend$fileWasRemovedAtPath:withSize:
+_objc_msgSend$finishOperation
+_objc_msgSend$finishTasksAndInvalidate
+_objc_msgSend$firstObject
+_objc_msgSend$forceUploadForTarget:
+_objc_msgSend$fulfill:
+_objc_msgSend$genericRejectedPromiseErrorWithReason:
+_objc_msgSend$getAndResetMetrics
+_objc_msgSend$getBytes:length:
+_objc_msgSend$getResourceValue:forKey:error:
+_objc_msgSend$gzippedData:
+_objc_msgSend$hasEventsForTarget:
+_objc_msgSend$hasEventsForTarget:onComplete:
+_objc_msgSend$hasPrefix:
+_objc_msgSend$hasSuffix:
+_objc_msgSend$hash
+_objc_msgSend$init
+_objc_msgSend$initWithApplication:
+_objc_msgSend$initWithBase64EncodedString:options:
+_objc_msgSend$initWithBatchID:events:
+_objc_msgSend$initWithCollectionStartDate:collectionEndDate:logSourceMetrics:currentCacheSize:maxCacheSize:bundleID:
+_objc_msgSend$initWithCollectionStartDate:logSourceMetrics:
+_objc_msgSend$initWithCurrentCacheSize:maxCacheSize:
+_objc_msgSend$initWithDirectoryPath:
+_objc_msgSend$initWithDroppedEventCounterByLogSource:
+_objc_msgSend$initWithFormat:
+_objc_msgSend$initWithMappingID:productData:target:
+_objc_msgSend$initWithMappingID:target:
+_objc_msgSend$initWithProductID:
+_objc_msgSend$initWithResponse:HTTPBody:
+_objc_msgSend$initWithStorage:
+_objc_msgSend$initWithTarget:conditions:uploadURL:queue:storage:metadataProvider:metricsController:
+_objc_msgSend$initWithTarget:eventIDs:mappingIDs:qosTiers:
+_objc_msgSend$intValue
+_objc_msgSend$integerValue
+_objc_msgSend$isAfter:
+_objc_msgSend$isAppExtension
+_objc_msgSend$isCancelled
+_objc_msgSend$isEqual:
+_objc_msgSend$isEqualToDate:
+_objc_msgSend$isEqualToDictionary:
+_objc_msgSend$isEqualToLogSourceMetrics:
+_objc_msgSend$isEqualToMetrics:
+_objc_msgSend$isEqualToMetricsMetadata:
+_objc_msgSend$isEqualToProductData:
+_objc_msgSend$isEqualToString:
+_objc_msgSend$isGzipped:
+_objc_msgSend$isReadyToUploadTarget:conditions:
+_objc_msgSend$isRunningInBackground
+_objc_msgSend$kernelBootTimeNanoseconds
+_objc_msgSend$lastPathComponent
+_objc_msgSend$length
+_objc_msgSend$libraryDataForKey:onFetchComplete:setNewValue:
+_objc_msgSend$libraryDataStoragePath
+_objc_msgSend$logEventsDroppedForReason:events:
+_objc_msgSend$logSourceMetrics
+_objc_msgSend$logSourceMetricsByMergingWithLogSourceMetrics:
+_objc_msgSend$longLongValue
+_objc_msgSend$mainBundle
+_objc_msgSend$mappingID
+_objc_msgSend$maxCacheSize
+_objc_msgSend$metadataProvider
+_objc_msgSend$metadataWithCollectionStartDate:logSourceMetrics:
+_objc_msgSend$metadataWithCurrentCacheSize:maxCacheSize:
+_objc_msgSend$methodForSelector:
+_objc_msgSend$metrics
+_objc_msgSend$metricsController
+_objc_msgSend$metricsWithEvents:droppedForReason:
+_objc_msgSend$metricsWithMetricsMetadata:storageMetadata:
+_objc_msgSend$model
+_objc_msgSend$moveContentsOfDirectoryAtPath:to:error:
+_objc_msgSend$moveItemAtPath:toPath:error:
+_objc_msgSend$mutableCopy
+_objc_msgSend$networkConnectionInfoData
+_objc_msgSend$nextBatchID:
+_objc_msgSend$nextEventID
+_objc_msgSend$nextObject
+_objc_msgSend$nextUploadTimeByTarget
+_objc_msgSend$nextUploadTimeForTarget:
+_objc_msgSend$null
+_objc_msgSend$numberFromString:
+_objc_msgSend$numberWithBool:
+_objc_msgSend$numberWithInt:
+_objc_msgSend$numberWithInteger:
+_objc_msgSend$numberWithLongLong:
+_objc_msgSend$numberWithUnsignedInteger:
+_objc_msgSend$numberWithUnsignedLongLong:
+_objc_msgSend$objectAtIndexedSubscript:
+_objc_msgSend$objectForInfoDictionaryKey:
+_objc_msgSend$objectForKey:
+_objc_msgSend$objectForKeyedSubscript:
+_objc_msgSend$offerMetrics:
+_objc_msgSend$onQueue:all:
+_objc_msgSend$onQueue:async:
+_objc_msgSend$onQueue:do:
+_objc_msgSend$onQueue:wrapBoolCompletion:
+_objc_msgSend$onQueue:wrapCompletion:
+_objc_msgSend$onQueue:wrapObjectCompletion:
+_objc_msgSend$operatingSystemVersion
+_objc_msgSend$operationCount
+_objc_msgSend$originalRequest
+_objc_msgSend$path
+_objc_msgSend$pathForTarget:eventID:qosTier:expirationDate:mappingID:
+_objc_msgSend$pathsForTarget:eventIDs:qosTiers:mappingIDs:onComplete:
+_objc_msgSend$pendingPromise
+_objc_msgSend$postNotificationName:object:
+_objc_msgSend$preferredLocalizations
+_objc_msgSend$processInfo
+_objc_msgSend$processResponse:forBatch:storage:
+_objc_msgSend$productData
+_objc_msgSend$productID
+_objc_msgSend$qosTier
+_objc_msgSend$readyToUploadTarget:conditions:
+_objc_msgSend$recoverOn
+_objc_msgSend$registerMetricsController:target:
+_objc_msgSend$registerStorage:target:
+_objc_msgSend$registerUploader:target:
+_objc_msgSend$registrar
+_objc_msgSend$reject:
+_objc_msgSend$removeAllBatchesForTarget:deleteEvents:
+_objc_msgSend$removeBatchWithID:deleteEvents:
+_objc_msgSend$removeBatchWithID:deleteEvents:onComplete:
+_objc_msgSend$removeBatchesWithIDs:deleteEvents:
+_objc_msgSend$removeItemAtPath:error:
+_objc_msgSend$removeObjectForKey:
+_objc_msgSend$removeObserver:
+_objc_msgSend$requestWithURL:
+_objc_msgSend$resetCachedSize
+_objc_msgSend$resolvedWith:
+_objc_msgSend$resume
+_objc_msgSend$secondsFromGMT
+_objc_msgSend$selectedEventIDs
+_objc_msgSend$selectedMappingIDs
+_objc_msgSend$selectedQosTiers
+_objc_msgSend$selectedTarget
+_objc_msgSend$sendDataEvent:onComplete:
+_objc_msgSend$sendEvent:onComplete:
+_objc_msgSend$sendTelemetryEvent:onComplete:
+_objc_msgSend$sendURLRequestWithBatch:target:
+_objc_msgSend$serializedDataObjectBytes
+_objc_msgSend$serverURLForTarget:
+_objc_msgSend$serviceCurrentRadioAccessTechnology
+_objc_msgSend$sessionWithConfiguration:delegate:delegateQueue:
+_objc_msgSend$set
+_objc_msgSend$setByAddingObject:
+_objc_msgSend$setCachedSizeBytes:
+_objc_msgSend$setCallbackFlags:
+_objc_msgSend$setClockSnapshot:
+_objc_msgSend$setCompletionBlock:
+_objc_msgSend$setCurrentMetrics:
+_objc_msgSend$setCustomBytes:
+_objc_msgSend$setDataObject:
+_objc_msgSend$setDelegate:
+_objc_msgSend$setHTTPBody:
+_objc_msgSend$setHTTPMethod:
+_objc_msgSend$setMaxConcurrentOperationCount:
+_objc_msgSend$setMetricsControllerAsStorageDelegateForTarget:
+_objc_msgSend$setNextUploadTime:forTarget:
+_objc_msgSend$setNumberStyle:
+_objc_msgSend$setObject:forKey:
+_objc_msgSend$setObject:forKeyedSubscript:
+_objc_msgSend$setQosTier:
+_objc_msgSend$setUploadAttempted:
+_objc_msgSend$setValue:forHTTPHeaderField:
+_objc_msgSend$setWithArray:
+_objc_msgSend$setWithObject:
+_objc_msgSend$sharedApplication
+_objc_msgSend$sharedApplicationForBackgroundTask
+_objc_msgSend$sharedInstance
+_objc_msgSend$signalToStoragesToCheckExpirations
+_objc_msgSend$sizeTracker
+_objc_msgSend$snapshot
+_objc_msgSend$startOperation
+_objc_msgSend$startTimer
+_objc_msgSend$statusCode
+_objc_msgSend$stopTimer
+_objc_msgSend$storage
+_objc_msgSend$storage:didDropEvent:
+_objc_msgSend$storage:didRemoveExpiredEvents:
+_objc_msgSend$storageQueue
+_objc_msgSend$storageSizeWithCallback:
+_objc_msgSend$storeEvent:onComplete:
+_objc_msgSend$stringByAddingPercentEncodingWithAllowedCharacters:
+_objc_msgSend$stringByAppendingPathComponent:
+_objc_msgSend$stringByDeletingLastPathComponent
+_objc_msgSend$stringByRemovingPercentEncoding
+_objc_msgSend$stringByReplacingOccurrencesOfString:withString:
+_objc_msgSend$stringValue
+_objc_msgSend$stringWithCString:encoding:
+_objc_msgSend$stringWithFormat:
+_objc_msgSend$stringWithUTF8String:
+_objc_msgSend$subarrayWithRange:
+_objc_msgSend$syncThreadUnsafeRemoveBatchWithID:deleteEvents:
+_objc_msgSend$systemTimeZone
+_objc_msgSend$systemVersion
+_objc_msgSend$target
+_objc_msgSend$targetToMetricsController
+_objc_msgSend$targetToStorage
+_objc_msgSend$targetToUploader
+_objc_msgSend$then
+_objc_msgSend$thenOn
+_objc_msgSend$timeIntervalSince1970
+_objc_msgSend$timeMillis
+_objc_msgSend$timezoneOffsetSeconds
+_objc_msgSend$transformEvent:withTransformers:onComplete:
+_objc_msgSend$transformGDTEvent:
+_objc_msgSend$transformerInstance
+_objc_msgSend$transportBytes
+_objc_msgSend$unarchivedObjectOfClass:fromData:error:
+_objc_msgSend$unsignedIntegerValue
+_objc_msgSend$unsignedLongLongValue
+_objc_msgSend$updateNextUploadTimeWithResponse:forTarget:
+_objc_msgSend$uploadAttempted
+_objc_msgSend$uploadBatch:toTarget:storage:
+_objc_msgSend$uploadConditions
+_objc_msgSend$uploadCoordinator
+_objc_msgSend$uploadOperationQueue
+_objc_msgSend$uploadQueue
+_objc_msgSend$uploadTarget:withConditions:
+_objc_msgSend$uploadTargets:conditions:
+_objc_msgSend$uploadURL
+_objc_msgSend$uploadURLForTarget:
+_objc_msgSend$uploadURLs
+_objc_msgSend$uploaderQueue
+_objc_msgSend$uploaderSession
+_objc_msgSend$uploaderSessionCreateIfNeeded
+_objc_msgSend$uptimeMilliseconds
+_objc_msgSend$uptimeNanoseconds
+_objc_msgSend$validate
+_objc_msgSend$validateOn
+_objc_msgSend$willChangeValueForKey:
+_objc_msgSend$wrapObjectOrErrorCompletion:
+_objc_msgSend$writeToFile:options:error:
+__OBJC_$_CLASS_METHODS_GDTCCTCompressionHelper
+__OBJC_$_CLASS_METHODS_GDTCCTUploadOperation
+__OBJC_$_CLASS_METHODS_GDTCCTUploader
+__OBJC_$_CLASS_METHODS_GDTCORApplication
+__OBJC_$_CLASS_METHODS_GDTCORClock
+__OBJC_$_CLASS_METHODS_GDTCOREndpoints
+__OBJC_$_CLASS_METHODS_GDTCOREvent(GDTCCTSupport|GDTMetricsSupport)
+__OBJC_$_CLASS_METHODS_GDTCORFlatFileStorage
+__OBJC_$_CLASS_METHODS_GDTCORLifecycle
+__OBJC_$_CLASS_METHODS_GDTCORLogSourceMetrics
+__OBJC_$_CLASS_METHODS_GDTCORMetrics
+__OBJC_$_CLASS_METHODS_GDTCORMetricsController
+__OBJC_$_CLASS_METHODS_GDTCORMetricsMetadata
+__OBJC_$_CLASS_METHODS_GDTCORProductData
+__OBJC_$_CLASS_METHODS_GDTCORReachability
+__OBJC_$_CLASS_METHODS_GDTCORRegistrar
+__OBJC_$_CLASS_METHODS_GDTCORStorageEventSelector
+__OBJC_$_CLASS_METHODS_GDTCORStorageMetadata
+__OBJC_$_CLASS_METHODS_GDTCORTransformer
+__OBJC_$_CLASS_METHODS_GDTCORTransport
+__OBJC_$_CLASS_METHODS_GDTCORUploadCoordinator
+__OBJC_$_INSTANCE_METHODS_GDTCCTURLSessionDataResponse
+__OBJC_$_INSTANCE_METHODS_GDTCCTUploadOperation
+__OBJC_$_INSTANCE_METHODS_GDTCCTUploader
+__OBJC_$_INSTANCE_METHODS_GDTCORApplication
+__OBJC_$_INSTANCE_METHODS_GDTCORClock
+__OBJC_$_INSTANCE_METHODS_GDTCORDirectorySizeTracker
+__OBJC_$_INSTANCE_METHODS_GDTCOREvent(GDTCCTSupport|GDTMetricsSupport)
+__OBJC_$_INSTANCE_METHODS_GDTCORFlatFileStorage(Promises)
+__OBJC_$_INSTANCE_METHODS_GDTCORLifecycle
+__OBJC_$_INSTANCE_METHODS_GDTCORLogSourceMetrics
+__OBJC_$_INSTANCE_METHODS_GDTCORMetrics(GDTCCTSupport)
+__OBJC_$_INSTANCE_METHODS_GDTCORMetricsController
+__OBJC_$_INSTANCE_METHODS_GDTCORMetricsMetadata
+__OBJC_$_INSTANCE_METHODS_GDTCORProductData
+__OBJC_$_INSTANCE_METHODS_GDTCORReachability
+__OBJC_$_INSTANCE_METHODS_GDTCORRegistrar
+__OBJC_$_INSTANCE_METHODS_GDTCORStorageEventSelector
+__OBJC_$_INSTANCE_METHODS_GDTCORStorageMetadata
+__OBJC_$_INSTANCE_METHODS_GDTCORTransformer
+__OBJC_$_INSTANCE_METHODS_GDTCORTransport
+__OBJC_$_INSTANCE_METHODS_GDTCORUploadBatch
+__OBJC_$_INSTANCE_METHODS_GDTCORUploadCoordinator
+__OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCCTUploadMetadataProvider
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCORApplicationProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCOREventDataObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCORMetricsControllerProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCORStorageDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCORStoragePromiseProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCORStorageProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_GDTCORUploader
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GDTCORLifecycleProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIApplicationDelegate
+GCC_except_table3
+GCC_except_table4
+GCC_except_table13
+GCC_except_table14
+GCC_except_table2
+GCC_except_table53
+GCC_except_table54
+GCC_except_table56
+GCC_except_table0
+GCC_except_table1
+GCC_except_table2
+GCC_except_table3
+GCC_except_table4
+GCC_except_table5
+GCC_except_table5
+GCC_except_table65
+GCC_except_table73
+GCC_except_table2
+GCC_except_table5
+GCC_except_table8
+GCC_except_table3
+GCC_except_table4
+___block_descriptor_48_e8_32r_e32_v32
+"NSString"8
+"NSSet"16^B24l
+___block_descriptor_32_e5_v8
+___block_literal_global
+___block_literal_global
+___block_descriptor_48_e8_32w40w_e5_v8
+___block_literal_global.17
+___block_descriptor_40_e8_32r_e5_v8
+___block_descriptor_56_e8_32s40bs48r_e5_v8
+___block_descriptor_40_e8_32s_e16_B16
+"NSNull"8l
+___block_descriptor_48_e8_32s_e28_
+"FBLPromise"16
+"NSNull"8l
+___block_descriptor_32_e18_B16
+"NSNumber"8l
+___block_literal_global
+___block_descriptor_64_e8_32s40s_e30_
+"FBLPromise"16
+"NSNumber"8l
+___block_descriptor_48_e8_32s_e39_
+"FBLPromise"16
+"GDTCORUploadBatch"8l
+___block_descriptor_40_e8_32s_e27_B16
+"GDTCORUploadBatch"8l
+___block_descriptor_56_e8_32s40s_e39_
+"FBLPromise"16
+"GDTCORUploadBatch"8l
+___block_descriptor_32_e17_v16
+"NSError"8l
+___block_literal_global.25
+___block_descriptor_48_e8_32s40bs_e5_v8
+___block_descriptor_64_e8_32s40s48s_e50_
+"FBLPromise"16
+"GDTCCTURLSessionDataResponse"8l
+___block_descriptor_56_e8_32s40s48s_e17_
+"NSError"8l
+___block_descriptor_56_e8_32s40s_e19_
+"NSURLRequest"8
+___block_descriptor_40_e8_32bs_e46_v32
+"NSData"8
+"NSURLResponse"16
+"NSError"24l
+___block_descriptor_48_e8_32s40s_e25_v16
+"NSError">8l
+___block_descriptor_40_e8_32s_e34_
+"FBLPromise"16
+"NSURLRequest"8l
+___block_descriptor_40_e8_32s_e68_
+"GDTCCTURLSessionDataResponse"16
+"GDTCCTURLSessionDataResponse"8l
+___block_descriptor_40_e8_32s_e17_
+"NSError"8l
+___block_descriptor_40_e8_32s_e25_v24
+"GDTCOREvent"8^B16l
+___block_descriptor_56_e8_32s40s_e42_
+"GDTCORUploadBatch"16
+"GDTCORMetrics"8l
+___block_descriptor_40_e8_32s_e36_
+"GDTCORUploadBatch"16
+"NSError"8l
+___block_descriptor_32_e27_B24
+"NSURL"8
+"NSError"16l
+___block_literal_global
+___block_literal_global
+___block_literal_global.5
+___block_literal_global.8
+___block_literal_global.11
+___block_literal_global
+___block_descriptor_40_e8_32s_e20_v20
+?0B8
+"NSError"12l
+___block_descriptor_64_e8_32s40s48bs56r_e5_v8
+___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8
+___block_descriptor_64_e8_32s40s48s56bs_e28_v24
+"NSNumber"8
+"NSSet"16l
+___block_descriptor_48_e8_32s40bs_e15_v16
+"NSSet"8l
+___block_descriptor_72_e8_32s40s48s56bs64bs_e5_v8
+___block_descriptor_72_e8_32s40s48s56bs64bs_e18_v16
+"NSNumber"8l
+___block_descriptor_48_e8_32bs40bs_e18_v16
+"NSNumber"8l
+___block_descriptor_57_e8_32s40s48bs_e5_v8
+___block_descriptor_56_e8_32s40bs_e5_v8
+___block_descriptor_64_e8_32s40s48bs56bs_e5_v8
+___block_descriptor_64_e8_32s40s48s56bs_e5_v8
+___block_descriptor_56_e8_32s40s48bs_e5_v8
+___block_descriptor_48_e8_32bs_e5_v8
+___block_descriptor_40_e8_32s_e5_v8
+___block_descriptor_40_e8_32s_e18_v16
+"NSString"8l
+___block_descriptor_40_e5_v8
+___block_descriptor_32_e15_v16
+"NSSet"8l
+___block_literal_global.107
+___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8
+___block_descriptor_48_e8_32bs40r_e28_v24
+"NSData"8
+"NSError"16l
+___block_descriptor_40_e8_32r_e13_
+"NSData"8
+___block_descriptor_48_e8_32s40r_e5_v8
+___block_descriptor_48_e8_32s_e15_v16
+___block_descriptor_49_e8_32s40s_e14_v16
+?>8l
+___block_descriptor_32_e8_
+___block_literal_global
+___block_descriptor_40_e8_32s_e15_
+"NSSet"8l
+___block_descriptor_48_e8_32s_e15_v16
+?B>8l
+___block_descriptor_56_e8_32s40bs48bs_e28_v24
+"NSNumber"8
+"NSSet"16l
+___block_descriptor_56_e8_32s40s48s_e34_v24
+"NSError">16l
+___block_descriptor_48_e8_32s40bs_e5_
+___block_descriptor_40_e8_32bs_e8_v16
+?0Q8l
+___block_descriptor_40_e8_32s_e34_v24
+"NSError">16l
+___block_literal_global
+___block_descriptor_32_e41_
+"NSNumber"24
+"NSNumber"8
+"NSNumber"16l
+___block_literal_global
+___block_descriptor_40_e8_32s_e53_
+"NSDictionary"24
+"NSDictionary"8
+"NSDictionary"16l
+___block_descriptor_48_e8_32s40bs_e15_v32
+16^B24l
+___block_descriptor_48_e8_32r40r_e35_v32
+"NSNumber"8
+"NSNumber"16^B24l
+___block_descriptor_48_e8_32r_e39_v32
+"NSString"8
+"NSDictionary"16^B24l
+___block_descriptor_48_e8_32s_e66_
+"GDTCORMetricsMetadata"24
+"GDTCORMetricsMetadata"8
+"NSError"16l
+___block_descriptor_40_e8_32r_e66_
+"GDTCORMetricsMetadata"24
+"GDTCORMetricsMetadata"8
+"NSError"16l
+___block_descriptor_40_e8_32r_e16_B16
+"NSNull"8l
+___block_descriptor_40_e8_32s_e28_
+"FBLPromise"16
+"NSNull"8l
+___block_descriptor_40_e8_32r_e46_
+"GDTCORMetrics"16
+"GDTCORStorageMetadata"8l
+___block_descriptor_40_e8_32s_e66_
+"GDTCORMetricsMetadata"24
+"GDTCORMetricsMetadata"8
+"NSError"16l
+___block_literal_global
+___block_literal_global.15
+___block_literal_global.29
+___block_literal_global.49
+___block_literal_global
+___block_literal_global
+___block_descriptor_56_e8_32s40w_e5_v8
+___block_descriptor_64_e8_32s40s48w_e5_v8
+___block_descriptor_48_e8_32r40w_e5_v8
+___block_descriptor_56_e8_32bs40r48w_e20_v20
+?0B8
+"NSError"12l
+___block_literal_global
+___block_descriptor_48_e8_32s_e5_v8
+___block_descriptor_56_e8_32s40s_e5_v8
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_LABEL_PROTOCOL_$_GDTCCTUploadMetadataProvider
+__OBJC_LABEL_PROTOCOL_$_GDTCORLifecycleProtocol
+__OBJC_LABEL_PROTOCOL_$_GDTCORUploader
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+__OBJC_LABEL_PROTOCOL_$_GDTCORStorageProtocol
+__OBJC_LABEL_PROTOCOL_$_GDTCORStoragePromiseProtocol
+__OBJC_LABEL_PROTOCOL_$_GDTCOREventDataObject
+__OBJC_LABEL_PROTOCOL_$_GDTCORStorageDelegate
+__OBJC_LABEL_PROTOCOL_$_GDTCORMetricsControllerProtocol
+__OBJC_LABEL_PROTOCOL_$_GDTCORApplicationProtocol
+__OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+__OBJC_LABEL_PROTOCOL_$_GDTCORApplicationDelegate
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_METACLASS_RO_$_GDTCCTCompressionHelper
+__OBJC_CLASS_RO_$_GDTCCTCompressionHelper
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSURLSessionDelegate
+__OBJC_$_PROTOCOL_REFS_GDTCCTUploadMetadataProvider
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCCTUploadMetadataProvider
+__OBJC_$_PROTOCOL_REFS_GDTCORLifecycleProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORLifecycleProtocol
+__OBJC_$_PROTOCOL_REFS_GDTCORUploader
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORUploader
+__OBJC_CLASS_PROTOCOLS_$_GDTCCTUploader
+__OBJC_METACLASS_RO_$_GDTCCTUploader
+__OBJC_$_INSTANCE_VARIABLES_GDTCCTUploader
+__OBJC_$_PROP_LIST_GDTCCTUploader
+__OBJC_CLASS_RO_$_GDTCCTUploader
+__OBJC_CLASS_PROTOCOLS_$_GDTCCTUploadOperation
+__OBJC_METACLASS_RO_$_GDTCCTUploadOperation
+__OBJC_$_INSTANCE_VARIABLES_GDTCCTUploadOperation
+__OBJC_$_PROP_LIST_GDTCCTUploadOperation
+__OBJC_CLASS_RO_$_GDTCCTUploadOperation
+__OBJC_METACLASS_RO_$_GDTCCTURLSessionDataResponse
+__OBJC_$_INSTANCE_VARIABLES_GDTCCTURLSessionDataResponse
+__OBJC_$_PROP_LIST_GDTCCTURLSessionDataResponse
+__OBJC_CLASS_RO_$_GDTCCTURLSessionDataResponse
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_$_PROTOCOL_REFS_NSSecureCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+__OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+__OBJC_CLASS_PROTOCOLS_$_GDTCORClock
+__OBJC_$_CLASS_PROP_LIST_GDTCORClock
+__OBJC_METACLASS_RO_$_GDTCORClock
+__OBJC_$_INSTANCE_VARIABLES_GDTCORClock
+__OBJC_$_PROP_LIST_GDTCORClock
+__OBJC_CLASS_RO_$_GDTCORClock
+__OBJC_METACLASS_RO_$_GDTCORDirectorySizeTracker
+__OBJC_$_INSTANCE_VARIABLES_GDTCORDirectorySizeTracker
+__OBJC_$_PROP_LIST_GDTCORDirectorySizeTracker
+__OBJC_CLASS_RO_$_GDTCORDirectorySizeTracker
+__OBJC_METACLASS_RO_$_GDTCOREndpoints
+__OBJC_CLASS_RO_$_GDTCOREndpoints
+__OBJC_CLASS_PROTOCOLS_$_GDTCOREvent
+__OBJC_$_CLASS_PROP_LIST_GDTCOREvent
+__OBJC_METACLASS_RO_$_GDTCOREvent
+__OBJC_$_INSTANCE_VARIABLES_GDTCOREvent
+__OBJC_CLASS_RO_$_GDTCOREvent
+__OBJC_$_PROTOCOL_REFS_GDTCORStorageProtocol
+__OBJC_$_PROP_LIST_GDTCORStorageProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORStorageProtocol
+__OBJC_METACLASS_RO_$_GDTCORFlatFileStorage
+__OBJC_$_INSTANCE_VARIABLES_GDTCORFlatFileStorage
+__OBJC_CLASS_RO_$_GDTCORFlatFileStorage
+__OBJC_$_PROTOCOL_REFS_GDTCORStoragePromiseProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORStoragePromiseProtocol
+__OBJC_METACLASS_RO_$_GDTCORLifecycle
+__OBJC_CLASS_RO_$_GDTCORLifecycle
+__OBJC_CLASS_PROTOCOLS_$_GDTCORLogSourceMetrics
+__OBJC_$_CLASS_PROP_LIST_GDTCORLogSourceMetrics
+__OBJC_METACLASS_RO_$_GDTCORLogSourceMetrics
+__OBJC_$_INSTANCE_VARIABLES_GDTCORLogSourceMetrics
+__OBJC_$_PROP_LIST_GDTCORLogSourceMetrics
+__OBJC_CLASS_RO_$_GDTCORLogSourceMetrics
+__OBJC_METACLASS_RO_$_GDTCORMetrics
+__OBJC_$_INSTANCE_VARIABLES_GDTCORMetrics
+__OBJC_CLASS_RO_$_GDTCORMetrics
+__OBJC_$_PROTOCOL_REFS_GDTCOREventDataObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCOREventDataObject
+__OBJC_$_PROTOCOL_REFS_GDTCORStorageDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORStorageDelegate
+__OBJC_$_PROTOCOL_REFS_GDTCORMetricsControllerProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORMetricsControllerProtocol
+__OBJC_CLASS_PROTOCOLS_$_GDTCORMetricsController
+__OBJC_METACLASS_RO_$_GDTCORMetricsController
+__OBJC_$_INSTANCE_VARIABLES_GDTCORMetricsController
+__OBJC_$_PROP_LIST_GDTCORMetricsController
+__OBJC_CLASS_RO_$_GDTCORMetricsController
+__OBJC_CLASS_PROTOCOLS_$_GDTCORMetricsMetadata
+__OBJC_$_CLASS_PROP_LIST_GDTCORMetricsMetadata
+__OBJC_METACLASS_RO_$_GDTCORMetricsMetadata
+__OBJC_$_INSTANCE_VARIABLES_GDTCORMetricsMetadata
+__OBJC_$_PROP_LIST_GDTCORMetricsMetadata
+__OBJC_CLASS_RO_$_GDTCORMetricsMetadata
+__OBJC_$_PROTOCOL_REFS_GDTCORApplicationProtocol
+__OBJC_$_PROP_LIST_GDTCORApplicationProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_GDTCORApplicationProtocol
+__OBJC_$_PROTOCOL_REFS_UIApplicationDelegate
+__OBJC_$_PROP_LIST_UIApplicationDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIApplicationDelegate
+__OBJC_$_PROTOCOL_REFS_GDTCORApplicationDelegate
+__OBJC_CLASS_PROTOCOLS_$_GDTCORApplication
+__OBJC_METACLASS_RO_$_GDTCORApplication
+__OBJC_$_INSTANCE_VARIABLES_GDTCORApplication
+__OBJC_$_PROP_LIST_GDTCORApplication
+__OBJC_CLASS_RO_$_GDTCORApplication
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_GDTCORProductData
+__OBJC_$_CLASS_PROP_LIST_GDTCORProductData
+__OBJC_METACLASS_RO_$_GDTCORProductData
+__OBJC_$_INSTANCE_VARIABLES_GDTCORProductData
+__OBJC_$_PROP_LIST_GDTCORProductData
+__OBJC_CLASS_RO_$_GDTCORProductData
+__OBJC_METACLASS_RO_$_GDTCORReachability
+__OBJC_$_INSTANCE_VARIABLES_GDTCORReachability
+__OBJC_$_PROP_LIST_GDTCORReachability
+__OBJC_CLASS_RO_$_GDTCORReachability
+__OBJC_CLASS_PROTOCOLS_$_GDTCORRegistrar
+__OBJC_METACLASS_RO_$_GDTCORRegistrar
+__OBJC_$_INSTANCE_VARIABLES_GDTCORRegistrar
+__OBJC_$_PROP_LIST_GDTCORRegistrar
+__OBJC_CLASS_RO_$_GDTCORRegistrar
+__OBJC_METACLASS_RO_$_GDTCORStorageEventSelector
+__OBJC_$_INSTANCE_VARIABLES_GDTCORStorageEventSelector
+__OBJC_$_PROP_LIST_GDTCORStorageEventSelector
+__OBJC_CLASS_RO_$_GDTCORStorageEventSelector
+__OBJC_METACLASS_RO_$_GDTCORStorageMetadata
+__OBJC_$_INSTANCE_VARIABLES_GDTCORStorageMetadata
+__OBJC_$_PROP_LIST_GDTCORStorageMetadata
+__OBJC_CLASS_RO_$_GDTCORStorageMetadata
+__OBJC_CLASS_PROTOCOLS_$_GDTCORTransformer
+__OBJC_METACLASS_RO_$_GDTCORTransformer
+__OBJC_$_INSTANCE_VARIABLES_GDTCORTransformer
+__OBJC_$_PROP_LIST_GDTCORTransformer
+__OBJC_CLASS_RO_$_GDTCORTransformer
+__OBJC_METACLASS_RO_$_GDTCORTransport
+__OBJC_$_INSTANCE_VARIABLES_GDTCORTransport
+__OBJC_$_PROP_LIST_GDTCORTransport
+__OBJC_CLASS_RO_$_GDTCORTransport
+__OBJC_METACLASS_RO_$_GDTCORUploadBatch
+__OBJC_$_INSTANCE_VARIABLES_GDTCORUploadBatch
+__OBJC_$_PROP_LIST_GDTCORUploadBatch
+__OBJC_CLASS_RO_$_GDTCORUploadBatch
+__OBJC_CLASS_PROTOCOLS_$_GDTCORUploadCoordinator
+__OBJC_METACLASS_RO_$_GDTCORUploadCoordinator
+__OBJC_$_INSTANCE_VARIABLES_GDTCORUploadCoordinator
+__OBJC_$_PROP_LIST_GDTCORUploadCoordinator
+__OBJC_CLASS_RO_$_GDTCORUploadCoordinator
+__OBJC_METACLASS_RO_$_PodsDummy_GoogleDataTransport
+__OBJC_CLASS_RO_$_PodsDummy_GoogleDataTransport
+__OBJC_CLASS_PROTOCOLS_$_GDTCORFlatFileStorage(Promises)
+__OBJC_CLASS_PROTOCOLS_$_GDTCORMetrics(GDTCCTSupport)
+__OBJC_PROTOCOL_REFERENCE_$_GDTCORStoragePromiseProtocol
+_OBJC_IVAR_$_GDTCCTUploader._uploadOperationQueue
+_OBJC_IVAR_$_GDTCCTUploader._uploadQueue
+_OBJC_IVAR_$_GDTCCTUploader._nextUploadTimeByTarget
+_OBJC_IVAR_$_GDTCCTUploadOperation._uploaderQueue
+_OBJC_IVAR_$_GDTCCTUploadOperation._target
+_OBJC_IVAR_$_GDTCCTUploadOperation._conditions
+_OBJC_IVAR_$_GDTCCTUploadOperation._uploadURL
+_OBJC_IVAR_$_GDTCCTUploadOperation._storage
+_OBJC_IVAR_$_GDTCCTUploadOperation._metadataProvider
+_OBJC_IVAR_$_GDTCCTUploadOperation._metricsController
+_OBJC_IVAR_$_GDTCCTUploadOperation._uploaderSession
+_OBJC_IVAR_$_GDTCCTUploadOperation._finished
+_OBJC_IVAR_$_GDTCCTUploadOperation._executing
+_OBJC_IVAR_$_GDTCCTUploadOperation._uploadAttempted
+_OBJC_IVAR_$_GDTCCTUploadOperation._currentTask
+_OBJC_IVAR_$_GDTCCTUploadOperation._currentMetrics
+_OBJC_IVAR_$_GDTCCTURLSessionDataResponse._HTTPResponse
+_OBJC_IVAR_$_GDTCCTURLSessionDataResponse._HTTPBody
+_OBJC_IVAR_$_GDTCORClock._timeMillis
+_OBJC_IVAR_$_GDTCORClock._timezoneOffsetSeconds
+_OBJC_IVAR_$_GDTCORClock._kernelBootTimeNanoseconds
+_OBJC_IVAR_$_GDTCORClock._uptimeNanoseconds
+_OBJC_IVAR_$_GDTCORDirectorySizeTracker._directoryPath
+_OBJC_IVAR_$_GDTCORDirectorySizeTracker._cachedSizeBytes
+_OBJC_IVAR_$_GDTCOREvent._eventID
+_OBJC_IVAR_$_GDTCOREvent._mappingID
+_OBJC_IVAR_$_GDTCOREvent._target
+_OBJC_IVAR_$_GDTCOREvent._dataObject
+_OBJC_IVAR_$_GDTCOREvent._serializedDataObjectBytes
+_OBJC_IVAR_$_GDTCOREvent._qosTier
+_OBJC_IVAR_$_GDTCOREvent._clockSnapshot
+_OBJC_IVAR_$_GDTCOREvent._expirationDate
+_OBJC_IVAR_$_GDTCOREvent._customBytes
+_OBJC_IVAR_$_GDTCOREvent._productData
+_OBJC_IVAR_$_GDTCORFlatFileStorage._sizeTracker
+_OBJC_IVAR_$_GDTCORFlatFileStorage._delegate
+_OBJC_IVAR_$_GDTCORFlatFileStorage._storageQueue
+_OBJC_IVAR_$_GDTCORFlatFileStorage._uploadCoordinator
+_OBJC_IVAR_$_GDTCORLogSourceMetrics._droppedEventCounterByLogSource
+_OBJC_IVAR_$_GDTCORMetrics._collectionStartDate
+_OBJC_IVAR_$_GDTCORMetrics._logSourceMetrics
+_OBJC_IVAR_$_GDTCORMetrics._collectionEndDate
+_OBJC_IVAR_$_GDTCORMetrics._currentCacheSize
+_OBJC_IVAR_$_GDTCORMetrics._maxCacheSize
+_OBJC_IVAR_$_GDTCORMetrics._bundleID
+_OBJC_IVAR_$_GDTCORMetricsController._storage
+_OBJC_IVAR_$_GDTCORMetricsMetadata._collectionStartDate
+_OBJC_IVAR_$_GDTCORMetricsMetadata._logSourceMetrics
+_OBJC_IVAR_$_GDTCORApplication._isRunningInBackground
+_OBJC_IVAR_$_GDTCORProductData._productID
+_OBJC_IVAR_$_GDTCORReachability._reachabilityRef
+_OBJC_IVAR_$_GDTCORReachability._reachabilityQueue
+_OBJC_IVAR_$_GDTCORReachability._callbackFlags
+_OBJC_IVAR_$_GDTCORReachability._flags
+_OBJC_IVAR_$_GDTCORRegistrar._targetToUploader
+_OBJC_IVAR_$_GDTCORRegistrar._targetToStorage
+_OBJC_IVAR_$_GDTCORRegistrar._targetToMetricsController
+_OBJC_IVAR_$_GDTCORRegistrar._registrarQueue
+_OBJC_IVAR_$_GDTCORStorageEventSelector._selectedTarget
+_OBJC_IVAR_$_GDTCORStorageEventSelector._selectedEventIDs
+_OBJC_IVAR_$_GDTCORStorageEventSelector._selectedMappingIDs
+_OBJC_IVAR_$_GDTCORStorageEventSelector._selectedQosTiers
+_OBJC_IVAR_$_GDTCORStorageMetadata._currentCacheSize
+_OBJC_IVAR_$_GDTCORStorageMetadata._maxCacheSize
+_OBJC_IVAR_$_GDTCORTransformer._eventWritingQueue
+_OBJC_IVAR_$_GDTCORTransformer._application
+_OBJC_IVAR_$_GDTCORTransport._mappingID
+_OBJC_IVAR_$_GDTCORTransport._transformers
+_OBJC_IVAR_$_GDTCORTransport._target
+_OBJC_IVAR_$_GDTCORTransport._transformerInstance
+_OBJC_IVAR_$_GDTCORUploadBatch._batchID
+_OBJC_IVAR_$_GDTCORUploadBatch._events
+_OBJC_IVAR_$_GDTCORUploadCoordinator._coordinationQueue
+_OBJC_IVAR_$_GDTCORUploadCoordinator._timer
+_OBJC_IVAR_$_GDTCORUploadCoordinator._timerInterval
+_OBJC_IVAR_$_GDTCORUploadCoordinator._timerLeeway
+_OBJC_IVAR_$_GDTCORUploadCoordinator._registrar
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_NSURLSessionDelegate
+__OBJC_PROTOCOL_$_GDTCCTUploadMetadataProvider
+__OBJC_PROTOCOL_$_GDTCORLifecycleProtocol
+__OBJC_PROTOCOL_$_GDTCORUploader
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_PROTOCOL_$_NSSecureCoding
+__OBJC_PROTOCOL_$_GDTCORStorageProtocol
+__OBJC_PROTOCOL_$_GDTCORStoragePromiseProtocol
+__OBJC_PROTOCOL_$_GDTCOREventDataObject
+__OBJC_PROTOCOL_$_GDTCORStorageDelegate
+__OBJC_PROTOCOL_$_GDTCORMetricsControllerProtocol
+_GDTCORDeviceModel.deviceModel
+__OBJC_PROTOCOL_$_GDTCORApplicationProtocol
+__OBJC_PROTOCOL_$_UIApplicationDelegate
+__OBJC_PROTOCOL_$_GDTCORApplicationDelegate
+__OBJC_PROTOCOL_$_NSCopying
+_GDTCCTNetworkConnectionInfoNetworkMobileSubtype.MessageToNetworkSubTypeMessage
+_GDTCCTNetworkConnectionInfoNetworkMobileSubtype.onceToken
+__testServerURL
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_FLLAndCSHAndINTAPIKey.defaultServerKey
+_FLLAndCSHAndINTAPIKey.onceToken
+_uploadURLs.CCTServerURL
+_uploadURLs.CCTOnceToken
+_uploadURLs.FLLServerURL
+_uploadURLs.FLLOnceToken
+_uploadURLs.CSHServerURL
+_uploadURLs.CSHOnceToken
+_uploadURLs.uploadURLs
+_uploadURLs.URLOnceToken
+_sharedInstance.sharedStorage
+_sharedInstance.onceToken
+_eventDataStoragePath.eventDataPath
+_eventDataStoragePath.onceToken
+_batchDataStoragePath.batchDataPath
+_batchDataStoragePath.onceToken
+_libraryDataStoragePath.libraryDataPath
+_libraryDataStoragePath.onceToken
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_GDTCORRootDirectory.GDTPath
+_GDTCORRootDirectory.onceToken
+_GDTCORNetworkMobileSubTypeMessage.CTRadioAccessTechnologyToNetworkSubTypeMessage
+_GDTCORNetworkMobileSubTypeMessage.networkInfo
+_GDTCORNetworkMobileSubTypeMessage.onceToken
+_GDTCORDeviceModel.onceToken
+_sharedApplication.application
+_sharedApplication.onceToken
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+_sharedInstance.eventTransformer
+_sharedInstance.onceToken
+_sharedInstance.sharedUploader
+_sharedInstance.onceToken
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/DerivedSources/
+GoogleDataTransport_vers.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GoogleDataTransport_vers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/
+cct.nanopb.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/cct.nanopb.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/
+client_metrics.nanopb.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/client_metrics.nanopb.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/
+compliance.nanopb.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/compliance.nanopb.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/
+external_prequest_context.nanopb.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/external_prequest_context.nanopb.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/
+external_privacy_context.nanopb.c
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/external_privacy_context.nanopb.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCCTCompressionHelper.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCCTCompressionHelper.o
++[GDTCCTCompressionHelper gzippedData:]
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCCTNanopbHelpers.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCCTNanopbHelpers.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCCTUploader.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCCTUploader.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCCTUploadOperation.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCCTUploadOperation.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCCTURLSessionDataResponse.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCCTURLSessionDataResponse.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORAssert.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORAssert.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORClock.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORClock.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORConsoleLogger.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORConsoleLogger.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORDirectorySizeTracker.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORDirectorySizeTracker.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCOREndpoints.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCOREndpoints.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCOREvent.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCOREvent.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCOREvent+GDTCCTSupport.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCOREvent+GDTCCTSupport.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCOREvent+GDTMetricsSupport.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCOREvent+GDTMetricsSupport.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORFlatFileStorage.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORFlatFileStorage.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORFlatFileStorage+Promises.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORFlatFileStorage+Promises.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORLifecycle.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORLifecycle.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORLogSourceMetrics.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORLogSourceMetrics.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORMetrics.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORMetrics.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/
+GDTCORMetrics+GDTCCTSupport.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORMetrics+GDTCCTSupport.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORMetricsController.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORMetricsController.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORMetricsMetadata.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORMetricsMetadata.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORPlatform.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORPlatform.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORProductData.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORProductData.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORReachability.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORReachability.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORRegistrar.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORRegistrar.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORStorageEventSelector.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORStorageEventSelector.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORStorageMetadata.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORStorageMetadata.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORTransformer.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORTransformer.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORTransport.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORTransport.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORUploadBatch.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORUploadBatch.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/
+GDTCORUploadCoordinator.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GDTCORUploadCoordinator.o
+/Volumes/S2/Downloads/tvbox/tachiyomi/tachimanga-one/testjdk-static-openj9-a-pod/Pods/Target Support Files/GoogleDataTransport/
+GoogleDataTransport-dummy.m
+/Volumes/S2/Xcode/DerivedData/testjdk-ciyzzsjsvptqmadcqggspzzdvddx/Build/Intermediates.noindex/ArchiveIntermediates/testjdk/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/GoogleDataTransport.build/Objects-normal/arm64/GoogleDataTransport-dummy.o
+GoogleDataTransport
+_otg
+'h@S
+Brvn
+=7lL
+acgv
+5!0Jy
+jZ?M
+J>Jb
+!IT":
+pmR>'s
+rkqP
+(n]J
+0drO/S
+m&L-
+WO1 
+,F?3
+K"|t
+VlV0}
+yq:P
+5VLo
+e^l+R
+gDeW\@
+?R	EW.
+UJA5
+6SdF
+;*F5h
+V9pk
+	M&D
+Lv:/
+/<j(
+X1f3
+ogDh
+T^a8#7
+:q9S
+<]WUzS
+CTYR
+zl",J
+/S.[
+9^0n
+(@))U
+*G6@bS(
+GoogleDataTransport
+subject.CN
