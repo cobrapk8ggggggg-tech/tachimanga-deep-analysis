@@ -60,11 +60,12 @@ jobs:
         run: |
           git clone https://github.com/worawit/blutter.git /tmp/blutter
           cd /tmp/blutter && git log -1 --oneline
-          # إصلاح: بناء iOS الحقيقي يعرّف BOTH (انظر dart runtime globals.h —
+          # إصلاح: بناء iOS الحقيقي يعرّف BOTH (dart runtime globals.h —
           # DART_HOST_OS_IOS ⇒ DART_TARGET_OS_MACOS + DART_TARGET_OS_MACOS_IOS)
           # بدونه: dart.cc يفشل بـ #error What operating system?
-          sed -i 's/set(target_os "DART_TARGET_OS_MACOS_IOS")/set(target_os "DART_TARGET_OS_MACOS DART_TARGET_OS_MACOS_IOS")/' /tmp/blutter/scripts/CMakeLists.txt
-          grep -n "target_os " /tmp/blutter/scripts/CMakeLists.txt | head -3
+          # نضيف تعريفاً مستقلاً بعد سطر target_compile_definitions (مضمون مهما كانت الصياغة)
+          sed -i 's|target_compile_definitions(${LIBNAME} PUBLIC ${defines})|target_compile_definitions(${LIBNAME} PUBLIC ${defines})\ntarget_compile_definitions(${LIBNAME} PUBLIC DART_TARGET_OS_MACOS)|' /tmp/blutter/scripts/CMakeLists.txt
+          grep -n "target_compile_definitions" /tmp/blutter/scripts/CMakeLists.txt | head -3
 
       - name: Run Blutter (build Dart SDK 3.6.x ios/arm64 + analyze)
         run: |
