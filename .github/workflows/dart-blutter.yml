@@ -36,9 +36,11 @@ jobs:
           FILE_ID="${{ github.event.inputs.gdrive_file_id || env.DEFAULT_GDRIVE_ID }}"
           gdown "$FILE_ID" -O app.zip
           unzip -o -q app.zip -d download
-          IPA=$(find download -name "*.ipa" | head -1)
+          rm -rf download/__MACOSX
+          IPA=$(find download -name "*.ipa" -not -name "._*" | head -1)
+          test -n "$IPA" || { echo "IPA not found"; exit 1; }
           unzip -o -q "$IPA" -d ipa
-          APP=$(find ipa/Payload -maxdepth 1 -name "*.app" | head -1)
+          APP=$(find ipa/Payload -maxdepth 1 -name "*.app" -not -name "._*" | head -1)
           echo "APP_DIR=$APP/Frameworks/App.framework" >> $GITHUB_ENV
           ls -la "$APP/Frameworks/App.framework"
 

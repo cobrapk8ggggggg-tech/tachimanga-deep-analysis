@@ -37,7 +37,9 @@ jobs:
           gdown "$FILE_ID" -O app.zip
           ls -la app.zip
           unzip -o -q app.zip -d download
-          IPA=$(find download -name "*.ipa" | head -1)
+          rm -rf download/__MACOSX
+          IPA=$(find download -name "*.ipa" -not -name "._*" | head -1)
+          test -n "$IPA" || { echo "IPA not found"; exit 1; }
           echo "IPA_PATH=$IPA" >> $GITHUB_ENV
           unzip -o -q "$IPA" -d ipa
           echo "Extracted:"
