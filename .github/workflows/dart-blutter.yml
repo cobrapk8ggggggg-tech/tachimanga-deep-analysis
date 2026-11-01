@@ -66,6 +66,24 @@ jobs:
           # نضيف تعريفاً مستقلاً بعد سطر target_compile_definitions (مضمون مهما كانت الصياغة)
           sed -i 's|target_compile_definitions(${LIBNAME} PUBLIC ${defines})|target_compile_definitions(${LIBNAME} PUBLIC ${defines})\ntarget_compile_definitions(${LIBNAME} PUBLIC DART_TARGET_OS_MACOS)|' /tmp/blutter/scripts/CMakeLists.txt
           grep -n "target_compile_definitions" /tmp/blutter/scripts/CMakeLists.txt | head -3
+          # إصلاح 2 (upstream bug): CSREG_DART_HEAP معرّف فقط مع DART_COMPRESSED_POINTERS
+          # بينما iOS يستخدم no-compressed-pointers — نعرفه كـ INVALID (لا يُستخدم أصلاً)
+          python3 - <<'EOF'
+          p = '/tmp/blutter/blutter/src/Disassembler_arm64.h'
+          s = open(p).read()
+          old = """#if defined(DART_COMPRESSED_POINTERS)
+constexpr arm64_reg CSREG_DART_HEAP = ToCapstoneReg(dart::HEAP_BITS);
+#endif"""
+          new = """#if defined(DART_COMPRESSED_POINTERS)
+constexpr arm64_reg CSREG_DART_HEAP = ToCapstoneReg(dart::HEAP_BITS);
+#else
+// no-compressed-pointers (iOS): heap register does not exist.
+constexpr arm64_reg CSREG_DART_HEAP = ARM64_REG_INVALID;
+#endif"""
+          assert old in s, "CSREG_DART_HEAP pattern not found"
+          open(p, 'w').write(s.replace(old, new))
+          print("patched CSREG_DART_HEAP")
+          EOF
 
       - name: Run Blutter (build Dart SDK 3.6.x ios/arm64 + analyze)
         run: |

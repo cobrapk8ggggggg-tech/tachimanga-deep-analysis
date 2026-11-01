@@ -35,13 +35,13 @@ jobs:
       - name: Flutter version info
         run: flutter --version
 
-      - name: Resolve dependencies
+      - name: Resolve dependencies + codegen
         working-directory: client
         run: |
-          flutter pub get || true
-          # في حال تعارض نسخ — جرّب pub upgrade
-          flutter pub upgrade 2>/dev/null || true
           flutter pub get
+          # Sorayomi يستخدم freezed/json_serializable/graphql_codegen —
+          # ملفات .g.dart و__generated__ تُولَّد قبل البناء
+          dart run build_runner build --delete-conflicting-outputs
 
       - name: Build iOS (unsigned)
         working-directory: client
