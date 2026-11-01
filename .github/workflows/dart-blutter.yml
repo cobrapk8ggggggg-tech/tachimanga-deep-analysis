@@ -28,7 +28,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ninja-build build-essential cmake pkg-config python3-pip unzip zip git curl
-          pip install --quiet gdown requests
+          pip install --quiet gdown requests pyelftools
           # كابستون محرك التفكيك
           git clone --depth 1 https://github.com/capstone-engine/capstone.git /tmp/capstone || true
           echo "DEPS READY"
