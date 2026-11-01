@@ -53,14 +53,19 @@ jobs:
           # تثبيت متطلبات بايثون إن وجدت
           pip install --quiet requests || true
 
-      - name: Run Blutter (auto-detect Dart version)
+      - name: Stage binaries + Run Blutter (auto-detect Dart version)
         run: |
-          mkdir -p /tmp/blutter_out
+          set -o pipefail
+          mkdir -p /tmp/stage /tmp/blutter_out
+          # blutter يتوقع App + Flutter في نفس المجلد
+          cp "$APP_DIR/App" /tmp/stage/App
+          cp "$APP_DIR/../Flutter.framework/Flutter" /tmp/stage/Flutter
+          ls -la /tmp/stage
           cd /tmp/blutter
           # blutter يكتشف نسخة Dart من الـ snapshot ويحمّل SDK المطابق تلقائياً
-          python3 blutter.py "$APP_DIR" /tmp/blutter_out 2>&1 | tee blutter_log.txt
+          python3 blutter.py /tmp/stage /tmp/blutter_out 2>&1 | tee /tmp/blutter_run.log
           echo "==== OUTPUT ===="
-          ls -la /tmp/blutter_out
+          ls -la /tmp/blutter_out || true
 
       - name: Summarize results
         run: |
@@ -70,12 +75,14 @@ jobs:
             cp /tmp/blutter_out/pp.txt blutter_summary/pp_full.txt
             # كلاسات التطبيق فقط
             grep -n "class " blutter_summary/pp_full.txt | head -1000 > blutter_summary/classes_index.txt || true
-            wc -l blutter_summary/classes_index.txt
+            wc -l blutter_summary/classes_index.txt || true
           fi
           if [ -f /tmp/blutter_out/strings.txt ]; then
             cp /tmp/blutter_out/strings.txt blutter_summary/strings.txt
           fi
-          cp /tmp/blutter/blutter_log.txt blutter_summary/ 2>/dev/null || true
+          cp /tmp/blutter_run.log blutter_summary/ 2>/dev/null || true
+          # لا تترك المجلد فارغاً حتى لو فشل
+          touch blutter_summary/.keep
           ls -la blutter_summary/
 
       - name: Commit summary
@@ -99,5 +106,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: blutter-failure-log
-          path: blutter_log.txt
+          path: /tmp/blutter_run.log
           retention-days: 30
