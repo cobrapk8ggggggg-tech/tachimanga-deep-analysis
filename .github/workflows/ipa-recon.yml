@@ -1,0 +1,110 @@
+name: "🔨 IPA Deep Recon"
+
+# استطلاع شامل للـ IPA: تفريغ كامل للسلاسل النصية، الرموز، الفحص المعماري
+# يتطلب: repo variable GDRIVE_FILE_ID (افتراضي: ملف Tachimanga)
+
+on:
+  workflow_dispatch:
+    inputs:
+      gdrive_file_id:
+        description: "Google Drive file ID (يتجاهل المتغير المخزن)"
+        required: false
+        default: ""
+  repository_dispatch:
+    types: [run-recon]
+
+env:
+  DEFAULT_GDRIVE_ID: "1ah8FTj4MyMLNNmJDTj1wJkJjbJy7M5gJ"
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq jq tree binutils file unzip zip python3-pip
+          pip install --quiet gdown
+          echo "TOOLS READY"
+
+      - name: Download IPA from Google Drive
+        run: |
+          FILE_ID="${{ github.event.inputs.gdrive_file_id || env.DEFAULT_GDRIVE_ID }}"
+          gdown "$FILE_ID" -O app.zip
+          ls -la app.zip
+          unzip -o -q app.zip -d download
+          IPA=$(find download -name "*.ipa" | head -1)
+          echo "IPA_PATH=$IPA" >> $GITHUB_ENV
+          unzip -o -q "$IPA" -d ipa
+          echo "Extracted:"
+          tree -L 2 ipa/Payload | head -40
+
+      - name: Full strings dump (Dart AOT + native)
+        run: |
+          APP=$(find ipa/Payload -name "*.app" -maxdepth 1 | head -1)
+          mkdir -p recon/strings recon/plist recon/jre
+          # Dart AOT snapshot — أهم ملف
+          strings -a "$APP/Frameworks/App.framework/App" > recon/strings/dart_aot_full.txt
+          # كل المكتبات
+          for fw in "$APP"/Frameworks/*.framework/* "$APP"/*.dylib "$APP/Frameworks"/*.dylib "$APP/Tachimanga"; do
+            [ -f "$fw" ] && strings -a "$fw" > "recon/strings/$(basename $fw).strings.txt" || true
+          done
+          # أسماء حزم Dart
+          grep -oE "package:[a-zA-Z_0-9]+/" recon/strings/dart_aot_full.txt | sort -u > recon/strings/dart_packages.txt
+          # ملفات تطبيق Dart
+          grep -oE "package:tachidesk_sorayomi/[a-zA-Z_0-9/]+\.dart" recon/strings/dart_aot_full.txt | sort -u > recon/strings/app_dart_files.txt || true
+          # جميع URIs الأخرى
+          grep -oE "(https?|ws)://[a-zA-Z0-9./_:?=&%-]+" recon/strings/dart_aot_full.txt | sort -u | head -3000 > recon/strings/all_urls.txt
+          wc -l recon/strings/*.txt
+
+      - name: Mach-O inspection
+        run: |
+          APP=$(find ipa/Payload -name "*.app" -maxdepth 1 | head -1)
+          {
+            echo "## Mach-O binaries in $(basename $APP)"
+            for f in "$APP/Tachimanga" "$APP"/Frameworks/*.framework/* "$APP"/Frameworks/*.dylib; do
+              [ -f "$f" ] && file "$f"
+            done
+          } > recon/macho_report.txt
+          # Info.plist full dump
+          plutil -convert json -o recon/plist/info.json "$APP/Info.plist" 2>/dev/null || true
+          # كل الإطارات مع الأحجام
+          du -sh "$APP/Frameworks/"*.framework "$APP/Frameworks/"*.dylib | sort -rh > recon/frameworks_sizes.txt
+          cat recon/macho_report.txt
+
+      - name: JVM modules analysis
+        run: |
+          APP=$(find ipa/Payload -name "*.app" -maxdepth 1 | head -1)
+          cp -r "$APP/jre/lib/java.properties" recon/jre/ 2>/dev/null || true
+          jimage=$(which jimage || true)
+          if [ -n "$jimage" ]; then
+            jimage list "$APP/jre/lib/modules" > recon/jre/jvm_modules_list.txt 2>/dev/null || true
+            wc -l recon/jre/jvm_modules_list.txt
+          else
+            echo "jimage not found - install JDK" > recon/jre/jvm_modules_list.txt
+            sudo apt-get install -y -qq openjdk-21-jdk-headless
+            jimage list "$APP/jre/lib/modules" > recon/jre/jvm_modules_list.txt 2>/dev/null || true
+            wc -l recon/jre/jvm_modules_list.txt
+          fi
+          # classes تخص suwayomi/kanade داخل الـ modules
+          grep -iE "(suwayomi|kanade|tachidesk|tachiyomi|github/null2264)" recon/jre/jvm_modules_list.txt | head -200 > recon/jre/suwayomi_classes.txt || true
+          wc -l recon/jre/suwayomi_classes.txt
+
+      - name: Commit recon results
+        run: |
+          git config user.name "recon-bot"
+          git config user.email "action@github.com"
+          git add recon/
+          git commit -m "IPA recon results $(date -u +%Y-%m-%d)" || echo "nothing to commit"
+          git push
+
+      - name: Upload full strings as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ipa-recon-full
+          path: recon/
+          retention-days: 90

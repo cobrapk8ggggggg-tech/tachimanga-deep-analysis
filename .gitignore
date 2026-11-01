@@ -1,0 +1,7 @@
+recon/
+blutter_summary/
+ipa_extracted/
+download/
+*.ipa
+*.zip
+.upstream_last_commit

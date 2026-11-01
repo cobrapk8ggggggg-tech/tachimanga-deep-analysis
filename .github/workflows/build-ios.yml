@@ -1,0 +1,74 @@
+name: "📱 Build iOS Client (Sorayomi Fork)"
+
+# بناء عميل Flutter (fork السورايومي خاصتك) كـ IPA غير موقّع جاهز للتوقيع في Xcode
+# يتطلب: متغير مخزن FORK_REPO (owner/name) — أو إدخال يدوي
+
+on:
+  workflow_dispatch:
+    inputs:
+      fork_repo:
+        description: "Fork repo (owner/name) — مثال: cobrapk8ggggggg-tech/Tachidesk-Sorayomi"
+        required: true
+        default: "cobrapk8ggggggg-tech/Tachidesk-Sorayomi"
+      fork_branch:
+        description: "Branch"
+        required: false
+        default: "main"
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout client fork
+        run: |
+          git clone --depth 1 -b "${{ github.event.inputs.fork_branch || 'main' }}" \
+            "https://github.com/${{ github.event.inputs.fork_repo || 'cobrapk8ggggggg-tech/Tachidesk-Sorayomi' }}.git" client
+          cd client && git log -1 --oneline
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Flutter version info
+        run: flutter --version
+
+      - name: Resolve dependencies
+        working-directory: client
+        run: |
+          flutter pub get || true
+          # في حال تعارض نسخ — جرّب pub upgrade
+          flutter pub upgrade 2>/dev/null || true
+          flutter pub get
+
+      - name: Build iOS (unsigned)
+        working-directory: client
+        run: |
+          flutter config --enable-ios
+          flutter build ios --release --no-codesign
+
+      - name: Package unsigned IPA
+        working-directory: client
+        run: |
+          APP=$(find build/ios/iphoneos -maxdepth 1 -name "*.app" | head -1)
+          mkdir -p Payload
+          cp -R "$APP" Payload/
+          zip -r -q mymanga-unsigned.ipa Payload
+          ls -la mymanga-unsigned.ipa
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mymanga-unsigned-ipa
+          path: client/mymanga-unsigned.ipa
+          retention-days: 30
+
+      - name: Build report
+        working-directory: client
+        run: |
+          echo "## iOS Build Summary" > build_report.md
+          echo "- App: $(find build/ios/iphoneos -maxdepth 1 -name '*.app' -exec basename {} \;)" >> build_report.md
+          du -sh build/ios/iphoneos/*.app >> build_report.md 2>/dev/null || true
+          cat build_report.md
