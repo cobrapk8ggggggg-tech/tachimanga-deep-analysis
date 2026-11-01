@@ -50,20 +50,20 @@ jobs:
       - name: Full strings dump (Dart AOT + native)
         run: |
           APP=$(find ipa/Payload -name "*.app" -maxdepth 1 | head -1)
-          mkdir -p recon/strings recon/plist recon/jre
+          mkdir -p data/recon/strings data/recon/plist data/recon/jre
           # Dart AOT snapshot — أهم ملف
-          strings -a "$APP/Frameworks/App.framework/App" > recon/strings/dart_aot_full.txt
+          strings -a "$APP/Frameworks/App.framework/App" > data/recon/strings/dart_aot_full.txt
           # كل المكتبات
           for fw in "$APP"/Frameworks/*.framework/* "$APP"/*.dylib "$APP/Frameworks"/*.dylib "$APP/Tachimanga"; do
-            [ -f "$fw" ] && strings -a "$fw" > "recon/strings/$(basename $fw).strings.txt" || true
+            [ -f "$fw" ] && strings -a "$fw" > "data/recon/strings/$(basename $fw).strings.txt" || true
           done
           # أسماء حزم Dart
-          grep -oE "package:[a-zA-Z_0-9]+/" recon/strings/dart_aot_full.txt | sort -u > recon/strings/dart_packages.txt
+          grep -oE "package:[a-zA-Z_0-9]+/" data/recon/strings/dart_aot_full.txt | sort -u > data/recon/strings/dart_packages.txt
           # ملفات تطبيق Dart
-          grep -oE "package:tachidesk_sorayomi/[a-zA-Z_0-9/]+\.dart" recon/strings/dart_aot_full.txt | sort -u > recon/strings/app_dart_files.txt || true
+          grep -oE "package:tachidesk_sorayomi/[a-zA-Z_0-9/]+\.dart" data/recon/strings/dart_aot_full.txt | sort -u > data/recon/strings/app_dart_files.txt || true
           # جميع URIs الأخرى
-          grep -oE "(https?|ws)://[a-zA-Z0-9./_:?=&%-]+" recon/strings/dart_aot_full.txt | sort -u | head -3000 > recon/strings/all_urls.txt
-          wc -l recon/strings/*.txt
+          grep -oE "(https?|ws)://[a-zA-Z0-9./_:?=&%-]+" data/recon/strings/dart_aot_full.txt | sort -u | head -3000 > data/recon/strings/all_urls.txt
+          wc -l data/recon/strings/*.txt
 
       - name: Mach-O inspection
         run: |
@@ -73,36 +73,36 @@ jobs:
             for f in "$APP/Tachimanga" "$APP"/Frameworks/*.framework/* "$APP"/Frameworks/*.dylib; do
               [ -f "$f" ] && file "$f"
             done
-          } > recon/macho_report.txt
+          } > data/recon/macho_report.txt
           # Info.plist full dump
-          plutil -convert json -o recon/plist/info.json "$APP/Info.plist" 2>/dev/null || true
+          plutil -convert json -o data/recon/plist/info.json "$APP/Info.plist" 2>/dev/null || true
           # كل الإطارات مع الأحجام
-          du -sh "$APP/Frameworks/"*.framework "$APP/Frameworks/"*.dylib | sort -rh > recon/frameworks_sizes.txt
-          cat recon/macho_report.txt
+          du -sh "$APP/Frameworks/"*.framework "$APP/Frameworks/"*.dylib | sort -rh > data/recon/frameworks_sizes.txt
+          cat data/recon/macho_report.txt
 
       - name: JVM modules analysis
         run: |
           APP=$(find ipa/Payload -name "*.app" -maxdepth 1 | head -1)
-          cp -r "$APP/jre/lib/java.properties" recon/jre/ 2>/dev/null || true
+          cp -r "$APP/jre/lib/java.properties" data/recon/jre/ 2>/dev/null || true
           jimage=$(which jimage || true)
           if [ -n "$jimage" ]; then
-            jimage list "$APP/jre/lib/modules" > recon/jre/jvm_modules_list.txt 2>/dev/null || true
-            wc -l recon/jre/jvm_modules_list.txt
+            jimage list "$APP/jre/lib/modules" > data/recon/jre/jvm_modules_list.txt 2>/dev/null || true
+            wc -l data/recon/jre/jvm_modules_list.txt
           else
-            echo "jimage not found - install JDK" > recon/jre/jvm_modules_list.txt
+            echo "jimage not found - install JDK" > data/recon/jre/jvm_modules_list.txt
             sudo apt-get install -y -qq openjdk-21-jdk-headless
-            jimage list "$APP/jre/lib/modules" > recon/jre/jvm_modules_list.txt 2>/dev/null || true
-            wc -l recon/jre/jvm_modules_list.txt
+            jimage list "$APP/jre/lib/modules" > data/recon/jre/jvm_modules_list.txt 2>/dev/null || true
+            wc -l data/recon/jre/jvm_modules_list.txt
           fi
           # classes تخص suwayomi/kanade داخل الـ modules
-          grep -iE "(suwayomi|kanade|tachidesk|tachiyomi|github/null2264)" recon/jre/jvm_modules_list.txt | head -200 > recon/jre/suwayomi_classes.txt || true
-          wc -l recon/jre/suwayomi_classes.txt
+          grep -iE "(suwayomi|kanade|tachidesk|tachiyomi|github/null2264)" data/recon/jre/jvm_modules_list.txt | head -200 > data/recon/jre/suwayomi_classes.txt || true
+          wc -l data/recon/jre/suwayomi_classes.txt
 
       - name: Commit recon results
         run: |
           git config user.name "recon-bot"
           git config user.email "action@github.com"
-          git add recon/
+          git add data/recon/
           git commit -m "IPA recon results $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git push
 

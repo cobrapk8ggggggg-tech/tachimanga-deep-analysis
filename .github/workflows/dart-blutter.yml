@@ -72,24 +72,24 @@ jobs:
           mkdir -p blutter_summary
           # pp.txt = كل الكلاسات والدوال المعاد بناؤها
           if [ -f /tmp/blutter_out/pp.txt ]; then
-            cp /tmp/blutter_out/pp.txt blutter_summary/pp_full.txt
+            cp /tmp/blutter_out/pp.txt data/blutter/pp_full.txt
             # كلاسات التطبيق فقط
-            grep -n "class " blutter_summary/pp_full.txt | head -1000 > blutter_summary/classes_index.txt || true
-            wc -l blutter_summary/classes_index.txt || true
+            grep -n "class " data/blutter/pp_full.txt | head -1000 > data/blutter/classes_index.txt || true
+            wc -l data/blutter/classes_index.txt || true
           fi
           if [ -f /tmp/blutter_out/strings.txt ]; then
-            cp /tmp/blutter_out/strings.txt blutter_summary/strings.txt
+            cp /tmp/blutter_out/strings.txt data/blutter/strings.txt
           fi
-          cp /tmp/blutter_run.log blutter_summary/ 2>/dev/null || true
+          cp /tmp/blutter_run.log data/blutter/ 2>/dev/null || true
           # لا تترك المجلد فارغاً حتى لو فشل
-          touch blutter_summary/.keep
-          ls -la blutter_summary/
+          touch data/blutter/.keep
+          ls -la data/blutter/
 
       - name: Commit summary
         run: |
           git config user.name "blutter-bot"
           git config user.email "action@github.com"
-          git add blutter_summary/ || true
+          git add data/blutter/ || true
           git commit -m "Blutter Dart reconstruction $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git push || true
 
