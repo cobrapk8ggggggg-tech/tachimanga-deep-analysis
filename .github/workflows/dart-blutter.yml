@@ -1,7 +1,9 @@
-name: "🧠 Blutter — Dart AOT Code Reconstruction"
+name: "🧠 Blutter — Dart AOT Code Reconstruction (iOS)"
 
-# بناء Blutter (أقوى أداة لتفكيك تطبيقات Flutter) وإعادة بناء هيكل كود Dart
-# الناتج: كل الكلاسات والدوال بحججها من AOT snapshot + assembly
+# Blutter الأصلي لا يقرأ Mach-O (iOS) — يستخدم tools/macho_to_elf_snapshots.py
+# لتحويل ثنائي App إلى ELF اصطناعي يحمل رموز snapshots الأربعة، ثم
+# tools/run_blutter_ios.py يستدعي Blutter بنسخة Dart ios/arm64 المطابقة.
+# الناتج: إعادة بناء كل الكلاسات والدوال من Dart AOT + assembly.
 
 on:
   workflow_dispatch:
@@ -17,7 +19,7 @@ env:
 jobs:
   blutter:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 240
     permissions:
       contents: write
     steps:
@@ -27,10 +29,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ninja-build build-essential cmake pkg-config python3-pip unzip zip git curl
+          sudo apt-get install -y -qq ninja-build build-essential cmake pkg-config python3-pip unzip zip git curl libcapstone-dev
           pip install --quiet gdown requests pyelftools
-          # كابستون محرك التفكيك
-          git clone --depth 1 https://github.com/capstone-engine/capstone.git /tmp/capstone || true
           echo "DEPS READY"
 
       - name: Download IPA
@@ -43,45 +43,49 @@ jobs:
           test -n "$IPA" || { echo "IPA not found"; exit 1; }
           unzip -o -q "$IPA" -d ipa
           APP=$(find ipa/Payload -maxdepth 1 -name "*.app" -not -name "._*" | head -1)
-          echo "APP_DIR=$APP/Frameworks/App.framework" >> $GITHUB_ENV
+          echo "APP_BIN=$APP/Frameworks/App.framework/App" >> $GITHUB_ENV
+          echo "FLUTTER_BIN=$APP/Frameworks/Flutter.framework/Flutter" >> $GITHUB_ENV
           ls -la "$APP/Frameworks/App.framework"
+
+      - name: Convert Mach-O → synthetic ELF + detect Dart version
+        run: |
+          python3 tools/macho_to_elf_snapshots.py "$APP_BIN" /tmp/libapp.so | tee dart_info.txt
+          HASH=$(grep -oE "SNAPSHOT_HASH=[0-9a-f]{32}" dart_info.txt | cut -d= -f2)
+          DART_VER=$(strings -a "$FLUTTER_BIN" | grep -oE "[0-9]+\.[0-9]+\.[0-9]+ \((stable|beta|dev)\)" | head -1 | grep -oE "^[0-9]+\.[0-9]+\.[0-9]+")
+          echo "DART_VERSION=$DART_VER" >> $GITHUB_ENV
+          echo "SNAPSHOT_HASH=$HASH" >> $GITHUB_ENV
+          echo "Detected: Dart $DART_VER | hash $HASH"
 
       - name: Clone Blutter
         run: |
           git clone https://github.com/worawit/blutter.git /tmp/blutter
-          cd /tmp/blutter
-          # تثبيت متطلبات بايثون إن وجدت
-          pip install --quiet requests || true
+          cd /tmp/blutter && git log -1 --oneline
 
-      - name: Stage binaries + Run Blutter (auto-detect Dart version)
+      - name: Run Blutter (build Dart SDK 3.6.x ios/arm64 + analyze)
         run: |
-          set -o pipefail
-          mkdir -p /tmp/stage /tmp/blutter_out
-          # blutter يتوقع App + Flutter في نفس المجلد
-          cp "$APP_DIR/App" /tmp/stage/App
-          cp "$APP_DIR/../Flutter.framework/Flutter" /tmp/stage/Flutter
-          ls -la /tmp/stage
-          cd /tmp/blutter
-          # blutter يكتشف نسخة Dart من الـ snapshot ويحمّل SDK المطابق تلقائياً
-          python3 blutter.py /tmp/stage /tmp/blutter_out 2>&1 | tee /tmp/blutter_run.log
+          export DART_VERSION="$DART_VERSION"
+          export DART_OS=ios
+          export DART_ARCH=arm64
+          export SNAPSHOT_HASH="$SNAPSHOT_HASH"
+          export BLUTTER_DIR=/tmp/blutter
+          python3 tools/run_blutter_ios.py /tmp/libapp.so /tmp/blutter_out 2>&1 | tee /tmp/blutter_run.log
           echo "==== OUTPUT ===="
           ls -la /tmp/blutter_out || true
 
       - name: Summarize results
+        if: always()
         run: |
-          mkdir -p blutter_summary
-          # pp.txt = كل الكلاسات والدوال المعاد بناؤها
+          mkdir -p data/blutter
           if [ -f /tmp/blutter_out/pp.txt ]; then
             cp /tmp/blutter_out/pp.txt data/blutter/pp_full.txt
-            # كلاسات التطبيق فقط
-            grep -n "class " data/blutter/pp_full.txt | head -1000 > data/blutter/classes_index.txt || true
+            grep -n "class " data/blutter/pp_full.txt | head -2000 > data/blutter/classes_index.txt || true
             wc -l data/blutter/classes_index.txt || true
           fi
           if [ -f /tmp/blutter_out/strings.txt ]; then
             cp /tmp/blutter_out/strings.txt data/blutter/strings.txt
           fi
+          cp dart_info.txt data/blutter/ 2>/dev/null || true
           cp /tmp/blutter_run.log data/blutter/ 2>/dev/null || true
-          # لا تترك المجلد فارغاً حتى لو فشل
           touch data/blutter/.keep
           ls -la data/blutter/
 
@@ -89,11 +93,12 @@ jobs:
         run: |
           git config user.name "blutter-bot"
           git config user.email "action@github.com"
-          git add data/blutter/ || true
-          git commit -m "Blutter Dart reconstruction $(date -u +%Y-%m-%d)" || echo "nothing to commit"
+          git add data/blutter/
+          git commit -m "Blutter Dart reconstruction (iOS Mach-O bridge) $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git push || true
 
       - name: Upload full Blutter output (asm + pp)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: blutter-full-output
